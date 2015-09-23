@@ -1,0 +1,23 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-arch/brotli:tools - Build and install the command line compression tool
+net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
+net-p2p/digitalcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
+net-p2p/dogecoin-qt:linguas_de_AT - German locale for Austria
+net-p2p/dogecoin-qt:qrcode - Enable generation of QR Codes for receiving payments
+net-p2p/dogecoin-qt:system-leveldb - Use system version of dev-libs/leveldb instead of the bundled one
+net-p2p/feathercoin-qt:qrcode - Enable generation of QR Codes for receiving payments
+net-p2p/novacoin-qt:qrcode - Enable generation of QR Codes for receiving payments
+net-p2p/primecoin-qt:qrcode - Enable generation of QR Codes for receiving payments
+net-p2p/primecoin-qt:system-leveldb - Use system version of dev-libs/leveldb insted of the bundled one
+net-p2p/primecoind:logrotate - Use app-admin/logrotate for rotating logs
+net-p2p/primecoind:system-leveldb - Use system version of dev-libs/leveldb instead of the bundled one
+net-p2p/reddcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
+sci-libs/comedilib:firmware - Install firmware files needed for some devices
+sci-libs/comedilib:scxi - Build the SCXI convenience library
+sys-kernel/reiser4-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
+sys-kernel/reiser4-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
+sys-kernel/reiser4-sources:kdbus - Apply the kdbus patch. This also requires the "experimental" use flag.
+virtual/linux-sources:firmware - Install linux kernel firmware
