@@ -26,7 +26,7 @@ net-p2p/primecoind 0.1.2-r2: P2P Internet currency based on Bitcoin but easier t
 net-p2p/reddcoin-qt 1.4.1.0: The social currency
 sci-libs/comedilib 0.10.2-r1: Linux control and measurement device interface (userspace libraries)
 sci-misc/comedi_calibrate 3-r1: Linux control and measurement device interface (calibration tool)
-sys-kernel/reiser4-sources 4.0.4 4.0.9 4.1.4 4.1.5 4.1.7 4.2.1: Full sources including the Gentoo and Reiser4 patchsets for the 4.2 kernel tree
+sys-kernel/reiser4-sources 4.0.4 4.0.9 4.1.4 4.1.5 4.1.7 4.2.1 4.2.2: Full sources including the Gentoo and Reiser4 patchsets for the 4.2 kernel tree
 virtual/linux-sources 1: Virtual for Linux kernel sources
 www-apps/ddclient-php 9999: PHP web-interface for net-misc/downloaddaemon
 x11-plugins/whatsapp-purple 0.8.2 0.8.4: WhatsApp protocol implementation for libpurple (Pidgin)
