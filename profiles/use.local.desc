@@ -5,6 +5,7 @@
 app-arch/brotli:tools - Build and install the command line compression tool
 media-video/kvazaar:cli-encoder - Build and install the command line encoder
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
+net-libs/cpr:insecure - Do not verfiy SSL certificates
 net-p2p/digitalcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
 net-p2p/dogecoin-qt:linguas_de_AT - German locale for Austria
 net-p2p/dogecoin-qt:qrcode - Enable generation of QR Codes for receiving payments
