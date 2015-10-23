@@ -3,6 +3,7 @@
 # * generated automatically using pmaint *
 
 app-arch/brotli:tools - Build and install the command line compression tool
+app-arch/zstd:tools - Build and install the command line compression tool
 media-video/kvazaar:cli-encoder - Build and install the command line encoder
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-libs/cpr:insecure - Do not verfiy SSL certificates

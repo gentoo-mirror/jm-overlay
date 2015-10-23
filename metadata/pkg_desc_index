@@ -1,4 +1,5 @@
 app-arch/brotli 0.2.0: Generic-purpose lossless compression algorithm
+app-arch/zstd 0.2.0: Zstd, short for Zstandard, is a lossless compression algorithm
 dev-games/readdol 0.01: Displays information about DOL files (Nintendo GameCube/Wii binaries)
 dev-libs/rapidjson 1.0.2: Fast JSON parser/generator for C++
 dev-python/axolotl 0.1.6 9999: Python port of libaxolotl
