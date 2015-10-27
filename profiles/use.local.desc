@@ -19,6 +19,7 @@ net-p2p/primecoind:logrotate - Use app-admin/logrotate for rotating logs
 net-p2p/primecoind:system-leveldb - Use system version of dev-libs/leveldb instead of the bundled one
 net-p2p/reddcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
 sci-libs/comedilib:firmware - Install firmware files needed for some devices
+sci-libs/comedilib:pdf - Install documentation in PDF format
 sci-libs/comedilib:scxi - Build the SCXI convenience library
 sys-kernel/reiser4-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
 sys-kernel/reiser4-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
