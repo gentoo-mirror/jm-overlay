@@ -1,12 +1,12 @@
 app-arch/brotli 0.2.0 0.2.0-r1: Generic-purpose lossless compression algorithm
-app-arch/zstd 0.2.0: Zstd, short for Zstandard, is a lossless compression algorithm
-dev-games/readdol 0.01: Displays information about DOL files (Nintendo GameCube/Wii binaries)
+app-arch/zstd 0.2.0 0.2.0-r1: Zstd, short for Zstandard, is a lossless compression algorithm
+dev-games/readdol 0.01 0.01-r1: Displays information about DOL files (Nintendo GameCube/Wii binaries)
 dev-libs/rapidjson 1.0.2: Fast JSON parser/generator for C++
 dev-python/axolotl 0.1.6 9999: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999: Python wrapper for the curve25519 library
 games-arcade/systems_nominal 1.0-r2: Keyboard action game
-games-util/editor-on-fire 1437-r1: Song editor for Frets On Fire, Phase Shift, Rock Band and Rocksmith
-kde-misc/ksuperkey 0.3-r1: ksuperkey allows you to open the application launcher in KDE Plasma Desktop using the Super key
+games-util/editor-on-fire 1437-r1 1437-r2: Song editor for Frets On Fire, Phase Shift, Rock Band and Rocksmith
+kde-misc/ksuperkey 0.3-r1 0.3-r2: ksuperkey allows you to open the application launcher in KDE Plasma Desktop using the Super key
 media-fonts/basic_title 1.0: The Basic Title font
 media-fonts/digital_7 1.0: The Digital 7 font
 media-fonts/hanging_letters 1.0: The Hanging Letters font
@@ -15,24 +15,24 @@ media-fonts/orange_juice 2.0: The Orange Juice font
 media-fonts/snowtop_caps 1.0: The Snowtop Caps font
 media-fonts/street_2_art 1.0: The Street 2 Art font
 media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
-media-gfx/impack 1.0 1.1: Store your data in images
+media-gfx/impack 1.0-r1 1.1-r1: Store your data in images
 media-libs/vidstab 0.98b: Video stabilization library
-media-video/kvazaar 0.7.0: Open-source HEVC encoder
+media-video/kvazaar 0.7.0 0.7.0-r1: Open-source HEVC encoder
 net-im/yowsup 2.2.78 2.3.84: Python WhatsApp library and CLI client
 net-libs/cpr 1.1: Simple wrapper around libcurl inspired by the Python Requests project
 net-misc/ddclient-gui 9999: Qt4 interface for net-misc/downloaddaemon
 net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
 net-misc/downloaddaemon 9999: A download manager that runs in the background
-net-p2p/digitalcoin-qt 3.0.1a: A Currency for the digital age
-net-p2p/dogecoin-qt 1.6-r1 1.8.3: P2P Internet currency favored by Shiba Inus worldwide
-net-p2p/feathercoin-qt 0.8.7.1: Open source internet currency
-net-p2p/novacoin-qt 0.5.3: Decentralized digital currency
-net-p2p/primecoin-qt 0.1.2-r2: Cryptocurrency forked from Bitcoin which aims to be energy efficiency
-net-p2p/primecoind 0.1.2-r2: P2P Internet currency based on Bitcoin but easier to mine
-net-p2p/reddcoin-qt 1.4.1.0: The social currency
+net-p2p/digitalcoin-qt 3.0.1a 3.0.1a-r1: A Currency for the digital age
+net-p2p/dogecoin-qt 1.6-r1 1.6-r2 1.8.3 1.8.3-r1: P2P Internet currency favored by Shiba Inus worldwide
+net-p2p/feathercoin-qt 0.8.7.1 0.8.7.1-r1: Open source internet currency
+net-p2p/novacoin-qt 0.5.3 0.5.3-r1: Decentralized digital currency
+net-p2p/primecoin-qt 0.1.2-r2 0.1.2-r3: Cryptocurrency forked from Bitcoin which aims to be energy efficiency
+net-p2p/primecoind 0.1.2-r2 0.1.2-r3: P2P Internet currency based on Bitcoin but easier to mine
+net-p2p/reddcoin-qt 1.4.1.0 1.4.1.0-r1: The social currency
 sci-libs/comedilib 0.10.2-r1: Linux control and measurement device interface (userspace libraries)
-sci-misc/comedi_calibrate 3-r1: Linux control and measurement device interface (calibration tool)
+sci-misc/comedi_calibrate 3-r1 3-r2: Linux control and measurement device interface (calibration tool)
 sys-kernel/reiser4-sources 4.0.4 4.0.9 4.1.4 4.1.5 4.1.7 4.2.1 4.2.2: Full sources including the Gentoo and Reiser4 patchsets for the 4.2 kernel tree
 virtual/linux-sources 1: Virtual for Linux kernel sources
-www-apps/ddclient-php 9999: PHP web-interface for net-misc/downloaddaemon
-x11-plugins/whatsapp-purple 0.8.2 0.8.4: WhatsApp protocol implementation for libpurple (Pidgin)
+www-apps/ddclient-php 9999 9999-r1: PHP web-interface for net-misc/downloaddaemon
+x11-plugins/whatsapp-purple 0.8.2 0.8.2-r1 0.8.4 0.8.4-r1: WhatsApp protocol implementation for libpurple (Pidgin)
