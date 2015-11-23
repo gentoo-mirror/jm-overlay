@@ -6,7 +6,7 @@ dev-python/axolotl 0.1.6 9999: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999: Python wrapper for the curve25519 library
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
 games-arcade/systems_nominal 1.0-r2: Keyboard action game
-games-util/editor-on-fire 1437-r1 1437-r2: Song editor for Frets On Fire, Phase Shift, Rock Band and Rocksmith
+games-util/editor-on-fire 1437-r1 1437-r2 1437-r3: Song editor for Frets On Fire, Phase Shift, Rock Band and Rocksmith
 kde-misc/ksuperkey 0.3-r1 0.3-r2: ksuperkey allows you to open the application launcher in KDE Plasma Desktop using the Super key
 media-fonts/basic_title 1.0: The Basic Title font
 media-fonts/digital_7 1.0: The Digital 7 font
