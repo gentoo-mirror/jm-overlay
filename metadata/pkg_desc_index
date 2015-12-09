@@ -37,4 +37,5 @@ sys-kernel/reiser4-sources 4.0.4 4.0.9 4.1.4 4.1.5 4.1.7 4.2.1 4.2.2 4.2.3 4.3.0
 sys-process/parallel 20150522-r1: A shell tool for executing jobs in parallel locally or on remote machines
 virtual/linux-sources 1: Virtual for Linux kernel sources
 www-apps/ddclient-php 9999 9999-r1: PHP web-interface for net-misc/downloaddaemon
+x11-plugins/pidgin-opensteamworks 1.6.1-r1: Steam protocol plugin for pidgin
 x11-plugins/whatsapp-purple 0.8.2 0.8.2-r1 0.8.4 0.8.4-r1 0.8.6: WhatsApp protocol implementation for libpurple (Pidgin)
