@@ -5,6 +5,7 @@ dev-libs/rapidjson 1.0.2: Fast JSON parser/generator for C++
 dev-python/axolotl 0.1.6 9999: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999: Python wrapper for the curve25519 library
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
+games-arcade/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/systems_nominal 1.0-r2: Keyboard action game
 games-util/editor-on-fire 1437-r4: Song editor for Frets On Fire, Phase Shift, Rock Band and Rocksmith
 kde-misc/ksuperkey 0.3-r3: ksuperkey allows you to open the application launcher in KDE Plasma Desktop using the Super key
