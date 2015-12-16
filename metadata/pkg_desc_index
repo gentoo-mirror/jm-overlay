@@ -4,8 +4,8 @@ dev-cpp/loguru 0.9: A header-only C++ logging library
 dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
 dev-libs/pybind11 1.1: Lightweight library that exposes C++ types in Python and vice versa
 dev-libs/rapidjson 1.0.2: Fast JSON parser/generator for C++
-dev-python/axolotl 0.1.6 9999: Python port of libaxolotl
-dev-python/axolotl-curve25519 9999: Python wrapper for the curve25519 library
+dev-python/axolotl 0.1.7 9999-r1: Python port of libaxolotl
+dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
 games-arcade/systems_nominal 1.0-r2: Keyboard action game
@@ -22,7 +22,7 @@ media-fonts/street_2_art 1.0: The Street 2 Art font
 media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
 media-gfx/impack 1.0-r1 1.1-r1: Store your data in images
 media-libs/vidstab 0.98b: Video stabilization library
-net-im/yowsup 2.2.78 2.3.84: Python WhatsApp library and CLI client
+net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48: Python WhatsApp library and CLI client
 net-libs/cpr 1.1: Simple wrapper around libcurl inspired by the Python Requests project
 net-misc/ddclient-gui 9999: Qt4 interface for net-misc/downloaddaemon
 net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
