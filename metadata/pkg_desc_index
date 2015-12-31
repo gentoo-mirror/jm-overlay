@@ -22,7 +22,7 @@ media-fonts/orange_juice 2.0: The Orange Juice font
 media-fonts/snowtop_caps 1.0: The Snowtop Caps font
 media-fonts/street_2_art 1.0: The Street 2 Art font
 media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
-media-gfx/impack 1.0-r1 1.1-r1: Store your data in images
+media-gfx/impack 1.0-r1 1.1-r1 1.2: Store your data in images
 media-libs/vidstab 0.98b: Video stabilization library
 net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48: Python WhatsApp library and CLI client
 net-libs/cpr 1.1: Simple wrapper around libcurl inspired by the Python Requests project
