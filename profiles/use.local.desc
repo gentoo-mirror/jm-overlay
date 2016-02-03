@@ -7,6 +7,8 @@ app-arch/zstd:tools - Build and install the command line compression tool
 dev-libs/pybind11:info - Build and install documentation as texinfo
 dev-libs/pybind11:man - Build and install documentation as manpages
 games-arcade/olliolli:bundled-libs - Install bundled versions of media-libs/openal and dev-games/physfs
+media-fonts/ultimate-oldschool-pc-font-pack:px437 - Install fonts with the original DOS charset
+media-fonts/ultimate-oldschool-pc-font-pack:pxplus - Install fonts with unicode enhancements
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-libs/cpr:insecure - Do not verfiy SSL certificates
 net-p2p/digitalcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
