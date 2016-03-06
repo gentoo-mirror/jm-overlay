@@ -37,6 +37,7 @@ net-libs/libpsl 0.12.0: C library to handle the Public Suffix List
 net-misc/ddclient-gui 9999: Qt4 interface for net-misc/downloaddaemon
 net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
 net-misc/downloaddaemon 9999: A download manager that runs in the background
+net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
 net-p2p/blackcoin-qt 1.2.2: Currency with near-instant transaction speeds and negligible transaction fees
 net-p2p/digitalcoin-qt 3.0.1a 3.0.1a-r1: A Currency for the digital age
 net-p2p/dogecoin-qt 1.6-r1 1.6-r2 1.8.3 1.8.3-r1 1.10.0: P2P Internet currency favored by Shiba Inus worldwide
