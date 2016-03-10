@@ -27,6 +27,7 @@ net-p2p/primecoin-qt:system-leveldb - Use system version of dev-libs/leveldb ins
 net-p2p/primecoind:logrotate - Use app-admin/logrotate for rotating logs
 net-p2p/primecoind:system-leveldb - Use system version of dev-libs/leveldb instead of the bundled one
 net-p2p/reddcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
+net-p2p/terracoin-qt:qrcode - Enable generation of QR Codes for receiving payments
 sci-libs/comedilib:firmware - Install firmware files needed for some devices
 sci-libs/comedilib:pdf - Install documentation in PDF format
 sci-libs/comedilib:scxi - Build the SCXI convenience library
