@@ -9,6 +9,7 @@ dev-libs/rapidjson 1.0.2: Fast JSON parser/generator for C++
 dev-perl/Math-Prime-XS 0.26: Detect and calculate prime numbers with deterministic tests
 dev-python/axolotl 0.1.7 9999-r1: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
+dev-util/bindiff 4.2.0: Quickly find differences and similarities in disassembled code
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
 games-arcade/berlin82 1.1: Infinite police chase arcade game
