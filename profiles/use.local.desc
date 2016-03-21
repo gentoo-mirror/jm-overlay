@@ -36,4 +36,6 @@ sys-kernel/reiser4-sources:experimental - Apply experimental patches; for more i
 sys-kernel/reiser4-sources:kdbus - Apply the kdbus patch. This also requires the "experimental" use flag.
 virtual/linux-sources:firmware - Install linux kernel firmware
 www-apps/CGP:json - Pull in the PHP JSON extension, allows finer representation of data in the graph
+x11-misc/rainlendar:linguas_sr_SR - Serbian locale
+x11-misc/rainlendar:pro - Install the paid Rainlendar Pro version
 x11-plugins/pidgin-opensteamworks:polarssl - Use net-libs/polarssl instead of dev-libs/nss
