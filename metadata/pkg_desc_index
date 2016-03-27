@@ -34,17 +34,17 @@ media-libs/zxing-cpp 9999: Multi-format 1D/2D barcode image processing library (
 media-video/nordlicht 0.4.2 0.4.3 0.4.4: library + tool that creates colorful video barcodes
 net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48: Python WhatsApp library and CLI client
 net-libs/cpr 1.1 1.2.0: Simple wrapper around libcurl inspired by the Python Requests project
-net-libs/libpsl 0.12.0: C library to handle the Public Suffix List
+net-libs/libpsl 0.12.0 0.13.0: C library to handle the Public Suffix List
 net-misc/ddclient-gui 9999: Qt4 interface for net-misc/downloaddaemon
 net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
 net-misc/downloaddaemon 9999: A download manager that runs in the background
-net-misc/megasync 2.7.1: Automated syncing between your computers and your MEGA cloud drive
+net-misc/megasync 2.7.1 2.8.0: Automated syncing between your computers and your MEGA cloud drive
 net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
 net-p2p/blackcoin-qt 1.2.2: Currency with near-instant transaction speeds and negligible transaction fees
 net-p2p/digitalcoin-qt 3.0.1a 3.0.1a-r1: A Currency for the digital age
 net-p2p/dogecoin-qt 1.6-r1 1.6-r2 1.8.3 1.8.3-r1 1.10.0: P2P Internet currency favored by Shiba Inus worldwide
 net-p2p/feathercoin-qt 0.8.7.1 0.8.7.1-r1 0.8.7.3: Open source internet currency
-net-p2p/novacoin-qt 0.5.3 0.5.3-r1 0.5.5 0.5.6: Decentralized digital currency
+net-p2p/novacoin-qt 0.5.3 0.5.3-r1 0.5.5 0.5.6 0.5.7: Decentralized digital currency
 net-p2p/primecoin-qt 0.1.2-r2 0.1.2-r3: Cryptocurrency forked from Bitcoin which aims to be energy efficiency
 net-p2p/primecoind 0.1.2-r2 0.1.2-r3: P2P Internet currency based on Bitcoin but easier to mine
 net-p2p/reddcoin-qt 1.4.1.0 1.4.1.0-r1: The social currency
