@@ -1,6 +1,6 @@
 app-arch/brotli 0.2.0 0.2.0-r1 0.3.0: Generic-purpose lossless compression algorithm
 app-arch/zstd 0.2.0-r3 0.4.6 0.4.7 0.5.0 0.5.1: Zstd, short for Zstandard, is a lossless compression algorithm
-dev-cpp/loguru 0.9: A header-only C++ logging library
+dev-cpp/loguru 0.9 1.21: A header-only C++ logging library
 dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
 dev-java/zxing 3.2.1: Multi-format 1D/2D barcode image processing library
 dev-libs/linenoise-ng 1.0.0: Small, portable GNU readline replacement
