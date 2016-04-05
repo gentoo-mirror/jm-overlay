@@ -45,7 +45,7 @@ net-p2p/blackcoin-qt 1.2.2: Currency with near-instant transaction speeds and ne
 net-p2p/digitalcoin-qt 3.0.1a 3.0.1a-r1: A Currency for the digital age
 net-p2p/dogecoin-qt 1.6-r1 1.6-r2 1.8.3 1.8.3-r1 1.10.0: P2P Internet currency favored by Shiba Inus worldwide
 net-p2p/feathercoin-qt 0.8.7.1 0.8.7.1-r1 0.8.7.3: Open source internet currency
-net-p2p/novacoin-qt 0.5.3 0.5.3-r1 0.5.5 0.5.6 0.5.7: Decentralized digital currency
+net-p2p/novacoin-qt 0.5.3 0.5.3-r1 0.5.5 0.5.6 0.5.7 0.5.8: Decentralized digital currency
 net-p2p/primecoin-qt 0.1.2-r2 0.1.2-r3: Cryptocurrency forked from Bitcoin which aims to be energy efficiency
 net-p2p/primecoind 0.1.2-r2 0.1.2-r3: P2P Internet currency based on Bitcoin but easier to mine
 net-p2p/reddcoin-qt 1.4.1.0 1.4.1.0-r1: The social currency
