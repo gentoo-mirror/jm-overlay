@@ -1,5 +1,5 @@
 app-arch/brotli 0.2.0 0.2.0-r1 0.3.0: Generic-purpose lossless compression algorithm
-app-arch/zstd 0.2.0-r3 0.4.6 0.4.7 0.5.0 0.5.1: Zstd, short for Zstandard, is a lossless compression algorithm
+app-arch/zstd 0.2.0-r3 0.4.6 0.4.7 0.5.0 0.5.1 0.6.0: Zstd, short for Zstandard, is a lossless compression algorithm
 dev-cpp/loguru 0.9 1.21: A header-only C++ logging library
 dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
 dev-java/zxing 3.2.1: Multi-format 1D/2D barcode image processing library
@@ -39,7 +39,7 @@ net-libs/libpsl 0.12.0 0.13.0: C library to handle the Public Suffix List
 net-misc/ddclient-gui 9999: Qt4 interface for net-misc/downloaddaemon
 net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
 net-misc/downloaddaemon 9999: A download manager that runs in the background
-net-misc/megasync 2.7.1 2.8.0: Automated syncing between your computers and your MEGA cloud drive
+net-misc/megasync 2.7.1 2.8.0 2.9.0: Automated syncing between your computers and your MEGA cloud drive
 net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
 net-p2p/blackcoin-qt 1.2.2: Currency with near-instant transaction speeds and negligible transaction fees
 net-p2p/digitalcoin-qt 3.0.1a 3.0.1a-r1: A Currency for the digital age
