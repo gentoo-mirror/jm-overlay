@@ -29,7 +29,7 @@ media-fonts/ultimate-oldschool-pc-font-pack 1.0: Classic fonts from DOS-era IBM 
 media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
 media-gfx/IOGraph 1.0.1: Application that turns mouse movements into modern art
 media-gfx/impack 1.0-r1 1.1-r1 1.2 1.2.1 1.3: Store your data in images
-media-gfx/picture-tube 1.0.0: Render images on the terminal
+media-gfx/picture-tube 1.0.0-r1: Render images on the terminal
 media-libs/vidstab 0.98b: Video stabilization library
 media-libs/zxing-cpp 9999: Multi-format 1D/2D barcode image processing library (C++ port)
 media-video/nordlicht 0.4.2 0.4.3 0.4.4: library + tool that creates colorful video barcodes
