@@ -1,62 +1,8 @@
-app-arch/brotli 0.2.0 0.2.0-r1 0.3.0: Generic-purpose lossless compression algorithm
-app-arch/zstd 0.2.0-r3 0.4.6 0.4.7 0.5.0 0.5.1 0.6.0: Zstd, short for Zstandard, is a lossless compression algorithm
-dev-cpp/loguru 0.9 1.21: A header-only C++ logging library
-dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
-dev-java/zxing 3.2.1: Multi-format 1D/2D barcode image processing library
-dev-libs/linenoise-ng 1.0.0: Small, portable GNU readline replacement
-dev-libs/pybind11 1.1 1.2 1.3 1.4 1.5: Lightweight library that exposes C++ types in Python and vice versa
-dev-libs/rapidjson 1.0.2: Fast JSON parser/generator for C++
-dev-python/axolotl 0.1.7 9999-r1: Python port of libaxolotl
-dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
-dev-util/bindiff 4.2.0: Quickly find differences and similarities in disassembled code
-games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
-games-arcade/CookServeDelicious 261: The most intense cooking game ever made
-games-arcade/berlin82 1.1: Infinite police chase arcade game
-games-arcade/olliolli 1414459118: Side-scrolling skateboarding video game
-games-arcade/systems_nominal 1.0-r2: Keyboard action game
-games-fps/UnrealTournament4 20160309_alpha: Futuristic FPS (Pre-Alpha version)
-games-puzzle/GirlsLikeRobots 20130314: Game about seating arrangements, wrapped around an epic tale of love and danger
-games-util/editor-on-fire 1437-r4: Song editor for Frets On Fire, Phase Shift, Rock Band and Rocksmith
-kde-misc/ksuperkey 0.3-r3: ksuperkey allows opening the launcher in KDE using the super key
-media-fonts/basic_title 1.0: The Basic Title font
-media-fonts/digital_7 1.0: The Digital 7 font
-media-fonts/hanging_letters 1.0: The Hanging Letters font
-media-fonts/karmatic_arcade 1.0: The Karmatic Arcade font
-media-fonts/orange_juice 2.0: The Orange Juice font
-media-fonts/snowtop_caps 1.0: The Snowtop Caps font
-media-fonts/street_2_art 1.0: The Street 2 Art font
-media-fonts/ultimate-oldschool-pc-font-pack 1.0: Classic fonts from DOS-era IBM PCs and compatibles
-media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
-media-gfx/IOGraph 1.0.1: Application that turns mouse movements into modern art
-media-gfx/impack 1.0-r1 1.1-r1 1.2 1.2.1 1.3: Store your data in images
-media-gfx/picture-tube 1.0.0-r1: Render images on the terminal
-media-libs/vidstab 0.98b: Video stabilization library
-media-libs/zxing-cpp 9999: Multi-format 1D/2D barcode image processing library (C++ port)
-media-video/nordlicht 0.4.2 0.4.3 0.4.4: library + tool that creates colorful video barcodes
-net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48 2.4.102 2.4.103: Python WhatsApp library and CLI client
-net-libs/cpr 1.1 1.2.0: Simple wrapper around libcurl inspired by the Python Requests project
-net-libs/libpsl 0.12.0 0.13.0: C library to handle the Public Suffix List
-net-misc/ddclient-gui 9999: Qt4 interface for net-misc/downloaddaemon
-net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
-net-misc/downloaddaemon 9999: A download manager that runs in the background
-net-misc/megasync 2.7.1 2.8.0 2.9.0: Automated syncing between your computers and your MEGA cloud drive
-net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
-net-p2p/blackcoin-qt 1.2.2: Currency with near-instant transaction speeds and negligible transaction fees
-net-p2p/digitalcoin-qt 3.0.1a 3.0.1a-r1: A Currency for the digital age
-net-p2p/dogecoin-qt 1.6-r1 1.6-r2 1.8.3 1.8.3-r1 1.10.0: P2P Internet currency favored by Shiba Inus worldwide
-net-p2p/feathercoin-qt 0.8.7.1 0.8.7.1-r1 0.8.7.3: Open source internet currency
-net-p2p/novacoin-qt 0.5.3 0.5.3-r1 0.5.5 0.5.6 0.5.7 0.5.8: Decentralized digital currency
-net-p2p/primecoin-qt 0.1.2-r2 0.1.2-r3: Cryptocurrency forked from Bitcoin which aims to be energy efficiency
-net-p2p/primecoind 0.1.2-r2 0.1.2-r3: P2P Internet currency based on Bitcoin but easier to mine
-net-p2p/reddcoin-qt 1.4.1.0 1.4.1.0-r1: The social currency
-net-p2p/terracoin-qt 0.8.0.4: Digital currency with no central authority, no chargeback, low transaction fees
-sci-libs/comedilib 0.10.2-r1: Linux control and measurement device interface (userspace libraries)
-sci-misc/comedi_calibrate 3-r1 3-r2: Linux control and measurement device interface (calibration tool)
-sys-kernel/reiser4-sources 4.0.4 4.0.9 4.1.5 4.1.7 4.2.1 4.2.2 4.2.3 4.3.0 4.4.0 4.5.0: Full sources including the Gentoo and Reiser4 patchsets for the 4.5 kernel tree
-sys-process/parallel 20150522-r1: A shell tool for executing jobs in parallel locally or on remote machines
-virtual/linux-sources 1: Virtual for Linux kernel sources
-www-apps/CGP 0.4.1-r1: Graphical web-based front-end for visualizing RRD collected by collectd
-www-apps/ddclient-php 9999 9999-r1: PHP web-interface for net-misc/downloaddaemon
-x11-misc/rainlendar 2.13.1: Customizable calendar application on your desktop
-x11-plugins/pidgin-opensteamworks 1.6.1-r1: Steam protocol plugin for pidgin
-x11-plugins/whatsapp-purple 0.8.2 0.8.2-r1 0.8.4 0.8.4-r1 0.8.6 0.9.0 9999: WhatsApp protocol implementation for libpurple (Pidgin)
+dev-nodejs/buffers 0.1.1: Treat a collection of Buffers as a single contiguous partially mutable Buffer
+dev-nodejs/charm 0.1.2: Ansi control sequences for terminal cursor hopping and colors
+dev-nodejs/event-stream 0.9.8: Construct pipes of streams of events
+dev-nodejs/optimist 0.2.8 0.3.7: Light-weight option parsing for node.js
+dev-nodejs/png-js 0.1.1: A PNG decoder in CoffeeScript
+dev-nodejs/request 2.9.203: Simplified HTTP request client
+dev-nodejs/wordwrap 0.0.3: Wrap your words in node.js
+dev-nodejs/x256 0.0.2: Find the nearest xterm 256 color index for an rgb
