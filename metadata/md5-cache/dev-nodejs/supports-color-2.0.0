@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DESCRIPTION=Detect whether a terminal supports color
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/supports-color
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=net-libs/nodejs-0.8.0
+SLOT=2.0.0
+SRC_URI=http://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz
+_eclass_exported_funcs=src_install:node-module
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	node-module	db76369cf027446dfc706562fe2289c6	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=dacd999826a918d48b9ff9d50b6ab62e
