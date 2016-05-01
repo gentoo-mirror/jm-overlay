@@ -4,11 +4,14 @@ dev-nodejs/ansi 0.3.1: Advanced ANSI formatting tool for Node.js
 dev-nodejs/ansi-regex 2.0.0: Regular expression for matching ANSI escape codes
 dev-nodejs/ansi-styles 2.2.1: ANSI escape codes for styling strings in the terminal
 dev-nodejs/async 0.2.10: Higher-order functions and common patterns for asynchronous code
+dev-nodejs/big-integer 1.6.15: An arbitrary length integer library for Javascript
+dev-nodejs/bplist-parser 0.1.1: Binary plist parser
 dev-nodejs/buffers 0.1.1: Treat a collection of Buffers as a single contiguous partially mutable Buffer
 dev-nodejs/chalk 1.1.3: Terminal string styling done right. Much color.
 dev-nodejs/charm 0.1.2: Ansi control sequences for terminal cursor hopping and colors
 dev-nodejs/configstore 1.4.0: Easily load and save config without having to think about where and how
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
+dev-nodejs/deep-extend 0.4.1: Recursive object extending
 dev-nodejs/duplexify 3.4.3: Turn a writeable and readable stream into a streams2 duplex stream
 dev-nodejs/end-of-stream 1.0.0: Call a callback when a readable/writable/duplex stream has completed or failed
 dev-nodejs/escape-string-regexp 1.0.5: Escape RegExp special characters
@@ -19,38 +22,50 @@ dev-nodejs/has-ansi 2.0.0: Check if a string has ANSI escape codes
 dev-nodejs/imurmurhash 0.1.4: An incremental implementation of MurmurHash3
 dev-nodejs/infinity-agent 2.0.3: Creates HTTP/HTTPS Agent with Infinity maxSockets
 dev-nodejs/inherits 2.0.1: Browser-friendly inheritance fully compatible with standard node.js inherits()
+dev-nodejs/ini 1.3.4: An ini encoder/decoder for node
+dev-nodejs/is-finite 1.0.1: ES6 Number.isFinite() ponyfill
 dev-nodejs/is-npm 1.0.0: Check if your code is running as an npm script
 dev-nodejs/is-redirect 1.0.0: Check if a number is a redirect HTTP status code
 dev-nodejs/is-stream 1.1.0: Check if something is a Node.js stream
 dev-nodejs/isarray 1.0.0: Array#isArray for older browsers
+dev-nodejs/latest-version 1.0.1: Get the latest version of a npm package
 dev-nodejs/lowercase-keys 1.0.0: Lowercase the keys of an object
-dev-nodejs/minimist 0.0.8: Parse argument options
+dev-nodejs/minimist 0.0.8 1.2.0: Parse argument options
 dev-nodejs/mkdirp 0.5.1: Recursively mkdir, like mkdir -p
 dev-nodejs/nested-error-stacks 1.0.2: An Error subclass that will chain nested Errors and dump nested stacktraces
 dev-nodejs/nopt 3.0.1: Option parsing for Node, supporting types, shorthands, etc.
+dev-nodejs/number-is-nan 1.0.0: ES6 Number.isNaN() ponyfill
 dev-nodejs/object-assign 3.0.0 4.0.1: ES6 Object.assign() ponyfill
 dev-nodejs/once 1.3.3: Run a function exactly one time
 dev-nodejs/optimist 0.2.8 0.3.7: Light-weight option parsing for node.js
 dev-nodejs/os-homedir 1.0.1: io.js 2.3.0 os.homedir() ponyfill
 dev-nodejs/os-tmpdir 1.0.1: Node.js os.tmpdir() ponyfill
 dev-nodejs/osenv 0.1.3: Look up environment settings specific to different operating systems
+dev-nodejs/package-json 1.2.0: Get the package.json of a package from the npm registry
 dev-nodejs/pinkie 2.0.4: Itty bitty little widdle twinkie pinkie ES2015 Promise implementation
 dev-nodejs/pinkie-promise 2.0.1: ES2015 Promise ponyfill
 dev-nodejs/png-js 0.1.1: A PNG decoder in CoffeeScript
 dev-nodejs/prepend-http 1.0.3: Prepend http:// to humanized URLs like todomvc.com and localhost
 dev-nodejs/process-nextick-args 1.0.6: process.nextTick but always with args
 dev-nodejs/q 1.0.1: A library for promises (CommonJS/Promises/A,B,D)
+dev-nodejs/rc 1.1.6: Hardwired configuration loader
 dev-nodejs/read-all-stream 3.1.0: Read all stream content and pass it to callback
 dev-nodejs/readable-stream 2.1.2: Streams3, a user-land copy of the stream library from Node.js
+dev-nodejs/registry-url 3.1.0: Get the set npm registry URL
+dev-nodejs/repeating 1.1.3: Repeat a string - fast
 dev-nodejs/request 2.9.203: Simplified HTTP request client
+dev-nodejs/semver 5.1.0: The semantic version parser used by npm
+dev-nodejs/semver-diff 2.1.0: Get the diff type of two semver versions
 dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide presentation
 dev-nodejs/source-map 0.1.34: Generates and consumes source maps
 dev-nodejs/string_decoder 0.10.31: The string_decoder module from Node core
 dev-nodejs/strip-ansi 3.0.1: Strip ANSI escape codes
+dev-nodejs/strip-json-comments 1.0.4: Strip comments from JSON. Lets you use comments in your JSON files!
 dev-nodejs/supports-color 2.0.0: Detect whether a terminal supports color
 dev-nodejs/timed-out 2.0.0: Emit ETIMEDOUT or ESOCKETTIMEDOUT when ClientRequest is hanged
 dev-nodejs/uglify-to-browserify 1.0.2: A transform to make UglifyJS work in browserify
 dev-nodejs/underscore 1.7.0: JavaScript's functional programming helper library
+dev-nodejs/update-notifier 0.5.0: Update notifications for your CLI app
 dev-nodejs/util-deprecate 1.0.2: The Node.js util.deprecate() function with browser support
 dev-nodejs/uuid 2.0.2: Rigorous implementation of RFC4122 (v1 and v4) UUIDs
 dev-nodejs/wordwrap 0.0.3: Wrap your words in node.js
