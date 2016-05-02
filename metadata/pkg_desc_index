@@ -5,6 +5,7 @@ dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in t
 dev-nodejs/ansi 0.3.1: Advanced ANSI formatting tool for Node.js
 dev-nodejs/ansi-regex 2.0.0: Regular expression for matching ANSI escape codes
 dev-nodejs/ansi-styles 2.2.1: ANSI escape codes for styling strings in the terminal
+dev-nodejs/assert 1.3.0: Commonjs assert - node.js api compatible
 dev-nodejs/async 0.2.10: Higher-order functions and common patterns for asynchronous code
 dev-nodejs/balanced-match 0.3.0: Match balanced character pairs, like "{" and "}"
 dev-nodejs/base64-js 0.0.8: Base64 encoding/decoding in pure JS
@@ -12,13 +13,16 @@ dev-nodejs/big-integer 1.6.12 1.6.15: An arbitrary length integer library for Ja
 dev-nodejs/bplist-parser 0.1.1: Binary plist parser
 dev-nodejs/brace-expansion 1.1.3: Brace expansion as known from sh/bash
 dev-nodejs/browserify-transform-tools 1.5.3: Utilities for writing browserify transforms
+dev-nodejs/browserify-zlib 0.1.4: Full zlib module for browserify
 dev-nodejs/buffers 0.1.1: Treat a collection of Buffers as a single contiguous partially mutable Buffer
 dev-nodejs/chalk 1.1.3: Terminal string styling done right. Much color.
 dev-nodejs/charm 0.1.2: Ansi control sequences for terminal cursor hopping and colors
+dev-nodejs/combine-source-map 0.3.0: Add source maps of files, offset them and combine them into one source map
 dev-nodejs/concat-map 0.0.1: Concatenative mapdashery
 dev-nodejs/configstore 1.4.0: Easily load and save config without having to think about where and how
+dev-nodejs/convert-source-map 0.3.5: Converts a source-map from/to different formats
 dev-nodejs/cordova-app-hello-world 3.10.0: This is the hello world app used by the "cordova create" command
-dev-nodejs/cordova-common 1.2.0: Apache Cordova tools and platforms shared routines
+dev-nodejs/cordova-common 1.1.1 1.2.0: Apache Cordova tools and platforms shared routines
 dev-nodejs/cordova-registry-mapper 1.1.15: Maps old plugin ids to new plugin names for fetching from npm
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
 dev-nodejs/deep-extend 0.4.1: Recursive object extending
@@ -38,6 +42,7 @@ dev-nodejs/infinity-agent 2.0.3: Creates HTTP/HTTPS Agent with Infinity maxSocke
 dev-nodejs/inflight 1.0.4: Add callbacks to requests in flight to avoid async duplication
 dev-nodejs/inherits 2.0.1: Browser-friendly inheritance fully compatible with standard node.js inherits()
 dev-nodejs/ini 1.3.4: An ini encoder/decoder for node
+dev-nodejs/inline-source-map 0.3.1: Adds source mappings and base64 encodes them
 dev-nodejs/is-finite 1.0.1: ES6 Number.isFinite() ponyfill
 dev-nodejs/is-npm 1.0.0: Check if your code is running as an npm script
 dev-nodejs/is-redirect 1.0.0: Check if a number is a redirect HTTP status code
@@ -60,6 +65,7 @@ dev-nodejs/os-homedir 1.0.1: io.js 2.3.0 os.homedir() ponyfill
 dev-nodejs/os-tmpdir 1.0.1: Node.js os.tmpdir() ponyfill
 dev-nodejs/osenv 0.1.3: Look up environment settings specific to different operating systems
 dev-nodejs/package-json 1.2.0: Get the package.json of a package from the npm registry
+dev-nodejs/pako 0.2.8: zlib port to javascript - fast, modularized, with browser support
 dev-nodejs/path-is-absolute 1.0.0: Node.js 0.12 path.isAbsolute() ponyfill
 dev-nodejs/pinkie 2.0.4: Itty bitty little widdle twinkie pinkie ES2015 Promise implementation
 dev-nodejs/pinkie-promise 2.0.1: ES2015 Promise ponyfill
@@ -70,7 +76,7 @@ dev-nodejs/process-nextick-args 1.0.6: process.nextTick but always with args
 dev-nodejs/q 1.0.1 1.4.1: A library for promises (CommonJS/Promises/A,B,D)
 dev-nodejs/rc 1.1.6: Hardwired configuration loader
 dev-nodejs/read-all-stream 3.1.0: Read all stream content and pass it to callback
-dev-nodejs/readable-stream 2.1.2: Streams3, a user-land copy of the stream library from Node.js
+dev-nodejs/readable-stream 1.0.34 2.1.2: Streams3, a user-land copy of the stream library from Node.js
 dev-nodejs/registry-url 3.1.0: Get the set npm registry URL
 dev-nodejs/repeating 1.1.3: Repeat a string - fast
 dev-nodejs/request 2.9.203: Simplified HTTP request client
@@ -79,7 +85,8 @@ dev-nodejs/semver 5.1.0: The semantic version parser used by npm
 dev-nodejs/semver-diff 2.1.0: Get the diff type of two semver versions
 dev-nodejs/shelljs 0.5.3: Portable Unix shell commands for Node.js
 dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide presentation
-dev-nodejs/source-map 0.1.34: Generates and consumes source maps
+dev-nodejs/source-map 0.1.34 0.1.43 0.3.0: Generates and consumes source maps
+dev-nodejs/string-length 1.0.1: Get the real length of a string
 dev-nodejs/string_decoder 0.10.31: The string_decoder module from Node core
 dev-nodejs/strip-ansi 3.0.1: Strip ANSI escape codes
 dev-nodejs/strip-json-comments 1.0.4: Strip comments from JSON. Lets you use comments in your JSON files!
@@ -99,4 +106,5 @@ dev-nodejs/x256 0.0.2: Find the nearest xterm 256 color index for an rgb
 dev-nodejs/xdg-basedir 2.0.0: Get XDG Base Directory paths
 dev-nodejs/xmlbuilder 4.0.0: An XML builder for node.js
 dev-nodejs/xmldom 0.1.22: A W3C Standard XML DOM implementation and parser
+dev-nodejs/xtend 3.0.0: Extend like a boss
 dev-nodejs/yargs 1.3.3: Light-weight option parsing with an argv hash. No optstrings attached.
