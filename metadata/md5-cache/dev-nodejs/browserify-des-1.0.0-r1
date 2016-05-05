@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DESCRIPTION=DES for browserify
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/browserify-des
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-nodejs/des-js:1.0.0 net-libs/nodejs dev-nodejs/cipher-base:1.0.2 dev-nodejs/inherits:2.0.1
+SLOT=1.0.0
+SRC_URI=http://registry.npmjs.org/browserify-des/-/browserify-des-1.0.0.tgz
+_eclass_exported_funcs=src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	node-module	a8b58c561dd3bba3128454c68a89eed1	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=880b9c94043b71b85ec30e8869399295
