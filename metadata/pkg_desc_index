@@ -1,7 +1,7 @@
 dev-nodejs/Base64 0.2.1: Base64 encoding and decoding
 dev-nodejs/JSONStream 1.1.1: rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
 dev-nodejs/abbrev 1.0.7: Like ruby's abbrev module, but in js
-dev-nodejs/acorn 1.2.2 2.7.0: ECMAScript parser
+dev-nodejs/acorn 1.2.2-r1 2.7.0-r1: ECMAScript parser
 dev-nodejs/aliasify 1.9.0: Rewrite require calls in browserify modules
 dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in the AMD format
 dev-nodejs/ansi 0.3.1: Advanced ANSI formatting tool for Node.js
@@ -160,7 +160,7 @@ dev-nodejs/sha-js 2.4.5: Streamable SHA hashes in pure javascript
 dev-nodejs/shallow-copy 0.0.1: Make a shallow copy of an object or array
 dev-nodejs/shasum 1.0.2: Single function that returns the sha1sum
 dev-nodejs/shell-quote 0.0.1: Quote and parse shell commands
-dev-nodejs/shelljs 0.5.3: Portable Unix shell commands for Node.js
+dev-nodejs/shelljs 0.5.3-r1: Portable Unix shell commands for Node.js
 dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide presentation
 dev-nodejs/source-map 0.1.34 0.1.43 0.3.0 0.4.4: Generates and consumes source maps
 dev-nodejs/stream-browserify 1.0.0: The stream module from node core for browsers

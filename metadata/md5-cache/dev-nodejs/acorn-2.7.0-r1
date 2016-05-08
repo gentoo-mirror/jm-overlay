@@ -9,4 +9,4 @@ SLOT=2.7.0
 SRC_URI=http://registry.npmjs.org/acorn/-/acorn-2.7.0.tgz
 _eclass_exported_funcs=src_install:node-module
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	node-module	5832b76b819977a20fd778bbfcb6e619	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
-_md5_=ff7d7dbc50012b6af0fbc9aa34ae971a
+_md5_=78bf84a3e0cdf106435b8fc35624e0da
