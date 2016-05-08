@@ -1,6 +1,7 @@
 dev-nodejs/Base64 0.2.1: Base64 encoding and decoding
 dev-nodejs/JSONStream 1.1.1: rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
 dev-nodejs/abbrev 1.0.7: Like ruby's abbrev module, but in js
+dev-nodejs/accepts 1.3.2: Higher-level content negotiation
 dev-nodejs/acorn 1.2.2-r1 2.7.0-r1: ECMAScript parser
 dev-nodejs/aliasify 1.9.0: Rewrite require calls in browserify modules
 dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in the AMD format
@@ -45,6 +46,7 @@ dev-nodejs/constants-browserify 0.0.1: Node's constants module for the browser
 dev-nodejs/convert-source-map 0.3.5 1.1.3: Converts a source-map from/to different formats
 dev-nodejs/cordova-app-hello-world 3.10.0: This is the hello world app used by the "cordova create" command
 dev-nodejs/cordova-common 1.1.1-r1 1.2.0-r1: Apache Cordova tools and platforms shared routines
+dev-nodejs/cordova-js 4.1.4: A unified JavaScript layer for the Cordova suite of projects
 dev-nodejs/cordova-registry-mapper 1.1.15: Maps old plugin ids to new plugin names for fetching from npm
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
 dev-nodejs/create-ecdh 4.0.0: createECDH but browserifiable
@@ -106,11 +108,14 @@ dev-nodejs/lodash 3.10.1: The modern build of lodash modular utilities
 dev-nodejs/lodash-memoize 3.0.4: The modern build of lodash’s _.memoize as a module
 dev-nodejs/lowercase-keys 1.0.0: Lowercase the keys of an object
 dev-nodejs/miller-rabin 4.0.0: Miller Rabin algorithm for primality test
+dev-nodejs/mime-db 1.22.0: Media Type Database
+dev-nodejs/mime-types 2.1.10: The ultimate javascript content-type utility
 dev-nodejs/minimalistic-assert 1.0.0: Minimalistic-assert ===
 dev-nodejs/minimatch 2.0.10 3.0.0: A glob matcher in javascript
 dev-nodejs/minimist 0.0.8 1.2.0: Parse argument options
 dev-nodejs/mkdirp 0.5.1: Recursively mkdir, like mkdir -p
 dev-nodejs/module-deps 3.9.1: Walk the dependency graph to generate json output
+dev-nodejs/negotiator 0.6.0: HTTP content negotiation
 dev-nodejs/nested-error-stacks 1.0.2: An Error subclass that will chain nested Errors and dump nested stacktraces
 dev-nodejs/nopt 3.0.1: Option parsing for Node, supporting types, shorthands, etc.
 dev-nodejs/number-is-nan 1.0.0: ES6 Number.isNaN() ponyfill
