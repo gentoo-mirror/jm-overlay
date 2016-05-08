@@ -1,7 +1,7 @@
 dev-nodejs/Base64 0.2.1: Base64 encoding and decoding
 dev-nodejs/JSONStream 1.1.1: rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
 dev-nodejs/abbrev 1.0.7: Like ruby's abbrev module, but in js
-dev-nodejs/acorn 1.2.2: ECMAScript parser
+dev-nodejs/acorn 1.2.2 2.7.0: ECMAScript parser
 dev-nodejs/aliasify 1.9.0: Rewrite require calls in browserify modules
 dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in the AMD format
 dev-nodejs/ansi 0.3.1: Advanced ANSI formatting tool for Node.js
@@ -20,6 +20,7 @@ dev-nodejs/brace-expansion 1.1.3: Brace expansion as known from sh/bash
 dev-nodejs/brorand 1.0.5: Random number generator for browsers and node.js
 dev-nodejs/browser-pack 4.0.4-r1: Pack node-style source files from a json stream into a browser bundle
 dev-nodejs/browser-resolve 1.11.1-r1: Resolve which handles browser field support in package.json
+dev-nodejs/browserify 10.1.3: Browser-side require() the node way
 dev-nodejs/browserify-aes 1.0.6-r1: Aes, for browserify
 dev-nodejs/browserify-cipher 1.0.0: Ciphers for the browser
 dev-nodejs/browserify-des 1.0.0-r1: DES for browserify
@@ -56,6 +57,7 @@ dev-nodejs/deep-extend 0.4.1: Recursive object extending
 dev-nodejs/defined 1.0.0: Return the first argument that is "!== undefined"
 dev-nodejs/deps-sort 1.3.9: Sort module-deps output for deterministic browserify bundle
 dev-nodejs/des-js 1.0.0-r1: DES implementation
+dev-nodejs/detective 4.3.1: Find all require() calls by walking the AST
 dev-nodejs/diffie-hellman 5.0.2: Pure js diffie-hellman
 dev-nodejs/domain-browser 1.1.7: Node's domain module for the web browser
 dev-nodejs/duplexer2 0.0.2: Like duplexer but using streams2
@@ -81,6 +83,7 @@ dev-nodejs/http-browserify 1.7.0: Http module compatability for browserify
 dev-nodejs/https-browserify 0.0.1: Https module compatability for browserify
 dev-nodejs/ieee754 1.1.6: Read/write IEEE754 floating point numbers from/to a Buffer or array-like object
 dev-nodejs/imurmurhash 0.1.4: An incremental implementation of MurmurHash3
+dev-nodejs/indexof 0.0.1: Lame indexOf thing, thanks microsoft
 dev-nodejs/infinity-agent 2.0.3: Creates HTTP/HTTPS Agent with Infinity maxSockets
 dev-nodejs/inflight 1.0.4-r1: Add callbacks to requests in flight to avoid async duplication
 dev-nodejs/inherits 2.0.1: Browser-friendly inheritance fully compatible with standard node.js inherits()
@@ -96,6 +99,7 @@ dev-nodejs/isarray 0.0.1 1.0.0: Array#isArray for older browsers
 dev-nodejs/json-stable-stringify 0.0.1: Deterministic JSON.stringify() with custom sorting
 dev-nodejs/jsonify 0.0.0: JSON without touching any globals
 dev-nodejs/jsonparse 1.2.0: This is a pure-js JSON streaming parser for node.js
+dev-nodejs/labeled-stream-splicer 1.0.2: Stream splicer with labels
 dev-nodejs/latest-version 1.0.1: Get the latest version of a npm package
 dev-nodejs/lexical-scope 1.2.0: Detect global and local lexical identifiers from javascript source code
 dev-nodejs/lodash 3.10.1: The modern build of lodash modular utilities
@@ -106,6 +110,7 @@ dev-nodejs/minimalistic-assert 1.0.0: Minimalistic-assert ===
 dev-nodejs/minimatch 2.0.10 3.0.0: A glob matcher in javascript
 dev-nodejs/minimist 0.0.8 1.2.0: Parse argument options
 dev-nodejs/mkdirp 0.5.1: Recursively mkdir, like mkdir -p
+dev-nodejs/module-deps 3.9.1: Walk the dependency graph to generate json output
 dev-nodejs/nested-error-stacks 1.0.2: An Error subclass that will chain nested Errors and dump nested stacktraces
 dev-nodejs/nopt 3.0.1: Option parsing for Node, supporting types, shorthands, etc.
 dev-nodejs/number-is-nan 1.0.0: ES6 Number.isNaN() ponyfill
@@ -113,13 +118,17 @@ dev-nodejs/object-assign 3.0.0 4.0.1: ES6 Object.assign() ponyfill
 dev-nodejs/object-keys 1.0.9: An Object.keys replacement, in case Object.keys is not available
 dev-nodejs/once 1.3.3: Run a function exactly one time
 dev-nodejs/optimist 0.2.8 0.3.7: Light-weight option parsing for node.js
+dev-nodejs/os-browserify 0.1.2: The os module from node.js, but for browsers
 dev-nodejs/os-homedir 1.0.1: io.js 2.3.0 os.homedir() ponyfill
 dev-nodejs/os-tmpdir 1.0.1: Node.js os.tmpdir() ponyfill
 dev-nodejs/osenv 0.1.3-r1: Look up environment settings specific to different operating systems
 dev-nodejs/package-json 1.2.0: Get the package.json of a package from the npm registry
 dev-nodejs/pako 0.2.8: zlib port to javascript - fast, modularized, with browser support
+dev-nodejs/parents 1.0.1: Return all the parent directories for a directory
 dev-nodejs/parse-asn1 5.0.0: Utility library for parsing asn1 files for use with browserify-sign
+dev-nodejs/path-browserify 0.0.0: The path module from node core for browsers
 dev-nodejs/path-is-absolute 1.0.0: Node.js 0.12 path.isAbsolute() ponyfill
+dev-nodejs/path-platform 0.11.15: Provide access to win32 and posix path operations
 dev-nodejs/pbkdf2 3.0.4: Provides the functionality of PBKDF2
 dev-nodejs/pinkie 2.0.4: Itty bitty little widdle twinkie pinkie ES2015 Promise implementation
 dev-nodejs/pinkie-promise 2.0.1: ES2015 Promise ponyfill
@@ -129,11 +138,16 @@ dev-nodejs/prepend-http 1.0.3: Prepend http:// to humanized URLs like todomvc.co
 dev-nodejs/process 0.11.3: Process information for node.js and browsers
 dev-nodejs/process-nextick-args 1.0.6: process.nextTick but always with args
 dev-nodejs/public-encrypt 4.0.0: Browserify version of publicEncrypt & privateDecrypt
+dev-nodejs/punycode 1.3.2 1.4.1: A robust Punycode converter that fully complies to RFC 3492 and RFC 5891
 dev-nodejs/q 1.0.1 1.4.1: A library for promises (CommonJS/Promises/A,B,D)
+dev-nodejs/querystring 0.2.0: Node's querystring module for all engines
+dev-nodejs/querystring-es3 0.2.1: Node's querystring module for all engines. (ES3 compat fork)
 dev-nodejs/randombytes 2.0.3: Random bytes from browserify stand alone
 dev-nodejs/rc 1.1.6: Hardwired configuration loader
 dev-nodejs/read-all-stream 3.1.0: Read all stream content and pass it to callback
+dev-nodejs/read-only-stream 1.1.1: Wrap a readable/writable stream to be read-only
 dev-nodejs/readable-stream 1.0.34-r1 1.1.14 2.1.2-r1: Streams3, a user-land copy of the stream library from Node.js
+dev-nodejs/readable-wrap 1.0.0: Upgrade streams1 to streams2 streams as a standalone module
 dev-nodejs/registry-url 3.1.0: Get the set npm registry URL
 dev-nodejs/repeating 1.1.3: Repeat a string - fast
 dev-nodejs/request 2.9.203: Simplified HTTP request client
@@ -143,28 +157,38 @@ dev-nodejs/sax 0.3.5: An evented streaming XML parser in JavaScript
 dev-nodejs/semver 5.1.0: The semantic version parser used by npm
 dev-nodejs/semver-diff 2.1.0: Get the diff type of two semver versions
 dev-nodejs/sha-js 2.4.5: Streamable SHA hashes in pure javascript
+dev-nodejs/shallow-copy 0.0.1: Make a shallow copy of an object or array
 dev-nodejs/shasum 1.0.2: Single function that returns the sha1sum
+dev-nodejs/shell-quote 0.0.1: Quote and parse shell commands
 dev-nodejs/shelljs 0.5.3: Portable Unix shell commands for Node.js
 dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide presentation
 dev-nodejs/source-map 0.1.34 0.1.43 0.3.0 0.4.4: Generates and consumes source maps
+dev-nodejs/stream-browserify 1.0.0: The stream module from node core for browsers
+dev-nodejs/stream-combiner2 1.0.2: This is a sequel to stream-combiner for streams2
+dev-nodejs/stream-splicer 1.3.2: Streaming pipeline with a mutable configuration
 dev-nodejs/string-length 1.0.1: Get the real length of a string
 dev-nodejs/string_decoder 0.10.31: The string_decoder module from Node core
 dev-nodejs/strip-ansi 3.0.1: Strip ANSI escape codes
 dev-nodejs/strip-json-comments 1.0.4: Strip comments from JSON. Lets you use comments in your JSON files!
 dev-nodejs/subarg 1.0.0: Parse arguments with recursive contexts
 dev-nodejs/supports-color 2.0.0: Detect whether a terminal supports color
+dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code strings
 dev-nodejs/through 2.3.8: Simplified stream construction
 dev-nodejs/through2 0.5.1 1.1.1: A tiny wrapper around Node streams2 Transform
 dev-nodejs/timed-out 2.0.0: Emit ETIMEDOUT or ESOCKETTIMEDOUT when ClientRequest is hanged
+dev-nodejs/timers-browserify 1.4.2: Timers module for browserify
+dev-nodejs/tty-browserify 0.0.0: The tty module from node core for browsers
 dev-nodejs/typedarray 0.0.6: TypedArray polyfill for old browsers
 dev-nodejs/uglify-to-browserify 1.0.2: A transform to make UglifyJS work in browserify
 dev-nodejs/umd 3.0.1: Universal Module Definition for use in automated build systems
 dev-nodejs/underscore 1.7.0 1.8.3: JavaScript's functional programming helper library
 dev-nodejs/unorm 1.4.1: JavaScript Unicode 8.0 Normalization - NFC, NFD, NFKC, NFKD
 dev-nodejs/update-notifier 0.5.0: Update notifications for your CLI app
+dev-nodejs/url 0.10.3: The core url packaged standalone for use with Browserify
 dev-nodejs/util 0.10.3: Node.JS util module
 dev-nodejs/util-deprecate 1.0.2: The Node.js util.deprecate() function with browser support
 dev-nodejs/uuid 2.0.2: Rigorous implementation of RFC4122 (v1 and v4) UUIDs
+dev-nodejs/vm-browserify 0.0.4: vm module for the browser
 dev-nodejs/wordwrap 0.0.3: Wrap your words in node.js
 dev-nodejs/wrappy 1.0.1: Callback wrapping utility
 dev-nodejs/write-file-atomic 1.1.4-r1: Write files in an atomic fashion w/configurable ownership

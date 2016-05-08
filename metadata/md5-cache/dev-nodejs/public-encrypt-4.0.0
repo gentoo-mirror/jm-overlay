@@ -8,5 +8,5 @@ RDEPEND=dev-nodejs/bn-js:4.11.3 net-libs/nodejs dev-nodejs/randombytes:2.0.3 dev
 SLOT=4.0.0
 SRC_URI=http://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	node-module	a8b58c561dd3bba3128454c68a89eed1	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	node-module	5832b76b819977a20fd778bbfcb6e619	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
 _md5_=e4cb2db789c04d32725eab438bfb577e

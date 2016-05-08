@@ -8,5 +8,5 @@ RDEPEND=net-libs/nodejs
 SLOT=0.10.31
 SRC_URI=http://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz
 _eclass_exported_funcs=src_install:node-module
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	node-module	a8b58c561dd3bba3128454c68a89eed1	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	node-module	5832b76b819977a20fd778bbfcb6e619	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
 _md5_=18175c1c2f90ea31d8e3082c4ccc2357
