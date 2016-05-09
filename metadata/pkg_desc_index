@@ -66,6 +66,7 @@ dev-nodejs/debug 2.2.0: Small debugging utility
 dev-nodejs/deep-equal 1.0.1: Node's assert.deepEqual algorithm
 dev-nodejs/deep-extend 0.4.1: Recursive object extending
 dev-nodejs/defined 1.0.0: Return the first argument that is "!== undefined"
+dev-nodejs/depd 1.1.0: Deprecate all the things
 dev-nodejs/deps-sort 1.3.9: Sort module-deps output for deterministic browserify bundle
 dev-nodejs/des-js 1.0.0-r1: DES implementation
 dev-nodejs/detective 4.3.1: Find all require() calls by walking the AST
@@ -73,15 +74,21 @@ dev-nodejs/diffie-hellman 5.0.2: Pure js diffie-hellman
 dev-nodejs/domain-browser 1.1.7: Node's domain module for the web browser
 dev-nodejs/duplexer2 0.0.2: Like duplexer but using streams2
 dev-nodejs/duplexify 3.4.3: Turn a writeable and readable stream into a streams2 duplex stream
+dev-nodejs/ee-first 1.1.1: Return the first event in a set of ee/event pairs
 dev-nodejs/elementtree 0.1.6: XML Serialization and Parsing module based on Python's ElementTree
 dev-nodejs/elliptic 6.2.3-r1: EC cryptography
 dev-nodejs/end-of-stream 1.0.0: Call a callback when a readable/writable/duplex stream has completed or failed
+dev-nodejs/escape-html 1.0.3: Escape string for use in HTML
 dev-nodejs/escape-string-regexp 1.0.5: Escape RegExp special characters
+dev-nodejs/etag 1.7.0: Create simple ETags
 dev-nodejs/event-stream 0.9.8: Construct pipes of streams of events
 dev-nodejs/events 1.0.2: Node's event emitter for all engines
 dev-nodejs/evp_bytestokey 1.0.0-r1: The super secure key derivation algorithm from openssl
 dev-nodejs/falafel 1.2.0: Transform the ast on a recursive walk
+dev-nodejs/finalhandler 0.4.1: Node.js final http responder
 dev-nodejs/foreach 2.0.5: Foreach component + npm package
+dev-nodejs/forwarded 0.1.0: Parse HTTP X-Forwarded-For header
+dev-nodejs/fresh 0.3.0: HTTP response freshness testing
 dev-nodejs/function-bind 1.1.0: Implementation of Function.prototype.bind
 dev-nodejs/glob 4.5.3 5.0.15: A little globber
 dev-nodejs/got 3.3.1: Simplified HTTP/HTTPS requests
@@ -101,6 +108,7 @@ dev-nodejs/inherits 2.0.1: Browser-friendly inheritance fully compatible with st
 dev-nodejs/ini 1.3.4: An ini encoder/decoder for node
 dev-nodejs/inline-source-map 0.3.1 0.5.0: Adds source mappings and base64 encodes them
 dev-nodejs/insert-module-globals 6.6.3: Insert implicit module globals into a module-deps stream
+dev-nodejs/ipaddr-js 1.0.5: A library for manipulating IPv4 and IPv6 addresses in JavaScript
 dev-nodejs/is-buffer 1.1.3: Determine if an object is Buffer
 dev-nodejs/is-finite 1.0.1: ES6 Number.isFinite() ponyfill
 dev-nodejs/is-npm 1.0.0: Check if your code is running as an npm script
@@ -116,6 +124,8 @@ dev-nodejs/lexical-scope 1.2.0: Detect global and local lexical identifiers from
 dev-nodejs/lodash 3.10.1: The modern build of lodash modular utilities
 dev-nodejs/lodash-memoize 3.0.4: The modern build of lodash’s _.memoize as a module
 dev-nodejs/lowercase-keys 1.0.0: Lowercase the keys of an object
+dev-nodejs/merge-descriptors 1.0.1: Merge objects using descriptors
+dev-nodejs/methods 1.1.2: HTTP methods that node supports
 dev-nodejs/miller-rabin 4.0.0: Miller Rabin algorithm for primality test
 dev-nodejs/mime-db 1.22.0: Media Type Database
 dev-nodejs/mime-types 2.1.10: The ultimate javascript content-type utility
@@ -131,6 +141,7 @@ dev-nodejs/nopt 3.0.1: Option parsing for Node, supporting types, shorthands, et
 dev-nodejs/number-is-nan 1.0.0: ES6 Number.isNaN() ponyfill
 dev-nodejs/object-assign 3.0.0 4.0.1: ES6 Object.assign() ponyfill
 dev-nodejs/object-keys 1.0.9: An Object.keys replacement, in case Object.keys is not available
+dev-nodejs/on-finished 2.3.0: Execute a callback when a request closes, finishes, or errors
 dev-nodejs/on-headers 1.0.1: Execute a listener when a response is about to write headers
 dev-nodejs/once 1.3.3: Run a function exactly one time
 dev-nodejs/optimist 0.2.8 0.3.7: Light-weight option parsing for node.js
@@ -142,9 +153,11 @@ dev-nodejs/package-json 1.2.0: Get the package.json of a package from the npm re
 dev-nodejs/pako 0.2.8: zlib port to javascript - fast, modularized, with browser support
 dev-nodejs/parents 1.0.1: Return all the parent directories for a directory
 dev-nodejs/parse-asn1 5.0.0: Utility library for parsing asn1 files for use with browserify-sign
+dev-nodejs/parseurl 1.3.1: Parse a url with memoization
 dev-nodejs/path-browserify 0.0.0: The path module from node core for browsers
 dev-nodejs/path-is-absolute 1.0.0: Node.js 0.12 path.isAbsolute() ponyfill
 dev-nodejs/path-platform 0.11.15: Provide access to win32 and posix path operations
+dev-nodejs/path-to-regexp 0.1.7: Express style path to RegExp utility
 dev-nodejs/pbkdf2 3.0.4: Provides the functionality of PBKDF2
 dev-nodejs/pinkie 2.0.4: Itty bitty little widdle twinkie pinkie ES2015 Promise implementation
 dev-nodejs/pinkie-promise 2.0.1: ES2015 Promise ponyfill
@@ -199,6 +212,7 @@ dev-nodejs/uglify-to-browserify 1.0.2: A transform to make UglifyJS work in brow
 dev-nodejs/umd 3.0.1: Universal Module Definition for use in automated build systems
 dev-nodejs/underscore 1.7.0 1.8.3: JavaScript's functional programming helper library
 dev-nodejs/unorm 1.4.1: JavaScript Unicode 8.0 Normalization - NFC, NFD, NFKC, NFKD
+dev-nodejs/unpipe 1.0.0: Unpipe a stream from all destinations
 dev-nodejs/update-notifier 0.5.0: Update notifications for your CLI app
 dev-nodejs/url 0.10.3: The core url packaged standalone for use with Browserify
 dev-nodejs/util 0.10.3: Node.JS util module
