@@ -223,7 +223,7 @@ dev-nodejs/type-is 1.6.12: Infer the content-type of a request
 dev-nodejs/typedarray 0.0.6: TypedArray polyfill for old browsers
 dev-nodejs/uglify-to-browserify 1.0.2: A transform to make UglifyJS work in browserify
 dev-nodejs/umd 3.0.1: Universal Module Definition for use in automated build systems
-dev-nodejs/underscore 1.7.0 1.8.3: JavaScript's functional programming helper library
+dev-nodejs/underscore 1.2.1 1.7.0 1.8.3: JavaScript's functional programming helper library
 dev-nodejs/unorm 1.4.1: JavaScript Unicode 8.0 Normalization - NFC, NFD, NFKC, NFKD
 dev-nodejs/unpipe 1.0.0: Unpipe a stream from all destinations
 dev-nodejs/update-notifier 0.5.0: Update notifications for your CLI app
