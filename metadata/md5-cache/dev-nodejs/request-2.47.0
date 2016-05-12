@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DESCRIPTION=Simplified HTTP request client
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/request
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=net-libs/nodejs-0.8.0 dev-nodejs/aws-sign2:0.5.0 dev-nodejs/caseless:0.6.0 dev-nodejs/oauth-sign:0.4.0 dev-nodejs/tunnel-agent:0.4.2 dev-nodejs/stringstream:0.0.5 dev-nodejs/json-stringify-safe:5.0.1 dev-nodejs/tough-cookie:2.2.2 dev-nodejs/mime-types:1.0.2 dev-nodejs/forever-agent:0.5.2 dev-nodejs/qs:2.3.3 dev-nodejs/node-uuid:1.4.7 dev-nodejs/http-signature:0.10.1 dev-nodejs/combined-stream:0.0.7 dev-nodejs/hawk:1.1.1 dev-nodejs/form-data:0.1.4 dev-nodejs/bl:0.9.5
+SLOT=2.47.0
+SRC_URI=http://registry.npmjs.org/request/-/request-2.47.0.tgz
+_eclass_exported_funcs=src_install:node-module
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	5832b76b819977a20fd778bbfcb6e619	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=d9ca721a2ea9a97b76a0fd4190e4d3c7
