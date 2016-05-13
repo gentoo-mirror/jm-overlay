@@ -8,6 +8,9 @@ dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in t
 dev-nodejs/ansi 0.3.1: Advanced ANSI formatting tool for Node.js
 dev-nodejs/ansi-regex 2.0.0: Regular expression for matching ANSI escape codes
 dev-nodejs/ansi-styles 2.2.1: ANSI escape codes for styling strings in the terminal
+dev-nodejs/ansicolors 0.3.2: Functions that surround a string with ansicolor codes so it prints in color
+dev-nodejs/ansistyles 0.1.3: Functions that surround a string with ansistyle codes so it prints in style
+dev-nodejs/archy 1.0.0: Render nested hierarchies "npm ls" style with unicode pipes
 dev-nodejs/array-flatten 1.1.1: Flatten an array of nested arrays into a single flat array
 dev-nodejs/asn1 0.1.11: Contains parsers and serializers for ASN.1 (currently BER only)
 dev-nodejs/asn1-js 4.6.0: ASN.1 encoder and decoder
