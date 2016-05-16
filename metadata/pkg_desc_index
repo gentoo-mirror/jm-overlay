@@ -11,22 +11,25 @@ dev-nodejs/ansi-styles 2.2.1: ANSI escape codes for styling strings in the termi
 dev-nodejs/ansicolors 0.3.2: Functions that surround a string with ansicolor codes so it prints in color
 dev-nodejs/ansistyles 0.1.3: Functions that surround a string with ansistyle codes so it prints in style
 dev-nodejs/archy 1.0.0: Render nested hierarchies "npm ls" style with unicode pipes
+dev-nodejs/are-we-there-yet 1.1.2: Keep track of the overall completion of many dispirate processes
 dev-nodejs/array-flatten 1.1.1: Flatten an array of nested arrays into a single flat array
 dev-nodejs/asap 2.0.3: High-priority task queue for Node.js and browsers
-dev-nodejs/asn1 0.1.11: Contains parsers and serializers for ASN.1 (currently BER only)
+dev-nodejs/asn1 0.1.11 0.2.3: Contains parsers and serializers for ASN.1 (currently BER only)
 dev-nodejs/asn1-js 4.6.0: ASN.1 encoder and decoder
 dev-nodejs/assert 1.3.0-r1: Commonjs assert - node.js api compatible
-dev-nodejs/assert-plus 0.1.5: Extra assertions on top of node's assert module
+dev-nodejs/assert-plus 0.1.5 0.2.0 1.0.0: Extra assertions on top of node's assert module
 dev-nodejs/astw 2.0.0: Walk the ast with references to parent nodes
-dev-nodejs/async 0.2.10 0.9.2: Higher-order functions and common patterns for asynchronous code
-dev-nodejs/aws-sign2 0.5.0: AWS signing
+dev-nodejs/async 0.2.10 0.9.2 1.5.2: Higher-order functions and common patterns for asynchronous code
+dev-nodejs/async-some 1.0.2: Short-circuited, asynchronous version of Array.protototype.some
+dev-nodejs/aws-sign2 0.5.0 0.6.0: AWS signing
+dev-nodejs/aws4 1.4.1: Signs and prepares requests using AWS Signature Version 4
 dev-nodejs/balanced-match 0.3.0: Match balanced character pairs, like "{" and "}"
 dev-nodejs/base64-js 0.0.8: Base64 encoding/decoding in pure JS
 dev-nodejs/big-integer 1.6.12 1.6.15: An arbitrary length integer library for Javascript
-dev-nodejs/bl 0.9.5: Buffer List: Collect buffers, access with a standard readable Buffer interface
-dev-nodejs/block-stream 0.0.9: A stream of blocks
+dev-nodejs/bl 0.9.5 1.0.3 1.1.2: Buffer List: Collect buffers, access with a standard readable Buffer interface
+dev-nodejs/block-stream 0.0.8 0.0.9: A stream of blocks
 dev-nodejs/bn-js 4.11.3: Big number implementation in pure javascript
-dev-nodejs/boom 0.4.2: HTTP-friendly error objects
+dev-nodejs/boom 0.4.2 2.10.1: HTTP-friendly error objects
 dev-nodejs/bplist-parser 0.1.1: Binary plist parser
 dev-nodejs/brace-expansion 1.1.3: Brace expansion as known from sh/bash
 dev-nodejs/brorand 1.0.5: Random number generator for browsers and node.js
@@ -46,18 +49,25 @@ dev-nodejs/buffers 0.1.1: Treat a collection of Buffers as a single contiguous p
 dev-nodejs/builtin-modules 1.1.1: List of the Node.js builtin modules
 dev-nodejs/builtins 0.0.7: List of node.js builtin modules
 dev-nodejs/bytes 2.2.0: Utility to parse a string bytes to bytes and vice-versa
-dev-nodejs/caseless 0.6.0: Caseless object set/get/has, very useful when working with HTTP headers
+dev-nodejs/caseless 0.6.0 0.11.0: Caseless object set/get/has, very useful when working with HTTP headers
 dev-nodejs/chalk 1.1.3: Terminal string styling done right. Much color.
+dev-nodejs/char-spinner 1.0.1: Put a little spinner on process.stderr, as unobtrusively as possible
 dev-nodejs/charm 0.1.2: Ansi control sequences for terminal cursor hopping and colors
+dev-nodejs/chmodr 1.0.2: Like "chmod -R"
+dev-nodejs/chownr 1.0.1: Like "chown -R"
 dev-nodejs/cipher-base 1.0.2-r1: Abstract base class for crypto-streams
+dev-nodejs/clone 1.0.2: Deep cloning of objects and arrays
+dev-nodejs/cmd-shim 2.0.2: Used in npm for command line application support
+dev-nodejs/columnify 1.5.4: Render data in text columns. Supports in-column text-wrap
 dev-nodejs/combine-source-map 0.3.0 0.6.1: Add source maps of files, offset them and combine them into one source map
-dev-nodejs/combined-stream 0.0.7: A stream that emits multiple other streams one after another
+dev-nodejs/combined-stream 0.0.7 1.0.5: A stream that emits multiple other streams one after another
 dev-nodejs/commander 2.9.0: The complete solution for node.js command-line programs
 dev-nodejs/commondir 0.0.1: Compute the closest common parent for file paths
 dev-nodejs/compressible 2.0.7: Compressible Content-Type / mime checking
 dev-nodejs/compression 1.6.1: Node.js compression middleware
 dev-nodejs/concat-map 0.0.1: Concatenative mapdashery
-dev-nodejs/concat-stream 1.4.10-r1: Stream that concatenates strings or binary data and calls a callback
+dev-nodejs/concat-stream 1.4.10-r1 1.5.1: Stream that concatenates strings or binary data and calls a callback
+dev-nodejs/config-chain 1.1.10: Handle configuration once and for all
 dev-nodejs/configstore 1.4.0: Easily load and save config without having to think about where and how
 dev-nodejs/console-browserify 1.1.0: Emulate console for all the browsers
 dev-nodejs/constants-browserify 0.0.1: Node's constants module for the browser
@@ -69,21 +79,26 @@ dev-nodejs/cookie-signature 1.0.6: Sign and unsign cookies
 dev-nodejs/cordova-app-hello-world 3.10.0: This is the hello world app used by the "cordova create" command
 dev-nodejs/cordova-common 1.1.1-r1 1.2.0-r1: Apache Cordova tools and platforms shared routines
 dev-nodejs/cordova-js 4.1.4: A unified JavaScript layer for the Cordova suite of projects
+dev-nodejs/cordova-lib 6.1.1: Apache Cordova tools core lib and API
 dev-nodejs/cordova-registry-mapper 1.1.15: Maps old plugin ids to new plugin names for fetching from npm
 dev-nodejs/cordova-serve 1.0.0: Apache Cordova server support for cordova-lib and cordova-browser
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
 dev-nodejs/create-ecdh 4.0.0: createECDH but browserifiable
 dev-nodejs/create-hash 1.1.2: Create hashes for browserify
 dev-nodejs/create-hmac 1.1.4: Node style hmacs in the browser
-dev-nodejs/cryptiles 0.2.2: General purpose crypto utilities
+dev-nodejs/cryptiles 0.2.2 2.0.5: General purpose crypto utilities
 dev-nodejs/crypto-browserify 3.11.0: Implementation of crypto for the browser
 dev-nodejs/ctype 0.5.3: Read and write binary structures and data types
+dev-nodejs/dashdash 1.13.1: A light, featureful and explicit option parsing library
 dev-nodejs/date-now 0.1.4: A requirable version of Date.now()
 dev-nodejs/debug 2.2.0: Small debugging utility
+dev-nodejs/debuglog 1.0.1: Backport of util.debuglog from node v0.11
 dev-nodejs/deep-equal 1.0.1: Node's assert.deepEqual algorithm
 dev-nodejs/deep-extend 0.4.1: Recursive object extending
+dev-nodejs/defaults 1.0.3: Merge single level defaults over a config object
 dev-nodejs/defined 1.0.0: Return the first argument that is "!== undefined"
-dev-nodejs/delayed-stream 0.0.5: Buffers events from a stream until you are ready to handle them
+dev-nodejs/delayed-stream 0.0.5 1.0.0: Buffers events from a stream until you are ready to handle them
+dev-nodejs/delegates 1.0.0: Delegate methods and accessors to another property
 dev-nodejs/dep-graph 1.1.0: Simple dependency graph management
 dev-nodejs/depd 1.1.0: Deprecate all the things
 dev-nodejs/deps-sort 1.3.9: Sort module-deps output for deterministic browserify bundle
@@ -95,6 +110,8 @@ dev-nodejs/diffie-hellman 5.0.2: Pure js diffie-hellman
 dev-nodejs/domain-browser 1.1.7: Node's domain module for the web browser
 dev-nodejs/duplexer2 0.0.2: Like duplexer but using streams2
 dev-nodejs/duplexify 3.4.3: Turn a writeable and readable stream into a streams2 duplex stream
+dev-nodejs/ecc-jsbn 0.1.1: ECC JS code based on JSBN
+dev-nodejs/editor 1.0.0: Launch $EDITOR in your program
 dev-nodejs/ee-first 1.1.1: Return the first event in a set of ee/event pairs
 dev-nodejs/elementtree 0.1.6: XML Serialization and Parsing module based on Python's ElementTree
 dev-nodejs/elliptic 6.2.3-r1: EC cryptography
@@ -106,33 +123,48 @@ dev-nodejs/event-stream 0.9.8: Construct pipes of streams of events
 dev-nodejs/events 1.0.2: Node's event emitter for all engines
 dev-nodejs/evp_bytestokey 1.0.0-r1: The super secure key derivation algorithm from openssl
 dev-nodejs/express 4.13.4: Fast, unopinionated, minimalist web framework
+dev-nodejs/extend 3.0.0: Port of jQuery.extend for node.js and the browser
+dev-nodejs/extsprintf 1.0.2: Extended POSIX-style sprintf
 dev-nodejs/falafel 1.2.0: Transform the ast on a recursive walk
 dev-nodejs/finalhandler 0.4.1: Node.js final http responder
 dev-nodejs/foreach 2.0.5: Foreach component + npm package
-dev-nodejs/forever-agent 0.5.2: HTTP Agent that keeps socket connections alive between keep-alive requests
-dev-nodejs/form-data 0.1.4: A module to create readable "multipart/form-data" streams
+dev-nodejs/forever-agent 0.5.2 0.6.1: HTTP Agent that keeps socket connections alive between keep-alive requests
+dev-nodejs/form-data 0.1.4 1.0.0_rc4: A module to create readable "multipart/form-data" streams
 dev-nodejs/forwarded 0.1.0: Parse HTTP X-Forwarded-For header
 dev-nodejs/fresh 0.3.0: HTTP response freshness testing
 dev-nodejs/fs-extra 0.30.0: Contains methods that aren't included in the vanilla Node.js fs package
+dev-nodejs/fs-vacuum 1.2.9: Recursively remove empty directories -- to a point
+dev-nodejs/fs-write-stream-atomic 1.0.8: Like fs.createWriteStream(...), but atomic
 dev-nodejs/fstream 1.0.9: Advanced file system stream things
+dev-nodejs/fstream-ignore 1.0.4: A thing for ignoring files based on globs
+dev-nodejs/fstream-npm 1.0.7: Fstream class for creating npm package
 dev-nodejs/function-bind 1.1.0: Implementation of Function.prototype.bind
+dev-nodejs/gauge 1.2.7: A terminal based horizontal guage
+dev-nodejs/generate-function 2.0.0: Module that helps you write generated functions in Node
+dev-nodejs/generate-object-property 1.2.0: Generate safe JS code that can used to reference a object property
+dev-nodejs/getpass 0.1.6: Getpass for node.js
+dev-nodejs/github-url-from-git 1.4.0: Parse a github git url and return the github repo url
+dev-nodejs/github-url-from-username-repo 1.0.2: Create urls from username/repo
 dev-nodejs/glob 4.5.3 5.0.15 6.0.4 7.0.3: A little globber
 dev-nodejs/got 3.3.1: Simplified HTTP/HTTPS requests
 dev-nodejs/graceful-fs 4.1.3: A drop-in replacement for fs, making various improvements
 dev-nodejs/graceful-readlink 1.0.1: Graceful fs.readlink
+dev-nodejs/har-validator 2.0.6: Extremely fast HTTP Archive (HAR) validator using JSON Schema
 dev-nodejs/has 1.0.1: Object.prototype.hasOwnProperty.call shortcut
 dev-nodejs/has-ansi 2.0.0: Check if a string has ANSI escape codes
+dev-nodejs/has-unicode 2.0.0: Try to guess if your terminal supports unicode
 dev-nodejs/hash-js 1.0.3-r1: Various hash functions that could be run by both browser and node
-dev-nodejs/hawk 1.1.1: HTTP Hawk Authentication Scheme
+dev-nodejs/hawk 1.1.1 3.1.3: HTTP Hawk Authentication Scheme
 dev-nodejs/highlight-js 9.3.0: Syntax highlighting with language autodetection
-dev-nodejs/hoek 0.9.1: General purpose node utilities
+dev-nodejs/hoek 0.9.1 2.16.3: General purpose node utilities
 dev-nodejs/hosted-git-info 2.1.4: Provides metadata from repository urls for Github, Bitbucket and Gitlab
 dev-nodejs/htmlescape 1.1.1: Properly escape JSON for usage as an object literal inside of a <script> tag
 dev-nodejs/http-browserify 1.7.0: Http module compatability for browserify
 dev-nodejs/http-errors 1.3.1: Create HTTP error objects
-dev-nodejs/http-signature 0.10.1: Reference implementation of Joyent's HTTP Signature scheme
+dev-nodejs/http-signature 0.10.1 1.1.1: Reference implementation of Joyent's HTTP Signature scheme
 dev-nodejs/https-browserify 0.0.1: Https module compatability for browserify
 dev-nodejs/ieee754 1.1.6: Read/write IEEE754 floating point numbers from/to a Buffer or array-like object
+dev-nodejs/iferr 0.1.5: Higher-order functions for easier error handling
 dev-nodejs/imurmurhash 0.1.4: An incremental implementation of MurmurHash3
 dev-nodejs/indexof 0.0.1: Lame indexOf thing, thanks microsoft
 dev-nodejs/infinity-agent 2.0.3: Creates HTTP/HTTPS Agent with Infinity maxSockets
@@ -143,27 +175,47 @@ dev-nodejs/init-package-json 1.9.3: A node module to get your node module starte
 dev-nodejs/inline-source-map 0.3.1 0.5.0: Adds source mappings and base64 encodes them
 dev-nodejs/insert-module-globals 6.6.3: Insert implicit module globals into a module-deps stream
 dev-nodejs/ipaddr-js 1.0.5: A library for manipulating IPv4 and IPv6 addresses in JavaScript
+dev-nodejs/is-absolute 0.1.7: Return true if a file path is absolute
 dev-nodejs/is-buffer 1.1.3: Determine if an object is Buffer
 dev-nodejs/is-builtin-module 1.0.0: Check if a string matches the name of a Node.js builtin module
 dev-nodejs/is-finite 1.0.1: ES6 Number.isFinite() ponyfill
+dev-nodejs/is-my-json-valid 2.13.1: A JSONSchema validator that uses code generation to be extremely fast
 dev-nodejs/is-npm 1.0.0: Check if your code is running as an npm script
+dev-nodejs/is-property 1.0.2: Tests if a JSON property can be accessed using . syntax
 dev-nodejs/is-redirect 1.0.0: Check if a number is a redirect HTTP status code
+dev-nodejs/is-relative 0.1.3: Returns true if the path appears to be relative
 dev-nodejs/is-stream 1.1.0: Check if something is a Node.js stream
+dev-nodejs/is-typedarray 1.0.0: Detect whether or not an object is a Typed Array
 dev-nodejs/isarray 0.0.1 1.0.0: Array#isArray for older browsers
+dev-nodejs/isexe 1.1.2: Minimal module to check if a file is executable
+dev-nodejs/isstream 0.1.2: Determine if an object is a Stream
 dev-nodejs/jju 1.3.0: A set of utilities to work with JSON / JSON5 documents
+dev-nodejs/jodid25519 1.0.2: Curve 25519-based cryptography
+dev-nodejs/jsbn 0.1.0: Fast, portable implementation of large-number math in pure JavaScript
 dev-nodejs/json-parse-helpfulerror 1.0.3: A drop-in replacement for JSON.parse that uses jju to give helpful errors
+dev-nodejs/json-schema 0.2.2: JSON Schema validation and specifications
 dev-nodejs/json-stable-stringify 0.0.1: Deterministic JSON.stringify() with custom sorting
 dev-nodejs/json-stringify-safe 5.0.1: Like JSON.stringify, but doesn't blow up on circular refs
 dev-nodejs/jsonfile 2.3.0: Easily read/write JSON files
 dev-nodejs/jsonify 0.0.0: JSON without touching any globals
 dev-nodejs/jsonparse 1.2.0: This is a pure-js JSON streaming parser for node.js
+dev-nodejs/jsonpointer 2.0.0: Simple JSON Addressing
+dev-nodejs/jsprim 1.2.2: Utilities for primitive JavaScript types
 dev-nodejs/klaw 1.2.0: File system walker with Readable stream interface
 dev-nodejs/labeled-stream-splicer 1.0.2: Stream splicer with labels
 dev-nodejs/latest-version 1.0.1: Get the latest version of a npm package
 dev-nodejs/lexical-scope 1.2.0: Detect global and local lexical identifiers from javascript source code
+dev-nodejs/lockfile 1.0.1: A very polite lock file utility
 dev-nodejs/lodash 3.10.1: The modern build of lodash modular utilities
 dev-nodejs/lodash-memoize 3.0.4: The modern build of lodash’s _.memoize as a module
+dev-nodejs/lodash-pad 4.4.0: The lodash method "_.pad" exported as a module
+dev-nodejs/lodash-padend 4.5.0: The lodash method "_.padEnd" exported as a module
+dev-nodejs/lodash-padstart 4.5.0: The lodash method "_.padStart" exported as a module
+dev-nodejs/lodash-tostring 4.1.3: The lodash method "_.toString" exported as a module
+dev-nodejs/lodash_baseslice 4.0.0: The internal lodash function "baseSlice" exported as a module
+dev-nodejs/lodash_basetostring 4.12.0: The internal lodash function "baseToString" exported as a module
 dev-nodejs/lowercase-keys 1.0.0: Lowercase the keys of an object
+dev-nodejs/lru-cache 3.2.0: A cache object that deletes the least-recently-used items
 dev-nodejs/marked 0.3.5: A markdown parser built for speed
 dev-nodejs/media-typer 0.3.0: Simple RFC 6838 media type parser and formatter
 dev-nodejs/merge-descriptors 1.0.1: Merge objects using descriptors
@@ -183,10 +235,17 @@ dev-nodejs/negotiator 0.5.3 0.6.0: HTTP content negotiation
 dev-nodejs/nested-error-stacks 1.0.2: An Error subclass that will chain nested Errors and dump nested stacktraces
 dev-nodejs/node-uuid 1.3.3 1.4.7: Rigorous implementation of RFC4122 (v1 and v4) UUIDs
 dev-nodejs/nopt 3.0.1 3.0.6: Option parsing for Node, supporting types, shorthands, etc.
+dev-nodejs/normalize-git-url 3.0.2: Normalizes Git URLs. For npm, but you can use it too
 dev-nodejs/normalize-package-data 2.3.5: Normalizes data that can be found in package.json files
+dev-nodejs/npm 2.15.4: A package manager for JavaScript
+dev-nodejs/npm-cache-filename 1.0.2: Given a cache folder and url, return the appropriate cache folder
+dev-nodejs/npm-install-checks 1.0.7: Checks that npm runs during the installation of a module
 dev-nodejs/npm-package-arg 4.1.1: Parse the things that can be arguments to "npm install"
+dev-nodejs/npm-registry-client 7.1.0: Client for the npm registry
+dev-nodejs/npm-user-validate 0.1.2: User validations for npm
+dev-nodejs/npmlog 2.0.3: Logger for npm
 dev-nodejs/number-is-nan 1.0.0: ES6 Number.isNaN() ponyfill
-dev-nodejs/oauth-sign 0.4.0: OAuth 1 signing
+dev-nodejs/oauth-sign 0.4.0 0.6.0 0.8.2: OAuth 1 signing
 dev-nodejs/object-assign 3.0.0 4.0.1: ES6 Object.assign() ponyfill
 dev-nodejs/object-keys 1.0.9: An Object.keys replacement, in case Object.keys is not available
 dev-nodejs/on-finished 2.3.0: Execute a callback when a request closes, finishes, or errors
@@ -205,6 +264,7 @@ dev-nodejs/parse-asn1 5.0.0: Utility library for parsing asn1 files for use with
 dev-nodejs/parseurl 1.3.1: Parse a url with memoization
 dev-nodejs/path-browserify 0.0.0: The path module from node core for browsers
 dev-nodejs/path-is-absolute 1.0.0: Node.js 0.12 path.isAbsolute() ponyfill
+dev-nodejs/path-is-inside 1.0.1: Tests whether one path is inside another path
 dev-nodejs/path-platform 0.11.15: Provide access to win32 and posix path operations
 dev-nodejs/path-to-regexp 0.1.7: Express style path to RegExp utility
 dev-nodejs/pbkdf2 3.0.4: Provides the functionality of PBKDF2
@@ -217,11 +277,13 @@ dev-nodejs/process 0.11.3: Process information for node.js and browsers
 dev-nodejs/process-nextick-args 1.0.6: process.nextTick but always with args
 dev-nodejs/promzard 0.3.0: Prompting wizardly
 dev-nodejs/properties-parser 0.2.3: A parser for .properties files written in javascript
+dev-nodejs/proto-list 1.2.4: A utility for managing a prototype chain
 dev-nodejs/proxy-addr 1.0.10: Determine address of proxied request
+dev-nodejs/pseudomap 1.0.1: A thing that is a lot like ES6 "Map"
 dev-nodejs/public-encrypt 4.0.0: Browserify version of publicEncrypt & privateDecrypt
 dev-nodejs/punycode 1.3.2 1.4.1: A robust Punycode converter that fully complies to RFC 3492 and RFC 5891
 dev-nodejs/q 1.0.1 1.4.1: A library for promises (CommonJS/Promises/A,B,D)
-dev-nodejs/qs 2.3.3 4.0.0: A querystring parser that supports nesting and arrays, with a depth limit
+dev-nodejs/qs 2.3.3 4.0.0 6.0.2 6.1.0: A querystring parser that supports nesting and arrays, with a depth limit
 dev-nodejs/querystring 0.2.0: Node's querystring module for all engines
 dev-nodejs/querystring-es3 0.2.1: Node's querystring module for all engines. (ES3 compat fork)
 dev-nodejs/randombytes 2.0.3: Random bytes from browserify stand alone
@@ -229,14 +291,18 @@ dev-nodejs/range-parser 1.0.3: Range header field string parser
 dev-nodejs/rc 1.1.6: Hardwired configuration loader
 dev-nodejs/read 1.0.7: read(1) for node programs
 dev-nodejs/read-all-stream 3.1.0: Read all stream content and pass it to callback
+dev-nodejs/read-installed 4.0.3: Read all installed packages in a folder, return a tree structure with the data
 dev-nodejs/read-only-stream 1.1.1: Wrap a readable/writable stream to be read-only
 dev-nodejs/read-package-json 2.0.4: The thing npm uses to read package.json files
-dev-nodejs/readable-stream 1.0.34-r1 1.1.14 2.1.2-r1: Streams3, a user-land copy of the stream library from Node.js
+dev-nodejs/readable-stream 1.0.34-r1 1.1.14 2.0.6 2.1.2-r1: Streams3, a user-land copy of the stream library from Node.js
 dev-nodejs/readable-wrap 1.0.0: Upgrade streams1 to streams2 streams as a standalone module
+dev-nodejs/readdir-scoped-modules 1.0.2: Like fs.readdir but handling @org/module dirs as if they were a single entry
+dev-nodejs/realize-package-specifier 3.0.1: Like npm-package-arg, but more so, producing full file paths
 dev-nodejs/registry-url 3.1.0: Get the set npm registry URL
 dev-nodejs/repeating 1.1.3: Repeat a string - fast
-dev-nodejs/request 2.9.203 2.47.0: Simplified HTTP request client
+dev-nodejs/request 2.9.203 2.47.0 2.69.0 2.72.0: Simplified HTTP request client
 dev-nodejs/resolve 1.1.7: Resolve like require.resolve on behalf of files asynchronously and synchronously
+dev-nodejs/retry 0.8.0 0.9.0: Abstraction for exponential and custom retry strategies for failed operations
 dev-nodejs/rimraf 2.5.2: A deep deletion module for node (like rm -rf)
 dev-nodejs/ripemd160 1.0.1: Compute ripemd160 of bytes or strings
 dev-nodejs/sax 0.3.5: An evented streaming XML parser in JavaScript
@@ -244,18 +310,21 @@ dev-nodejs/semver 4.3.6 5.1.0: The semantic version parser used by npm
 dev-nodejs/semver-diff 2.1.0: Get the diff type of two semver versions
 dev-nodejs/send 0.13.1: Better streaming static file server with Range and conditional-GET support
 dev-nodejs/serve-static 1.10.2: Serve static files
+dev-nodejs/sha 2.0.1: Check and get file hashes
 dev-nodejs/sha-js 2.4.5: Streamable SHA hashes in pure javascript
 dev-nodejs/shallow-copy 0.0.1: Make a shallow copy of an object or array
 dev-nodejs/shasum 1.0.2: Single function that returns the sha1sum
 dev-nodejs/shell-quote 0.0.1: Quote and parse shell commands
 dev-nodejs/shelljs 0.3.0 0.5.3-r1: Portable Unix shell commands for Node.js
 dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide presentation
-dev-nodejs/sntp 0.2.4: SNTP Client
+dev-nodejs/sntp 0.2.4 1.0.9: SNTP Client
+dev-nodejs/sorted-object 1.0.0: Returns a copy of an object with its keys sorted
 dev-nodejs/source-map 0.1.34 0.1.43 0.3.0 0.4.4: Generates and consumes source maps
 dev-nodejs/spdx-correct 1.0.2: Correct invalid SPDX identifiers
 dev-nodejs/spdx-exceptions 1.0.4: List of SPDX standard license exceptions
 dev-nodejs/spdx-expression-parse 1.0.2: Parse SPDX license expressions
 dev-nodejs/spdx-license-ids 1.2.1: A list of SPDX license identifiers
+dev-nodejs/sshpk 1.8.3: A library for finding and using SSH public keys
 dev-nodejs/statuses 1.2.1: HTTP status utility
 dev-nodejs/stream-browserify 1.0.0: The stream module from node core for browsers
 dev-nodejs/stream-combiner2 1.0.2: This is a sequel to stream-combiner for streams2
@@ -268,7 +337,8 @@ dev-nodejs/strip-json-comments 1.0.4: Strip comments from JSON. Lets you use com
 dev-nodejs/subarg 1.0.0: Parse arguments with recursive contexts
 dev-nodejs/supports-color 2.0.0: Detect whether a terminal supports color
 dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code strings
-dev-nodejs/tar 1.0.2: Tar for node
+dev-nodejs/tar 1.0.2 2.2.1: Tar for node
+dev-nodejs/text-table 0.2.0: Borderless text tables with alignment
 dev-nodejs/through 2.3.8: Simplified stream construction
 dev-nodejs/through2 0.5.1 1.1.1: A tiny wrapper around Node streams2 Transform
 dev-nodejs/timed-out 2.0.0: Emit ETIMEDOUT or ESOCKETTIMEDOUT when ClientRequest is hanged
@@ -276,9 +346,12 @@ dev-nodejs/timers-browserify 1.4.2: Timers module for browserify
 dev-nodejs/tough-cookie 2.2.2: RFC6265 Cookies and Cookie Jar for node.js
 dev-nodejs/tty-browserify 0.0.0: The tty module from node core for browsers
 dev-nodejs/tunnel-agent 0.4.2: HTTP proxy tunneling agent
+dev-nodejs/tweetnacl 0.13.3: Port of TweetNaCl cryptographic library to JavaScript
 dev-nodejs/type-is 1.6.12: Infer the content-type of a request
 dev-nodejs/typedarray 0.0.6: TypedArray polyfill for old browsers
 dev-nodejs/uglify-to-browserify 1.0.2: A transform to make UglifyJS work in browserify
+dev-nodejs/uid-number 0.0.6: Convert a username/group name to a uid/gid number
+dev-nodejs/umask 1.1.0: Convert umask from string <-> number
 dev-nodejs/umd 3.0.1: Universal Module Definition for use in automated build systems
 dev-nodejs/underscore 1.2.1 1.7.0 1.8.3: JavaScript's functional programming helper library
 dev-nodejs/unorm 1.3.3 1.4.1: JavaScript Unicode 8.0 Normalization - NFC, NFD, NFKC, NFKD
@@ -287,13 +360,17 @@ dev-nodejs/update-notifier 0.5.0: Update notifications for your CLI app
 dev-nodejs/url 0.10.3: The core url packaged standalone for use with Browserify
 dev-nodejs/util 0.10.3: Node.JS util module
 dev-nodejs/util-deprecate 1.0.2: The Node.js util.deprecate() function with browser support
+dev-nodejs/util-extend 1.0.3: Node's internal object extension function
 dev-nodejs/utils-merge 1.0.0: merge() utility function
 dev-nodejs/uuid 2.0.2: Rigorous implementation of RFC4122 (v1 and v4) UUIDs
 dev-nodejs/valid-identifier 0.0.1: Validates namespaces and java package names against identifier rules
 dev-nodejs/validate-npm-package-license 3.0.1: Give me a string and I'll tell you if it's a valid npm package license string
 dev-nodejs/validate-npm-package-name 2.2.2: Give me a string and I'll tell you if it's a valid npm package name
 dev-nodejs/vary 1.0.1 1.1.0: Manipulate the HTTP Vary header
+dev-nodejs/verror 1.3.6: Richer JavaScript errors
 dev-nodejs/vm-browserify 0.0.4: vm module for the browser
+dev-nodejs/wcwidth 1.0.0: Port of C's wcwidth() and wcswidth()
+dev-nodejs/which 1.2.4: Like which(1) unix command. Find the first instance of an executable in the PATH
 dev-nodejs/wordwrap 0.0.3: Wrap your words in node.js
 dev-nodejs/wrappy 1.0.1: Callback wrapping utility
 dev-nodejs/write-file-atomic 1.1.4-r1: Write files in an atomic fashion w/configurable ownership

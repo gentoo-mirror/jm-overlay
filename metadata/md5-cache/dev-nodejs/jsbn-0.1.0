@@ -1,0 +1,13 @@
+DEFINED_PHASES=install
+DESCRIPTION=Fast, portable implementation of large-number math in pure JavaScript
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/jsbn
+IUSE=examples
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=net-libs/nodejs
+SLOT=0.1.0
+SRC_URI=http://registry.npmjs.org/jsbn/-/jsbn-0.1.0.tgz
+_eclass_exported_funcs=src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	5832b76b819977a20fd778bbfcb6e619	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=dac7e7a2f0dc1d6d52b6b37d34fda025
