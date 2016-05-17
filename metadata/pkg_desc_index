@@ -240,7 +240,7 @@ dev-nodejs/normalize-package-data 2.3.5: Normalizes data that can be found in pa
 dev-nodejs/npm 2.15.4: A package manager for JavaScript
 dev-nodejs/npm-cache-filename 1.0.2: Given a cache folder and url, return the appropriate cache folder
 dev-nodejs/npm-install-checks 1.0.7: Checks that npm runs during the installation of a module
-dev-nodejs/npm-package-arg 4.1.1: Parse the things that can be arguments to "npm install"
+dev-nodejs/npm-package-arg 4.1.1-r1: Parse the things that can be arguments to "npm install"
 dev-nodejs/npm-registry-client 7.1.0: Client for the npm registry
 dev-nodejs/npm-user-validate 0.1.2: User validations for npm
 dev-nodejs/npmlog 2.0.3: Logger for npm
