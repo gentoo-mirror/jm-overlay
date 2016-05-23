@@ -4,11 +4,11 @@
 
 EAPI=6
 
-NODE_MODULE_EXTRA_FILES="${PN}-min.js"
+NODE_MODULE_DEPEND="underscore:1.6.0"
 
 inherit node-module
 
-DESCRIPTION="JavaScript's functional programming helper library"
+DESCRIPTION="Swizzle a little something into your require() calls"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"

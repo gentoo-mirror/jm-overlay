@@ -4,14 +4,12 @@
 
 EAPI=6
 
-NODE_MODULE_EXTRA_FILES="${PN}-min.js"
-
 inherit node-module
 
-DESCRIPTION="JavaScript's functional programming helper library"
+DESCRIPTION="Higher-order functions and common patterns for asynchronous code"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DOCS=( README.md )
+DOCS=( CHANGELOG.md )
