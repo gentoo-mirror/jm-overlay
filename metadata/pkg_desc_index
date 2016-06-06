@@ -16,6 +16,7 @@ dev-nodejs/acorn 1.2.2-r1 2.7.0-r1: ECMAScript parser
 dev-nodejs/aliasify 1.9.0: Rewrite require calls in browserify modules
 dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in the AMD format
 dev-nodejs/ansi 0.3.1: Advanced ANSI formatting tool for Node.js
+dev-nodejs/ansi-escapes 1.4.0: ANSI escape codes for manipulating the terminal
 dev-nodejs/ansi-regex 2.0.0: Regular expression for matching ANSI escape codes
 dev-nodejs/ansi-styles 2.2.1: ANSI escape codes for styling strings in the terminal
 dev-nodejs/ansicolors 0.3.2: Functions that surround a string with ansicolor codes so it prints in color
@@ -331,6 +332,7 @@ dev-nodejs/resolve 1.1.7: Resolve like require.resolve on behalf of files asynch
 dev-nodejs/retry 0.8.0 0.9.0: Abstraction for exponential and custom retry strategies for failed operations
 dev-nodejs/rimraf 2.5.2: A deep deletion module for node (like rm -rf)
 dev-nodejs/ripemd160 1.0.1: Compute ripemd160 of bytes or strings
+dev-nodejs/rx-lite 3.1.2: Lightweight library for composing asynchronous and event-based operations
 dev-nodejs/sax 0.3.5: An evented streaming XML parser in JavaScript
 dev-nodejs/semver 4.3.6 5.1.0: The semantic version parser used by npm
 dev-nodejs/semver-diff 2.1.0: Get the diff type of two semver versions
