@@ -97,7 +97,7 @@ dev-nodejs/cordova-app-hello-world 3.10.0: This is the hello world app used by t
 dev-nodejs/cordova-common 1.1.1-r1 1.2.0-r1 1.3.0: Apache Cordova tools and platforms shared routines
 dev-nodejs/cordova-fetch 1.0.0: Apache Cordova fetch module. Fetches from git and npm.
 dev-nodejs/cordova-js 4.1.4: A unified JavaScript layer for the Cordova suite of projects
-dev-nodejs/cordova-lib 6.1.1 6.2.0: Apache Cordova tools core lib and API
+dev-nodejs/cordova-lib 6.1.1 6.2.0-r1: Apache Cordova tools core lib and API
 dev-nodejs/cordova-registry-mapper 1.1.15: Maps old plugin ids to new plugin names for fetching from npm
 dev-nodejs/cordova-serve 1.0.0: Apache Cordova server support for cordova-lib and cordova-browser
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
