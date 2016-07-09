@@ -12,6 +12,7 @@ games-puzzle/HumanResourceMachine:bundled-libs - Use bundled versions of media-l
 media-fonts/ultimate-oldschool-pc-font-pack:px437 - Install fonts with the original DOS charset
 media-fonts/ultimate-oldschool-pc-font-pack:pxplus - Install fonts with unicode enhancements
 media-gfx/impack:aot - Generate native code at build time, rather than runtime
+media-plugins/audacious-lyricwiki-offline:gtk3 - Link against version 3 of the GIMP Toolkit instead of version 2 (x11-libs/gtk+)
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-libs/cpr:insecure - Do not verfiy SSL certificates
 net-libs/libpsl:builtin-psl - Enable builtin PSL data

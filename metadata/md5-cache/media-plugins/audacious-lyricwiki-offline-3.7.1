@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=>=dev-libs/dbus-glib-0.60 dev-libs/libxml2:2 >=media-sound/audacious-3.7.1 gtk? ( x11-libs/gtk+:2 >=media-sound/audacious-3.7.1[gtk?] ) gtk3? ( x11-libs/gtk+:3 >=media-sound/audacious-3.7.1[gtk3?] ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtwidgets:5 >=media-sound/audacious-3.7.1[qt5?] ) virtual/pkgconfig
+DESCRIPTION=Patched version of audacious' LyricWiki plugin that works offline
+EAPI=6
+HOMEPAGE=http://audacious-media-player.org/ https://github.com/Jannis234/jm-overlay
+IUSE=gtk gtk3 qt5
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/dbus-glib-0.60 dev-libs/libxml2:2 >=media-sound/audacious-3.7.1 gtk? ( x11-libs/gtk+:2 >=media-sound/audacious-3.7.1[gtk?] ) gtk3? ( x11-libs/gtk+:3 >=media-sound/audacious-3.7.1[gtk3?] ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtwidgets:5 >=media-sound/audacious-3.7.1[qt5?] )
+REQUIRED_USE=^^ ( gtk gtk3 qt5 )
+SLOT=0
+SRC_URI=!gtk3? ( http://distfiles.audacious-media-player.org/audacious-plugins-3.7.1.tar.bz2 ) gtk3? ( http://distfiles.audacious-media-player.org/audacious-plugins-3.7.1-gtk3.tar.bz2 )
+_eclass_exported_funcs=src_unpack:- src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
+_md5_=83593f6330ab62258575ee6420fb1c73
