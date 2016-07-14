@@ -6,6 +6,7 @@ app-arch/brotli:tools - Build and install the command line compression tool
 app-arch/zstd:tools - Build and install the command line compression tool
 dev-libs/pybind11:info - Build and install documentation as texinfo
 dev-libs/pybind11:man - Build and install documentation as manpages
+dev-nodejs/yargs:l10n_pirate - Joke "pirate" locale
 dev-util/meson:gui - Install the dev-python/PyQt5 based GUI
 games-arcade/olliolli:bundled-libs - Install bundled versions of media-libs/openal and dev-games/physfs
 games-puzzle/HumanResourceMachine:bundled-libs - Use bundled versions of media-libs/openal and media-libs/libsdl2 instead of the system-wide ones
