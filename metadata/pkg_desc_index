@@ -541,7 +541,7 @@ dev-util/cordova 6.1.1-r2 6.2.0-r1: Cordova command line interface tool
 dev-util/meson 0.31.0 0.32.0: The Meson Build System
 dev-util/movfuscator 9999: The single instruction C compiler
 dev-util/pegjs 0.9.0: Parser generator for JavaScript
-dev-util/tap 6.1.1: A Test-Anything-Protocol library
+dev-util/tap 6.1.1 6.2.0: A Test-Anything-Protocol library
 dev-util/uglifyjs 2.4.10: JavaScript parser, mangler/compressor and beautifier toolkit
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
