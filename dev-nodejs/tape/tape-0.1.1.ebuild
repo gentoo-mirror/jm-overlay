@@ -4,25 +4,23 @@
 
 EAPI=6
 
-NODE_MODULE_HAS_TEST="1"
-NODE_MODULE_TEST_DEPEND="tape:0.1.1"
+NODE_MODULE_DEPEND="deep-equal:0.0.0
+	jsonify:0.0.0
+	defined:0.0.0"
 
 inherit node-module
 
-DESCRIPTION="Render nested hierarchies \"npm ls\" style with unicode pipes"
+DESCRIPTION="Tap-producing test harness for node and browsers"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
 IUSE="examples test"
 
+RESTRICT="test" # Broken
+
 DOCS=( readme.markdown )
 
 src_install() {
 	node-module_src_install
-	use examples && dodoc -r examples
-}
-
-src_test() {
-	node-module_src_test
-	tap test || die "Tests failed"
+	use examples && dodoc -r example
 }

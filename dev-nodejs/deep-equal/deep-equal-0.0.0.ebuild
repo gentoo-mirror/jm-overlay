@@ -4,25 +4,29 @@
 
 EAPI=6
 
+NODEJS_MIN_VERSION="0.4"
 NODE_MODULE_HAS_TEST="1"
-NODE_MODULE_TEST_DEPEND="tape:0.1.1"
 
 inherit node-module
 
-DESCRIPTION="Render nested hierarchies \"npm ls\" style with unicode pipes"
+DESCRIPTION="Node's assert.deepEqual algorithm"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
-IUSE="examples test"
+IUSE="test examples"
 
-DOCS=( readme.markdown )
+DEPEND="${DEPEND}
+	test? ( dev-util/tap )"
+
+DOCS=( README.markdown )
 
 src_install() {
 	node-module_src_install
-	use examples && dodoc -r examples
+	use examples && dodoc -r example
 }
 
 src_test() {
 	node-module_src_test
+	install_node_module_build_depend "tap:0"
 	tap test || die "Tests failed"
 }
