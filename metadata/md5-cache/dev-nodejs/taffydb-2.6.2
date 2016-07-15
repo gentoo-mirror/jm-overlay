@@ -1,4 +1,4 @@
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=install test unpack
 DEPEND=>=dev-vcs/git-1.8.2.1
 DESCRIPTION=An open-source library that brings database features into your applications
 EAPI=6
@@ -7,6 +7,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD-1
 RDEPEND=net-libs/nodejs
 SLOT=2.6.2
-_eclass_exported_funcs=src_unpack:git-r3 src_install:node-module
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	5832b76b819977a20fd778bbfcb6e619	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
+_eclass_exported_funcs=src_unpack:git-r3 src_test:node-module src_install:node-module
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	7917adc365ff0f8c6886a10063f8dc72	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
 _md5_=a4af477a271ff6df22ad9990f436e1e0

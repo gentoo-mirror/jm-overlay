@@ -127,12 +127,12 @@ dev-nodejs/date-now 0.1.4: A requirable version of Date.now()
 dev-nodejs/debug 2.2.0: Small debugging utility
 dev-nodejs/debuglog 1.0.1: Backport of util.debuglog from node v0.11
 dev-nodejs/decamelize 1.2.0: Convert a camelized string into a lowercased one with a custom separator
-dev-nodejs/deep-equal 1.0.1: Node's assert.deepEqual algorithm
+dev-nodejs/deep-equal 0.0.0 1.0.1: Node's assert.deepEqual algorithm
 dev-nodejs/deep-extend 0.4.1: Recursive object extending
 dev-nodejs/deeper 2.1.0: JavaScript "deep equality" / structural equality tester with Node.js flavor
 dev-nodejs/default-require-extensions 1.0.0: Node's default require extensions as a separate module
 dev-nodejs/defaults 1.0.3: Merge single level defaults over a config object
-dev-nodejs/defined 1.0.0: Return the first argument that is "!== undefined"
+dev-nodejs/defined 0.0.0 1.0.0: Return the first argument that is "!== undefined"
 dev-nodejs/delayed-stream 0.0.5 1.0.0: Buffers events from a stream until you are ready to handle them
 dev-nodejs/delegates 1.0.0: Delegate methods and accessors to another property
 dev-nodejs/dep-graph 1.1.0: Simple dependency graph management
@@ -478,6 +478,7 @@ dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code st
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 0.0.25: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2: Parse the test anything protocol
+dev-nodejs/tape 0.1.1: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/text-table 0.2.0: Borderless text tables with alignment

@@ -1,0 +1,14 @@
+DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap ) test? ( >=net-libs/nodejs-0.4 )
+DESCRIPTION=Node's assert.deepEqual algorithm
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/deep-equal
+IUSE=test examples test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=net-libs/nodejs-0.4
+SLOT=0.0.0
+SRC_URI=http://registry.npmjs.org/deep-equal/-/deep-equal-0.0.0.tgz
+_eclass_exported_funcs=src_test:- src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	7917adc365ff0f8c6886a10063f8dc72	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
+_md5_=b0f49b3fb1883522f09f896757da8992
