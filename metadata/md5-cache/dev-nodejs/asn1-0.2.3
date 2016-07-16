@@ -1,12 +1,14 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap ) test? ( net-libs/nodejs )
 DESCRIPTION=Contains parsers and serializers for ASN.1 (currently BER only)
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/asn1
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs
 SLOT=0.2.3
 SRC_URI=http://registry.npmjs.org/asn1/-/asn1-0.2.3.tgz
-_eclass_exported_funcs=src_test:node-module src_install:node-module
+_eclass_exported_funcs=src_test:- src_install:node-module
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	7917adc365ff0f8c6886a10063f8dc72	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
-_md5_=fd8fc21d3fbc894c283d191e32539222
+_md5_=691337fdd39d24247f8f45eac681df80
