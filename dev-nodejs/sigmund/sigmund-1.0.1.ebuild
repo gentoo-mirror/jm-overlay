@@ -4,22 +4,22 @@
 
 EAPI=6
 
-NODE_MODULE_DEPEND="util:0.10.3"
 NODE_MODULE_HAS_TEST="1"
 
 inherit node-module
 
-DESCRIPTION="Commonjs assert - node.js api compatible"
+DESCRIPTION="Quick and dirty signatures for Objects"
 
-LICENSE="MIT"
+LICENSE="ISC"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="${DEPEND}
-	test? ( dev-util/mocha )"
+	test? ( dev-util/tap )"
 
 DOCS=( README.md )
 
 src_test() {
 	node-module_src_test
-	mocha --ui qunit test.js || die "Tests failed"
+	install_node_module_build_depend "tap:0"
+	tap test || die "Tests failed"
 }
