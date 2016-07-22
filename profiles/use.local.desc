@@ -4,6 +4,9 @@
 
 app-arch/brotli:tools - Build and install the command line compression tool
 app-arch/zstd:tools - Build and install the command line compression tool
+app-emulation/darling:32bit - Build 32bit libraries to run 32bit OS X binaries
+app-emulation/darling:framework-appkit - Build the AppKit framework
+app-emulation/darling:framework-coreaudio - Build the CoreAudio framework
 dev-libs/pybind11:info - Build and install documentation as texinfo
 dev-libs/pybind11:man - Build and install documentation as manpages
 dev-nodejs/yargs:l10n_pirate - Joke "pirate" locale

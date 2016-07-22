@@ -2,6 +2,7 @@ app-arch/brotli 0.2.0 0.2.0-r1 0.3.0 0.4.0: Generic-purpose lossless compression
 app-arch/zstd 0.2.0-r3 0.4.6 0.4.7 0.5.0 0.5.1 0.6.0 0.6.1 0.7.0 0.7.1 0.7.2 0.7.3 0.7.4: Zstd, short for Zstandard, is a lossless compression algorithm
 app-doc/docco 0.7.0: The Quick and Dirty Literate Programming Documentation Generator
 app-doc/jsdoc 3.4.0: An API documentation generator for JavaScript
+app-emulation/darling 9999: MacOS translation layer for Linux
 app-misc/rdfind 1.3.4: Rdfind is a program that finds duplicate files
 dev-cpp/loguru 0.9 1.21: A header-only C++ logging library
 dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
