@@ -573,6 +573,7 @@ media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
 media-gfx/IOGraph 1.0.1: Application that turns mouse movements into modern art
 media-gfx/impack 1.0-r2 1.1-r2 1.2-r1 1.2.1-r1 1.3-r1: Store your data in images
 media-gfx/picture-tube 1.0.0-r2: Render 256 color images on the terminal
+media-gfx/scale2x 3.2: Real-time graphics effect able to increase the size of small bitmaps
 media-libs/vidstab 0.98b: Video stabilization library
 media-libs/zxing-cpp 9999: Multi-format 1D/2D barcode image processing library (C++ port)
 media-plugins/audacious-lyricwiki-offline 3.7.1: Patched version of audacious' LyricWiki plugin that works offline
