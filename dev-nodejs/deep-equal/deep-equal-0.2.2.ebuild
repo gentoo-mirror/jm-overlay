@@ -4,19 +4,13 @@
 
 EAPI=6
 
-NODE_MODULE_DEPEND="deep-equal:0.0.0
-	jsonify:0.0.0
-	defined:0.0.0"
-
 inherit node-module
 
-DESCRIPTION="Tap-producing test harness for node and browsers"
+DESCRIPTION="Node's assert.deepEqual algorithm"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
 IUSE="examples"
-
-RESTRICT="test" # Broken
 
 DOCS=( readme.markdown )
 

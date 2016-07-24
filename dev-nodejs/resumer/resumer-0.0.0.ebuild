@@ -4,19 +4,15 @@
 
 EAPI=6
 
-NODE_MODULE_DEPEND="deep-equal:0.0.0
-	jsonify:0.0.0
-	defined:0.0.0"
+NODE_MODULE_DEPEND="through:2.3.8"
 
 inherit node-module
 
-DESCRIPTION="Tap-producing test harness for node and browsers"
+DESCRIPTION="A through stream that starts paused and resumes on the next tick"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
 IUSE="examples"
-
-RESTRICT="test" # Broken
 
 DOCS=( readme.markdown )
 
