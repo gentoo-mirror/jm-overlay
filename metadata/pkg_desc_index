@@ -129,7 +129,7 @@ dev-nodejs/date-now 0.1.4: A requirable version of Date.now()
 dev-nodejs/debug 2.2.0: Small debugging utility
 dev-nodejs/debuglog 1.0.1: Backport of util.debuglog from node v0.11
 dev-nodejs/decamelize 1.2.0: Convert a camelized string into a lowercased one with a custom separator
-dev-nodejs/deep-equal 0.0.0 1.0.1: Node's assert.deepEqual algorithm
+dev-nodejs/deep-equal 0.0.0 0.2.2 1.0.1: Node's assert.deepEqual algorithm
 dev-nodejs/deep-extend 0.4.1: Recursive object extending
 dev-nodejs/deeper 2.1.0: JavaScript "deep equality" / structural equality tester with Node.js flavor
 dev-nodejs/default-require-extensions 1.0.0: Node's default require extensions as a separate module
@@ -432,6 +432,7 @@ dev-nodejs/requizzle 0.2.1: Swizzle a little something into your require() calls
 dev-nodejs/resolve 1.1.7: Resolve like require.resolve on behalf of files asynchronously and synchronously
 dev-nodejs/resolve-from 2.0.0: Resolve the path of a module like require.resolve() but from a given path
 dev-nodejs/restore-cursor 1.0.1: Gracefully restore the CLI cursor on exit
+dev-nodejs/resumer 0.0.0: A through stream that starts paused and resumes on the next tick
 dev-nodejs/retry 0.8.0 0.9.0: Abstraction for exponential and custom retry strategies for failed operations
 dev-nodejs/rimraf 2.5.2: A deep deletion module for node (like rm -rf)
 dev-nodejs/ripemd160 1.0.1: Compute ripemd160 of bytes or strings
@@ -483,7 +484,7 @@ dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code st
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 0.0.25: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2: Parse the test anything protocol
-dev-nodejs/tape 0.1.1: Tap-producing test harness for node and browsers
+dev-nodejs/tape 0.1.1 2.4.1: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/text-table 0.2.0: Borderless text tables with alignment
