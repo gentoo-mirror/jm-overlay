@@ -159,10 +159,10 @@ dev-nodejs/end-of-stream 1.0.0: Call a callback when a readable/writable/duplex 
 dev-nodejs/error-ex 1.3.0: Easy error subclassing and stack customization
 dev-nodejs/escape-html 1.0.3: Escape string for use in HTML
 dev-nodejs/escape-string-regexp 1.0.2 1.0.5: Escape RegExp special characters
-dev-nodejs/escodegen 1.8.0: ECMAScript code generator
+dev-nodejs/escodegen 0.0.17 1.8.0: ECMAScript code generator
 dev-nodejs/espree 2.2.5: An actively-maintained fork of Esprima
 dev-nodejs/esprima 1.0.4 2.7.2: ECMAScript parsing infrastructure for multipurpose analysis
-dev-nodejs/estraverse 1.9.3: ECMAScript JS AST traversal functions
+dev-nodejs/estraverse 0.0.4 1.9.3: ECMAScript JS AST traversal functions
 dev-nodejs/esutils 2.0.2: Utility box for ECMAScript language tools
 dev-nodejs/etag 1.7.0: Create simple ETags
 dev-nodejs/event-stream 0.9.8: Construct pipes of streams of events
@@ -199,7 +199,7 @@ dev-nodejs/fs-write-stream-atomic 1.0.8: Like fs.createWriteStream(...), but ato
 dev-nodejs/fstream 1.0.9: Advanced file system stream things
 dev-nodejs/fstream-ignore 1.0.4: A thing for ignoring files based on globs
 dev-nodejs/fstream-npm 1.0.7: Fstream class for creating npm package
-dev-nodejs/function-bind 1.1.0: Implementation of Function.prototype.bind
+dev-nodejs/function-bind 1.0.2 1.1.0: Implementation of Function.prototype.bind
 dev-nodejs/gauge 1.2.7: A terminal based horizontal guage
 dev-nodejs/generate-function 2.0.0: Module that helps you write generated functions in Node
 dev-nodejs/generate-object-property 1.2.0: Generate safe JS code that can used to reference a object property
@@ -350,6 +350,7 @@ dev-nodejs/number-is-nan 1.0.0: ES6 Number.isNaN() ponyfill
 dev-nodejs/nyc 6.6.1: A code coverage tool that works well with subprocesses
 dev-nodejs/oauth-sign 0.4.0 0.6.0 0.8.2: OAuth 1 signing
 dev-nodejs/object-assign 3.0.0 4.0.1 4.1.0: ES2015 Object.assign() ponyfill
+dev-nodejs/object-inspect 1.0.2: String representations of objects in node and the browser
 dev-nodejs/object-keys 1.0.9: An Object.keys replacement, in case Object.keys is not available
 dev-nodejs/object-omit 2.0.0: Return a copy of an object excluding the given key, or array of keys
 dev-nodejs/on-finished 2.3.0: Execute a callback when a request closes, finishes, or errors
