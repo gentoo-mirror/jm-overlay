@@ -582,7 +582,7 @@ media-plugins/audacious-lyricwiki-offline 3.7.1: Patched version of audacious' L
 media-video/nordlicht 0.4.2 0.4.3 0.4.4: library + tool that creates colorful video barcodes
 net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48 2.4.102 2.4.103 2.5.0: Python WhatsApp library and CLI client
 net-libs/cpr 1.1 1.2.0: Simple wrapper around libcurl inspired by the Python Requests project
-net-libs/libpsl 0.12.0 0.13.0: C library to handle the Public Suffix List
+net-libs/libpsl 0.14.0: C library to handle the Public Suffix List
 net-misc/ddclient-gui 9999: Qt4 interface for net-misc/downloaddaemon
 net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
 net-misc/downloaddaemon 9999: A download manager that runs in the background
