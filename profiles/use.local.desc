@@ -2,7 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-arch/brotli:tools - Build and install the command line compression tool
 app-arch/zstd:tools - Build and install the command line compression tool
 app-emulation/darling:32bit - Build 32bit libraries to run 32bit OS X binaries
 app-emulation/darling:framework-appkit - Build the AppKit framework
