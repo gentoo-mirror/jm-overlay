@@ -1,0 +1,13 @@
+DEFINED_PHASES=install test
+DESCRIPTION=Base reporting library for istanbul
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/istanbul-lib-report
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=net-libs/nodejs dev-nodejs/path-parse:1.0.5 dev-nodejs/istanbul-lib-coverage:1.0.0 dev-nodejs/async:1.5.2 dev-nodejs/supports-color:3.1.2 dev-nodejs/mkdirp:0.5.1 dev-nodejs/rimraf:2.5.4
+SLOT=1.0.0-alpha.3
+SRC_URI=http://registry.npmjs.org/istanbul-lib-report/-/istanbul-lib-report-1.0.0-alpha.3.tgz
+_eclass_exported_funcs=src_test:node-module src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=227db6d7bcc9bdc8677a102a5a47897f

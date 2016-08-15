@@ -1,0 +1,12 @@
+DEFINED_PHASES=install test
+DESCRIPTION=Collection of debug messages used by Babel
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/babel-messages
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=net-libs/nodejs dev-nodejs/babel-runtime:6.11.6
+SLOT=6.8.0
+SRC_URI=http://registry.npmjs.org/babel-messages/-/babel-messages-6.8.0.tgz
+_eclass_exported_funcs=src_test:node-module src_install:node-module
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=fda4f05bb43e77abde4d98a0d1f12545

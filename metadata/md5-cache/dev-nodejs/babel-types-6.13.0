@@ -1,0 +1,13 @@
+DEFINED_PHASES=install test
+DESCRIPTION=Methods for building ASTs manually and for checking the types of AST nodes
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/babel-types
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=dev-nodejs/babel-traverse:6.13.0
+RDEPEND=net-libs/nodejs dev-nodejs/to-fast-properties:1.0.2 dev-nodejs/esutils:2.0.2 dev-nodejs/lodash:4.15.0 dev-nodejs/babel-runtime:6.11.6
+SLOT=6.13.0
+SRC_URI=http://registry.npmjs.org/babel-types/-/babel-types-6.13.0.tgz
+_eclass_exported_funcs=src_test:node-module src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=763bfc8b628fa319522a3a273ee5af80

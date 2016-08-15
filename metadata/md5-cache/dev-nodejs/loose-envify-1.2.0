@@ -1,0 +1,12 @@
+DEFINED_PHASES=install test
+DESCRIPTION=Fast selective process.env replacer using js-tokens instead of an AST
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/loose-envify
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=net-libs/nodejs dev-nodejs/js-tokens:1.0.3
+SLOT=1.2.0
+SRC_URI=http://registry.npmjs.org/loose-envify/-/loose-envify-1.2.0.tgz
+_eclass_exported_funcs=src_test:node-module src_install:node-module
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=fa0988221db34613d90bf6a04e3f94f2
