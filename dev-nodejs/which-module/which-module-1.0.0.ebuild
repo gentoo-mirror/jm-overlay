@@ -4,14 +4,12 @@
 
 EAPI=6
 
-NODEJS_MIN_VERSION="0.6"
-
 inherit node-module
 
-DESCRIPTION="A querystring parser that supports nesting and arrays, with a depth limit"
+DESCRIPTION="Find the module object for something that was require()d"
 
-LICENSE="BSD"
+LICENSE="ISC"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DOCS=( README.md CONTRIBUTING.md CHANGELOG.md )
+DOCS=( README.md CHANGELOG.md )

@@ -4,14 +4,14 @@
 
 EAPI=6
 
-NODEJS_MIN_VERSION="0.6"
+NODEJS_MIN_VERSION="0.8"
 
 inherit node-module
 
-DESCRIPTION="A querystring parser that supports nesting and arrays, with a depth limit"
+DESCRIPTION="RFC6265 Cookies and Cookie Jar for node.js"
 
 LICENSE="BSD"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DOCS=( README.md CONTRIBUTING.md CHANGELOG.md )
+DOCS=( README.md )

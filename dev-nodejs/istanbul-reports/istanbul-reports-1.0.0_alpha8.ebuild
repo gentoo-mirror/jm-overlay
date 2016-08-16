@@ -4,14 +4,15 @@
 
 EAPI=6
 
-NODEJS_MIN_VERSION="0.6"
+NODE_MODULE_DEPEND="handlebars:4.0.5"
 
 inherit node-module
 
-DESCRIPTION="A querystring parser that supports nesting and arrays, with a depth limit"
+SLOT="1.0.0-alpha.8"
+SRC_URI="http://registry.npmjs.org/${PN}/-/${PN}-${SLOT}.tgz"
+
+DESCRIPTION="Istanbul reports"
 
 LICENSE="BSD"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-
-DOCS=( README.md CONTRIBUTING.md CHANGELOG.md )
