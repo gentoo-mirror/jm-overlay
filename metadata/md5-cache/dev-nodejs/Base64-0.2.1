@@ -1,13 +1,14 @@
 DEFINED_PHASES=compile install prepare test
-DEPEND=dev-util/uglifyjs
+DEPEND=dev-util/uglifyjs test? ( dev-lang/coffee-script dev-util/mocha ) test? ( net-libs/nodejs )
 DESCRIPTION=Base64 encoding and decoding
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/Base64
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=WTFPL-2
 RDEPEND=net-libs/nodejs
 SLOT=0.2.1
 SRC_URI=http://registry.npmjs.org/Base64/-/Base64-0.2.1.tgz
-_eclass_exported_funcs=src_prepare:- src_compile:- src_test:node-module src_install:node-module
+_eclass_exported_funcs=src_prepare:- src_compile:- src_test:- src_install:node-module
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=2828f541f856cab43db9185b32e01738
+_md5_=41d0a37061a31f05d8d646142e3699a9

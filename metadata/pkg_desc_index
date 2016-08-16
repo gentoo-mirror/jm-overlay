@@ -146,6 +146,7 @@ dev-nodejs/deep-extend 0.4.1: Recursive object extending
 dev-nodejs/deeper 2.1.0: JavaScript "deep equality" / structural equality tester with Node.js flavor
 dev-nodejs/default-require-extensions 1.0.0: Node's default require extensions as a separate module
 dev-nodejs/defaults 1.0.3: Merge single level defaults over a config object
+dev-nodejs/define-properties 1.1.2: Define multiple non-enumerable properties at once
 dev-nodejs/defined 0.0.0 1.0.0: Return the first argument that is "!== undefined"
 dev-nodejs/delayed-stream 0.0.5 1.0.0: Buffers events from a stream until you are ready to handle them
 dev-nodejs/delegates 1.0.0: Delegate methods and accessors to another property
@@ -170,6 +171,8 @@ dev-nodejs/elementtree 0.1.6: XML Serialization and Parsing module based on Pyth
 dev-nodejs/elliptic 6.2.3-r1: EC cryptography
 dev-nodejs/end-of-stream 1.0.0: Call a callback when a readable/writable/duplex stream has completed or failed
 dev-nodejs/error-ex 1.3.0: Easy error subclassing and stack customization
+dev-nodejs/es-abstract 1.5.1: ECMAScript spec abstract operations
+dev-nodejs/es-to-primitive 1.1.1: ECMAScript ToPrimitive algorithm. Provides ES5 and ES6 versions.
 dev-nodejs/escape-html 1.0.3: Escape string for use in HTML
 dev-nodejs/escape-string-regexp 1.0.2 1.0.5: Escape RegExp special characters
 dev-nodejs/escodegen 0.0.17 1.8.0: ECMAScript code generator
@@ -266,6 +269,8 @@ dev-nodejs/is-absolute 0.1.7: Return true if a file path is absolute
 dev-nodejs/is-arrayish 0.2.1: Determines if an object can be used as an array
 dev-nodejs/is-buffer 1.1.3 1.1.4: Determine if an object is Buffer
 dev-nodejs/is-builtin-module 1.0.0: Check if a string matches the name of a Node.js builtin module
+dev-nodejs/is-callable 1.1.3: Is this JS value callable?
+dev-nodejs/is-date-object 1.0.1: Is this value a JS Date object?
 dev-nodejs/is-dotfile 1.0.2: Return true if a file path is (or has) a dotfile
 dev-nodejs/is-equal-shallow 0.1.3: Does a shallow comparison of two objects
 dev-nodejs/is-extendable 0.1.1: Returns true if a value is an extendable object
@@ -280,8 +285,10 @@ dev-nodejs/is-posix-bracket 0.1.1: Returns true if the given string is a POSIX b
 dev-nodejs/is-primitive 2.0.0: Returns true if the value is a primitive
 dev-nodejs/is-property 1.0.2: Tests if a JSON property can be accessed using . syntax
 dev-nodejs/is-redirect 1.0.0: Check if a number is a redirect HTTP status code
+dev-nodejs/is-regex 1.0.3: Is this value a JS regex?
 dev-nodejs/is-relative 0.1.3: Returns true if the path appears to be relative
 dev-nodejs/is-stream 1.1.0: Check if something is a Node.js stream
+dev-nodejs/is-symbol 1.0.1: Determine if a value is an ES6 Symbol or not
 dev-nodejs/is-typedarray 1.0.0: Detect whether or not an object is a Typed Array
 dev-nodejs/is-url 1.2.1: Check whether a string is a URL
 dev-nodejs/is-utf8 0.2.1: Detect if a buffer is utf8 encoded
@@ -384,7 +391,7 @@ dev-nodejs/number-is-nan 1.0.0: ES6 Number.isNaN() ponyfill
 dev-nodejs/nyc 6.6.1 7.1.0: The Istanbul command line interface
 dev-nodejs/oauth-sign 0.4.0 0.6.0 0.8.2: OAuth 1 signing
 dev-nodejs/object-assign 3.0.0 4.0.1 4.1.0: ES2015 Object.assign() ponyfill
-dev-nodejs/object-inspect 1.0.2: String representations of objects in node and the browser
+dev-nodejs/object-inspect 1.0.2 1.2.1: String representations of objects in node and the browser
 dev-nodejs/object-keys 1.0.9 1.0.11: An Object.keys replacement, in case Object.keys is not available
 dev-nodejs/object-omit 2.0.0: Return a copy of an object excluding the given key, or array of keys
 dev-nodejs/on-finished 2.3.0: Execute a callback when a request closes, finishes, or errors
@@ -509,6 +516,7 @@ dev-nodejs/stream-buffers 0.2.6: Buffer-backed Streams for reading and writing
 dev-nodejs/stream-combiner2 1.0.2: This is a sequel to stream-combiner for streams2
 dev-nodejs/stream-splicer 1.3.2: Streaming pipeline with a mutable configuration
 dev-nodejs/string-length 1.0.1: Get the real length of a string
+dev-nodejs/string-prototype-trim 1.1.2: ES5 spec-compliant shim for String.prototype.trim
 dev-nodejs/string-width 1.0.1 1.0.2: Get the visual width of a string
 dev-nodejs/string_decoder 0.10.31: The string_decoder module from Node core
 dev-nodejs/stringstream 0.0.5: Encode and decode streams into string streams
@@ -522,7 +530,7 @@ dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code st
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2 1.3.2: Parse the test anything protocol
-dev-nodejs/tape 0.1.1 2.4.1: Tap-producing test harness for node and browsers
+dev-nodejs/tape 0.1.1 2.4.1 4.6.0: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/text-table 0.2.0: Borderless text tables with alignment

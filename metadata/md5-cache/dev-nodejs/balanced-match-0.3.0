@@ -1,13 +1,14 @@
 DEFINED_PHASES=compile install test
+DEPEND=test? ( dev-util/tap ) test? ( net-libs/nodejs dev-nodejs/tape:4.6.0 )
 DESCRIPTION=Match balanced character pairs, like "{" and "}"
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/balanced-match
-IUSE=examples
+IUSE=examples test test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs
 SLOT=0.3.0
 SRC_URI=http://registry.npmjs.org/balanced-match/-/balanced-match-0.3.0.tgz
-_eclass_exported_funcs=src_compile:- src_test:node-module src_install:-
+_eclass_exported_funcs=src_compile:- src_test:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=884011fb8f92b4300c3e597fb180387c
+_md5_=b3236a5fdee3543415ae3fa8c8575f36
