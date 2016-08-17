@@ -4,20 +4,21 @@
 
 EAPI=6
 
-NODE_MODULE_NAME="bn.js"
-NODE_MODULE_EXTRA_FILES="util"
+NODEJS_MIN_VERSION="0.6.0"
 NODE_MODULE_HAS_TEST="1"
+NODE_MODULE_TEST_DEPEND="async:0.2.10"
 
 inherit node-module
 
-DESCRIPTION="Big number implementation in pure javascript"
+DESCRIPTION="A simple utility for getting a hash of a file"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
+IUSE=""
 
 DEPEND="${DEPEND}
 	test? ( dev-util/mocha )"
-DOCS=( README.md )
+DOCS=( README.md History.md )
 
 src_test() {
 	node-module_src_test
