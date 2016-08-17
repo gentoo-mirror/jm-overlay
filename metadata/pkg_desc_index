@@ -3,6 +3,7 @@ app-arch/zstd 0.2.0-r3 0.4.6 0.4.7 0.5.0 0.5.1 0.6.0 0.6.1 0.7.0 0.7.1 0.7.2 0.7
 app-doc/docco 0.7.0: The Quick and Dirty Literate Programming Documentation Generator
 app-doc/jsdoc 3.4.0: An API documentation generator for JavaScript
 app-emulation/darling 9999: MacOS translation layer for Linux
+app-eselect/eselect-timidity 20110513-r1: Manages configuration of TiMidity++ patchsets
 app-misc/rdfind 1.3.4: Rdfind is a program that finds duplicate files
 dev-cpp/loguru 0.9 1.21: A header-only C++ logging library
 dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
@@ -234,11 +235,12 @@ dev-nodejs/graceful-readlink 1.0.1: Graceful fs.readlink
 dev-nodejs/growl 1.9.2: Growl unobtrusive notifications
 dev-nodejs/handlebars 4.0.5: Provides the power necessary to let you build semantic templates effectively
 dev-nodejs/har-validator 2.0.6: Extremely fast HTTP Archive (HAR) validator using JSON Schema
-dev-nodejs/has 1.0.1: Object.prototype.hasOwnProperty.call shortcut
+dev-nodejs/has 0.0.1 1.0.1: Object.prototype.hasOwnProperty.call shortcut
 dev-nodejs/has-ansi 2.0.0: Check if a string has ANSI escape codes
 dev-nodejs/has-flag 1.0.0: Check if argv has a specific flag
 dev-nodejs/has-unicode 2.0.0: Try to guess if your terminal supports unicode
 dev-nodejs/hash-js 1.0.3-r1: Various hash functions that could be run by both browser and node
+dev-nodejs/hash_file 0.1.1: A simple utility for getting a hash of a file
 dev-nodejs/hawk 1.1.1 3.1.3: HTTP Hawk Authentication Scheme
 dev-nodejs/highlight-js 9.3.0: Syntax highlighting with language autodetection
 dev-nodejs/hoek 0.9.1 2.16.3: General purpose node utilities
@@ -530,7 +532,7 @@ dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code st
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2 1.3.2: Parse the test anything protocol
-dev-nodejs/tape 0.1.1 2.4.1 4.6.0: Tap-producing test harness for node and browsers
+dev-nodejs/tape 0.1.1 2.4.1 2.14.1 4.6.0: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/text-table 0.2.0: Borderless text tables with alignment
@@ -626,6 +628,7 @@ media-gfx/scale2x 3.2: Real-time graphics effect able to increase the size of sm
 media-libs/vidstab 0.98b: Video stabilization library
 media-libs/zxing-cpp 9999: Multi-format 1D/2D barcode image processing library (C++ port)
 media-plugins/audacious-lyricwiki-offline 3.7.1: Patched version of audacious' LyricWiki plugin that works offline
+media-sound/musyng-kite-soundfont 20140621: Final, definitive revision of the former Evanessence soundfont
 media-video/nordlicht 0.4.2 0.4.3 0.4.4: library + tool that creates colorful video barcodes
 net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48 2.4.102 2.4.103 2.5.0: Python WhatsApp library and CLI client
 net-libs/cpr 1.1 1.2.0: Simple wrapper around libcurl inspired by the Python Requests project

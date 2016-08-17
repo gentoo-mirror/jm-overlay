@@ -1,0 +1,14 @@
+DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/mocha ) test? ( >=net-libs/nodejs-0.6.0 dev-nodejs/async:0.2.10 )
+DESCRIPTION=A simple utility for getting a hash of a file
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/hash_file
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=net-libs/nodejs-0.6.0
+SLOT=0.1.1
+SRC_URI=http://registry.npmjs.org/hash_file/-/hash_file-0.1.1.tgz
+_eclass_exported_funcs=src_test:- src_install:node-module
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=f9e7085e4c2d7fed568cdc7cc000d457

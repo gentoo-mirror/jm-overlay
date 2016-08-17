@@ -1,12 +1,14 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/mocha ) test? ( net-libs/nodejs )
 DESCRIPTION=Big number implementation in pure javascript
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/bn.js
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs
 SLOT=4.11.3
 SRC_URI=http://registry.npmjs.org/bn.js/-/bn.js-4.11.3.tgz
-_eclass_exported_funcs=src_test:node-module src_install:node-module
+_eclass_exported_funcs=src_test:- src_install:node-module
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=440905738e4858b7d53e18db82be2ccf
+_md5_=aa3e2a13e6dc483348a79f03c3acb9b0

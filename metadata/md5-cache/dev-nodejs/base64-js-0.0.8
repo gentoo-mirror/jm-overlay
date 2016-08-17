@@ -1,12 +1,14 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap ) test? ( >=net-libs/nodejs-0.4 dev-nodejs/tape:2.14.1 )
 DESCRIPTION=Base64 encoding/decoding in pure JS
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/base64-js
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=net-libs/nodejs-0.4
 SLOT=0.0.8
 SRC_URI=http://registry.npmjs.org/base64-js/-/base64-js-0.0.8.tgz
-_eclass_exported_funcs=src_test:node-module src_install:node-module
+_eclass_exported_funcs=src_test:- src_install:node-module
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=3f8a974b534f81b382ddf929dce87332
+_md5_=e5c1a143976bbd75f9369e4818b47757
