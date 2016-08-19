@@ -1,14 +1,14 @@
 DEFINED_PHASES=install test
-DEPEND=test? ( dev-util/tap:0 ) test? ( >=net-libs/nodejs-0.4 )
-DESCRIPTION=Node's assert.deepEqual algorithm
+DEPEND=test? ( dev-util/tap:0 ) test? ( net-libs/nodejs dev-nodejs/tape:1.0.4 )
+DESCRIPTION=Encode and decode HTML entities
 EAPI=6
-HOMEPAGE=https://www.npmjs.org/package/deep-equal
+HOMEPAGE=https://www.npmjs.org/package/ent
 IUSE=test examples test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=>=net-libs/nodejs-0.4
-SLOT=0.0.0
-SRC_URI=http://registry.npmjs.org/deep-equal/-/deep-equal-0.0.0.tgz
+RDEPEND=net-libs/nodejs
+SLOT=0.0.7
+SRC_URI=http://registry.npmjs.org/ent/-/ent-0.0.7.tgz
 _eclass_exported_funcs=src_test:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=65a8e51d8e6f0dab2ef86aab01d7e331
+_md5_=5753064279888ea4eb598696986bdb58

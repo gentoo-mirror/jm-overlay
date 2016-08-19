@@ -63,7 +63,7 @@ dev-nodejs/bluebird 2.9.34 3.4.1: Full featured Promises/A+ implementation with 
 dev-nodejs/bn-js 4.11.3: Big number implementation in pure javascript
 dev-nodejs/boom 0.4.2 2.10.1: HTTP-friendly error objects
 dev-nodejs/bplist-creator 0.0.4: Binary Mac OS X Plist (property list) creator
-dev-nodejs/bplist-parser 0.0.6 0.1.1: Binary plist parser
+dev-nodejs/bplist-parser 0.0.4 0.0.6 0.1.1: Binary plist parser
 dev-nodejs/brace-expansion 1.1.3 1.1.5: Brace expansion as known from sh/bash
 dev-nodejs/braces 1.8.5: Fastest brace expansion for node.js
 dev-nodejs/brorand 1.0.5: Random number generator for browsers and node.js
@@ -79,11 +79,14 @@ dev-nodejs/browserify-sign 4.0.0: Adds node crypto signing for browsers
 dev-nodejs/browserify-transform-tools 1.5.3: Utilities for writing browserify transforms
 dev-nodejs/browserify-zlib 0.1.4: Full zlib module for browserify
 dev-nodejs/buffer 3.6.0: Node.js Buffer API, for the browser
+dev-nodejs/buffer-equal 0.0.2: Return whether two buffers are equal
 dev-nodejs/buffer-shims 1.0.0: Some shims for node buffers
 dev-nodejs/buffer-xor 1.0.3: A simple module for bitwise-xor on buffers
 dev-nodejs/buffers 0.1.1: Treat a collection of Buffers as a single contiguous partially mutable Buffer
 dev-nodejs/builtin-modules 1.1.1: List of the Node.js builtin modules
 dev-nodejs/builtins 0.0.7: List of node.js builtin modules
+dev-nodejs/bunker 0.1.2: Code coverage in native javascript
+dev-nodejs/burrito 0.2.12: Wrap up expressions with a trace function while walking the AST
 dev-nodejs/bytes 2.2.0: Utility to parse a string bytes to bytes and vice-versa
 dev-nodejs/caching-transform 1.0.1: Wraps a transform and provides caching
 dev-nodejs/camelcase 2.1.1 3.0.0: Convert a dash/dot/underscore/space separated string to camelCase
@@ -146,6 +149,7 @@ dev-nodejs/debuglog 1.0.1: Backport of util.debuglog from node v0.11
 dev-nodejs/decamelize 1.2.0: Convert a camelized string into a lowercased one with a custom separator
 dev-nodejs/deep-equal 0.0.0 0.2.2 1.0.1: Node's assert.deepEqual algorithm
 dev-nodejs/deep-extend 0.4.1: Recursive object extending
+dev-nodejs/deep-is 0.1.3: Node's assert.deepEqual algorithm except for NaN being equal to NaN
 dev-nodejs/deeper 2.1.0: JavaScript "deep equality" / structural equality tester with Node.js flavor
 dev-nodejs/default-require-extensions 1.0.0: Node's default require extensions as a separate module
 dev-nodejs/defaults 1.0.3: Merge single level defaults over a config object
@@ -164,6 +168,7 @@ dev-nodejs/detective 4.3.1: Find all require() calls by walking the AST
 dev-nodejs/dezalgo 1.0.3: Contain async insanity so that the dark pony lord doesn't eat souls
 dev-nodejs/diff 1.4.0: A javascript text diff implementation
 dev-nodejs/diffie-hellman 5.0.2: Pure js diffie-hellman
+dev-nodejs/difflet 0.2.6: Colorful diffs for javascript objects
 dev-nodejs/domain-browser 1.1.7: Node's domain module for the web browser
 dev-nodejs/duplexer2 0.0.2: Like duplexer but using streams2
 dev-nodejs/duplexify 3.4.3: Turn a writeable and readable stream into a streams2 duplex stream
@@ -173,6 +178,7 @@ dev-nodejs/ee-first 1.1.1: Return the first event in a set of ee/event pairs
 dev-nodejs/elementtree 0.1.6: XML Serialization and Parsing module based on Python's ElementTree
 dev-nodejs/elliptic 6.2.3-r1: EC cryptography
 dev-nodejs/end-of-stream 1.0.0: Call a callback when a readable/writable/duplex stream has completed or failed
+dev-nodejs/ent 0.0.7: Encode and decode HTML entities
 dev-nodejs/error-ex 1.3.0: Easy error subclassing and stack customization
 dev-nodejs/es-abstract 1.5.1: ECMAScript spec abstract operations
 dev-nodejs/es-to-primitive 1.1.1: ECMAScript ToPrimitive algorithm. Provides ES5 and ES6 versions.
@@ -486,6 +492,7 @@ dev-nodejs/retry 0.8.0 0.9.0: Abstraction for exponential and custom retry strat
 dev-nodejs/rimraf 2.5.2 2.5.4: A deep deletion module for node (like rm -rf)
 dev-nodejs/ripemd160 1.0.1: Compute ripemd160 of bytes or strings
 dev-nodejs/run-async 0.1.0: Utility method to run function either synchronously or asynchronously
+dev-nodejs/runforcover 0.0.2: Require plugin for js code coverage using bunker
 dev-nodejs/rx-lite 3.1.2: Lightweight library for composing asynchronous and event-based operations
 dev-nodejs/sax 0.3.5: An evented streaming XML parser in JavaScript
 dev-nodejs/semver 4.3.6 5.1.0: The semantic version parser used by npm
@@ -499,6 +506,7 @@ dev-nodejs/shallow-copy 0.0.1: Make a shallow copy of an object or array
 dev-nodejs/shasum 1.0.2: Single function that returns the sha1sum
 dev-nodejs/shell-quote 0.0.1: Quote and parse shell commands
 dev-nodejs/shelljs 0.3.0 0.5.3-r1 0.7.0: Portable Unix shell commands for Node.js
+dev-nodejs/should 0.4.2: Test framework agnostic BDD-style assertions
 dev-nodejs/sigmund 1.0.1: Quick and dirty signatures for Objects
 dev-nodejs/signal-exit 2.1.2 3.0.0: When you want to fire an event no matter how a process exits
 dev-nodejs/simple-plist 0.1.4: A wrapper utility for interacting with plist data
@@ -534,7 +542,7 @@ dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code st
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2 1.3.2: Parse the test anything protocol
-dev-nodejs/tape 0.1.1 2.4.1 2.14.1 4.6.0: Tap-producing test harness for node and browsers
+dev-nodejs/tape 0.1.1 1.0.4 2.4.1 2.14.1 4.6.0: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/text-table 0.2.0: Borderless text tables with alignment
@@ -546,12 +554,13 @@ dev-nodejs/tmatch 2.0.1: This module exists to facilitate the t.match() method i
 dev-nodejs/to-fast-properties 1.0.2: Force V8 to use fast properties for an object
 dev-nodejs/to-iso-string 0.0.2: Cross-browser toISOString support
 dev-nodejs/tough-cookie 2.2.2 2.3.1: RFC6265 Cookies and Cookie Jar for node.js
+dev-nodejs/traverse 0.5.2 0.6.6: Traverse and transform objects by visiting every node on a recursive walk
 dev-nodejs/tty-browserify 0.0.0: The tty module from node core for browsers
 dev-nodejs/tunnel-agent 0.4.2 0.4.3: HTTP proxy tunneling agent
 dev-nodejs/tweetnacl 0.13.3: Port of TweetNaCl cryptographic library to JavaScript
 dev-nodejs/type-is 1.6.12: Infer the content-type of a request
 dev-nodejs/typedarray 0.0.6: TypedArray polyfill for old browsers
-dev-nodejs/uglify-js 2.7.0: JavaScript parser, mangler/compressor and beautifier toolkit
+dev-nodejs/uglify-js 1.1.1 2.7.0: JavaScript parser, mangler/compressor and beautifier toolkit
 dev-nodejs/uglify-to-browserify 1.0.2: A transform to make UglifyJS work in browserify
 dev-nodejs/uid-number 0.0.6: Convert a username/group name to a uid/gid number
 dev-nodejs/umask 1.1.0: Convert umask from string <-> number
@@ -592,6 +601,7 @@ dev-nodejs/xmldom 0.1.22: A W3C Standard XML DOM implementation and parser
 dev-nodejs/xtend 3.0.0 4.0.1: Extend like a boss
 dev-nodejs/y18n 3.2.1: The bare-bones internationalization library used by yargs
 dev-nodejs/yallist 2.0.0: Yet Another Linked List
+dev-nodejs/yamlish 0.0.7: Parser/encoder for the yamlish format
 dev-nodejs/yargs 1.3.3 4.7.1 4.8.1: Yargs the modern, pirate-themed, successor to optimist
 dev-nodejs/yargs-parser 2.4.0 2.4.1: The mighty option parser used by yargs
 dev-python/axolotl 0.1.7 0.1.35 9999-r1: Python port of libaxolotl
@@ -600,11 +610,11 @@ dev-python/python-zstd 0.7.5.1: Python bindings to Yann Collet ZSTD compression 
 dev-python/sophy 0.1.6: Fast Python bindings for Sophia Database
 dev-util/bindiff 4.2.0: Quickly find differences and similarities in disassembled code
 dev-util/cordova 6.1.1-r2 6.2.0-r1: Cordova command line interface tool
-dev-util/meson 0.31.0 0.32.0 0.33.0: The Meson Build System
 dev-util/mocha 2.5.3 3.0.0 3.0.1 3.0.2: Simple, flexible, fun test framework
 dev-util/movfuscator 9999: The single instruction C compiler
+dev-util/nodeunit 0.9.1: Easy unit testing for node.js and the browser
 dev-util/pegjs 0.9.0: Parser generator for JavaScript
-dev-util/tap 6.1.1 6.2.0 6.3.2: A Test-Anything-Protocol library
+dev-util/tap 0.7.1 6.1.1 6.2.0 6.3.2: A Test-Anything-Protocol library
 dev-util/uglifyjs 2.4.10: JavaScript parser, mangler/compressor and beautifier toolkit
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
