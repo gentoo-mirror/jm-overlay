@@ -8,5 +8,5 @@ RDEPEND=net-libs/nodejs dev-nodejs/semver:5.1.0 dev-nodejs/hosted-git-info:2.1.4
 SLOT=4.1.1
 SRC_URI=http://registry.npmjs.org/npm-package-arg/-/npm-package-arg-4.1.1.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=fc98e411f71d0d6c986266471d248595
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=1a5019fc604f05ff8761d56f270b50aa

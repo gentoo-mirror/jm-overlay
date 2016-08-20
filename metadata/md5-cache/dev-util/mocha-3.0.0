@@ -8,5 +8,5 @@ RDEPEND=dev-nodejs/lodash-create:3.1.1 >=net-libs/nodejs-0.8 dev-nodejs/escape-s
 SLOT=0
 SRC_URI=http://registry.npmjs.org/mocha/-/mocha-3.0.0.tgz
 _eclass_exported_funcs=src_test:node-module src_install:-
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=6a13d1b3910e786bc4dd23611e66000c
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=614e8cb6d3f666699953fdacb83e9de1

@@ -8,5 +8,5 @@ RDEPEND=net-libs/nodejs dev-nodejs/babylon:6.8.4 dev-nodejs/babel-types:6.13.0 d
 SLOT=6.9.0
 SRC_URI=http://registry.npmjs.org/babel-template/-/babel-template-6.9.0.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	f7ac26526c4adae8d865397d5df13e8c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=288c00ad84ce0d386cc9bd72a60eb511
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=bc0aa28feadc99a4ea9c1ac3607839ca
