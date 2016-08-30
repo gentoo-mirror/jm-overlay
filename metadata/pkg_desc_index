@@ -61,7 +61,7 @@ dev-nodejs/base64-js 0.0.6 0.0.8: Base64 encoding/decoding in pure JS
 dev-nodejs/big-integer 1.6.12 1.6.15: An arbitrary length integer library for Javascript
 dev-nodejs/bl 0.9.5 1.0.3 1.1.2: Buffer List: Collect buffers, access with a standard readable Buffer interface
 dev-nodejs/block-stream 0.0.8 0.0.9: A stream of blocks
-dev-nodejs/bluebird 2.9.34 3.4.1: Full featured Promises/A+ implementation with exceptionally good performance
+dev-nodejs/bluebird 2.9.34 3.4.1 3.4.3: Full featured Promises/A+ implementation with exceptionally good performance
 dev-nodejs/bn-js 4.11.3: Big number implementation in pure javascript
 dev-nodejs/boom 0.4.2 2.10.1: HTTP-friendly error objects
 dev-nodejs/bplist-creator 0.0.4: Binary Mac OS X Plist (property list) creator
@@ -240,7 +240,7 @@ dev-nodejs/get-stdin 4.0.1: Easier stdin
 dev-nodejs/getpass 0.1.6: Getpass for node.js
 dev-nodejs/github-url-from-git 1.4.0: Parse a github git url and return the github repo url
 dev-nodejs/github-url-from-username-repo 1.0.2: Create urls from username/repo
-dev-nodejs/glob 3.2.11 4.5.3 5.0.15 6.0.4 7.0.3 7.0.5: A little globber
+dev-nodejs/glob 3.2.11 4.5.3 5.0.15 6.0.4 7.0.3 7.0.5 7.0.6: A little globber
 dev-nodejs/glob-base 0.3.0: Returns an object with the (non-glob) base path and the actual pattern
 dev-nodejs/glob-parent 2.0.0: Strips glob magic from a string to provide the parent path
 dev-nodejs/globals 8.18.0: Global identifiers from different JavaScript environments
@@ -550,8 +550,8 @@ dev-nodejs/supports-color 1.2.0 1.3.1 2.0.0 3.1.2: Detect whether a terminal sup
 dev-nodejs/symbol 0.2.3: ES6 Symbols in your ES5
 dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code strings
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
-dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27: Format a TAP stream using Mocha's set of reporters
-dev-nodejs/tap-parser 1.2.2 1.3.2: Parse the test anything protocol
+dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27 2.0.1: Format a TAP stream using Mocha's set of reporters
+dev-nodejs/tap-parser 1.2.2 1.3.2 2.0.0: Parse the test anything protocol
 dev-nodejs/tape 0.1.1 1.0.4 2.4.1 2.14.1 3.6.1 4.6.0: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
@@ -577,7 +577,7 @@ dev-nodejs/umask 1.1.0: Convert umask from string <-> number
 dev-nodejs/umd 3.0.1: Universal Module Definition for use in automated build systems
 dev-nodejs/underscore 1.2.1 1.6.0 1.7.0-r1 1.8.3-r1: JavaScript's functional programming helper library
 dev-nodejs/underscore-contrib 0.3.0: A contributors' library for underscore
-dev-nodejs/unicode-length 1.0.0-r1 1.0.1: Get the length of unicode strings
+dev-nodejs/unicode-length 1.0.0-r1 1.0.1 1.0.3: Get the length of unicode strings
 dev-nodejs/unorm 1.3.3 1.4.1: JavaScript Unicode 8.0 Normalization - NFC, NFD, NFKC, NFKD
 dev-nodejs/unpipe 1.0.0: Unpipe a stream from all destinations
 dev-nodejs/update-notifier 0.5.0: Update notifications for your CLI app
@@ -625,7 +625,7 @@ dev-util/mocha 2.5.3 3.0.0 3.0.1 3.0.2: Simple, flexible, fun test framework
 dev-util/movfuscator 9999: The single instruction C compiler
 dev-util/nodeunit 0.9.1: Easy unit testing for node.js and the browser
 dev-util/pegjs 0.9.0 0.10.0: Parser generator for JavaScript
-dev-util/tap 0.7.1 6.1.1 6.2.0 6.3.2: A Test-Anything-Protocol library
+dev-util/tap 0.7.1 6.1.1 6.2.0 6.3.2 7.0.0: A Test-Anything-Protocol library
 dev-util/uglifyjs 2.4.10: JavaScript parser, mangler/compressor and beautifier toolkit
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made

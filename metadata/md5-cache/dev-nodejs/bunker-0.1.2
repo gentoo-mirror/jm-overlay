@@ -1,5 +1,5 @@
 DEFINED_PHASES=install test
-DEPEND=test? ( >=net-libs/nodejs-0.4 dev-nodejs/burrito:0.2.12 )
+DEPEND=test? ( dev-util/tap:0 ) test? ( >=net-libs/nodejs-0.4 dev-nodejs/burrito:0.2.12 )
 DESCRIPTION=Code coverage in native javascript
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/bunker
@@ -11,4 +11,4 @@ SLOT=0.1.2
 SRC_URI=http://registry.npmjs.org/bunker/-/bunker-0.1.2.tgz
 _eclass_exported_funcs=src_test:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=9bc6dd3a3a59576daa17ad6fc8eb34d3
+_md5_=0814b64b192b9aceff226dd814d9a832
