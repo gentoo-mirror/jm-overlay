@@ -9,6 +9,7 @@ app-emulation/darling:framework-coreaudio - Build the CoreAudio framework
 dev-libs/pybind11:info - Build and install documentation as texinfo
 dev-libs/pybind11:man - Build and install documentation as manpages
 dev-nodejs/yargs:l10n_pirate - Joke "pirate" locale
+dev-util/movfuscator:libressl - Use dev-libs/libressl instead of dev-libs/openssl when building the examples
 dev-util/movfuscator:postproc - Install python-based assembly post-processors
 dev-util/movfuscator:softfloat - Build and install mov-only softfloat libraries
 games-arcade/olliolli:bundled-libs - Install bundled versions of media-libs/openal and dev-games/physfs
