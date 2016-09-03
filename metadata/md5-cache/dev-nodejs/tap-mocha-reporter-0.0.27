@@ -10,5 +10,5 @@ RDEPEND=net-libs/nodejs dev-nodejs/diff:1.4.0 dev-nodejs/escape-string-regexp:1.
 SLOT=0.0.27
 SRC_URI=http://registry.npmjs.org/tap-mocha-reporter/-/tap-mocha-reporter-0.0.27.tgz
 _eclass_exported_funcs=src_test:- src_install:node-module
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	d062ae4ba2fc40a19c11de2ad89b6616	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
 _md5_=7561ad0ddd98a93eedab6922aeb96481
