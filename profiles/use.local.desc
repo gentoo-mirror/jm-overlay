@@ -13,6 +13,9 @@ dev-util/movfuscator:libressl - Use dev-libs/libressl instead of dev-libs/openss
 dev-util/movfuscator:postproc - Install python-based assembly post-processors
 dev-util/movfuscator:softfloat - Build and install mov-only softfloat libraries
 games-arcade/olliolli:bundled-libs - Install bundled versions of media-libs/openal and dev-games/physfs
+games-emulation/citra:qt5 - Enable the Qt5 based interface
+games-emulation/citra:sdl2 - Enable the SDL2 based interface
+games-emulation/citra:system-boost - Use the system-wide version of dev-libs/boost
 games-puzzle/HumanResourceMachine:bundled-libs - Use bundled versions of media-libs/openal and media-libs/libsdl2 instead of the system-wide ones
 media-fonts/ultimate-oldschool-pc-font-pack:px437 - Install fonts with the original DOS charset
 media-fonts/ultimate-oldschool-pc-font-pack:pxplus - Install fonts with unicode enhancements
