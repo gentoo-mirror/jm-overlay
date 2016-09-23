@@ -657,6 +657,7 @@ media-gfx/scale2x 3.2: Real-time graphics effect able to increase the size of sm
 media-libs/vidstab 0.98b: Video stabilization library
 media-libs/zxing-cpp 9999: Multi-format 1D/2D barcode image processing library (C++ port)
 media-plugins/audacious-lyricwiki-offline 3.7.1: Patched version of audacious' LyricWiki plugin that works offline
+media-sound/fische 4.0.3: Stand alone sound visualization
 media-sound/musyng-kite-soundfont 20140621: Final, definitive revision of the former Evanessence soundfont
 media-video/nordlicht 0.4.2 0.4.3 0.4.4: library + tool that creates colorful video barcodes
 net-im/telegram-purple 9999-r1: Libpurple (Pidgin) plugin for using a Telegram account
