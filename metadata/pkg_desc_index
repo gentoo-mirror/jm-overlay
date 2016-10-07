@@ -241,7 +241,7 @@ dev-nodejs/get-stdin 4.0.1: Easier stdin
 dev-nodejs/getpass 0.1.6: Getpass for node.js
 dev-nodejs/github-url-from-git 1.4.0: Parse a github git url and return the github repo url
 dev-nodejs/github-url-from-username-repo 1.0.2: Create urls from username/repo
-dev-nodejs/glob 3.2.11 4.5.3 5.0.15 6.0.4 7.0.3 7.0.5 7.0.6: A little globber
+dev-nodejs/glob 3.2.11 4.5.3 5.0.15 6.0.4 7.0.3 7.0.5 7.0.6 7.1.0: A little globber
 dev-nodejs/glob-base 0.3.0: Returns an object with the (non-glob) base path and the actual pattern
 dev-nodejs/glob-parent 2.0.0: Strips glob magic from a string to provide the parent path
 dev-nodejs/globals 8.18.0: Global identifiers from different JavaScript environments
@@ -273,7 +273,7 @@ dev-nodejs/imurmurhash 0.1.4: An incremental implementation of MurmurHash3
 dev-nodejs/indexof 0.0.1: Lame indexOf thing, thanks microsoft
 dev-nodejs/infinity-agent 2.0.3: Creates HTTP/HTTPS Agent with Infinity maxSockets
 dev-nodejs/inflight 1.0.4-r1 1.0.5: Add callbacks to requests in flight to avoid async duplication
-dev-nodejs/inherits 2.0.1: Browser-friendly inheritance fully compatible with standard node.js inherits()
+dev-nodejs/inherits 2.0.1 2.0.3: Browser-friendly inheritance fully compatible with standard node.js inherits()
 dev-nodejs/ini 1.3.4: An ini encoder/decoder for node
 dev-nodejs/init-package-json 1.9.3 1.9.4: A node module to get your node module started
 dev-nodejs/inline-source-map 0.3.1 0.5.0: Adds source mappings and base64 encodes them
@@ -298,6 +298,7 @@ dev-nodejs/is-finite 1.0.1: ES6 Number.isFinite() ponyfill
 dev-nodejs/is-fullwidth-code-point 1.0.0: Check if the character represented by a given Unicode code point is fullwidth
 dev-nodejs/is-glob 2.0.1: Returns true if the given string looks like a glob pattern or an extglob pattern
 dev-nodejs/is-my-json-valid 2.13.1: A JSONSchema validator that uses code generation to be extremely fast
+dev-nodejs/is-nan 1.2.1: ES6-compliant shim for Number.isNaN - the global isNaN returns false positives
 dev-nodejs/is-npm 1.0.0: Check if your code is running as an npm script
 dev-nodejs/is-number 2.1.0: Returns true if the value is a number
 dev-nodejs/is-posix-bracket 0.1.1: Returns true if the given string is a POSIX bracket expression
@@ -416,7 +417,7 @@ dev-nodejs/object-keys 1.0.9 1.0.11: An Object.keys replacement, in case Object.
 dev-nodejs/object-omit 2.0.0: Return a copy of an object excluding the given key, or array of keys
 dev-nodejs/on-finished 2.3.0: Execute a callback when a request closes, finishes, or errors
 dev-nodejs/on-headers 1.0.1: Execute a listener when a response is about to write headers
-dev-nodejs/once 1.3.3: Run a function exactly one time
+dev-nodejs/once 1.3.3 1.4.0: Run a function exactly one time
 dev-nodejs/onetime 1.1.0: Only call a function once
 dev-nodejs/only-shallow 1.2.0: Like deeper and deepest, but less strict, and with 90s flavor
 dev-nodejs/opener 1.4.1: Opens stuff, like webpages and files and executables, cross-platform
@@ -439,7 +440,7 @@ dev-nodejs/parseurl 1.3.1: Parse a url with memoization
 dev-nodejs/path-array 1.0.1: Treat your $PATH like a JavaScript Array
 dev-nodejs/path-browserify 0.0.0: The path module from node core for browsers
 dev-nodejs/path-exists 2.1.0: Check if a path exists
-dev-nodejs/path-is-absolute 1.0.0: Node.js 0.12 path.isAbsolute() ponyfill
+dev-nodejs/path-is-absolute 1.0.0 1.0.1: Node.js 0.12 path.isAbsolute() ponyfill
 dev-nodejs/path-is-inside 1.0.1: Tests whether one path is inside another path
 dev-nodejs/path-parse 1.0.5: Node.js path.parse() ponyfill
 dev-nodejs/path-platform 0.11.15: Provide access to win32 and posix path operations
@@ -554,7 +555,7 @@ dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code st
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27 2.0.1: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2 1.3.2 2.0.0: Parse the test anything protocol
-dev-nodejs/tape 0.1.1 1.0.4 2.4.1 2.14.1 3.6.1 4.6.0: Tap-producing test harness for node and browsers
+dev-nodejs/tape 0.1.1 1.0.4 2.4.1 2.14.1 3.6.1 4.6.0 4.6.2: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/text-table 0.2.0: Borderless text tables with alignment

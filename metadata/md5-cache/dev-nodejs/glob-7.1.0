@@ -1,0 +1,12 @@
+DEFINED_PHASES=install test
+DESCRIPTION=A little globber
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/glob
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+RDEPEND=dev-nodejs/fs-realpath:1.0.0 net-libs/nodejs dev-nodejs/inflight:1.0.5 dev-nodejs/inherits:2.0.3 dev-nodejs/minimatch:3.0.3 dev-nodejs/once:1.4.0 dev-nodejs/path-is-absolute:1.0.1
+SLOT=7.1.0
+SRC_URI=http://registry.npmjs.org/glob/-/glob-7.1.0.tgz
+_eclass_exported_funcs=src_test:node-module src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=4e5bbb1825e75e74ea61397b4bbf3895

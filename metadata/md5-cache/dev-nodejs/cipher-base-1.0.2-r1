@@ -1,12 +1,14 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( net-libs/nodejs dev-nodejs/inherits:2.0.1 dev-nodejs/tape:4.6.2 )
 DESCRIPTION=Abstract base class for crypto-streams
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/cipher-base
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs dev-nodejs/inherits:2.0.1
 SLOT=1.0.2
 SRC_URI=http://registry.npmjs.org/cipher-base/-/cipher-base-1.0.2.tgz
-_eclass_exported_funcs=src_test:node-module src_install:node-module
+_eclass_exported_funcs=src_test:- src_install:node-module
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=75fbc72ef8921d11071851a9e3ec438e
+_md5_=fc3fa952b375371399b196ccbb9e0d9e

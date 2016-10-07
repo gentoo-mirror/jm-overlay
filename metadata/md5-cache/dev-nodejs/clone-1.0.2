@@ -1,12 +1,14 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/nodeunit ) test? ( >=net-libs/nodejs-0.8 )
 DESCRIPTION=Deep cloning of objects and arrays
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/clone
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=net-libs/nodejs-0.8
 SLOT=1.0.2
 SRC_URI=http://registry.npmjs.org/clone/-/clone-1.0.2.tgz
-_eclass_exported_funcs=src_test:node-module src_install:node-module
+_eclass_exported_funcs=src_test:- src_install:node-module
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=30a52afbf8d8e76d3986a7c4dc830c2f
+_md5_=f9f4f8b1b1956dfec4047077a0a66e15

@@ -1,12 +1,14 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/mocha ) test? ( net-libs/nodejs )
 DESCRIPTION=A simple module for bitwise-xor on buffers
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/buffer-xor
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs
 SLOT=1.0.3
 SRC_URI=http://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz
-_eclass_exported_funcs=src_test:node-module src_install:node-module
+_eclass_exported_funcs=src_test:- src_install:node-module
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=5381bf8425e95ae03de45a1753d0f718
+_md5_=41d90de31604895b8574597473861a90
