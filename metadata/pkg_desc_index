@@ -4,6 +4,7 @@ app-doc/docco 0.7.0: The Quick and Dirty Literate Programming Documentation Gene
 app-doc/jsdoc 3.4.0: An API documentation generator for JavaScript
 app-emulation/darling 9999: MacOS translation layer for Linux
 app-emulation/darling-mach-lkm 9999: Kernel module for app-emulation/darling
+app-emulation/fs-uae 2.8.0: Cross-platform Amiga emulator
 app-eselect/eselect-timidity 20110513-r1: Manages configuration of TiMidity++ patchsets
 app-misc/rdfind 1.3.4: Rdfind is a program that finds duplicate files
 dev-cpp/loguru 0.9 1.21: A header-only C++ logging library
