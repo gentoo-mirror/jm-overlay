@@ -2,29 +2,29 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=5
+EAPI=6
 inherit font
 
-DESCRIPTION="The Street 2 Art font"
-HOMEPAGE="http://www.dafont.com/street-2-art.font"
+DESCRIPTION="Handwritten font based on Georgia Bold"
+HOMEPAGE="http://www.formfett.net/tusj-one-handwritten-font/"
 
-SRC_URI="http://dl.dafont.com/dl/?f=street_2_art -> street_2_art-${PV}.zip"
-LICENSE="free-noncomm"
+SRC_URI="http://www.formfett.net/wp-content/download/FFFTusj.zip"
+LICENSE="fff_tusj"
 
 SLOT="0"
 KEYWORDS="alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 sh sparc x86 ~amd64-fbsd ~x86-fbsd ~x86-interix ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~x64-solaris ~x86-solaris"
 IUSE=""
+
 DEPEND="app-arch/unzip"
 RDEPEND=""
+
+RESTRICT="mirror bindist"
 
 S="${WORKDIR}"
 FONT_S="${S}"
 FONT_SUFFIX="ttf"
-DOCS="Street_2_Art.pdf"
 
 src_prepare() {
-
-	cd "${WORKDIR}"
-	mv "Street 2 Art.pdf" "Street_2_Art.pdf"
-
+	rm "._FFF Tusj.ttf" || die
+	eapply_user
 }
