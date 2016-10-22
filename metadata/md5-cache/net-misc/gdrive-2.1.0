@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=>=dev-lang/go-1.5 >=dev-lang/go-1.4.2:=
+DESCRIPTION=Command line utility for interacting with Google Drive
+EAPI=6
+HOMEPAGE=https://github.com/prasmussen/gdrive
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/prasmussen/gdrive/archive/2.1.0.tar.gz -> gdrive-2.1.0.tar.gz
+_eclass_exported_funcs=src_unpack:- src_compile:golang-build src_test:golang-build src_install:-
+_eclasses_=golang-base	08fe6e0e2b4750daff8887a7f0e1f873	golang-build	a44f10e6bd86ecccf2a07cc0d4cf6bec
+_md5_=5ff867e908aa62c3750dde9edae4281b
