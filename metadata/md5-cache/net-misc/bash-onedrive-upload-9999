@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=>=dev-vcs/git-1.8.2.1
+DESCRIPTION=Upload files to onedrive via linux command line
+EAPI=6
+HOMEPAGE=https://github.com/fkalis/bash-onedrive-upload
+LICENSE=MIT
+RDEPEND=app-shells/bash net-misc/curl[ssl] sys-apps/grep
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:- src_unpack:git-r3 src_prepare:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	e928b84a9f6f1d9076d1d27687876dc6	multilib	165fc17c38d1b11dac2008280dab6e80	readme.gentoo-r1	03878c06495db70bc36bd717383c09f7	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=64c5fb3fbc1bfa76685aea241addf83e
