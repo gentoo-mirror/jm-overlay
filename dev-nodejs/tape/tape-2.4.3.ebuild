@@ -4,27 +4,26 @@
 
 EAPI=6
 
-NODE_MODULE_HAS_TEST="1"
-NODE_MODULE_TEST_DEPEND="tape:2.4.3"
+NODE_MODULE_DEPEND="deep-equal:0.2.2
+	jsonify:0.0.0
+	defined:0.0.0
+	inherits:2.0.3
+	resumer:0.0.0
+	through:2.3.8"
 
 inherit node-module
 
-DESCRIPTION="Concatenative mapdashery"
+DESCRIPTION="Tap-producing test harness for node and browsers"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
-IUSE="examples test"
+IUSE="examples"
 
-DOCS=( README.markdown )
-DEPEND="${DEPEND}
-	test? ( dev-util/tap:0 )"
+RESTRICT="test" # Broken
+
+DOCS=( readme.markdown )
 
 src_install() {
 	node-module_src_install
 	use examples && dodoc -r example
-}
-
-src_test() {
-	node-module_src_test
-	tap test || die "Tests failed"
 }
