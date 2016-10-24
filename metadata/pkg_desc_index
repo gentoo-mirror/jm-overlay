@@ -503,7 +503,7 @@ dev-nodejs/resolve-from 2.0.0: Resolve the path of a module like require.resolve
 dev-nodejs/restore-cursor 1.0.1: Gracefully restore the CLI cursor on exit
 dev-nodejs/resumer 0.0.0: A through stream that starts paused and resumes on the next tick
 dev-nodejs/retry 0.8.0 0.9.0: Abstraction for exponential and custom retry strategies for failed operations
-dev-nodejs/rimraf 2.5.2 2.5.4: A deep deletion module for node (like rm -rf)
+dev-nodejs/rimraf 2.2.8 2.5.2 2.5.4: A deep deletion module for node (like rm -rf)
 dev-nodejs/ripemd160 1.0.1: Compute ripemd160 of bytes or strings
 dev-nodejs/run-async 0.1.0: Utility method to run function either synchronously or asynchronously
 dev-nodejs/runforcover 0.0.2: Require plugin for js code coverage using bunker
@@ -556,7 +556,7 @@ dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code st
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27 2.0.1: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2 1.3.2 2.0.0: Parse the test anything protocol
-dev-nodejs/tape 0.1.1 1.0.4 2.4.1 2.14.1 3.6.1 4.6.0 4.6.2: Tap-producing test harness for node and browsers
+dev-nodejs/tape 0.1.1 1.0.4 2.4.1 2.4.3 2.14.1 3.6.1 4.6.0 4.6.2: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/text-table 0.2.0: Borderless text tables with alignment
