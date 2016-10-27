@@ -258,6 +258,7 @@ dev-nodejs/has-color 0.1.7: Detect whether a terminal supports color
 dev-nodejs/has-flag 1.0.0: Check if argv has a specific flag
 dev-nodejs/has-unicode 2.0.0 2.0.1: Try to guess if your terminal supports unicode
 dev-nodejs/hash-js 1.0.3-r1: Various hash functions that could be run by both browser and node
+dev-nodejs/hash-test-vectors 1.3.2: Test vectors for hashes
 dev-nodejs/hash_file 0.1.1: A simple utility for getting a hash of a file
 dev-nodejs/hawk 1.1.1 3.1.3: HTTP Hawk Authentication Scheme
 dev-nodejs/highlight-js 9.3.0: Syntax highlighting with language autodetection
