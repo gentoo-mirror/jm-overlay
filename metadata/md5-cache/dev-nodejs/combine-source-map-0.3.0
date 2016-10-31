@@ -9,6 +9,6 @@ LICENSE=MIT
 RDEPEND=>=net-libs/nodejs-0.6 dev-nodejs/convert-source-map:0.3.5 dev-nodejs/inline-source-map:0.3.1 dev-nodejs/source-map:0.1.43
 SLOT=0.3.0
 SRC_URI=http://registry.npmjs.org/combine-source-map/-/combine-source-map-0.3.0.tgz
-_eclass_exported_funcs=src_test:- src_install:-
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	10284257e98c86037f984bfe2a8d4cb9	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=38238e5fff5ba6d3f2440abc3412992e
+_eclass_exported_funcs=src_test:node-module src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=4a864d074956a5ca449bccafb9be741b
