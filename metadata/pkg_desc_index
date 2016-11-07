@@ -557,7 +557,7 @@ dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code st
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27 2.0.1: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2 1.3.2 2.0.0: Parse the test anything protocol
-dev-nodejs/tape 0.1.1 1.0.4 2.4.1 2.4.3 2.14.1 3.6.1 4.6.0 4.6.2: Tap-producing test harness for node and browsers
+dev-nodejs/tape 0.1.1 0.2.2 1.0.4 2.4.1 2.4.3 2.14.1 3.6.1 4.6.0 4.6.2: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/text-table 0.2.0: Borderless text tables with alignment
