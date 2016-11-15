@@ -52,6 +52,7 @@ net-p2p/terracoin-qt:qrcode - Enable generation of QR Codes for receiving paymen
 sci-libs/comedilib:firmware - Install firmware files needed for some devices
 sci-libs/comedilib:pdf - Install documentation in PDF format
 sci-libs/comedilib:scxi - Build the SCXI convenience library
+sys-devel/osxcross:macports - Install the MacPorts packet manager
 sys-kernel/reiser4-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
 virtual/linux-sources:firmware - Install linux kernel firmware
 www-apps/CGP:json - Pull in the PHP JSON extension, allows finer representation of data in the graph

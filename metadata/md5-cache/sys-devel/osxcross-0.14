@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst prepare pretend setup unpack
+DEPEND=>=sys-devel/clang-3.2 app-arch/xar app-shells/bash app-arch/p7zip app-arch/xz-utils >=dev-vcs/git-1.8.2.1
+DESCRIPTION=OS X cross toolchain
+EAPI=6
+HOMEPAGE=https://github.com/tpoechtrager/osxcross
+IUSE=macports
+KEYWORDS=~amd64
+LICENSE=GPL-2 Xcode
+RDEPEND=>=sys-devel/clang-3.2 app-arch/xar macports? ( app-shells/bash net-misc/wget || ( dev-libs/openssl:0 dev-libs/libressl ) )
+RESTRICT=mirror bindist
+SLOT=0
+SRC_URI=Xcode_7.3.1.dmg
+_eclass_exported_funcs=pkg_pretend:check-reqs pkg_postinst:- pkg_setup:check-reqs src_unpack:- src_prepare:- src_compile:- src_install:-
+_eclasses_=check-reqs	aee25bdf4e2f459af86d17f7c41dcdf6	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	git-r3	e928b84a9f6f1d9076d1d27687876dc6	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=a69302d5408a6275927b2c1a61107ee8
