@@ -25,6 +25,13 @@ games-emulation/citra:qt5 - Enable the Qt5 based interface
 games-emulation/citra:sdl2 - Enable the SDL2 based interface
 games-emulation/citra:system-boost - Use the system-wide version of dev-libs/boost
 games-puzzle/HumanResourceMachine:bundled-libs - Use bundled versions of media-libs/openal and media-libs/libsdl2 instead of the system-wide ones
+media-fonts/humble-indie-font-bundle:after-impact - Install the "After Impact" font
+media-fonts/humble-indie-font-bundle:bike-courier - Install the "Bike Courier" font
+media-fonts/humble-indie-font-bundle:cosmic-sans - Install the "Cosmic Sans" font
+media-fonts/humble-indie-font-bundle:halfvetica - Install the "Halfvetica" font
+media-fonts/humble-indie-font-bundle:sans-sans - Install the (non-free) "Sans Sans" font
+media-fonts/humble-indie-font-bundle:times-old-roman - Install the (non-free) "Times Old Roman" font
+media-fonts/humble-indie-font-bundle:unicharacter - Install the (non-free) "Unicharacter" font
 media-fonts/ultimate-oldschool-pc-font-pack:px437 - Install fonts with the original DOS charset
 media-fonts/ultimate-oldschool-pc-font-pack:pxplus - Install fonts with unicode enhancements
 media-gfx/impack:aot - Generate native code at build time, rather than runtime
