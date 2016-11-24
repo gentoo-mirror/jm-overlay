@@ -647,6 +647,7 @@ games-puzzle/GirlsLikeRobots 20130314: Game about seating arrangements, wrapped 
 games-puzzle/HumanResourceMachine 20160323: Program little office workers to solve puzzles
 games-util/editor-on-fire 1437-r4: Song editor for Frets On Fire, Phase Shift, Rock Band and Rocksmith
 kde-misc/ksuperkey 0.3-r3: ksuperkey allows opening the launcher in KDE using the super key
+mail-client/imapquickcheck 1.3: Lightweight systray IMAP mail checker
 media-fonts/digital_7 1.0: The Digital 7 font
 media-fonts/fff_tusj 1.0: Handwritten font based on Georgia Bold
 media-fonts/hanging_letters 1.0: The Hanging Letters font
