@@ -1,0 +1,13 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Big Pharma is part business sim, part logistics puzzle
+EAPI=6
+HOMEPAGE=http://bigpharmagame.com/
+KEYWORDS=-* ~x86 ~amd64
+LICENSE=all-rights-reserved
+RDEPEND=x86? ( virtual/opengl x11-libs/libX11 x11-libs/libXcursor x11-libs/gtk+:2 dev-libs/glib:2 x11-libs/gdk-pixbuf:2 ) amd64? ( virtual/opengl[abi_x86_32(-)] x11-libs/libX11[abi_x86_32(-)] x11-libs/libXcursor[abi_x86_32(-)] x11-libs/gtk+:2[abi_x86_32(-)] dev-libs/glib:2[abi_x86_32(-)] x11-libs/gdk-pixbuf:2[abi_x86_32(-)] )
+RESTRICT=fetch strip mirror bindist splitdebug
+SLOT=0
+SRC_URI=big_pharma_linux_1.07.04.gz
+_eclass_exported_funcs=src_unpack:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=92b1d73263da80f5a1f62d2dde3f5b4b
