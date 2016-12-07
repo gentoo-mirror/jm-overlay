@@ -1,0 +1,14 @@
+DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( net-libs/nodejs dev-nodejs/tape:2.3.3 )
+DESCRIPTION=[].map(f) for older browsers
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/array-map
+IUSE=test examples test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=net-libs/nodejs
+SLOT=0.0.0
+SRC_URI=http://registry.npmjs.org/array-map/-/array-map-0.0.0.tgz
+_eclass_exported_funcs=src_test:node-module src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=2463361bc88d34b04487639ec7888c89

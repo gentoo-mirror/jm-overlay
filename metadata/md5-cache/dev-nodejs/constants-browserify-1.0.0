@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install test
+DEPEND=net-libs/nodejs test? ( net-libs/nodejs )
+DESCRIPTION=Node's constants module for the browser
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/constants-browserify
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=net-libs/nodejs
+SLOT=1.0.0
+SRC_URI=http://registry.npmjs.org/constants-browserify/-/constants-browserify-1.0.0.tgz
+_eclass_exported_funcs=src_compile:- src_test:node-module src_install:node-module
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=4ecf250a734cadb5cc51d98afc7dd86c
