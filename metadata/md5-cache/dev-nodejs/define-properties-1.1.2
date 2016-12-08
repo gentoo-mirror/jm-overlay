@@ -1,7 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( >=net-libs/nodejs-0.4 dev-nodejs/foreach:2.0.5 dev-nodejs/object-keys:1.0.11 dev-nodejs/tape:4.6.3 )
 DESCRIPTION=Define multiple non-enumerable properties at once
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/define-properties
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=net-libs/nodejs-0.4 dev-nodejs/foreach:2.0.5 dev-nodejs/object-keys:1.0.11
@@ -9,4 +11,4 @@ SLOT=1.1.2
 SRC_URI=http://registry.npmjs.org/define-properties/-/define-properties-1.1.2.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=a85d716a4b7ea61eac83f1ce8e98e8ab
+_md5_=66fccadd83d24e3a5bbfe964f74d40ba

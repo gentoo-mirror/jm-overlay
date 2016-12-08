@@ -1,8 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( net-libs/nodejs dev-nodejs/subarg:1.0.0 dev-nodejs/through2:2.0.3 dev-nodejs/JSONStream:1.2.1 dev-nodejs/shasum:1.0.2 )
 DESCRIPTION=Sort module-deps output for deterministic browserify bundle
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/deps-sort
-IUSE=examples
+IUSE=examples test test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs dev-nodejs/subarg:1.0.0 dev-nodejs/through2:2.0.3 dev-nodejs/JSONStream:1.2.1 dev-nodejs/shasum:1.0.2
@@ -10,4 +11,4 @@ SLOT=2.0.0
 SRC_URI=http://registry.npmjs.org/deps-sort/-/deps-sort-2.0.0.tgz
 _eclass_exported_funcs=src_test:node-module src_install:-
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=c25139741bcb955900bdca0b57d39265
+_md5_=e6b368d4d248b5041b430ea22faa0492

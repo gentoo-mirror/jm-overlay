@@ -23,6 +23,7 @@ dev-nodejs/acorn 1.2.2-r1 2.7.0-r1 3.3.0: ECMAScript parser
 dev-nodejs/acorn-jsx 3.0.1: ECMAScript parser
 dev-nodejs/aliasify 1.9.0: Rewrite require calls in browserify modules
 dev-nodejs/align-text 0.1.4: Align the text in a string
+dev-nodejs/ambi 2.5.0: Execute a function ambidextrously
 dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in the AMD format
 dev-nodejs/ansi 0.3.1: Advanced ANSI formatting tool for Node.js
 dev-nodejs/ansi-escapes 1.4.0: ANSI escape codes for manipulating the terminal
@@ -48,6 +49,7 @@ dev-nodejs/asap 2.0.3: High-priority task queue for Node.js and browsers
 dev-nodejs/asn1 0.1.11 0.2.3: Contains parsers and serializers for ASN.1 (currently BER only)
 dev-nodejs/asn1-js 4.6.0: ASN.1 encoder and decoder
 dev-nodejs/assert 1.3.0-r1: Commonjs assert - node.js api compatible
+dev-nodejs/assert-helpers 4.4.0: Common utilities and helpers to make testing assertions easier
 dev-nodejs/assert-plus 0.1.5 0.2.0 1.0.0: Extra assertions on top of node's assert module
 dev-nodejs/astw 2.0.0: Walk the ast with references to parent nodes
 dev-nodejs/async 0.2.10 0.9.2 1.4.2 1.5.2: Higher-order functions and common patterns for asynchronous code
@@ -92,6 +94,7 @@ dev-nodejs/buffer-equal 0.0.2: Return whether two buffers are equal
 dev-nodejs/buffer-shims 1.0.0: Some shims for node buffers
 dev-nodejs/buffer-xor 1.0.3: A simple module for bitwise-xor on buffers
 dev-nodejs/buffers 0.1.1: Treat a collection of Buffers as a single contiguous partially mutable Buffer
+dev-nodejs/buffertools 2.1.4: Working with node.js buffers made easy
 dev-nodejs/builtin-modules 1.1.1: List of the Node.js builtin modules
 dev-nodejs/builtin-status-codes 2.0.0: The map of HTTP status codes from the builtin http module
 dev-nodejs/builtins 0.0.7: List of node.js builtin modules
@@ -110,6 +113,7 @@ dev-nodejs/chmodr 1.0.2: Like "chmod -R"
 dev-nodejs/chownr 1.0.1: Like "chown -R"
 dev-nodejs/cipher-base 1.0.2-r1: Abstract base class for crypto-streams
 dev-nodejs/clean-yaml-object 0.1.0: Clean up an object prior to serialization
+dev-nodejs/cli-color 0.2.3: Colors, formatting and other tools for the console
 dev-nodejs/cli-cursor 1.0.2: Toggle the CLI cursor
 dev-nodejs/cli-width 1.1.1: Get stdout window width, with two fallbacks, tty and then a default
 dev-nodejs/cliui 3.2.0: Easily create complex multi-column command-line-interfaces
@@ -180,13 +184,15 @@ dev-nodejs/destroy 1.0.4: Destroy a stream if possible
 dev-nodejs/detect-indent 3.0.1: Detect the indentation of code
 dev-nodejs/detective 4.3.1 4.3.2: Find all require() calls by walking the AST
 dev-nodejs/dezalgo 1.0.3: Contain async insanity so that the dark pony lord doesn't eat souls
-dev-nodejs/diff 1.4.0: A javascript text diff implementation
+dev-nodejs/diff 1.4.0 2.2.3: A javascript text diff implementation
 dev-nodejs/diffie-hellman 5.0.2: Pure js diffie-hellman
 dev-nodejs/difflet 0.2.6: Colorful diffs for javascript objects
 dev-nodejs/domain-browser 1.1.7: Node's domain module for the web browser
 dev-nodejs/duplexer2 0.0.2 0.1.4: Like duplexer but using streams2
 dev-nodejs/duplexify 3.4.3: Turn a writeable and readable stream into a streams2 duplex stream
+dev-nodejs/eachr 3.2.0: Give iterator the value and key of each item, stop if iterator returned false
 dev-nodejs/ecc-jsbn 0.1.1: ECC JS code based on JSBN
+dev-nodejs/editions 1.3.3: Publish multiple editions for your JavaScript packages consistently and easily
 dev-nodejs/editor 1.0.0: Launch $EDITOR in your program
 dev-nodejs/ee-first 1.1.1: Return the first event in a set of ee/event pairs
 dev-nodejs/elementtree 0.1.6: XML Serialization and Parsing module based on Python's ElementTree
@@ -196,7 +202,7 @@ dev-nodejs/ent 0.0.7: Encode and decode HTML entities
 dev-nodejs/error-ex 1.3.0: Easy error subclassing and stack customization
 dev-nodejs/es-abstract 1.5.1: ECMAScript spec abstract operations
 dev-nodejs/es-to-primitive 1.1.1: ECMAScript ToPrimitive algorithm. Provides ES5 and ES6 versions.
-dev-nodejs/es5-ext 0.10.12: ECMAScript extensions and shims
+dev-nodejs/es5-ext 0.9.2 0.10.12: ECMAScript extensions and shims
 dev-nodejs/es6-iterator 2.0.0: Iterator abstraction based on ES6 specification
 dev-nodejs/es6-symbol 3.1.0: ECMAScript 6 Symbol polyfill
 dev-nodejs/escape-html 1.0.3: Escape string for use in HTML
@@ -207,6 +213,8 @@ dev-nodejs/esprima 1.0.4 2.7.2: ECMAScript parsing infrastructure for multipurpo
 dev-nodejs/estraverse 0.0.4 1.9.3: ECMAScript JS AST traversal functions
 dev-nodejs/esutils 2.0.2: Utility box for ECMAScript language tools
 dev-nodejs/etag 1.7.0: Create simple ETags
+dev-nodejs/event-emitter 0.2.2: Cross-environment event emitter
+dev-nodejs/event-emitter-grouped 2.5.0: Emit events in serial or parallel
 dev-nodejs/event-stream 0.9.8: Construct pipes of streams of events
 dev-nodejs/events 1.0.2 1.1.1: Node's event emitter for all engines
 dev-nodejs/events-to-array 1.0.2: Put a bunch of emitted events in an array, for testing
@@ -216,6 +224,7 @@ dev-nodejs/expand-brackets 0.1.5: Expand POSIX bracket expressions (character cl
 dev-nodejs/expand-range 1.8.2: Fast, bash-like range expansion
 dev-nodejs/express 4.13.4: Fast, unopinionated, minimalist web framework
 dev-nodejs/extend 3.0.0: Port of jQuery.extend for node.js and the browser
+dev-nodejs/extendr 3.2.2: Utilities for cloning, extending, and de-referencing objects
 dev-nodejs/extglob 0.3.2: Convert extended globs to regex-compatible strings
 dev-nodejs/extsprintf 1.0.2: Extended POSIX-style sprintf
 dev-nodejs/falafel 1.2.0: Transform the ast on a recursive walk
@@ -338,6 +347,8 @@ dev-nodejs/istanbul-reports 1.0.0_alpha8: Istanbul reports
 dev-nodejs/jade 0.26.3: Jade template engine
 dev-nodejs/jju 1.3.0: A set of utilities to work with JSON / JSON5 documents
 dev-nodejs/jodid25519 1.0.2 1.0.2-r1: Curve 25519-based cryptography
+dev-nodejs/joe 1.8.0: Joe is a JavaScript testing framework that actually works
+dev-nodejs/joe-reporter-console 1.2.1: Console Reporter for the Joe Testing Framework
 dev-nodejs/js-tokens 1.0.3 2.0.0: A regex that tokenizes JavaScript
 dev-nodejs/js-yaml 3.0.1 3.6.1: YAML 1.2 parser and serializer
 dev-nodejs/js2xmlparser 1.0.0: Parses JavaScript objects into XML
@@ -391,6 +402,7 @@ dev-nodejs/marked 0.3.5 0.3.6: A markdown parser built for speed
 dev-nodejs/md5-hex 1.3.0: Create a MD5 hash with hex encoding
 dev-nodejs/md5-o-matic 0.1.1: Fast and simple MD5 hashing utility with zero module dependencies
 dev-nodejs/media-typer 0.3.0: Simple RFC 6838 media type parser and formatter
+dev-nodejs/memoizee 0.2.6: Complete memoize/cache solution
 dev-nodejs/merge-descriptors 1.0.1: Merge objects using descriptors
 dev-nodejs/methods 1.1.2: HTTP methods that node supports
 dev-nodejs/micromatch 2.3.8 2.3.10 2.3.11: Glob matching for javascript/node.js
@@ -407,6 +419,7 @@ dev-nodejs/ms 0.7.1: Tiny ms conversion utility
 dev-nodejs/mute-stream 0.0.5 0.0.6: Bytes go in, but they don't come out (when muted)
 dev-nodejs/negotiator 0.5.3 0.6.0: HTTP content negotiation
 dev-nodejs/nested-error-stacks 1.0.2: An Error subclass that will chain nested Errors and dump nested stacktraces
+dev-nodejs/next-tick 0.1.0: Cross environment nextTick polyfill
 dev-nodejs/node-gyp 3.4.0: Node.js native addon build tool
 dev-nodejs/node-uuid 1.3.3 1.4.7: Rigorous implementation of RFC4122 (v1 and v4) UUIDs
 dev-nodejs/nopt 3.0.1-r1 3.0.6-r1: Option parsing for Node, supporting types, shorthands, etc.
@@ -531,7 +544,12 @@ dev-nodejs/shallow-copy 0.0.1: Make a shallow copy of an object or array
 dev-nodejs/shasum 1.0.2: Single function that returns the sha1sum
 dev-nodejs/shell-quote 0.0.1 1.6.1: Quote and parse shell commands
 dev-nodejs/shelljs 0.3.0 0.5.3-r1 0.7.0 0.7.3: Portable Unix shell commands for Node.js
-dev-nodejs/should 0.4.2: Test framework agnostic BDD-style assertions
+dev-nodejs/should 0.4.2 11.1.1: Test framework agnostic BDD-style assertions
+dev-nodejs/should-equal 1.0.1: Deep comparison of 2 instances for should.js
+dev-nodejs/should-format 3.0.2: Formatting of objects for should.js
+dev-nodejs/should-type 1.4.0: Simple module to get instance type. Like a bit more advanced version of typeof
+dev-nodejs/should-type-adaptors 1.0.1: Small utility functions to use the same traversing etc code on different types
+dev-nodejs/should-util 1.0.0: Utility functions
 dev-nodejs/sigmund 1.0.1: Quick and dirty signatures for Objects
 dev-nodejs/signal-exit 2.1.2 3.0.0: When you want to fire an event no matter how a process exits
 dev-nodejs/simple-plist 0.1.4: A wrapper utility for interacting with plist data
@@ -570,6 +588,7 @@ dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27 2.0.1: Format a TAP stream using Moc
 dev-nodejs/tap-parser 1.2.2 1.3.2 2.0.0: Parse the test anything protocol
 dev-nodejs/tape 0.1.1 0.2.2 1.0.4 2.3.3 2.4.1 2.4.3 2.14.1 3.6.1 4.6.0 4.6.2 4.6.3: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
+dev-nodejs/taskgroup 5.0.1: Group together synchronous and asynchronous tasks
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/text-table 0.2.0: Borderless text tables with alignment
 dev-nodejs/through 2.3.8: Simplified stream construction
@@ -586,6 +605,7 @@ dev-nodejs/tty-browserify 0.0.0: The tty module from node core for browsers
 dev-nodejs/tunnel-agent 0.4.2 0.4.3: HTTP proxy tunneling agent
 dev-nodejs/tweetnacl 0.13.3: Port of TweetNaCl cryptographic library to JavaScript
 dev-nodejs/type-is 1.6.12: Infer the content-type of a request
+dev-nodejs/typechecker 4.4.0: Utilities to get and check variable types
 dev-nodejs/typedarray 0.0.6: TypedArray polyfill for old browsers
 dev-nodejs/uglify-js 1.1.1 2.7.0: JavaScript parser, mangler/compressor and beautifier toolkit
 dev-nodejs/uglify-to-browserify 1.0.2: A transform to make UglifyJS work in browserify

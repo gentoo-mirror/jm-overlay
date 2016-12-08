@@ -1,7 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( net-libs/nodejs dev-nodejs/clone:1.0.2 )
 DESCRIPTION=Merge single level defaults over a config object
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/defaults
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs dev-nodejs/clone:1.0.2
@@ -9,4 +11,4 @@ SLOT=1.0.3
 SRC_URI=http://registry.npmjs.org/defaults/-/defaults-1.0.3.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=3c5c950ebeed5d5896b8216723bd082b
+_md5_=947b37f333451056c6698d64338963bb
