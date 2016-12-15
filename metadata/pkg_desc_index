@@ -704,7 +704,7 @@ media-video/nordlicht 0.4.2 0.4.3 0.4.4: library + tool that creates colorful vi
 net-im/telegram-purple 9999-r1: Libpurple (Pidgin) plugin for using a Telegram account
 net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48 2.4.102 2.4.103 2.5.0: Python WhatsApp library and CLI client
 net-libs/cpr 1.1 1.2.0: Simple wrapper around libcurl inspired by the Python Requests project
-net-libs/libpsl 0.14.0 0.15.0 0.16.0: C library to handle the Public Suffix List
+net-libs/libpsl 0.14.0 0.15.0 0.16.0 0.16.1: C library to handle the Public Suffix List
 net-misc/bash-onedrive-upload 9999: Upload files to onedrive via linux command line
 net-misc/ddclient-gui 9999: Qt4 interface for net-misc/downloaddaemon
 net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
