@@ -440,6 +440,7 @@ dev-nodejs/nyc 6.6.1 7.1.0: The Istanbul command line interface
 dev-nodejs/oauth-sign 0.4.0 0.6.0 0.8.2: OAuth 1 signing
 dev-nodejs/object-assign 3.0.0 4.0.1 4.1.0: ES2015 Object.assign() ponyfill
 dev-nodejs/object-inspect 0.4.0 1.0.2 1.2.1: String representations of objects in node and the browser
+dev-nodejs/object-is 1.0.1: ES6-compliant shim for Object.is - differentiates between -0 and +0
 dev-nodejs/object-keys 1.0.9 1.0.11: An Object.keys replacement, in case Object.keys is not available
 dev-nodejs/object-omit 2.0.0: Return a copy of an object excluding the given key, or array of keys
 dev-nodejs/on-finished 2.3.0: Execute a callback when a request closes, finishes, or errors
