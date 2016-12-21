@@ -20,7 +20,7 @@ dev-nodejs/JSONStream 1.1.1 1.2.1: rawStream.pipe(JSONStream.parse()).pipe(strea
 dev-nodejs/abbrev 1.0.7 1.0.9: Like ruby's abbrev module, but in js
 dev-nodejs/accepts 1.2.13 1.3.2: Higher-level content negotiation
 dev-nodejs/acorn 1.2.2-r1 2.7.0-r1 3.3.0: ECMAScript parser
-dev-nodejs/acorn-jsx 3.0.1: ECMAScript parser
+dev-nodejs/acorn-jsx 2.0.1 3.0.1: ECMAScript parser
 dev-nodejs/aliasify 1.9.0: Rewrite require calls in browserify modules
 dev-nodejs/align-text 0.1.4: Align the text in a string
 dev-nodejs/ambi 2.5.0: Execute a function ambidextrously
@@ -589,7 +589,7 @@ dev-nodejs/syntax-error 1.1.6: Detect and report syntax errors in source code st
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 0.0.25 0.0.27 2.0.1: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2 1.3.2 2.0.0: Parse the test anything protocol
-dev-nodejs/tape 0.1.1 0.2.2 1.0.4 2.3.3 2.4.1 2.4.3 2.14.1 3.6.1 4.6.0 4.6.2 4.6.3: Tap-producing test harness for node and browsers
+dev-nodejs/tape 0.1.1 0.2.2 1.0.4 1.1.2 2.3.3 2.4.1 2.4.3 2.14.1 3.6.1 4.6.0 4.6.2 4.6.3: Tap-producing test harness for node and browsers
 dev-nodejs/tar 1.0.2 2.2.1: Tar for node
 dev-nodejs/taskgroup 5.0.1: Group together synchronous and asynchronous tasks
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs

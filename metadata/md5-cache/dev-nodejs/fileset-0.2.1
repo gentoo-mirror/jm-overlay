@@ -1,7 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( net-libs/nodejs dev-nodejs/minimatch:2.0.10 dev-nodejs/glob:5.0.15 )
 DESCRIPTION=Wrapper around miniglob / minimatch combo
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/fileset
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs dev-nodejs/minimatch:2.0.10 dev-nodejs/glob:5.0.15
@@ -9,4 +11,4 @@ SLOT=0.2.1
 SRC_URI=http://registry.npmjs.org/fileset/-/fileset-0.2.1.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=8940603ade23bdc735129dca0a4630be
+_md5_=db706dc5a76b874325915d7ecd2337b5
