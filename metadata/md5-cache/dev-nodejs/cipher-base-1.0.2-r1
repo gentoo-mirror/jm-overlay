@@ -10,5 +10,5 @@ RDEPEND=net-libs/nodejs dev-nodejs/inherits:2.0.1
 SLOT=1.0.2
 SRC_URI=http://registry.npmjs.org/cipher-base/-/cipher-base-1.0.2.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
-_eclasses_=eutils	017377e73405d964cd0137088cddb9c3	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_eclasses_=eutils	ea170b525f6a38a006be05c9d9429f13	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
 _md5_=a2972e96e589cb23e04209117fcdd3bc
