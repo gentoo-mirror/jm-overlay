@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-util/cmake-2.8.11 doc? ( >=app-doc/doxygen-1.8.8[dot] ) sys-devel/make >=dev-util/cmake-3.5.2 >=dev-vcs/git-1.8.2.1
+DEPEND=>=dev-util/cmake-3.1 doc? ( >=app-doc/doxygen-1.8.8[dot] ) !clang? ( >=sys-devel/gcc-5 ) clang? ( >=sys-devel/clang-3.8 >=sys-libs/libcxx-3.8 ) sys-devel/make >=dev-util/cmake-3.5.2 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Nintendo 3DS Emulator
 EAPI=6
 HOMEPAGE=https://citra-emu.org/
-IUSE=doc sdl2 qt5 system-boost
+IUSE=doc sdl2 qt5 system-boost clang
 LICENSE=GPL-2
 RDEPEND=virtual/opengl media-libs/libpng:= sys-libs/zlib system-boost? ( >=dev-libs/boost-1.57.0:= ) sdl2? ( media-libs/libsdl2 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 )
 REQUIRED_USE=|| ( sdl2 qt5 )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:- src_compile:- src_test:cmake-utils src_install:-
 _eclasses_=cmake-utils	f0c2647fb321257c91c6a967f362d053	eutils	ea170b525f6a38a006be05c9d9429f13	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	git-r3	6efc2d7de07a77bf72c7207b48d0e123	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=7a02261b18cc6d83e7370ce1448b1124
+_md5_=ec14b1073fbb0dc551dbecd64befc50d
