@@ -716,7 +716,7 @@ net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
 net-misc/downloaddaemon 9999: A download manager that runs in the background
 net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete files from Dropbox
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
-net-misc/megasync 2.7.1-r1 2.8.0-r1 2.9.0-r2 2.9.6-r1 2.9.8 2.9.10: Automated syncing between your computers and your MEGA cloud drive
+net-misc/megasync 2.7.1-r1 2.8.0-r1 2.9.0-r2 2.9.6-r1 2.9.8 2.9.10 3.0.1: Automated syncing between your computers and your MEGA cloud drive
 net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
 net-p2p/blackcoin-qt 1.2.2: Currency with near-instant transaction speeds and negligible transaction fees
 net-p2p/digitalcoin-qt 3.0.1a 3.0.1a-r1: A Currency for the digital age
