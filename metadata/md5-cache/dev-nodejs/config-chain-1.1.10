@@ -10,5 +10,5 @@ RDEPEND=net-libs/nodejs dev-nodejs/ini:1.3.4 dev-nodejs/proto-list:1.2.4
 SLOT=1.1.10
 SRC_URI=http://registry.npmjs.org/config-chain/-/config-chain-1.1.10.tgz
 _eclass_exported_funcs=src_prepare:- src_test:node-module src_install:node-module
-_eclasses_=eutils	ea170b525f6a38a006be05c9d9429f13	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_eclasses_=eutils	708f85bc1bf00876604e223fb56e062a	multilib	165fc17c38d1b11dac2008280dab6e80	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
 _md5_=826409cf4eb24700d658188b5c45b672
