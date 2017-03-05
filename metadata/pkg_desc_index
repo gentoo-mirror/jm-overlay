@@ -30,6 +30,7 @@ dev-nodejs/array-unique 0.2.1: Return an array free of duplicate values. Fastest
 dev-nodejs/arrify 1.0.1: Convert a value to an array
 dev-nodejs/asn1 0.2.3: Contains parsers and serializers for ASN.1 (currently BER only)
 dev-nodejs/assert-plus 0.2.0 1.0.0: Extra assertions on top of node's assert module
+dev-nodejs/assertion-error 1.0.0: Error constructor for test and validation frameworks
 dev-nodejs/async 0.2.10 1.4.2 1.5.2: Higher-order functions and common patterns for asynchronous code
 dev-nodejs/aws-sign2 0.6.0: AWS signing
 dev-nodejs/aws4 1.4.1: Signs and prepares requests using AWS Signature Version 4
@@ -61,6 +62,7 @@ dev-nodejs/caching-transform 1.0.1: Wraps a transform and provides caching
 dev-nodejs/camelcase 3.0.0: Convert a dash/dot/underscore/space separated string to camelCase
 dev-nodejs/caseless 0.11.0: Caseless object set/get/has, very useful when working with HTTP headers
 dev-nodejs/catharsis 0.8.8: A JavaScript parser for Google Closure Compiler and JSDoc type expressions
+dev-nodejs/chai 1.7.2: BDD/TDD assertion library for node.js and the browser
 dev-nodejs/chalk 1.1.3: Terminal string styling done right. Much color.
 dev-nodejs/charm 0.1.2: Ansi control sequences for terminal cursor hopping and colors
 dev-nodejs/clean-yaml-object 0.1.0: Clean up an object prior to serialization
