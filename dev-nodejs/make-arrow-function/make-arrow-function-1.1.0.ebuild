@@ -4,22 +4,15 @@
 
 EAPI=6
 
-NODE_MODULE_HAS_TEST="1"
-NODE_MODULE_TEST_DEPEND="tape:2.13.4"
+NODEJS_MIN_VERSION="0.4"
 
 inherit node-module
 
-DESCRIPTION="Array#isArray for older browsers"
+DESCRIPTION="Function that returns an arbitrary arrow function"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
 
-DOCS=( README.md )
+DOCS=( README.md CHANGELOG.md )
 DEPEND="${DEPEND}
 	test? ( dev-util/tap:0 )"
-
-src_compile() { :; }
-
-node_module_run_test() {
-	tap test.js || die "Tests failed"
-}
