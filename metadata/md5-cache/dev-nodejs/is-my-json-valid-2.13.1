@@ -1,8 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( net-libs/nodejs dev-nodejs/jsonpointer:2.0.0 dev-nodejs/generate-function:2.0.0 dev-nodejs/xtend:4.0.1 dev-nodejs/generate-object-property:1.2.0 dev-nodejs/tape:2.14.1 )
 DESCRIPTION=A JSONSchema validator that uses code generation to be extremely fast
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/is-my-json-valid
-IUSE=examples
+IUSE=examples test test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs dev-nodejs/jsonpointer:2.0.0 dev-nodejs/generate-function:2.0.0 dev-nodejs/xtend:4.0.1 dev-nodejs/generate-object-property:1.2.0
@@ -10,4 +11,4 @@ SLOT=2.13.1
 SRC_URI=http://registry.npmjs.org/is-my-json-valid/-/is-my-json-valid-2.13.1.tgz
 _eclass_exported_funcs=src_test:node-module src_install:-
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=261d35f6852edac27f796fe220277182
+_md5_=e81a46fbf66416eb72c4a012fc8a2def

@@ -1,7 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( net-libs/nodejs dev-nodejs/tape:4.6.3 )
 DESCRIPTION=Determine if an object is Buffer
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/is-buffer
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs
@@ -9,4 +11,4 @@ SLOT=1.1.4
 SRC_URI=http://registry.npmjs.org/is-buffer/-/is-buffer-1.1.4.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=947267388a8a0d13ad42cda6b1627a85
+_md5_=f3a6f2c6e6612d97eab77c887e9b0eb2
