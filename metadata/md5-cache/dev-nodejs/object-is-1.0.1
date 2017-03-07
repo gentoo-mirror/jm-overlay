@@ -1,7 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( >=net-libs/nodejs-0.4 dev-nodejs/tape:2.14.1 )
 DESCRIPTION=ES6-compliant shim for Object.is - differentiates between -0 and +0
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/object-is
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=net-libs/nodejs-0.4
@@ -9,4 +11,4 @@ SLOT=1.0.1
 SRC_URI=http://registry.npmjs.org/object-is/-/object-is-1.0.1.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=ace1ae9d114c310376b0feea10d0802a
+_md5_=bce8b4c06071312ed7ecfd82a831685b

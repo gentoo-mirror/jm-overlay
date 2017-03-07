@@ -292,6 +292,12 @@ dev-nodejs/rimraf 2.5.2 2.5.4 2.6.1: A deep deletion module for node (like rm -r
 dev-nodejs/runforcover 0.0.2: Require plugin for js code coverage using bunker
 dev-nodejs/semver 5.1.0: The semantic version parser used by npm
 dev-nodejs/set-blocking 2.0.0: Set blocking stdio and stderr ensuring that terminal output does not truncate
+dev-nodejs/should 11.2.0: Test framework agnostic BDD-style assertions
+dev-nodejs/should-equal 1.0.1: Deep comparison of 2 instances for should.js
+dev-nodejs/should-format 3.0.3: Formatting of objects for should.js
+dev-nodejs/should-type 1.4.0: Simple module to get instance type. Like a bit more advanced version of typeof
+dev-nodejs/should-type-adaptors 1.0.1: Small utility functions to use the same traversing etc code on different types
+dev-nodejs/should-util 1.0.0: Utility functions
 dev-nodejs/sigmund 1.0.1: Quick and dirty signatures for Objects
 dev-nodejs/signal-exit 2.1.2 3.0.0: When you want to fire an event no matter how a process exits
 dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide presentation
@@ -317,7 +323,7 @@ dev-nodejs/supports-color 2.0.0 3.1.2: Detect whether a terminal supports color
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 2.0.1: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 2.0.0: Parse the test anything protocol
-dev-nodejs/tape 0.1.5 1.0.4 1.1.2 2.3.3 2.4.3 2.12.3 2.13.4 2.14.1 3.4.0 3.6.1 4.6.0 4.6.3: Tap-producing test harness for node and browsers
+dev-nodejs/tape 0.1.5 1.0.4 1.1.2 2.3.3 2.4.3 2.6.1 2.12.3 2.13.4 2.14.1 3.4.0 3.6.1 4.6.0 4.6.3: Tap-producing test harness for node and browsers
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/through 2.3.8: Simplified stream construction
 dev-nodejs/through2 2.0.3: A tiny wrapper around Node streams2 Transform
