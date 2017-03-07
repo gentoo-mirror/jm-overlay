@@ -4,18 +4,15 @@
 
 EAPI=6
 
-NODEJS_MIN_VERSION="0.6.0"
-NODE_MODULE_HAS_TEST="1"
+NODE_MODULE_EXTRA_FILES="build"
 
 inherit node-module
 
-DESCRIPTION="Simple JSON Addressing"
+DESCRIPTION="Array#isArray for older browsers"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
 
 DOCS=( README.md )
 
-node_module_run_test() {
-	node test.js || die "Tests failed"
-}
+src_compile() { :; }

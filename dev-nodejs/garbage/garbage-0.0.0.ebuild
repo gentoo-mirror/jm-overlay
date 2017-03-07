@@ -4,20 +4,22 @@
 
 EAPI=6
 
+NODEJS_MIN_VERSION="0.4"
 NODE_MODULE_HAS_TEST="1"
-NODE_MODULE_TEST_DEPEND="tape:2.14.1"
+NODE_MODULE_TEST_DEPEND="traverse:0.4.6"
 
 inherit node-module
 
-DESCRIPTION="Detect whether or not an object is a Typed Array"
+DESCRIPTION="Generate garbage json data"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
 
-DOCS=( README.md )
+DOCS=( README.markdown )
 DEPEND="${DEPEND}
 	test? ( dev-util/tap:0 )"
 
 node_module_run_test() {
-	tap test.js || die "Tests failed"
+	install_node_module_build_depend "tap:0"
+	tap test || die "Tests failed"
 }
