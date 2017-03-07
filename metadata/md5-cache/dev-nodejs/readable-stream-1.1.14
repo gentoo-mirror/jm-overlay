@@ -1,0 +1,12 @@
+DEFINED_PHASES=install test
+DESCRIPTION=Streams3, a user-land copy of the stream library from Node.js
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/readable-stream
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=net-libs/nodejs dev-nodejs/core-util-is:1.0.2 dev-nodejs/isarray:0.0.1 dev-nodejs/string_decoder:0.10.31 dev-nodejs/inherits:2.0.3
+SLOT=1.1.14
+SRC_URI=http://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz
+_eclass_exported_funcs=src_test:node-module src_install:node-module
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	53b75b4a49cf3e61530a523804045432
+_md5_=3a87df0ef6960dab7291408d4f9be8ab

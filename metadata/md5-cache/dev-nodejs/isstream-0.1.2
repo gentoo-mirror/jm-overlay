@@ -1,7 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 dev-nodejs/readable-stream:1.0.34 dev-nodejs/readable-stream:1.1.14 ) test? ( net-libs/nodejs dev-nodejs/tape:2.12.3 )
 DESCRIPTION=Determine if an object is a Stream
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/isstream
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs
@@ -9,4 +11,4 @@ SLOT=0.1.2
 SRC_URI=http://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=fd474fc2465d08a8ac423232a94a5713
+_md5_=9c136d9f1644f5fc8d9bb961f17b1b92
