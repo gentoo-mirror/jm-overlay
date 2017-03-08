@@ -1,8 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0.7 ) test? ( net-libs/nodejs dev-nodejs/deep-equal:0.2.2 dev-nodejs/jsonify:0.0.0 dev-nodejs/defined:0.0.0 dev-nodejs/inherits:2.0.3 dev-nodejs/resumer:0.0.0 dev-nodejs/through:2.3.8 dev-nodejs/falafel:0.1.6 )
 DESCRIPTION=Tap-producing test harness for node and browsers
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/tape
-IUSE=examples
+IUSE=examples test test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs dev-nodejs/deep-equal:0.2.2 dev-nodejs/jsonify:0.0.0 dev-nodejs/defined:0.0.0 dev-nodejs/inherits:2.0.3 dev-nodejs/resumer:0.0.0 dev-nodejs/through:2.3.8
@@ -10,4 +11,4 @@ SLOT=2.6.1
 SRC_URI=http://registry.npmjs.org/tape/-/tape-2.6.1.tgz
 _eclass_exported_funcs=src_test:node-module src_install:-
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=de367ece935d278a557952f05a05ea4b
+_md5_=3025e1ba41ed66894409254ad9060421

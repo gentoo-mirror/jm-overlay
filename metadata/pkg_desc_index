@@ -18,8 +18,8 @@ dev-libs/pybind11 1.1 1.2 1.3 1.4 1.5 1.7 1.8 1.8.1 2.0.0 2.0.1: Lightweight lib
 dev-libs/rapidjson 1.0.2 1.1.0: Fast JSON parser/generator for C++
 dev-nodejs/JSONStream 1.2.1: rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
 dev-nodejs/abbrev 1.0.7: Like ruby's abbrev module, but in js
-dev-nodejs/acorn 3.3.0: ECMAScript parser
-dev-nodejs/acorn-jsx 3.0.1: ECMAScript parser
+dev-nodejs/acorn 1.2.2 2.7.0 3.3.0: ECMAScript parser
+dev-nodejs/acorn-jsx 2.0.1 3.0.1: ECMAScript parser
 dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in the AMD format
 dev-nodejs/ansi-regex 2.0.0: Regular expression for matching ANSI escape codes
 dev-nodejs/ansi-styles 2.2.1: ANSI escape codes for styling strings in the terminal
@@ -73,7 +73,7 @@ dev-nodejs/combined-stream 1.0.5: A stream that emits multiple other streams one
 dev-nodejs/commander 2.9.0: The complete solution for node.js command-line programs
 dev-nodejs/commondir 1.0.1: Compute the closest common parent for file paths
 dev-nodejs/concat-map 0.0.1: Concatenative mapdashery
-dev-nodejs/concat-stream 0.1.1 1.5.2 1.6.0: Stream that concatenates strings or binary data and calls a callback
+dev-nodejs/concat-stream 0.1.1 1.4.10 1.5.2 1.6.0: Stream that concatenates strings or binary data and calls a callback
 dev-nodejs/convert-source-map 1.3.0: Converts a source-map from/to different formats
 dev-nodejs/core-js 2.4.1: Standard library
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
@@ -107,7 +107,7 @@ dev-nodejs/es6-iterator 2.0.0: Iterator abstraction based on ES6 specification
 dev-nodejs/es6-symbol 3.1.0: ECMAScript 6 Symbol polyfill
 dev-nodejs/escape-string-regexp 1.0.5: Escape RegExp special characters
 dev-nodejs/espree 2.2.5 3.1.7: An actively-maintained fork of Esprima
-dev-nodejs/esprima 1.0.4 2.7.2: ECMAScript parsing infrastructure for multipurpose analysis
+dev-nodejs/esprima 1.0.4 1.1.0 2.7.2 3.1.3: ECMAScript parsing infrastructure for multipurpose analysis
 dev-nodejs/esutils 2.0.2: Utility box for ECMAScript language tools
 dev-nodejs/event-stream 0.9.8: Construct pipes of streams of events
 dev-nodejs/events-to-array 1.0.2: Put a bunch of emitted events in an array, for testing
@@ -116,6 +116,7 @@ dev-nodejs/expand-range 1.8.2: Fast, bash-like range expansion
 dev-nodejs/extend 3.0.0: Port of jQuery.extend for node.js and the browser
 dev-nodejs/extglob 0.3.2: Convert extended globs to regex-compatible strings
 dev-nodejs/extsprintf 1.0.2: Extended POSIX-style sprintf
+dev-nodejs/falafel 0.1.6 0.3.1 1.2.0: Transform the ast on a recursive walk
 dev-nodejs/filename-regex 2.0.0: Regular expression for matching file names, with or without extension
 dev-nodejs/fill-range 2.2.3: Fill in a range of numbers or letters
 dev-nodejs/find-cache-dir 0.1.1: Finds the common standard cache directory
@@ -192,7 +193,7 @@ dev-nodejs/istanbul-lib-source-maps 1.0.0_alpha10: Source maps support for istan
 dev-nodejs/istanbul-reports 1.0.0_alpha8: Istanbul reports
 dev-nodejs/jodid25519 1.0.2-r1: Curve 25519-based cryptography
 dev-nodejs/js-tokens 1.0.3 2.0.0: A regex that tokenizes JavaScript
-dev-nodejs/js-yaml 3.0.1 3.6.1: YAML 1.2 parser and serializer
+dev-nodejs/js-yaml 3.0.1 3.6.1 3.7.0 3.8.2: YAML 1.2 parser and serializer
 dev-nodejs/js2xmlparser 1.0.0: Parses JavaScript objects into XML
 dev-nodejs/jsbn 0.1.0: Fast, portable implementation of large-number math in pure JavaScript
 dev-nodejs/json-schema 0.2.2: JSON Schema validation and specifications
@@ -323,8 +324,8 @@ dev-nodejs/subarg 1.0.0: Parse arguments with recursive contexts
 dev-nodejs/supports-color 2.0.0 3.1.2: Detect whether a terminal supports color
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 2.0.1: Format a TAP stream using Mocha's set of reporters
-dev-nodejs/tap-parser 2.0.0: Parse the test anything protocol
-dev-nodejs/tape 0.1.5 1.0.4 1.1.2 2.3.3 2.4.3 2.6.1 2.12.3 2.13.4 2.14.1 3.4.0 3.6.1 4.6.0 4.6.3: Tap-producing test harness for node and browsers
+dev-nodejs/tap-parser 1.2.2 2.0.0: Parse the test anything protocol
+dev-nodejs/tape 0.0.5 0.1.5 1.0.4 1.1.2 2.3.3 2.4.3 2.6.1 2.12.3 2.13.4 2.14.1 3.4.0 3.6.1 4.6.0 4.6.3: Tap-producing test harness for node and browsers
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/through 2.3.8: Simplified stream construction
 dev-nodejs/through2 2.0.3: A tiny wrapper around Node streams2 Transform

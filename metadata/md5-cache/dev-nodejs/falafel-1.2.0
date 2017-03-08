@@ -1,0 +1,14 @@
+DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( >=net-libs/nodejs-0.4.0 dev-nodejs/acorn:1.2.2 dev-nodejs/foreach:2.0.5 dev-nodejs/isarray:0.0.1 dev-nodejs/object-keys:1.0.11 dev-nodejs/tape:4.6.3 dev-nodejs/acorn-jsx:2.0.1 )
+DESCRIPTION=Transform the ast on a recursive walk
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/falafel
+IUSE=examples test test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=net-libs/nodejs-0.4.0 dev-nodejs/acorn:1.2.2 dev-nodejs/foreach:2.0.5 dev-nodejs/isarray:0.0.1 dev-nodejs/object-keys:1.0.11
+SLOT=1.2.0
+SRC_URI=http://registry.npmjs.org/falafel/-/falafel-1.2.0.tgz
+_eclass_exported_funcs=src_test:node-module src_install:-
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=6ab39997f900a1a5a8e92ec711e65cc4

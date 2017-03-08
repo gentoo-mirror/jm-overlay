@@ -1,7 +1,9 @@
 DEFINED_PHASES=compile install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( >=net-libs/nodejs-0.4 dev-nodejs/function-bind:1.1.0 dev-nodejs/define-properties:1.1.2 dev-nodejs/es-abstract:1.5.1 dev-nodejs/tape:4.6.3 )
 DESCRIPTION=ES5 spec-compliant shim for String.prototype.trim
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/string.prototype.trim
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=net-libs/nodejs-0.4 dev-nodejs/function-bind:1.1.0 dev-nodejs/define-properties:1.1.2 dev-nodejs/es-abstract:1.5.1
@@ -9,4 +11,4 @@ SLOT=1.1.2
 SRC_URI=http://registry.npmjs.org/string.prototype.trim/-/string.prototype.trim-1.1.2.tgz
 _eclass_exported_funcs=src_compile:- src_test:node-module src_install:node-module
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=03fdecc96c7ec9b3a3114fc8e456bc87
+_md5_=abca0f7b3c077d255a9a63eefc7d7955

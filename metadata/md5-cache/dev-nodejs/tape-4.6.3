@@ -1,8 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-nodejs/string-prototype-trim:1.1.2 dev-util/tap:0.7 ) test? ( net-libs/nodejs dev-nodejs/deep-equal:1.0.1 dev-nodejs/defined:1.0.0 dev-nodejs/for-each:0.3.2 dev-nodejs/function-bind:1.1.0 dev-nodejs/glob:7.1.1 dev-nodejs/has:1.0.1 dev-nodejs/inherits:2.0.3 dev-nodejs/minimist:1.2.0 dev-nodejs/object-inspect:1.2.1 dev-nodejs/resolve:1.1.7 dev-nodejs/resumer:0.0.0 dev-nodejs/through:2.3.8 dev-nodejs/tap-parser:1.2.2 dev-nodejs/concat-stream:1.5.2 dev-nodejs/falafel:1.2.0 dev-nodejs/js-yaml:3.7.0 )
 DESCRIPTION=Tap-producing test harness for node and browsers
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/tape
-IUSE=examples
+IUSE=examples test test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=dev-nodejs/string-prototype-trim:1.1.2 net-libs/nodejs dev-nodejs/deep-equal:1.0.1 dev-nodejs/defined:1.0.0 dev-nodejs/for-each:0.3.2 dev-nodejs/function-bind:1.1.0 dev-nodejs/glob:7.1.1 dev-nodejs/has:1.0.1 dev-nodejs/inherits:2.0.3 dev-nodejs/minimist:1.2.0 dev-nodejs/object-inspect:1.2.1 dev-nodejs/resolve:1.1.7 dev-nodejs/resumer:0.0.0 dev-nodejs/through:2.3.8
@@ -10,4 +11,4 @@ SLOT=4.6.3
 SRC_URI=http://registry.npmjs.org/tape/-/tape-4.6.3.tgz
 _eclass_exported_funcs=src_test:node-module src_install:-
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=3a4cd6bd8afd9b8a554e74927a3d2a52
+_md5_=035e00d16e43a78fbeccddbf52faba2e
