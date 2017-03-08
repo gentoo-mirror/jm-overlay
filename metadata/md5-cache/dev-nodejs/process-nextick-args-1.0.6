@@ -1,7 +1,9 @@
 DEFINED_PHASES=install test
+DEPEND=test? ( dev-util/tap:0 ) test? ( net-libs/nodejs )
 DESCRIPTION=process.nextTick but always with args
 EAPI=6
 HOMEPAGE=https://www.npmjs.org/package/process-nextick-args
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=net-libs/nodejs
@@ -9,4 +11,4 @@ SLOT=1.0.6
 SRC_URI=http://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.6.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=060f2d1a47ae257005dc965f2064f637
+_md5_=0c6f59cb7c453874569cccc8d96c6a12
