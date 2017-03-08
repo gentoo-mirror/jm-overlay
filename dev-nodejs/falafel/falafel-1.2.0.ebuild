@@ -4,15 +4,18 @@
 
 EAPI=6
 
+NODEJS_MIN_VERSION="0.4.0"
 NODE_MODULE_HAS_TEST="1"
-NODE_MODULE_DEPEND="deep-equal:0.0.0
-	defined:0.0.0
-	jsonify:0.0.0"
-NODE_MODULE_TEST_DEPEND="falafel:0.1.6"
+NODE_MODULE_DEPEND="acorn:1.2.2
+	foreach:2.0.5
+	isarray:0.0.1
+	object-keys:1.0.11"
+NODE_MODULE_TEST_DEPEND="tape:4.6.3
+	acorn-jsx:2.0.1"
 
 inherit node-module
 
-DESCRIPTION="Tap-producing test harness for node and browsers"
+DESCRIPTION="Transform the ast on a recursive walk"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
@@ -20,7 +23,7 @@ IUSE="examples test"
 
 DOCS=( readme.markdown )
 DEPEND="${DEPEND}
-	test? ( dev-util/tap:0.7 )"
+	test? ( dev-util/tap:0 )"
 
 src_install() {
 	node-module_src_install
@@ -28,6 +31,5 @@ src_install() {
 }
 
 node_module_run_test() {
-	install_node_module_build_depend "tap:0.7"
-	tap-0.7 test/*.js || die "Tests failed"
+	tap test/*.js || die "Tests failed"
 }

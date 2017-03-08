@@ -4,26 +4,21 @@
 
 EAPI=6
 
+NODEJS_MIN_VERSION="0.4.0"
 NODE_MODULE_HAS_TEST="1"
-NODE_MODULE_DEPEND="minimist:1.2.0"
-NODE_MODULE_TEST_DEPEND="tape:3.6.1"
+NODE_MODULE_DEPEND="esprima:1.0.4"
+NODE_MODULE_TEST_DEPEND="tape:0.0.5"
 
 inherit node-module
 
-DESCRIPTION="Parse arguments with recursive contexts"
+DESCRIPTION="Transform the ast on a recursive walk"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
-IUSE="examples test"
 
-DOCS=( readme.markdown )
+DOCS=( README.markdown )
 DEPEND="${DEPEND}
 	test? ( dev-util/tap:0 )"
-
-src_install() {
-	node-module_src_install
-	use examples && dodoc -r example
-}
 
 node_module_run_test() {
 	tap test || die "Tests failed"

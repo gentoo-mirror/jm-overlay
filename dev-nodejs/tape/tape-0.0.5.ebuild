@@ -29,5 +29,5 @@ src_install() {
 
 node_module_run_test() {
 	install_node_module_build_depend "tap:0.7"
-	tap-0.7 test/*.js || die "Tests failed"
+	tap-0.7 test || die "Tests failed"
 }
