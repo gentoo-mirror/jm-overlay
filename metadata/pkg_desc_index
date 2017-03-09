@@ -122,10 +122,13 @@ dev-nodejs/fill-range 2.2.3: Fill in a range of numbers or letters
 dev-nodejs/find-cache-dir 0.1.1: Finds the common standard cache directory
 dev-nodejs/find-up 1.1.2: Find a file by walking up parent directories
 dev-nodejs/for-each 0.3.2: A better forEach
+dev-nodejs/for-in 0.1.8: Iterate over the own and inherited enumerable properties of an object
+dev-nodejs/for-own 0.1.4: Iterate over the own enumerable properties of an object
 dev-nodejs/foreach 2.0.5: Foreach component + npm package
 dev-nodejs/foreground-child 1.5.3: Run a child as if it's the foreground process. Give it stdio. Exit when it exits
 dev-nodejs/forever-agent 0.6.1: HTTP Agent that keeps socket connections alive between keep-alive requests
 dev-nodejs/form-data 1.0.0_rc4: A module to create readable "multipart/form-data" streams
+dev-nodejs/from 0.1.3: Easy way to make a Readable Stream
 dev-nodejs/fs-extra 0.30.0: Contains methods that aren't included in the vanilla Node.js fs package
 dev-nodejs/fs-realpath 1.0.0: Node's fs.realpath, fall back to the JS implementation if the native one fails
 dev-nodejs/function-bind 1.1.0: Implementation of Function.prototype.bind
@@ -148,6 +151,7 @@ dev-nodejs/has 0.0.1 1.0.1: Object.prototype.hasOwnProperty.call shortcut
 dev-nodejs/has-ansi 2.0.0: Check if a string has ANSI escape codes
 dev-nodejs/has-flag 1.0.0: Check if argv has a specific flag
 dev-nodejs/hash_file 0.1.1: A simple utility for getting a hash of a file
+dev-nodejs/hashish 0.0.4: Hash data structure manipulation functions
 dev-nodejs/hawk 3.1.3: HTTP Hawk Authentication Scheme
 dev-nodejs/highlight-js 9.3.0: Syntax highlighting with language autodetection
 dev-nodejs/hoek 2.16.3: General purpose node utilities
@@ -167,6 +171,7 @@ dev-nodejs/is-callable 1.1.3: Is this JS value callable?
 dev-nodejs/is-date-object 1.0.1: Is this value a JS Date object?
 dev-nodejs/is-dotfile 1.0.2: Return true if a file path is (or has) a dotfile
 dev-nodejs/is-equal-shallow 0.1.3: Does a shallow comparison of two objects
+dev-nodejs/is-extendable 0.1.1: Useful for determining if a value can be extended
 dev-nodejs/is-extglob 1.0.0: Returns true if a string has an extglob
 dev-nodejs/is-finite 1.0.1: ES6 Number.isFinite() ponyfill
 dev-nodejs/is-fullwidth-code-point 1.0.0: Check if the character represented by a given Unicode code point is fullwidth
@@ -224,6 +229,7 @@ dev-nodejs/lodash_isiterateecall 3.0.9: The modern build of lodash's internal is
 dev-nodejs/log-driver 1.2.4: log-driver is a simple logging framework for logging to stdout
 dev-nodejs/loose-envify 1.2.0: Fast selective process.env replacer using js-tokens instead of an AST
 dev-nodejs/lru-cache 2.7.3 4.0.1: A cache object that deletes the least-recently-used items
+dev-nodejs/macgyver 1.10.1: Declarative assertion framework for invocation ordering
 dev-nodejs/make-arrow-function 1.1.0: Function that returns an arbitrary arrow function
 dev-nodejs/make-generator-function 1.1.0: Returns an arbitrary generator function
 dev-nodejs/marked 0.3.5 0.3.6: A markdown parser built for speed
@@ -247,7 +253,7 @@ dev-nodejs/oauth-sign 0.8.2: OAuth 1 signing
 dev-nodejs/object-inspect 0.4.0 1.2.1: String representations of objects in node and the browser
 dev-nodejs/object-is 1.0.1: ES6-compliant shim for Object.is - differentiates between -0 and +0
 dev-nodejs/object-keys 1.0.11: An Object.keys replacement, in case Object.keys is not available
-dev-nodejs/object-omit 2.0.0: Return a copy of an object excluding the given key, or array of keys
+dev-nodejs/object-omit 2.0.0-r1: Return a copy of an object excluding the given key, or array of keys
 dev-nodejs/once 1.3.3 1.4.0: Run a function exactly one time
 dev-nodejs/only-shallow 1.2.0: Like deeper and deepest, but less strict, and with 90s flavor
 dev-nodejs/opener 1.4.1: Opens stuff, like webpages and files and executables, cross-platform
@@ -313,6 +319,7 @@ dev-nodejs/spdx-license-ids 1.2.1: A list of SPDX license identifiers
 dev-nodejs/sshpk 1.8.3: A library for finding and using SSH public keys
 dev-nodejs/stack-utils 0.4.0: Captures and cleans stack traces
 dev-nodejs/stream-combiner2 1.1.1: This is a sequel to stream-combiner for streams2
+dev-nodejs/stream-spec 0.3.6: Simple module to get instance type. Like a bit more advanced version of typeof
 dev-nodejs/string-prototype-trim 1.1.2: ES5 spec-compliant shim for String.prototype.trim
 dev-nodejs/string-width 1.0.1 1.0.2: Get the visual width of a string
 dev-nodejs/string_decoder 0.10.31: The string_decoder module from Node core
