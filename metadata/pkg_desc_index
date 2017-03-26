@@ -367,9 +367,9 @@ dev-nodejs/yallist 2.0.0: Yet Another Linked List
 dev-nodejs/yamlish 0.0.7: Parser/encoder for the yamlish format
 dev-nodejs/yargs 1.3.3 4.8.1: Yargs the modern, pirate-themed, successor to optimist
 dev-nodejs/yargs-parser 2.4.1: The mighty option parser used by yargs
-dev-python/axolotl 0.1.7 0.1.35 9999-r1: Python port of libaxolotl
-dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/imagesize 0.7.1: Getting image size from png/jpeg/jpeg2000/gif file
+dev-python/python-axolotl 0.1.7 0.1.35 0.1.39 9999-r1: Python port of libaxolotl
+dev-python/python-axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/python-zstd 0.7.5.1 1.0.0.99.1 1.1.2 1.1.3: Python bindings to Yann Collet ZSTD compression library
 dev-python/sophy 0.1.6: Fast Python bindings for Sophia Database
 dev-python/sphinx 1.4.4: Python documentation generator
@@ -404,7 +404,7 @@ media-fonts/street_2_art 1.0-r1: The Street 2 Art font
 media-fonts/ultimate-oldschool-pc-font-pack 1.0: Classic fonts from DOS-era IBM PCs and compatibles
 media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
 media-gfx/IOGraph 1.0.1: Application that turns mouse movements into modern art
-media-gfx/guetzli 0.2: JPEG encoder that aims for excellent compression density at high visual quality
+media-gfx/guetzli 0.2 1.0.1: JPEG encoder that aims for excellent compression density at high visual quality
 media-gfx/impack 1.0-r2 1.1-r2 1.2-r1 1.2.1-r1 1.3-r1 1.4 1.4.1: Store your data in images
 media-gfx/picture-tube 1.0.0-r2: Render 256 color images on the terminal
 media-gfx/scale2x 3.2 4.0: Real-time graphics effect able to increase the size of small bitmaps
@@ -415,7 +415,7 @@ media-sound/fische 4.0.3: Stand alone sound visualization
 media-sound/musyng-kite-soundfont 20140621: Final, definitive revision of the former Evanessence soundfont
 media-video/nordlicht 0.4.2 0.4.3 0.4.4 0.4.5: library + tool that creates colorful video barcodes
 net-im/telegram-purple 9999-r1: Libpurple (Pidgin) plugin for using a Telegram account
-net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48 2.4.102 2.4.103 2.5.0: Python WhatsApp library and CLI client
+net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48 2.4.102 2.4.103 2.5.0 2.5.2: Python WhatsApp library and CLI client
 net-libs/cpr 1.1 1.2.0 1.3.0: Simple wrapper around libcurl inspired by the Python Requests project
 net-libs/libpsl 0.14.0 0.15.0 0.16.0 0.16.1 0.17.0: C library to handle the Public Suffix List
 net-misc/bash-onedrive-upload 9999: Upload files to onedrive via linux command line
@@ -440,10 +440,10 @@ sci-libs/comedilib 0.10.2-r1: Linux control and measurement device interface (us
 sci-libs/tensorflow 0.12.1: Computation using data flow graphs for scalable machine learning
 sci-misc/comedi_calibrate 3-r1 3-r2: Linux control and measurement device interface (calibration tool)
 sys-devel/osxcross 0.14: OS X cross toolchain
-sys-kernel/reiser4-sources 4.1.38-r1 4.1.39 4.9.12 4.9.13 4.9.14 4.9.15 4.9.16 4.9.17 4.10.0 4.10.1 4.10.2 4.10.3 4.10.4 4.10.5: Full sources including the Gentoo and Reiser4 patchsets for the 4.10 kernel tree
+sys-kernel/reiser4-sources 4.1.38-r1 4.1.39 4.9.12 4.9.13 4.9.14 4.9.15 4.9.16 4.9.17 4.9.18 4.10.0 4.10.1 4.10.2 4.10.3 4.10.4 4.10.5: Full sources including the Gentoo and Reiser4 patchsets for the 4.10 kernel tree
 sys-process/parallel 20150522-r1: A shell tool for executing jobs in parallel locally or on remote machines
 virtual/linux-sources 1: Virtual for Linux kernel sources
-www-apps/CGP 0.4.1-r1: Graphical web-based front-end for visualizing RRD collected by collectd
+www-apps/CGP 0.4.1-r1 1: Graphical web-based front-end for visualizing RRD collected by collectd
 www-apps/ddclient-php 9999 9999-r1: PHP web-interface for net-misc/downloaddaemon
 x11-misc/rainlendar 2.13.1: Customizable calendar application on your desktop
 x11-plugins/pidgin-opensteamworks 1.6.1-r1: Steam protocol plugin for pidgin
