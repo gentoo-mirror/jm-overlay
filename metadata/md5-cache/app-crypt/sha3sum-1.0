@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-libs/libkeccak dev-libs/argparser doc? ( sys-apps/texinfo )
+DESCRIPTION=SHA-3 and Keccak checksum utility
+EAPI=6
+HOMEPAGE=https://github.com/maandree/sha3sum
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3+
+RDEPEND=dev-libs/libkeccak dev-libs/argparser
+SLOT=0
+SRC_URI=https://github.com/maandree/sha3sum/archive/1.0.tar.gz -> sha3sum-1.0.tar.gz
+_eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
+_eclasses_=multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=6a727512b3a0d22490bbdc7422cf757a
