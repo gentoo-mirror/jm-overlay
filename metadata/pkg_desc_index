@@ -378,7 +378,7 @@ dev-python/sophy 0.1.6: Fast Python bindings for Sophia Database
 dev-python/sphinx 1.4.4: Python documentation generator
 dev-util/bindiff 4.2.0: Quickly find differences and similarities in disassembled code
 dev-util/mocha 3.1.2: Simple, flexible, fun test framework
-dev-util/movfuscator 9999-r1: The single instruction C compiler
+dev-util/movfuscator 9999-r2: The single instruction C compiler
 dev-util/tap 0.7.1 7.0.0: A Test-Anything-Protocol library
 dev-util/uglifyjs 2.4.10: JavaScript parser, mangler/compressor and beautifier toolkit
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
