@@ -429,6 +429,7 @@ net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete f
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
 net-misc/megasync 2.7.1-r1 2.8.0-r1 2.9.0-r2 2.9.6-r1 2.9.8 2.9.10 3.0.1: Automated syncing between your computers and your MEGA cloud drive
 net-misc/megatools 1.9.98-r1: Command line tools and C library for accessing Mega cloud storage
+net-misc/pclcmd 0.2: Command line client for interacting with cloud storage pCloud
 net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
 net-p2p/blackcoin-qt 1.2.2: Currency with near-instant transaction speeds and negligible transaction fees
 net-p2p/digitalcoin-qt 3.0.1a 3.0.1a-r1: A Currency for the digital age
