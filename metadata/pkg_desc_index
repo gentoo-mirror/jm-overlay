@@ -441,7 +441,6 @@ net-p2p/primecoind 0.1.2-r2 0.1.2-r3: P2P Internet currency based on Bitcoin but
 net-p2p/reddcoin-qt 1.4.1.0 1.4.1.0-r1: The social currency
 net-p2p/terracoin-qt 0.8.0.4: Digital currency with no central authority, no chargeback, low transaction fees
 sci-libs/comedilib 0.10.2-r1: Linux control and measurement device interface (userspace libraries)
-sci-libs/tensorflow 0.12.1: Computation using data flow graphs for scalable machine learning
 sci-misc/comedi_calibrate 3-r1 3-r2: Linux control and measurement device interface (calibration tool)
 sys-devel/osxcross 0.14: OS X cross toolchain
 sys-kernel/reiser4-sources 4.1.38-r1 4.1.39 4.1.39-r1 4.9.12 4.9.13 4.9.14 4.9.15 4.9.16 4.9.17 4.9.18 4.9.20 4.9.21 4.9.22 4.9.23 4.9.24 4.9.25 4.9.26 4.9.27 4.9.28 4.9.29 4.9.30 4.10.0 4.10.1 4.10.2 4.10.3 4.10.4 4.10.5 4.10.6 4.10.8 4.10.9 4.10.10 4.10.11 4.10.11-r1 4.10.12 4.10.13 4.10.14 4.10.15 4.10.16 4.10.17: Full sources including the Gentoo and Reiser4 patchsets for the 4.10 kernel tree
