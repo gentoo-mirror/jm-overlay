@@ -391,7 +391,7 @@ games-fps/UnrealTournament4 20170328_alpha: Futuristic FPS (Pre-Alpha version)
 games-puzzle/BigPharma 1.07.04: Big Pharma is part business sim, part logistics puzzle
 games-puzzle/GirlsLikeRobots 20130314: Game about seating arrangements, wrapped around an epic tale of love and danger
 games-puzzle/HumanResourceMachine 20160323: Program little office workers to solve puzzles
-games-puzzle/empty 20161220: Clear the room of all the objects by rotating it
+games-puzzle/empty 20161228: Clear the room of all the objects by rotating it
 games-strategy/democracy3 1.20: Indepth political simulator
 games-util/cisoplus 1.0.11: A powerfull PSP ISO compressor
 games-util/editor-on-fire 1437-r4: Song editor for Frets On Fire, Phase Shift, Rock Band and Rocksmith
