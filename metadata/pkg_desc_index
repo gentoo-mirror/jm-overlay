@@ -414,7 +414,7 @@ media-libs/zxing-cpp 9999: Multi-format 1D/2D barcode image processing library (
 media-plugins/audacious-lyricwiki-offline 3.7.1: Patched version of audacious' LyricWiki plugin that works offline
 media-sound/fische 4.0.3: Stand alone sound visualization
 media-sound/musyng-kite-soundfont 20140621: Final, definitive revision of the former Evanessence soundfont
-media-video/nordlicht 0.4.2 0.4.3 0.4.4 0.4.5: library + tool that creates colorful video barcodes
+media-video/nordlicht 0.4.2-r1 0.4.3-r1 0.4.4-r1 0.4.5-r1: library + tool that creates colorful video barcodes
 net-im/telegram-purple 9999-r1: Libpurple (Pidgin) plugin for using a Telegram account
 net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48 2.4.102 2.4.103 2.5.0 2.5.2: Python WhatsApp library and CLI client
 net-libs/cpr 1.1 1.2.0 1.3.0: Simple wrapper around libcurl inspired by the Python Requests project
