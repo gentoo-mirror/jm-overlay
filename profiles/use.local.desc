@@ -42,7 +42,6 @@ net-libs/libpsl:builtin-psl - Enable builtin PSL data
 net-libs/libpsl:icu - Use dev-libs/icu for IDNA and/or data generation
 net-libs/libpsl:libidn - Use net-dns/libidn for IDNA and/or data generation
 net-libs/libpsl:libidn2 - Use net-dns/libidn2 for IDNA and/or data generation
-net-misc/megasync:qt5 - Use Qt5 instead of Qt4
 net-p2p/blackcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
 net-p2p/digitalcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
 net-p2p/dogecoin-qt:linguas_de_AT - German locale for Austria

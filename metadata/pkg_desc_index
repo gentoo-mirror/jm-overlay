@@ -11,7 +11,7 @@ dev-cpp/loguru 1.5.0: A header-only C++ logging library
 dev-db/sophia 2.2: Modern transactional key-value/row storage library
 dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
 dev-java/zxing 3.2.1: Multi-format 1D/2D barcode image processing library
-dev-lang/typescript 1.8.10 2.0.3 2.0.9 2.0.10 2.1.5-r1 2.1.6-r1 2.2.1-r1 2.2.2-r1 2.3.1-r1 2.3.2-r1 2.3.3 2.3.4: Language for application scale JavaScript development
+dev-lang/typescript 1.8.10 2.0.3 2.0.9 2.0.10 2.1.5-r1 2.1.6-r1 2.2.1-r1 2.2.2-r1 2.3.1-r1 2.3.2-r1 2.3.3 2.3.4 2.4.1 2.4.2: Language for application scale JavaScript development
 dev-libs/argparser 5.1: Command line argument parser library, like getopt, except better
 dev-libs/libkeccak 1.1.1: Keccak-family hashing library
 dev-libs/linenoise-ng 1.0.0 1.0.1: Small, portable GNU readline replacement
@@ -418,7 +418,7 @@ media-video/nordlicht 0.4.2-r1 0.4.3-r1 0.4.4-r1 0.4.5-r1: library + tool that c
 net-im/telegram-purple 9999-r1: Libpurple (Pidgin) plugin for using a Telegram account
 net-im/yowsup 2.2.78-r1 2.3.84-r1 2.4.48 2.4.102 2.4.103 2.5.0 2.5.2: Python WhatsApp library and CLI client
 net-libs/cpr 1.1 1.2.0 1.3.0: Simple wrapper around libcurl inspired by the Python Requests project
-net-libs/libpsl 0.17.0: C library to handle the Public Suffix List
+net-libs/libpsl 0.17.0 0.18.0: C library to handle the Public Suffix List
 net-misc/acd_cli 0.3.2 9999: A command line interface and FUSE filesystem for Amazon (Cloud) Drive
 net-misc/bash-onedrive-upload 9999: Upload files to onedrive via linux command line
 net-misc/ddclient-gui 9999: Qt4 interface for net-misc/downloaddaemon
@@ -426,7 +426,6 @@ net-misc/ddconsole 9999: CLI interface for net-misc/downloaddaemon
 net-misc/downloaddaemon 9999: A download manager that runs in the background
 net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete files from Dropbox
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
-net-misc/megasync 2.7.1-r1 2.8.0-r1 2.9.0-r2 2.9.6-r1 2.9.8 2.9.10 3.0.1: Automated syncing between your computers and your MEGA cloud drive
 net-misc/megatools 1.9.98-r1: Command line tools and C library for accessing Mega cloud storage
 net-misc/pclcmd 0.2: Command line client for interacting with cloud storage pCloud
 net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
