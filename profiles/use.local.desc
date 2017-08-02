@@ -42,6 +42,14 @@ net-libs/libpsl:builtin-psl - Enable builtin PSL data
 net-libs/libpsl:icu - Use dev-libs/icu for IDNA and/or data generation
 net-libs/libpsl:libidn - Use net-dns/libidn for IDNA and/or data generation
 net-libs/libpsl:libidn2 - Use net-dns/libidn2 for IDNA and/or data generation
+net-misc/electrum-ltc:audio_modem - Enable plugin to support Audio Modem
+net-misc/electrum-ltc:cli - Enables the CLI interface
+net-misc/electrum-ltc:cosign - Enable plugin to support multisig wallets between multiple Electrum-LTC clients
+net-misc/electrum-ltc:digitalbitbox - Enable plugin to support Digital Bitbox hardware wallet
+net-misc/electrum-ltc:email - Enable plugin to support emailing invoices
+net-misc/electrum-ltc:qrcode - Enable QR code scanning with media-gfx/zbar
+net-misc/electrum-ltc:sync - Enable plugin to sync wallet metadata across multiple Electrum-LTC clients
+net-misc/electrum-ltc:vkb - Enable plugin for virtual keyboard
 net-p2p/blackcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
 net-p2p/digitalcoin-qt:qrcode - Enable generation of QR Codes for receiving payments
 net-p2p/dogecoin-qt:linguas_de_AT - German locale for Austria
