@@ -10,6 +10,7 @@ dev-python/python-zstd:legacy - Enable support for legacy zstd formats
 dev-python/python-zstd:legacy-api - Enable APIs for working with files created by older versions of python-zstd
 dev-python/python-zstd:legacy-formats - Enable support for legacy zstd formats
 dev-python/python-zstd:system-libzstd - Build against the system-wide libzstd, this removes any effect from the "legacy-formats" USE flag
+dev-python/sphinx:net - Enable internet capabilities
 dev-util/movfuscator:libressl - Use dev-libs/libressl instead of dev-libs/openssl when building the examples
 dev-util/movfuscator:postproc - Install python-based assembly post-processors
 dev-util/movfuscator:softfloat - Build and install mov-only softfloat libraries
