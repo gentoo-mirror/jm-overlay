@@ -8,5 +8,5 @@ RDEPEND=net-libs/nodejs dev-nodejs/d:0.1.1 dev-nodejs/es5-ext:0.10.12
 SLOT=3.1.0
 SRC_URI=http://registry.npmjs.org/es6-symbol/-/es6-symbol-3.1.0.tgz
 _eclass_exported_funcs=src_test:node-module src_install:node-module
-_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=f53eb9e7c97e534156d93140c5bdcf43
