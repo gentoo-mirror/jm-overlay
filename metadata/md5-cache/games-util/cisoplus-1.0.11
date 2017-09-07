@@ -10,5 +10,4 @@ RDEPEND=sys-libs/glibc amd64? ( sys-libs/glibc[multilib] )
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=http://cisoplus.pspgen.com/Files/cisoplus_1_0_11.zip doc? ( http://cisoplus.pspgen.com/cisoplus3.pdf )
-_eclass_exported_funcs=src_install:-
 _md5_=38adf2ccb57e410b8a76323d534f96e1

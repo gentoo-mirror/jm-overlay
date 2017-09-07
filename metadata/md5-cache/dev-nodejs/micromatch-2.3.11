@@ -7,6 +7,5 @@ LICENSE=MIT
 RDEPEND=dev-nodejs/object-omit:2.0.0 >=net-libs/nodejs-0.10.0 dev-nodejs/filename-regex:2.0.0 dev-nodejs/is-extglob:1.0.0 dev-nodejs/array-unique:0.2.1 dev-nodejs/extglob:0.3.2 dev-nodejs/is-glob:2.0.1 dev-nodejs/normalize-path:2.0.1 dev-nodejs/arr-diff:2.0.0 dev-nodejs/expand-brackets:0.1.5 dev-nodejs/regex-cache:0.4.3 dev-nodejs/kind-of:3.0.4 dev-nodejs/parse-glob:3.0.4 dev-nodejs/braces:1.8.5
 SLOT=2.3.11
 SRC_URI=http://registry.npmjs.org/micromatch/-/micromatch-2.3.11.tgz
-_eclass_exported_funcs=src_test:node-module src_install:-
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=70fc255f3dd6b28ce0bb824ad876098d

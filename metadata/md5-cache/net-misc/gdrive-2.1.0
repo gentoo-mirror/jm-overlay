@@ -7,6 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/prasmussen/gdrive/archive/2.1.0.tar.gz -> gdrive-2.1.0.tar.gz
-_eclass_exported_funcs=src_unpack:- src_compile:golang-build src_test:golang-build src_install:-
 _eclasses_=golang-base	51a1f13e065f1cff4507685d9cc268c7	golang-build	b66349c110e4ddd6203bbe8bf4ae05c1
 _md5_=5ff867e908aa62c3750dde9edae4281b
