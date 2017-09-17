@@ -2,11 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI="5"
+EAPI="6"
 
 ETYPE="sources"
 K_WANT_GENPATCHES="base extras experimental"
-K_GENPATCHES_VER="19"
+K_GENPATCHES_VER="52"
 K_SECURITY_UNSUPPORTED="1"
 REISER4_VER="4.9.3"
 
