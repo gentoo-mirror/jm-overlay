@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=media-libs/libpng:0
 SLOT=0
 SRC_URI=https://github.com/amadvance/scale2x/releases/download/v4.0/scale2x-4.0.tar.gz
-_md5_=713034da8b2d83684929f6b98d5c6814
+_md5_=ed65740a9ad262600bcf0d05c7d61ce9

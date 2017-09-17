@@ -7,5 +7,5 @@ LICENSE=BSD
 RDEPEND=net-libs/nodejs dev-nodejs/istanbul-lib-coverage:1.0.0 dev-nodejs/babylon:6.8.4 dev-nodejs/babel-types:6.13.0 dev-nodejs/babel-generator:6.11.4 dev-nodejs/babel-template:6.9.0 dev-nodejs/babel-traverse:6.13.0
 SLOT=1.1.0
 SRC_URI=http://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-1.1.0.tgz
-_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	node-module	61a042d03e6711088848a92660ff5192	toolchain-funcs	185a06792159ca143528e7010368e8af
-_md5_=e66bdde8e43115bdf0368e88bc41a23e
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	node-module	fc106d64586b99107ea0be0a7d281f18	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=e8543a8f9650d72d31941499b86765dd

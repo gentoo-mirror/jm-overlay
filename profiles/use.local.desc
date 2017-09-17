@@ -21,6 +21,7 @@ games-arcade/stepmania:gles2 - Enable support for OpenGL ES 2
 games-arcade/stepmania:networking - Enable network-related functionality
 games-arcade/stepmania:parport - Enable support for lights connected to the parallel port
 games-arcade/stepmania:wav - Enable support for WAV audio files
+games-emulation/citra:clang - Use sys-devel/clang to compile citra
 games-emulation/citra:qt5 - Enable the Qt5 based interface
 games-emulation/citra:sdl2 - Enable the SDL2 based interface
 games-emulation/citra:system-boost - Use the system-wide version of dev-libs/boost
@@ -43,6 +44,8 @@ net-libs/libpsl:builtin-psl - Enable builtin PSL data
 net-libs/libpsl:icu - Use dev-libs/icu for IDNA and/or data generation
 net-libs/libpsl:libidn - Use net-dns/libidn for IDNA and/or data generation
 net-libs/libpsl:libidn2 - Use net-dns/libidn2 for IDNA and/or data generation
+net-misc/acd_cli:info - Build and install GNU info documentation
+net-misc/acd_cli:man - Build and install manpages
 net-misc/electrum-ltc:audio_modem - Enable plugin to support Audio Modem
 net-misc/electrum-ltc:cli - Enables the CLI interface
 net-misc/electrum-ltc:cosign - Enable plugin to support multisig wallets between multiple Electrum-LTC clients
@@ -71,6 +74,5 @@ sys-devel/osxcross:macports - Install the MacPorts packet manager
 sys-kernel/reiser4-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
 virtual/linux-sources:firmware - Install linux kernel firmware
 www-apps/CGP:json - Pull in the PHP JSON extension, allows finer representation of data in the graph
-x11-misc/rainlendar:linguas_sr_SR - Serbian locale
 x11-misc/rainlendar:pro - Install the paid Rainlendar Pro version
 x11-plugins/pidgin-opensteamworks:polarssl - Use net-libs/polarssl instead of dev-libs/nss

@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install postinst prepare pretend setup unpack
-DEPEND=>=sys-devel/clang-3.2 app-arch/xar app-shells/bash app-arch/p7zip app-arch/xz-utils >=dev-vcs/git-1.8.2.1
+DEPEND=>=sys-devel/clang-3.2:* app-arch/xar app-shells/bash:0 app-arch/p7zip app-arch/xz-utils >=dev-vcs/git-1.8.2.1
 DESCRIPTION=OS X cross toolchain
 EAPI=6
 HOMEPAGE=https://github.com/tpoechtrager/osxcross
 IUSE=macports
 KEYWORDS=~amd64
-LICENSE=GPL-2 APSL-2.0 Xcode
-RDEPEND=>=sys-devel/clang-3.2 app-arch/xar macports? ( app-shells/bash net-misc/wget || ( dev-libs/openssl:0 dev-libs/libressl ) )
+LICENSE=GPL-2 APSL-2 Xcode
+RDEPEND=>=sys-devel/clang-3.2:* app-arch/xar macports? ( app-shells/bash net-misc/wget || ( dev-libs/openssl:0 dev-libs/libressl ) )
 RESTRICT=mirror bindist
 SLOT=0
 SRC_URI=Xcode_7.3.1.dmg
 _eclasses_=check-reqs	bd050ce908e4637604ee604ed4b78e8f	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	flag-o-matic	2274fcc1e7ef6affaff5bcd636275417	git-r3	4f7ddb4119309845d6687213171ab445	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
-_md5_=88811a58e87e064fb8fc506b1a3aafcc
+_md5_=307dda34832161dbd80b795666677ac9
