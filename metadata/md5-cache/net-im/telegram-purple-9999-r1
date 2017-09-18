@@ -7,5 +7,5 @@ IUSE=+webp libressl
 LICENSE=LGPL-3
 RDEPEND=net-im/pidgin !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) webp? ( media-libs/libwebp )
 SLOT=0
-_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
 _md5_=c6908a36017b72081d0fd9fb673cbfa9
