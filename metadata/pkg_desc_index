@@ -429,6 +429,7 @@ net-misc/electrum-ltc 2.8.3.5 2.9.3.1: Litecoin thin client
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
 net-misc/megatools 1.9.98-r1: Command line tools and C library for accessing Mega cloud storage
 net-misc/pclcmd 0.2: Command line client for interacting with cloud storage pCloud
+net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system over IP networks
 net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
 net-p2p/blackcoin-qt 1.2.2: Currency with near-instant transaction speeds and negligible transaction fees
 net-p2p/digitalcoin-qt 3.0.1a 3.0.1a-r1: A Currency for the digital age
