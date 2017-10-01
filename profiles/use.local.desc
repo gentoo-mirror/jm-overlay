@@ -20,6 +20,7 @@ games-arcade/stepmania:default-songs - Install the songs that are distributed wi
 games-arcade/stepmania:gles2 - Enable support for OpenGL ES 2
 games-arcade/stepmania:networking - Enable network-related functionality
 games-arcade/stepmania:parport - Enable support for lights connected to the parallel port
+games-arcade/stepmania:system-ffmpeg - Do not use the bundled version of media-video/ffmpeg
 games-arcade/stepmania:wav - Enable support for WAV audio files
 games-emulation/citra:clang - Use sys-devel/clang to compile citra
 games-emulation/citra:qt5 - Enable the Qt5 based interface
