@@ -1,0 +1,11 @@
+DEFINED_PHASES=install test
+DESCRIPTION=Get the first fulfilled promise that satisfies the provided testing function
+EAPI=6
+HOMEPAGE=https://www.npmjs.org/package/p-locate
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=net-libs/nodejs dev-nodejs/p-limit:1.1.0
+SLOT=2.0.0
+SRC_URI=http://registry.npmjs.org/p-locate/-/p-locate-2.0.0.tgz
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	node-module	0890ad05ecb01d0ca153d31495146db9	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=203fa1bb72f582741a5350648b9db8f4

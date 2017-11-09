@@ -25,6 +25,7 @@ dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in t
 dev-nodejs/ansi-regex 2.0.0: Regular expression for matching ANSI escape codes
 dev-nodejs/ansi-styles 2.2.1: ANSI escape codes for styling strings in the terminal
 dev-nodejs/append-transform 0.3.0: Install a transform to require.extensions that always runs last
+dev-nodejs/archy 1.0.0: Render nested hierarchies "npm ls" style with unicode pipes
 dev-nodejs/arr-diff 2.0.0: Returns an array with only the unique values from the first array
 dev-nodejs/arr-flatten 1.0.1: Recursively flatten an array or arrays
 dev-nodejs/array-unique 0.2.1: Return an array free of duplicate values. Fastest ES5 implementation.
@@ -79,7 +80,7 @@ dev-nodejs/commander 2.9.0 2.11.0: The complete solution for node.js command-lin
 dev-nodejs/commondir 1.0.1: Compute the closest common parent for file paths
 dev-nodejs/concat-map 0.0.1: Concatenative mapdashery
 dev-nodejs/concat-stream 0.1.1 1.4.10 1.5.2 1.6.0: Stream that concatenates strings or binary data and calls a callback
-dev-nodejs/convert-source-map 1.3.0: Converts a source-map from/to different formats
+dev-nodejs/convert-source-map 1.3.0 1.5.0: Converts a source-map from/to different formats
 dev-nodejs/core-js 2.4.1: Standard library
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
 dev-nodejs/coveralls 2.11.12 2.13.3: Takes json-cov output into stdin and POSTs to coveralls.io
@@ -88,6 +89,7 @@ dev-nodejs/cryptiles 2.0.5: General purpose crypto utilities
 dev-nodejs/d 0.1.1: Property descriptor factory
 dev-nodejs/dashdash 1.13.1: A light, featureful and explicit option parsing library
 dev-nodejs/debug 2.2.0 2.6.9 3.1.0: Small debugging utility
+dev-nodejs/debug-log 1.0.1: Node.js 0.12 util.debuglog() ponyfill
 dev-nodejs/decamelize 1.2.0: Convert a camelized string into a lowercased one with a custom separator
 dev-nodejs/deep-eql 0.1.3: Improved deep equality testing for Node.js and the browser
 dev-nodejs/deep-equal 0.0.0 0.1.2 0.2.2 1.0.1: Node's assert.deepEqual algorithm
@@ -125,7 +127,7 @@ dev-nodejs/falafel 0.1.6 0.3.1 1.2.0 2.1.0: Transform the ast on a recursive wal
 dev-nodejs/filename-regex 2.0.0: Regular expression for matching file names, with or without extension
 dev-nodejs/fill-range 2.2.3: Fill in a range of numbers or letters
 dev-nodejs/find-cache-dir 0.1.1: Finds the common standard cache directory
-dev-nodejs/find-up 1.1.2: Find a file by walking up parent directories
+dev-nodejs/find-up 1.1.2 2.1.0: Find a file by walking up parent directories
 dev-nodejs/for-each 0.3.2: A better forEach
 dev-nodejs/for-in 0.1.8: Iterate over the own and inherited enumerable properties of an object
 dev-nodejs/for-own 0.1.4: Iterate over the own enumerable properties of an object
@@ -169,7 +171,7 @@ dev-nodejs/iconv-lite 0.4.15 0.4.19: Convert character encodings in pure javascr
 dev-nodejs/imurmurhash 0.1.4: An incremental implementation of MurmurHash3
 dev-nodejs/inflight 1.0.4-r1 1.0.5 1.0.6: Add callbacks to requests in flight to avoid async duplication
 dev-nodejs/inherits 2.0.1 2.0.3: Browser-friendly inheritance fully compatible with standard node.js inherits()
-dev-nodejs/inline-source-map 0.3.1: Adds source mappings and base64 encodes them
+dev-nodejs/inline-source-map 0.3.1 0.6.2: Adds source mappings and base64 encodes them
 dev-nodejs/invariant 2.2.1: Provide descriptive errors in development but generic errors in production
 dev-nodejs/invert-kv 1.0.0: Invert the key/value of an object
 dev-nodejs/is-arrayish 0.2.1: Determines if an object can be used as an array
@@ -222,6 +224,7 @@ dev-nodejs/klaw 1.2.0 1.3.1: File system walker with Readable stream interface
 dev-nodejs/lcid 1.0.0: Mapping between standard locale identifiers and Windows locale identifiers
 dev-nodejs/lcov-parse 0.0.6 0.0.10: Parse lcov results files and return JSON
 dev-nodejs/load-json-file 1.1.0: Read and parse a JSON file
+dev-nodejs/locate-path 2.0.0: Get the first path that exists on disk of multiple paths
 dev-nodejs/lodash 4.15.0: Lodash modular utilities
 dev-nodejs/lodash-assign 4.0.9 4.2.0: The lodash method _.assign exported as a module
 dev-nodejs/lodash-create 3.1.1: The modern build of lodash's _.create as a module
@@ -270,11 +273,13 @@ dev-nodejs/os-homedir 1.0.1 1.0.2: io.js 2.3.0 os.homedir() ponyfill
 dev-nodejs/os-locale 1.4.0: Get the system locale
 dev-nodejs/own-or 1.0.0: Either use the object's own property, or a fallback
 dev-nodejs/own-or-env 1.0.0: Use an objects own property, or an environment variable
+dev-nodejs/p-limit 1.1.0: Run multiple promise-returning & async functions with limited concurrency
+dev-nodejs/p-locate 2.0.0: Get the first fulfilled promise that satisfies the provided testing function
 dev-nodejs/pako 0.2.8: zlib port to javascript - fast, modularized, with browser support
 dev-nodejs/parents 1.0.1: Return all the parent directories for a directory
 dev-nodejs/parse-glob 3.0.4: Parse a glob pattern into an object of tokens
 dev-nodejs/parse-json 2.2.0: Parse JSON with more helpful errors
-dev-nodejs/path-exists 2.1.0: Check if a path exists
+dev-nodejs/path-exists 2.1.0 3.0.0: Check if a path exists
 dev-nodejs/path-is-absolute 1.0.0 1.0.1: Node.js 0.12 path.isAbsolute() ponyfill
 dev-nodejs/path-parse 1.0.5: Node.js path.parse() ponyfill
 dev-nodejs/path-platform 0.11.15: Provide access to win32 and posix path operations
