@@ -60,6 +60,8 @@ dev-nodejs/buffertools 2.1.4: Working with node.js buffers made easy
 dev-nodejs/builtin-modules 1.1.1: List of the Node.js builtin modules
 dev-nodejs/bunker 0.1.2: Code coverage in native javascript
 dev-nodejs/burrito 0.2.12: Wrap up expressions with a trace function while walking the AST
+dev-nodejs/buster-core 0.6.4: Buster core utilities
+dev-nodejs/buster-format 0.5.6: Tools for formatting JavaScript objects in a human-readable way
 dev-nodejs/cached-path-relative 1.0.0: Memoize the results of the path.relative function
 dev-nodejs/caching-transform 1.0.1: Wraps a transform and provides caching
 dev-nodejs/camelcase 3.0.0: Convert a dash/dot/underscore/space separated string to camelCase
@@ -80,7 +82,7 @@ dev-nodejs/concat-stream 0.1.1 1.4.10 1.5.2 1.6.0: Stream that concatenates stri
 dev-nodejs/convert-source-map 1.3.0: Converts a source-map from/to different formats
 dev-nodejs/core-js 2.4.1: Standard library
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
-dev-nodejs/coveralls 2.11.12: Takes json-cov output into stdin and POSTs to coveralls.io
+dev-nodejs/coveralls 2.11.12 2.13.3: Takes json-cov output into stdin and POSTs to coveralls.io
 dev-nodejs/cross-spawn 4.0.0: Cross platform child_process#spawn and child_process#spawnSync
 dev-nodejs/cryptiles 2.0.5: General purpose crypto utilities
 dev-nodejs/d 0.1.1: Property descriptor factory
@@ -305,14 +307,16 @@ dev-nodejs/runforcover 0.0.2: Require plugin for js code coverage using bunker
 dev-nodejs/safe-buffer 5.1.1: Safer Node.js Buffer API
 dev-nodejs/semver 5.1.0: The semantic version parser used by npm
 dev-nodejs/set-blocking 2.0.0: Set blocking stdio and stderr ensuring that terminal output does not truncate
-dev-nodejs/should 11.2.0: Test framework agnostic BDD-style assertions
+dev-nodejs/should 9.0.2 11.2.0: Test framework agnostic BDD-style assertions
 dev-nodejs/should-equal 1.0.1: Deep comparison of 2 instances for should.js
-dev-nodejs/should-format 3.0.3: Formatting of objects for should.js
+dev-nodejs/should-format 1.0.0 3.0.3: Formatting of objects for should.js
 dev-nodejs/should-type 1.4.0: Simple module to get instance type. Like a bit more advanced version of typeof
 dev-nodejs/should-type-adaptors 1.0.1: Small utility functions to use the same traversing etc code on different types
 dev-nodejs/should-util 1.0.0: Utility functions
 dev-nodejs/sigmund 1.0.1: Quick and dirty signatures for Objects
 dev-nodejs/signal-exit 2.1.2 3.0.0: When you want to fire an event no matter how a process exits
+dev-nodejs/sinon 1.5.2: JavaScript test spies, stubs and mocks
+dev-nodejs/sinon-restore 1.0.1: Simply adds restoreAll() to sinon
 dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide presentation
 dev-nodejs/sntp 1.0.9: SNTP Client
 dev-nodejs/source-map 0.1.34 0.3.0 0.4.4 0.5.6: Generates and consumes source maps
