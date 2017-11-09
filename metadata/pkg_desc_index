@@ -83,7 +83,7 @@ dev-nodejs/convert-source-map 1.3.0: Converts a source-map from/to different for
 dev-nodejs/core-js 2.4.1: Standard library
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
 dev-nodejs/coveralls 2.11.12 2.13.3: Takes json-cov output into stdin and POSTs to coveralls.io
-dev-nodejs/cross-spawn 4.0.0: Cross platform child_process#spawn and child_process#spawnSync
+dev-nodejs/cross-spawn 4.0.0 4.0.2: Cross platform child_process#spawn and child_process#spawnSync
 dev-nodejs/cryptiles 2.0.5: General purpose crypto utilities
 dev-nodejs/d 0.1.1: Property descriptor factory
 dev-nodejs/dashdash 1.13.1: A light, featureful and explicit option parsing library
@@ -130,7 +130,7 @@ dev-nodejs/for-each 0.3.2: A better forEach
 dev-nodejs/for-in 0.1.8: Iterate over the own and inherited enumerable properties of an object
 dev-nodejs/for-own 0.1.4: Iterate over the own enumerable properties of an object
 dev-nodejs/foreach 2.0.5: Foreach component + npm package
-dev-nodejs/foreground-child 1.5.3: Run a child as if it's the foreground process. Give it stdio. Exit when it exits
+dev-nodejs/foreground-child 1.5.3 1.5.6: Run a child as if it's the foreground process. Give it stdio. Exit when it exits
 dev-nodejs/forever-agent 0.6.1: HTTP Agent that keeps socket connections alive between keep-alive requests
 dev-nodejs/form-data 1.0.0_rc4 2.1.4: A module to create readable "multipart/form-data" streams
 dev-nodejs/from 0.1.3: Easy way to make a Readable Stream
@@ -193,7 +193,7 @@ dev-nodejs/is-symbol 1.0.1: Determine if a value is an ES6 Symbol or not
 dev-nodejs/is-typedarray 1.0.0: Detect whether or not an object is a Typed Array
 dev-nodejs/is-utf8 0.2.1: Detect if a buffer is utf8 encoded
 dev-nodejs/isarray 0.0.1 1.0.0: Array#isArray for older browsers
-dev-nodejs/isexe 1.1.2: Minimal module to check if a file is executable
+dev-nodejs/isexe 1.1.2 2.0.0: Minimal module to check if a file is executable
 dev-nodejs/isobject 2.1.0: Returns true if the value is an object and not an array or null
 dev-nodejs/isstream 0.1.2: Determine if an object is a Stream
 dev-nodejs/istanbul-lib-coverage 1.0.0: Data library for istanbul coverage objects
@@ -234,7 +234,7 @@ dev-nodejs/lodash_getnative 3.9.1: The modern build of lodash's internal getNati
 dev-nodejs/lodash_isiterateecall 3.0.9: The modern build of lodash's internal isIterateeCall as a module
 dev-nodejs/log-driver 1.2.4 1.2.5: log-driver is a simple logging framework for logging to stdout
 dev-nodejs/loose-envify 1.2.0: Fast selective process.env replacer using js-tokens instead of an AST
-dev-nodejs/lru-cache 2.7.3 4.0.1: A cache object that deletes the least-recently-used items
+dev-nodejs/lru-cache 2.7.3 4.0.1 4.1.1: A cache object that deletes the least-recently-used items
 dev-nodejs/macgyver 1.10.1: Declarative assertion framework for invocation ordering
 dev-nodejs/make-arrow-function 1.1.0: Function that returns an arbitrary arrow function
 dev-nodejs/make-generator-function 1.1.0: Returns an arbitrary generator function
@@ -302,7 +302,7 @@ dev-nodejs/requizzle 0.2.1: Swizzle a little something into your require() calls
 dev-nodejs/resolve 1.1.7 1.4.0: Resolve like require.resolve on behalf of files asynchronously and synchronously
 dev-nodejs/resolve-from 2.0.0: Resolve the path of a module like require.resolve() but from a given path
 dev-nodejs/resumer 0.0.0: A through stream that starts paused and resumes on the next tick
-dev-nodejs/rimraf 2.5.2 2.5.4 2.6.1: A deep deletion module for node (like rm -rf)
+dev-nodejs/rimraf 2.5.2 2.5.4 2.6.1 2.6.2: A deep deletion module for node (like rm -rf)
 dev-nodejs/runforcover 0.0.2: Require plugin for js code coverage using bunker
 dev-nodejs/safe-buffer 5.1.1: Safer Node.js Buffer API
 dev-nodejs/semver 5.1.0: The semantic version parser used by npm
@@ -314,7 +314,7 @@ dev-nodejs/should-type 1.4.0: Simple module to get instance type. Like a bit mor
 dev-nodejs/should-type-adaptors 1.0.1: Small utility functions to use the same traversing etc code on different types
 dev-nodejs/should-util 1.0.0: Utility functions
 dev-nodejs/sigmund 1.0.1: Quick and dirty signatures for Objects
-dev-nodejs/signal-exit 2.1.2 3.0.0: When you want to fire an event no matter how a process exits
+dev-nodejs/signal-exit 2.1.2 3.0.0 3.0.2: When you want to fire an event no matter how a process exits
 dev-nodejs/sinon 1.5.2: JavaScript test spies, stubs and mocks
 dev-nodejs/sinon-restore 1.0.1: Simply adds restoreAll() to sinon
 dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide presentation
@@ -362,7 +362,7 @@ dev-nodejs/util-deprecate 1.0.2: The Node.js util.deprecate() function with brow
 dev-nodejs/uuid 3.1.0: RFC4122 (v1, v4, and v5) UUIDs
 dev-nodejs/validate-npm-package-license 3.0.1: Give me a string and I'll tell you if it's a valid npm package license string
 dev-nodejs/verror 1.3.6: Richer JavaScript errors
-dev-nodejs/which 1.2.10: Like which(1) unix command. Find the first instance of an executable in the PATH
+dev-nodejs/which 1.2.10 1.3.0: Like which(1) unix command. Find the first instance of an executable in the PATH
 dev-nodejs/which-module 1.0.0: Find the module object for something that was require()d
 dev-nodejs/window-size 0.2.0: Reliable way to to get the height and width of the terminal/console
 dev-nodejs/wordwrap 0.0.3: Wrap your words in node.js
@@ -373,7 +373,7 @@ dev-nodejs/write-file-atomic 1.1.4-r1: Write files in an atomic fashion w/config
 dev-nodejs/x256 0.0.2: Find the nearest xterm 256 color index for an rgb
 dev-nodejs/xtend 3.0.0 4.0.1: Extend like a boss
 dev-nodejs/y18n 3.2.1: The bare-bones internationalization library used by yargs
-dev-nodejs/yallist 2.0.0: Yet Another Linked List
+dev-nodejs/yallist 2.0.0 2.1.2: Yet Another Linked List
 dev-nodejs/yamlish 0.0.7: Parser/encoder for the yamlish format
 dev-nodejs/yargs 1.3.3 4.8.1: Yargs the modern, pirate-themed, successor to optimist
 dev-nodejs/yargs-parser 2.4.1: The mighty option parser used by yargs
