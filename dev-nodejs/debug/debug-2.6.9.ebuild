@@ -3,14 +3,16 @@
 
 EAPI=6
 
-NODE_MODULE_DEPEND="find-up:1.1.2"
-NODEJS_MIN_VERSION="0.10.0"
+NODE_MODULE_EXTRA_FILES="node.js src"
+NODE_MODULE_DEPEND="ms:2.0.0"
 
 inherit node-module
 
-DESCRIPTION="Find the closest package.json file"
+DESCRIPTION="Small debugging utility"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
 
-DOCS=( readme.md )
+DOCS=( CHANGELOG.md README.md )
+
+src_compile() { :; }

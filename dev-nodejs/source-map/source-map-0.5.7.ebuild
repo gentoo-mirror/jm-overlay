@@ -3,14 +3,14 @@
 
 EAPI=6
 
-NODE_MODULE_DEPEND="find-up:1.1.2"
 NODEJS_MIN_VERSION="0.10.0"
+NODE_MODULE_EXTRA_FILES="dist"
 
 inherit node-module
 
-DESCRIPTION="Find the closest package.json file"
+DESCRIPTION="Generates and consumes source maps"
 
-LICENSE="MIT"
+LICENSE="BSD"
 KEYWORDS="~amd64 ~x86"
 
-DOCS=( readme.md )
+DOCS=( README.md CHANGELOG.md )

@@ -3,12 +3,11 @@
 
 EAPI=6
 
-NODE_MODULE_DEPEND="find-up:1.1.2"
 NODEJS_MIN_VERSION="0.10.0"
 
 inherit node-module
 
-DESCRIPTION="Find the closest package.json file"
+DESCRIPTION="io.js 2.3.0 os.homedir() ponyfill"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"

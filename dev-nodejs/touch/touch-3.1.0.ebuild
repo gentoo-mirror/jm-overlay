@@ -3,14 +3,11 @@
 
 EAPI=6
 
-NODE_MODULE_DEPEND="find-up:1.1.2"
-NODEJS_MIN_VERSION="0.10.0"
-
 inherit node-module
 
-DESCRIPTION="Find the closest package.json file"
+DESCRIPTION="Like touch(1) in node"
 
-LICENSE="MIT"
+LICENSE="ISC"
 KEYWORDS="~amd64 ~x86"
 
-DOCS=( readme.md )
+DOCS=( README.md )

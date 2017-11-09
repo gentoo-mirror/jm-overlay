@@ -3,14 +3,15 @@
 
 EAPI=6
 
-NODE_MODULE_DEPEND="find-up:1.1.2"
-NODEJS_MIN_VERSION="0.10.0"
+NODE_MODULE_DEPEND="events-to-array:1.1.2
+	js-yaml:3.10.0
+	readable-stream:2.3.3"
 
 inherit node-module
 
-DESCRIPTION="Find the closest package.json file"
+DESCRIPTION="Parse the test anything protocol"
 
 LICENSE="MIT"
 KEYWORDS="~amd64 ~x86"
 
-DOCS=( readme.md )
+DOCS=( readme.markdown )
