@@ -87,7 +87,7 @@ dev-nodejs/cross-spawn 4.0.0 4.0.2: Cross platform child_process#spawn and child
 dev-nodejs/cryptiles 2.0.5: General purpose crypto utilities
 dev-nodejs/d 0.1.1: Property descriptor factory
 dev-nodejs/dashdash 1.13.1: A light, featureful and explicit option parsing library
-dev-nodejs/debug 2.2.0 3.1.0: Small debugging utility
+dev-nodejs/debug 2.2.0 2.6.9 3.1.0: Small debugging utility
 dev-nodejs/decamelize 1.2.0: Convert a camelized string into a lowercased one with a custom separator
 dev-nodejs/deep-eql 0.1.3: Improved deep equality testing for Node.js and the browser
 dev-nodejs/deep-equal 0.0.0 0.1.2 0.2.2 1.0.1: Node's assert.deepEqual algorithm
@@ -134,9 +134,11 @@ dev-nodejs/foreground-child 1.5.3 1.5.6: Run a child as if it's the foreground p
 dev-nodejs/forever-agent 0.6.1: HTTP Agent that keeps socket connections alive between keep-alive requests
 dev-nodejs/form-data 1.0.0_rc4 2.1.4: A module to create readable "multipart/form-data" streams
 dev-nodejs/from 0.1.3: Easy way to make a Readable Stream
+dev-nodejs/fs-exists-cached 1.0.0: Just like "fs.exists" and "fs.existsSync", but cached
 dev-nodejs/fs-extra 0.30.0: Contains methods that aren't included in the vanilla Node.js fs package
 dev-nodejs/fs-realpath 1.0.0: Node's fs.realpath, fall back to the JS implementation if the native one fails
 dev-nodejs/function-bind 1.1.0 1.1.1: Implementation of Function.prototype.bind
+dev-nodejs/function-loop 1.0.1: Run a list of functions in order in a given object context
 dev-nodejs/garbage 0.0.0: Generate garbage json data
 dev-nodejs/generate-function 2.0.0: Module that helps you write generated functions in Node
 dev-nodejs/generate-object-property 1.2.0: Generate safe JS code that can used to reference a object property
@@ -262,10 +264,12 @@ dev-nodejs/object-keys 1.0.11: An Object.keys replacement, in case Object.keys i
 dev-nodejs/object-omit 2.0.0-r1: Return a copy of an object excluding the given key, or array of keys
 dev-nodejs/once 1.3.3 1.4.0: Run a function exactly one time
 dev-nodejs/only-shallow 1.2.0: Like deeper and deepest, but less strict, and with 90s flavor
-dev-nodejs/opener 1.4.1: Opens stuff, like webpages and files and executables, cross-platform
+dev-nodejs/opener 1.4.1 1.4.3: Opens stuff, like webpages and files and executables, cross-platform
 dev-nodejs/optimist 0.2.8 0.3.7 0.6.1: Light-weight option parsing for node.js
-dev-nodejs/os-homedir 1.0.1: io.js 2.3.0 os.homedir() ponyfill
+dev-nodejs/os-homedir 1.0.1 1.0.2: io.js 2.3.0 os.homedir() ponyfill
 dev-nodejs/os-locale 1.4.0: Get the system locale
+dev-nodejs/own-or 1.0.0: Either use the object's own property, or a fallback
+dev-nodejs/own-or-env 1.0.0: Use an objects own property, or an environment variable
 dev-nodejs/pako 0.2.8: zlib port to javascript - fast, modularized, with browser support
 dev-nodejs/parents 1.0.1: Return all the parent directories for a directory
 dev-nodejs/parse-glob 3.0.4: Parse a glob pattern into an object of tokens
@@ -319,14 +323,15 @@ dev-nodejs/sinon 1.5.2: JavaScript test spies, stubs and mocks
 dev-nodejs/sinon-restore 1.0.1: Simply adds restoreAll() to sinon
 dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide presentation
 dev-nodejs/sntp 1.0.9: SNTP Client
-dev-nodejs/source-map 0.1.34 0.3.0 0.4.4 0.5.6: Generates and consumes source maps
+dev-nodejs/source-map 0.1.34 0.3.0 0.4.4 0.5.6 0.5.7: Generates and consumes source maps
+dev-nodejs/source-map-support 0.4.18: Fixes stack traces for files with source maps
 dev-nodejs/spawn-wrap 1.2.4: Wrap all spawned Node.js child processes
 dev-nodejs/spdx-correct 1.0.2: Correct invalid SPDX identifiers
 dev-nodejs/spdx-exceptions 1.0.4: List of SPDX standard license exceptions
 dev-nodejs/spdx-expression-parse 1.0.2: Parse SPDX license expressions
 dev-nodejs/spdx-license-ids 1.2.1: A list of SPDX license identifiers
 dev-nodejs/sshpk 1.8.3: A library for finding and using SSH public keys
-dev-nodejs/stack-utils 0.4.0: Captures and cleans stack traces
+dev-nodejs/stack-utils 0.4.0 1.0.1: Captures and cleans stack traces
 dev-nodejs/stream-combiner2 1.1.1: This is a sequel to stream-combiner for streams2
 dev-nodejs/stream-spec 0.3.6: Simple module to get instance type. Like a bit more advanced version of typeof
 dev-nodejs/string-prototype-trim 1.1.2: ES5 spec-compliant shim for String.prototype.trim
@@ -339,16 +344,19 @@ dev-nodejs/strip-json-comments 1.0.4 2.0.1: Strip comments from JSON. Lets you u
 dev-nodejs/subarg 1.0.0: Parse arguments with recursive contexts
 dev-nodejs/supports-color 2.0.0 3.1.2 4.4.0: Detect whether a terminal supports color
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
-dev-nodejs/tap-mocha-reporter 2.0.1: Format a TAP stream using Mocha's set of reporters
-dev-nodejs/tap-parser 1.2.2 2.0.0 3.0.5: Parse the test anything protocol
+dev-nodejs/tap-mocha-reporter 2.0.1 3.0.6: Format a TAP stream using Mocha's set of reporters
+dev-nodejs/tap-parser 1.2.2 2.0.0 3.0.5 5.4.0: Parse the test anything protocol
 dev-nodejs/tape 0.0.5 0.1.5 1.0.4 1.1.2 2.3.3 2.4.3 2.6.1 2.12.3 2.13.4 2.14.1 3.4.0 3.6.1 4.6.0 4.6.3 4.8.0: Tap-producing test harness for node and browsers
 dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/through 2.3.8: Simplified stream construction
 dev-nodejs/through2 2.0.3: A tiny wrapper around Node streams2 Transform
-dev-nodejs/tmatch 2.0.1: This module exists to facilitate the t.match() method in http://npm.im/tap
+dev-nodejs/tmatch 2.0.1 3.1.0: This module exists to facilitate the t.match() method in http://npm.im/tap
 dev-nodejs/to-fast-properties 1.0.2: Force V8 to use fast properties for an object
+dev-nodejs/touch 3.1.0: Like touch(1) in node
 dev-nodejs/tough-cookie 2.3.1 2.3.3: RFC6265 Cookies and Cookie Jar for node.js
 dev-nodejs/traverse 0.4.6 0.5.2 0.6.6: Traverse and transform objects by visiting every node on a recursive walk
+dev-nodejs/trivial-deferred 1.0.1: The most dead-simple trivial Deferred implementation
+dev-nodejs/tsame 1.1.2: The logic behind tap's t.same() and t.strictSame()
 dev-nodejs/tunnel-agent 0.4.3: HTTP proxy tunneling agent
 dev-nodejs/tweetnacl 0.13.3: Port of TweetNaCl cryptographic library to JavaScript
 dev-nodejs/type-detect 0.1.1 1.0.0: Improved typeof detection for node.js and the browser
@@ -375,6 +383,7 @@ dev-nodejs/xtend 3.0.0 4.0.1: Extend like a boss
 dev-nodejs/y18n 3.2.1: The bare-bones internationalization library used by yargs
 dev-nodejs/yallist 2.0.0 2.1.2: Yet Another Linked List
 dev-nodejs/yamlish 0.0.7: Parser/encoder for the yamlish format
+dev-nodejs/yapool 1.0.0: Yet Another object pool in JavaScript
 dev-nodejs/yargs 1.3.3 4.8.1: Yargs the modern, pirate-themed, successor to optimist
 dev-nodejs/yargs-parser 2.4.1: The mighty option parser used by yargs
 dev-python/ltc_scrypt 1.0: Bindings for scrypt proof of work used by Litecoin
