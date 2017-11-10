@@ -24,7 +24,7 @@ dev-nodejs/acorn-jsx 2.0.1 3.0.1: ECMAScript parser
 dev-nodejs/amdefine 1.0.0: Provide AMD's define() API for declaring modules in the AMD format
 dev-nodejs/ansi-regex 2.0.0: Regular expression for matching ANSI escape codes
 dev-nodejs/ansi-styles 2.2.1: ANSI escape codes for styling strings in the terminal
-dev-nodejs/append-transform 0.3.0: Install a transform to require.extensions that always runs last
+dev-nodejs/append-transform 0.3.0 0.4.0: Install a transform to require.extensions that always runs last
 dev-nodejs/archy 1.0.0: Render nested hierarchies "npm ls" style with unicode pipes
 dev-nodejs/arr-diff 2.0.0: Returns an array with only the unique values from the first array
 dev-nodejs/arr-flatten 1.0.1: Recursively flatten an array or arrays
@@ -37,14 +37,14 @@ dev-nodejs/async 0.2.10 1.4.2 1.5.2: Higher-order functions and common patterns 
 dev-nodejs/asynckit 0.4.0: Minimal async jobs utility library, with streams support
 dev-nodejs/aws-sign2 0.6.0: AWS signing
 dev-nodejs/aws4 1.4.1 1.6.0: Signs and prepares requests using AWS Signature Version 4
-dev-nodejs/babel-code-frame 6.11.0: Generate errors that contain a code frame that point to source locations
-dev-nodejs/babel-generator 6.11.4: Turns an AST into code
-dev-nodejs/babel-messages 6.8.0: Collection of debug messages used by Babel
-dev-nodejs/babel-runtime 6.11.6: Babel selfContained runtime
-dev-nodejs/babel-template 6.9.0: Generate an AST from a string template
-dev-nodejs/babel-traverse 6.13.0: Babel-traverse
-dev-nodejs/babel-types 6.13.0: Methods for building ASTs manually and for checking the types of AST nodes
-dev-nodejs/babylon 6.8.4: A JavaScript parser
+dev-nodejs/babel-code-frame 6.11.0 6.26.0: Generate errors that contain a code frame that point to source locations
+dev-nodejs/babel-generator 6.11.4 6.26.0: Turns an AST into code
+dev-nodejs/babel-messages 6.8.0 6.23.0: Collection of debug messages used by Babel
+dev-nodejs/babel-runtime 6.11.6 6.26.0: Babel selfContained runtime
+dev-nodejs/babel-template 6.9.0 6.26.0: Generate an AST from a string template
+dev-nodejs/babel-traverse 6.13.0 6.26.0: Babel-traverse
+dev-nodejs/babel-types 6.13.0 6.26.0: Methods for building ASTs manually and for checking the types of AST nodes
+dev-nodejs/babylon 6.8.4 6.18.0: A JavaScript parser
 dev-nodejs/balanced-match 0.3.0 0.4.1 0.4.2 1.0.0: Match balanced character pairs, like "{" and "}"
 dev-nodejs/bind-obj-methods 1.0.0: Bind methods to an object from that object or some other source
 dev-nodejs/bl 1.1.2: Buffer List: Collect buffers, access with a standard readable Buffer interface
@@ -81,7 +81,7 @@ dev-nodejs/commondir 1.0.1: Compute the closest common parent for file paths
 dev-nodejs/concat-map 0.0.1: Concatenative mapdashery
 dev-nodejs/concat-stream 0.1.1 1.4.10 1.5.2 1.6.0: Stream that concatenates strings or binary data and calls a callback
 dev-nodejs/convert-source-map 1.3.0 1.5.0: Converts a source-map from/to different formats
-dev-nodejs/core-js 2.4.1: Standard library
+dev-nodejs/core-js 2.4.1 2.5.1: Standard library
 dev-nodejs/core-util-is 1.0.2: The util.is* functions introduced in Node v0.12
 dev-nodejs/coveralls 2.11.12 2.13.3: Takes json-cov output into stdin and POSTs to coveralls.io
 dev-nodejs/cross-spawn 4.0.0 4.0.2: Cross platform child_process#spawn and child_process#spawnSync
@@ -99,7 +99,7 @@ dev-nodejs/default-require-extensions 1.0.0: Node's default require extensions a
 dev-nodejs/define-properties 1.1.2: Define multiple non-enumerable properties at once
 dev-nodejs/defined 0.0.0 1.0.0: Return the first argument that is "!== undefined"
 dev-nodejs/delayed-stream 1.0.0: Buffers events from a stream until you are ready to handle them
-dev-nodejs/detect-indent 3.0.1: Detect the indentation of code
+dev-nodejs/detect-indent 3.0.1 4.0.0: Detect the indentation of code
 dev-nodejs/detective 4.3.2: Find all require() calls by walking the AST
 dev-nodejs/diff 1.4.0 3.3.1: A javascript text diff implementation
 dev-nodejs/difflet 0.2.6: Colorful diffs for javascript objects
@@ -150,7 +150,7 @@ dev-nodejs/getpass 0.1.6: Getpass for node.js
 dev-nodejs/glob 3.2.11 4.5.3 7.0.3 7.0.5 7.0.6 7.1.1 7.1.2: A little globber
 dev-nodejs/glob-base 0.3.0: Returns an object with the (non-glob) base path and the actual pattern
 dev-nodejs/glob-parent 2.0.0: Strips glob magic from a string to provide the parent path
-dev-nodejs/globals 8.18.0: Global identifiers from different JavaScript environments
+dev-nodejs/globals 8.18.0 9.18.0: Global identifiers from different JavaScript environments
 dev-nodejs/graceful-fs 4.1.3 4.1.4 4.1.10: A drop-in replacement for fs, making various improvements
 dev-nodejs/graceful-readlink 1.0.1: Graceful fs.readlink
 dev-nodejs/growl 1.9.2 1.10.3: Growl unobtrusive notifications
@@ -172,7 +172,7 @@ dev-nodejs/imurmurhash 0.1.4: An incremental implementation of MurmurHash3
 dev-nodejs/inflight 1.0.4-r1 1.0.5 1.0.6: Add callbacks to requests in flight to avoid async duplication
 dev-nodejs/inherits 2.0.1 2.0.3: Browser-friendly inheritance fully compatible with standard node.js inherits()
 dev-nodejs/inline-source-map 0.3.1 0.6.2: Adds source mappings and base64 encodes them
-dev-nodejs/invariant 2.2.1: Provide descriptive errors in development but generic errors in production
+dev-nodejs/invariant 2.2.1 2.2.2: Provide descriptive errors in development but generic errors in production
 dev-nodejs/invert-kv 1.0.0: Invert the key/value of an object
 dev-nodejs/is-arrayish 0.2.1: Determines if an object can be used as an array
 dev-nodejs/is-buffer 1.1.3 1.1.4: Determine if an object is Buffer
@@ -183,7 +183,7 @@ dev-nodejs/is-dotfile 1.0.2: Return true if a file path is (or has) a dotfile
 dev-nodejs/is-equal-shallow 0.1.3: Does a shallow comparison of two objects
 dev-nodejs/is-extendable 0.1.1: Useful for determining if a value can be extended
 dev-nodejs/is-extglob 1.0.0: Returns true if a string has an extglob
-dev-nodejs/is-finite 1.0.1: ES6 Number.isFinite() ponyfill
+dev-nodejs/is-finite 1.0.1 1.0.2: ES6 Number.isFinite() ponyfill
 dev-nodejs/is-fullwidth-code-point 1.0.0: Check if the character represented by a given Unicode code point is fullwidth
 dev-nodejs/is-function 1.0.1: Is that thing a function? Use this module to find out
 dev-nodejs/is-glob 2.0.1: Returns true if the given string looks like a glob pattern or an extglob pattern
@@ -200,17 +200,18 @@ dev-nodejs/isarray 0.0.1 1.0.0: Array#isArray for older browsers
 dev-nodejs/isexe 1.1.2 2.0.0: Minimal module to check if a file is executable
 dev-nodejs/isobject 2.1.0: Returns true if the value is an object and not an array or null
 dev-nodejs/isstream 0.1.2: Determine if an object is a Stream
-dev-nodejs/istanbul-lib-coverage 1.0.0: Data library for istanbul coverage objects
-dev-nodejs/istanbul-lib-hook 1.0.0_alpha4: Hooks for require, vm and script used in istanbul
-dev-nodejs/istanbul-lib-instrument 1.1.0: Core istanbul API for JS code coverage
+dev-nodejs/istanbul-lib-coverage 1.0.0 1.1.1: Data library for istanbul coverage objects
+dev-nodejs/istanbul-lib-hook 1.0.0_alpha4 1.1.0: Hooks for require, vm and script used in istanbul
+dev-nodejs/istanbul-lib-instrument 1.1.0 1.9.1: Core istanbul API for JS code coverage
 dev-nodejs/istanbul-lib-report 1.0.0_alpha3: Base reporting library for istanbul
 dev-nodejs/istanbul-lib-source-maps 1.0.0_alpha10: Source maps support for istanbul
 dev-nodejs/istanbul-reports 1.0.0_alpha8: Istanbul reports
 dev-nodejs/jodid25519 1.0.2-r1: Curve 25519-based cryptography
-dev-nodejs/js-tokens 1.0.3 2.0.0: A regex that tokenizes JavaScript
+dev-nodejs/js-tokens 1.0.3 2.0.0 3.0.2: A regex that tokenizes JavaScript
 dev-nodejs/js-yaml 3.0.1 3.6.1 3.7.0 3.8.2 3.9.1 3.10.0: YAML 1.2 parser and serializer
 dev-nodejs/js2xmlparser 1.0.0: Parses JavaScript objects into XML
 dev-nodejs/jsbn 0.1.0: Fast, portable implementation of large-number math in pure JavaScript
+dev-nodejs/jsesc 1.3.0: Library for escaping JavaScript strings
 dev-nodejs/json-schema 0.2.2: JSON Schema validation and specifications
 dev-nodejs/json-stringify-safe 5.0.1: Like JSON.stringify, but doesn't blow up on circular refs
 dev-nodejs/json3 3.3.2: A modern JSON implementation compatible with nearly all JavaScript platforms
@@ -225,7 +226,7 @@ dev-nodejs/lcid 1.0.0: Mapping between standard locale identifiers and Windows l
 dev-nodejs/lcov-parse 0.0.6 0.0.10: Parse lcov results files and return JSON
 dev-nodejs/load-json-file 1.1.0: Read and parse a JSON file
 dev-nodejs/locate-path 2.0.0: Get the first path that exists on disk of multiple paths
-dev-nodejs/lodash 4.15.0: Lodash modular utilities
+dev-nodejs/lodash 4.15.0 4.17.0 4.17.4: Lodash modular utilities
 dev-nodejs/lodash-assign 4.0.9 4.2.0: The lodash method _.assign exported as a module
 dev-nodejs/lodash-create 3.1.1: The modern build of lodash's _.create as a module
 dev-nodejs/lodash-isarguments 3.0.9: The lodash method _.isArguments exported as a module
@@ -238,7 +239,7 @@ dev-nodejs/lodash_basecreate 3.0.3: The modern build of lodash's internal baseCr
 dev-nodejs/lodash_getnative 3.9.1: The modern build of lodash's internal getNative as a module
 dev-nodejs/lodash_isiterateecall 3.0.9: The modern build of lodash's internal isIterateeCall as a module
 dev-nodejs/log-driver 1.2.4 1.2.5: log-driver is a simple logging framework for logging to stdout
-dev-nodejs/loose-envify 1.2.0: Fast selective process.env replacer using js-tokens instead of an AST
+dev-nodejs/loose-envify 1.2.0 1.3.1: Fast selective process.env replacer using js-tokens instead of an AST
 dev-nodejs/lru-cache 2.7.3 4.0.1 4.1.1: A cache object that deletes the least-recently-used items
 dev-nodejs/macgyver 1.10.1: Declarative assertion framework for invocation ordering
 dev-nodejs/make-arrow-function 1.1.0: Function that returns an arbitrary arrow function
@@ -258,7 +259,7 @@ dev-nodejs/node-uuid 1.4.7: Rigorous implementation of RFC4122 (v1 and v4) UUIDs
 dev-nodejs/nopt 3.0.6-r1: Option parsing for Node, supporting types, shorthands, etc.
 dev-nodejs/normalize-package-data 2.3.5: Normalizes data that can be found in package.json files
 dev-nodejs/normalize-path 2.0.1: Normalize file path slashes to be unix-like forward slashes
-dev-nodejs/number-is-nan 1.0.0: ES6 Number.isNaN() ponyfill
+dev-nodejs/number-is-nan 1.0.0 1.0.1: ES6 Number.isNaN() ponyfill
 dev-nodejs/nyc 7.1.0: The Istanbul command line interface
 dev-nodejs/oauth-sign 0.8.2: OAuth 1 signing
 dev-nodejs/object-inspect 0.4.0 1.2.1 1.3.0: String representations of objects in node and the browser
@@ -299,11 +300,11 @@ dev-nodejs/randomatic 1.1.5: Generate randomized strings of a specified length, 
 dev-nodejs/read-pkg 1.1.0: Read a package.json file
 dev-nodejs/read-pkg-up 1.0.1: Read the closest package.json file
 dev-nodejs/readable-stream 1.0.34 1.1.14 2.0.6 2.1.5 2.2.2 2.2.3 2.3.3: Streams3, a user-land copy of the stream library from Node.js
-dev-nodejs/regenerator-runtime 0.9.5: Runtime for Regenerator-compiled generator and async functions
+dev-nodejs/regenerator-runtime 0.9.5 0.11.0: Runtime for Regenerator-compiled generator and async functions
 dev-nodejs/regex-cache 0.4.3: Memoize the results of a call to the RegExp constructor
 dev-nodejs/repeat-element 1.1.2: Create an array by repeating the given value n times
 dev-nodejs/repeat-string 1.5.4: Repeat the given string n times. Fastest implementation for repeating a string.
-dev-nodejs/repeating 1.1.3: Repeat a string - fast
+dev-nodejs/repeating 1.1.3 2.0.1: Repeat a string - fast
 dev-nodejs/request 2.9.203 2.74.0 2.79.0: Simplified HTTP request client
 dev-nodejs/require-directory 2.1.1: Recursively iterates over specified directory, require()'ing each file
 dev-nodejs/require-main-filename 1.0.1: Shim for require.main.filename() that works in as many environments as possible
@@ -314,7 +315,7 @@ dev-nodejs/resumer 0.0.0: A through stream that starts paused and resumes on the
 dev-nodejs/rimraf 2.5.2 2.5.4 2.6.1 2.6.2: A deep deletion module for node (like rm -rf)
 dev-nodejs/runforcover 0.0.2: Require plugin for js code coverage using bunker
 dev-nodejs/safe-buffer 5.1.1: Safer Node.js Buffer API
-dev-nodejs/semver 5.1.0: The semantic version parser used by npm
+dev-nodejs/semver 5.1.0 5.4.1: The semantic version parser used by npm
 dev-nodejs/set-blocking 2.0.0: Set blocking stdio and stderr ensuring that terminal output does not truncate
 dev-nodejs/should 9.0.2 11.2.0: Test framework agnostic BDD-style assertions
 dev-nodejs/should-equal 1.0.1: Deep comparison of 2 instances for should.js
@@ -356,10 +357,11 @@ dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pk
 dev-nodejs/through 2.3.8: Simplified stream construction
 dev-nodejs/through2 2.0.3: A tiny wrapper around Node streams2 Transform
 dev-nodejs/tmatch 2.0.1 3.1.0: This module exists to facilitate the t.match() method in http://npm.im/tap
-dev-nodejs/to-fast-properties 1.0.2: Force V8 to use fast properties for an object
+dev-nodejs/to-fast-properties 1.0.2 1.0.3: Force V8 to use fast properties for an object
 dev-nodejs/touch 3.1.0: Like touch(1) in node
 dev-nodejs/tough-cookie 2.3.1 2.3.3: RFC6265 Cookies and Cookie Jar for node.js
 dev-nodejs/traverse 0.4.6 0.5.2 0.6.6: Traverse and transform objects by visiting every node on a recursive walk
+dev-nodejs/trim-right 1.0.1: Similar to String#trim() but removes only whitespace on the right
 dev-nodejs/trivial-deferred 1.0.1: The most dead-simple trivial Deferred implementation
 dev-nodejs/tsame 1.1.2: The logic behind tap's t.same() and t.strictSame()
 dev-nodejs/tunnel-agent 0.4.3: HTTP proxy tunneling agent
