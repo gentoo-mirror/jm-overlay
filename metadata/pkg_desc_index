@@ -154,7 +154,7 @@ dev-nodejs/globals 8.18.0 9.18.0: Global identifiers from different JavaScript e
 dev-nodejs/graceful-fs 4.1.3 4.1.4 4.1.10: A drop-in replacement for fs, making various improvements
 dev-nodejs/graceful-readlink 1.0.1: Graceful fs.readlink
 dev-nodejs/growl 1.9.2 1.10.3: Growl unobtrusive notifications
-dev-nodejs/handlebars 4.0.5: Provides the power necessary to let you build semantic templates effectively
+dev-nodejs/handlebars 4.0.5 4.0.11: Provides the power necessary to let you build semantic templates effectively
 dev-nodejs/har-validator 2.0.6: Extremely fast HTTP Archive (HAR) validator using JSON Schema
 dev-nodejs/has 0.0.1 1.0.1: Object.prototype.hasOwnProperty.call shortcut
 dev-nodejs/has-ansi 2.0.0: Check if a string has ANSI escape codes
@@ -203,9 +203,9 @@ dev-nodejs/isstream 0.1.2: Determine if an object is a Stream
 dev-nodejs/istanbul-lib-coverage 1.0.0 1.1.1: Data library for istanbul coverage objects
 dev-nodejs/istanbul-lib-hook 1.0.0_alpha4 1.1.0: Hooks for require, vm and script used in istanbul
 dev-nodejs/istanbul-lib-instrument 1.1.0 1.9.1: Core istanbul API for JS code coverage
-dev-nodejs/istanbul-lib-report 1.0.0_alpha3: Base reporting library for istanbul
-dev-nodejs/istanbul-lib-source-maps 1.0.0_alpha10: Source maps support for istanbul
-dev-nodejs/istanbul-reports 1.0.0_alpha8: Istanbul reports
+dev-nodejs/istanbul-lib-report 1.0.0_alpha3 1.1.2: Base reporting library for istanbul
+dev-nodejs/istanbul-lib-source-maps 1.0.0_alpha10 1.2.2: Source maps support for istanbul
+dev-nodejs/istanbul-reports 1.0.0_alpha8 1.1.3: Istanbul reports
 dev-nodejs/jodid25519 1.0.2-r1: Curve 25519-based cryptography
 dev-nodejs/js-tokens 1.0.3 2.0.0 3.0.2: A regex that tokenizes JavaScript
 dev-nodejs/js-yaml 3.0.1 3.6.1 3.7.0 3.8.2 3.9.1 3.10.0: YAML 1.2 parser and serializer
@@ -247,6 +247,7 @@ dev-nodejs/make-generator-function 1.1.0: Returns an arbitrary generator functio
 dev-nodejs/marked 0.3.5 0.3.6: A markdown parser built for speed
 dev-nodejs/md5-hex 1.3.0: Create a MD5 hash with hex encoding
 dev-nodejs/md5-o-matic 0.1.1: Fast and simple MD5 hashing utility with zero module dependencies
+dev-nodejs/merge-source-map 1.0.4: Merge old source map and new source map in multi-transform flow
 dev-nodejs/micromatch 2.3.10 2.3.11: Glob matching for javascript/node.js
 dev-nodejs/mime-db 1.22.0 1.23.0 1.30.0: Media Type Database
 dev-nodejs/mime-types 2.1.10 2.1.11 2.1.17: The ultimate javascript content-type utility
@@ -262,6 +263,7 @@ dev-nodejs/normalize-path 2.0.1: Normalize file path slashes to be unix-like for
 dev-nodejs/number-is-nan 1.0.0 1.0.1: ES6 Number.isNaN() ponyfill
 dev-nodejs/nyc 7.1.0: The Istanbul command line interface
 dev-nodejs/oauth-sign 0.8.2: OAuth 1 signing
+dev-nodejs/object-assign 4.1.1: ES2015 "Object.assign()" ponyfill
 dev-nodejs/object-inspect 0.4.0 1.2.1 1.3.0: String representations of objects in node and the browser
 dev-nodejs/object-is 1.0.1: ES6-compliant shim for Object.is - differentiates between -0 and +0
 dev-nodejs/object-keys 1.0.11: An Object.keys replacement, in case Object.keys is not available
@@ -331,7 +333,7 @@ dev-nodejs/slide 1.1.6: A flow control lib small enough to fit on in a slide pre
 dev-nodejs/sntp 1.0.9: SNTP Client
 dev-nodejs/source-map 0.1.34 0.3.0 0.4.4 0.5.6 0.5.7: Generates and consumes source maps
 dev-nodejs/source-map-support 0.4.18: Fixes stack traces for files with source maps
-dev-nodejs/spawn-wrap 1.2.4: Wrap all spawned Node.js child processes
+dev-nodejs/spawn-wrap 1.2.4 1.3.8: Wrap all spawned Node.js child processes
 dev-nodejs/spdx-correct 1.0.2: Correct invalid SPDX identifiers
 dev-nodejs/spdx-exceptions 1.0.4: List of SPDX standard license exceptions
 dev-nodejs/spdx-expression-parse 1.0.2: Parse SPDX license expressions
@@ -348,12 +350,12 @@ dev-nodejs/strip-ansi 3.0.1: Strip ANSI escape codes
 dev-nodejs/strip-bom 2.0.0: Strip UTF-8 byte order mark (BOM) from a string/buffer
 dev-nodejs/strip-json-comments 1.0.4 2.0.1: Strip comments from JSON. Lets you use comments in your JSON files!
 dev-nodejs/subarg 1.0.0: Parse arguments with recursive contexts
-dev-nodejs/supports-color 2.0.0 3.1.2 4.4.0: Detect whether a terminal supports color
+dev-nodejs/supports-color 2.0.0 3.1.2 3.2.3 4.4.0: Detect whether a terminal supports color
 dev-nodejs/taffydb 2.6.2: An open-source library that brings database features into your applications
 dev-nodejs/tap-mocha-reporter 2.0.1 3.0.6: Format a TAP stream using Mocha's set of reporters
 dev-nodejs/tap-parser 1.2.2 2.0.0 3.0.5 5.4.0: Parse the test anything protocol
 dev-nodejs/tape 0.0.5 0.1.5 1.0.4 1.1.2 2.3.3 2.4.3 2.6.1 2.12.3 2.13.4 2.14.1 3.4.0 3.6.1 4.6.0 4.6.3 4.8.0: Tap-producing test harness for node and browsers
-dev-nodejs/test-exclude 1.1.0: Test for inclusion or exclusion of paths using pkg-conf and globs
+dev-nodejs/test-exclude 1.1.0 4.1.1: Test for inclusion or exclusion of paths using pkg-conf and globs
 dev-nodejs/through 2.3.8: Simplified stream construction
 dev-nodejs/through2 2.0.3: A tiny wrapper around Node streams2 Transform
 dev-nodejs/tmatch 2.0.1 3.1.0: This module exists to facilitate the t.match() method in http://npm.im/tap
@@ -368,7 +370,7 @@ dev-nodejs/tunnel-agent 0.4.3: HTTP proxy tunneling agent
 dev-nodejs/tweetnacl 0.13.3: Port of TweetNaCl cryptographic library to JavaScript
 dev-nodejs/type-detect 0.1.1 1.0.0: Improved typeof detection for node.js and the browser
 dev-nodejs/typedarray 0.0.6: TypedArray polyfill for old browsers
-dev-nodejs/uglify-js 1.1.1 2.7.0: JavaScript parser, mangler/compressor and beautifier toolkit
+dev-nodejs/uglify-js 1.1.1 2.7.0 2.8.29: JavaScript parser, mangler/compressor and beautifier toolkit
 dev-nodejs/uglify-to-browserify 1.0.2: A transform to make UglifyJS work in browserify
 dev-nodejs/underscore 1.6.0 1.8.3-r1: JavaScript's functional programming helper library
 dev-nodejs/underscore-contrib 0.3.0: A contributors' library for underscore
