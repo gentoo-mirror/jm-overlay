@@ -6,9 +6,9 @@ EAPI=6
 NODEJS_MIN_VERSION="0.4.7"
 NODE_MODULE_EXTRA_FILES="dist runtime.js"
 NODE_MODULE_DEPEND="async:1.5.2
-	source-map:0.4.4
 	optimist:0.6.1
-	uglify-js:2.7.0"
+	source-map:0.4.4
+	uglify-js:2.8.29"
 
 inherit node-module
 
