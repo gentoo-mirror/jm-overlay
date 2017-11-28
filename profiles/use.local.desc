@@ -3,6 +3,10 @@
 # * generated automatically using pmaint *
 
 app-arch/zstd:tools - Build and install the command line compression tool
+dev-db/rocksdb:lz4 - Add support for lz4 compression
+dev-db/rocksdb:minimal - Build RocksDBLite, a small and minimal version of RocksDB instead of the regular library
+dev-db/rocksdb:snappy - Add support for snappy compression
+dev-db/rocksdb:zstd - Add support for zstd compression
 dev-libs/pybind11:info - Build and install documentation as texinfo
 dev-libs/pybind11:man - Build and install documentation as manpages
 dev-nodejs/yargs:l10n_pirate - Joke "pirate" locale
