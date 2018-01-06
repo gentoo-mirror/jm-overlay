@@ -5,9 +5,9 @@ EAPI="6"
 
 ETYPE="sources"
 K_WANT_GENPATCHES="base extras experimental"
-K_GENPATCHES_VER="14"
+K_GENPATCHES_VER="77"
 K_SECURITY_UNSUPPORTED="1"
-REISER4_VER="4.14.1"
+REISER4_VER="4.9.3"
 
 inherit kernel-2
 detect_version
