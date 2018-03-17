@@ -15,14 +15,17 @@ EGIT_SUBMODULES=("*" "-externals/fmt" "-externals/xbyak")
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""
-IUSE="doc sdl2 qt5 clang telemetry i18n"
+IUSE="system-boost doc sdl2 qt5 clang telemetry i18n"
 
 REQUIRED_USE="|| ( sdl2 qt5 )"
 RDEPEND="virtual/opengl
 	media-libs/libpng:=
 	sys-libs/zlib
 	net-misc/curl
-	>=dev-libs/boost-1.63.0:=
+	system-boost? (
+		clang? ( >=dev-libs/boost-1.63.0:= )
+		!clang? ( >=dev-libs/boost-1.66.0:= )
+	)
 	sdl2? ( media-libs/libsdl2 )
 	qt5? (
 		dev-qt/qtcore:5
@@ -40,12 +43,26 @@ DEPEND="${DEPEND}
 		>=sys-libs/libcxx-5
 	)"
 
+pkg_pretend() {
+	if ! use clang; then
+		if [[ $(gcc-major-version) -lt 7 ]]; then
+			die "Need GCC 7 of newer to compile citra"
+		fi
+	fi
+}
+
 src_unpack() {
 	git-r3_src_unpack
 
 	for i in fmt xbyak; do
 		cp -a "${S}/externals/$i" "${S}/externals/dynarmic/externals/" || die
 	done
+}
+
+src_prepare() {
+	eapply "${FILESDIR}/citra-system-boost.patch"
+	eapply_user
+	cmake-utils_src_prepare
 }
 
 src_configure() {
@@ -63,6 +80,7 @@ src_configure() {
 		-DCITRA_USE_BUNDLED_CURL=OFF
 		-DENABLE_QT_TRANSLATION="$(usex i18n)"
 		-DENABLE_WEB_SERVICE="$(usex telemetry)"
+		-DUSE_SYSTEM_BOOST="$(usex system-boost)"
 	)
 	cmake-utils_src_configure
 }
