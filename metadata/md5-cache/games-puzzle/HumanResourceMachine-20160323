@@ -1,4 +1,4 @@
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=install nofetch unpack
 DEPEND=app-arch/unzip
 DESCRIPTION=Program little office workers to solve puzzles
 EAPI=6

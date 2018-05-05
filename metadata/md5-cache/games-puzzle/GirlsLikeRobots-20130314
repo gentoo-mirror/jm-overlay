@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEFINED_PHASES=compile configure install nofetch postinst preinst prepare setup unpack
 DESCRIPTION=Game about seating arrangements, wrapped around an epic tale of love and danger
 EAPI=5
 HOMEPAGE=http://popcannibal.com/girlslikerobots/

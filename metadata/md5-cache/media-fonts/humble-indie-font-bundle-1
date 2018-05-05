@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst postrm setup
+DEFINED_PHASES=install nofetch postinst postrm setup
 DEPEND=app-arch/unzip X? ( x11-apps/mkfontdir media-fonts/encodings )
 DESCRIPTION=Font pack released by humble bundle as April Fools
 EAPI=5

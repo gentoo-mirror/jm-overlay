@@ -1,4 +1,4 @@
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=install nofetch unpack
 DESCRIPTION=Big Pharma is part business sim, part logistics puzzle
 EAPI=6
 HOMEPAGE=http://bigpharmagame.com/

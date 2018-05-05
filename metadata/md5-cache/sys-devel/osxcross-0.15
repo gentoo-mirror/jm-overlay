@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install postinst prepare pretend setup unpack
+DEFINED_PHASES=compile install nofetch postinst prepare pretend setup unpack
 DEPEND=>=sys-devel/clang-3.2:* app-arch/xar app-shells/bash:0 app-arch/p7zip app-arch/xz-utils >=dev-vcs/git-1.8.2.1
 DESCRIPTION=OS X cross toolchain
 EAPI=6
