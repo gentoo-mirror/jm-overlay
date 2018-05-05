@@ -7,5 +7,5 @@ LICENSE=MIT
 RDEPEND=>=net-libs/nodejs-0.10.0 dev-nodejs/pify:2.3.0 dev-nodejs/graceful-fs:4.1.4 dev-nodejs/strip-bom:2.0.0 dev-nodejs/pinkie-promise:2.0.1 dev-nodejs/parse-json:2.2.0
 SLOT=1.1.0
 SRC_URI=http://registry.npmjs.org/load-json-file/-/load-json-file-1.1.0.tgz
-_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	node-module	0890ad05ecb01d0ca153d31495146db9	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	node-module	0890ad05ecb01d0ca153d31495146db9	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	fa02994d0beba88681127d93da4411ec	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
 _md5_=9265bf754c5943674b00c0ce166c308b
