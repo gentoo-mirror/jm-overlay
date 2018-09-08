@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=media-libs/libsdl2[video] media-libs/openal media-libs/libpng:0 dev-libs/glib:2 sys-libs/zlib x11-libs/libX11 media-libs/libmpeg2 virtual/opengl virtual/libintl
 SLOT=0
 SRC_URI=https://fs-uae.net/stable/2.8.0/fs-uae-2.8.0.tar.gz
-_md5_=c0ef6779acf52124f3618b273f379e8c
+_md5_=c385a2cc24b2028052574f37b9cbbe38

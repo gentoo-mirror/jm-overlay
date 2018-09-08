@@ -4,5 +4,4 @@ media-fonts/humble-indie-font-bundle 1: Font pack released by humble bundle as A
 media-fonts/orange_juice 2.0: The Orange Juice font
 media-fonts/ultimate-oldschool-pc-font-pack 1.0: Classic fonts from DOS-era IBM PCs and compatibles
 media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
-sys-process/parallel 20150522-r1: A shell tool for executing jobs in parallel locally or on remote machines
-virtual/linux-sources 3: Virtual for Linux kernel sources
+virtual/linux-sources 3-r1: Virtual for Linux kernel sources

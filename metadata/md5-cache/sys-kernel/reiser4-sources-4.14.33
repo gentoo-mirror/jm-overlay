@@ -2,13 +2,13 @@ DEFINED_PHASES=compile install postinst postrm preinst prepare setup test unpack
 DEPEND=!build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 )
 DESCRIPTION=Full sources including the Gentoo and Reiser4 patchsets for the 4.14 kernel tree
 EAPI=6
-HOMEPAGE=https://dev.gentoo.org/~mpagano/genpatches http://sourceforge.net/projects/reiser4/
+HOMEPAGE=https://dev.gentoo.org/~mpagano/genpatches https://sourceforge.net/projects/reiser4/
 IUSE=experimental symlink build
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2 linux-firmware
 RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf )
 RESTRICT=binchecks strip
 SLOT=4.14.33
-SRC_URI=mirror://kernel/linux/kernel/v4.x/linux-4.14.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.14-38.base.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.14-38.extras.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.14-38.experimental.tar.xz http://downloads.sourceforge.net/project/reiser4/reiser4-for-linux-4.x/reiser4-for-4.14.1.patch.gz
+SRC_URI=mirror://kernel/linux/kernel/v4.x/linux-4.14.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.14-38.base.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.14-38.extras.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.14-38.experimental.tar.xz https://downloads.sourceforge.net/project/reiser4/reiser4-for-linux-4.x/reiser4-for-4.14.1.patch.gz
 _eclasses_=eapi7-ver	756b3f27d8e46131d5cf3c51bd876446	estack	43ddf5aaffa7a8d0482df54d25a66a1f	kernel-2	bc2f2b5caeb6f89c673a8a4dced6511e	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
-_md5_=70db9c3bd2f0209505feaa9f30af4b81
+_md5_=7b291f67778a643bfdd7651300d7a5d6

@@ -8,4 +8,4 @@ LICENSE=LGPL-3
 RDEPEND=net-im/pidgin !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) webp? ( media-libs/libwebp )
 SLOT=0
 _eclasses_=git-r3	918d6a744039c29af2cadc7317459765
-_md5_=c6908a36017b72081d0fd9fb673cbfa9
+_md5_=e27fab22c5218e3377a7f537453f23e3
