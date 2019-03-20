@@ -8,8 +8,8 @@ IUSE=doc crypt bmp jpeg2k +png tiff webp brotli bzip2 lzma zlib zstd
 KEYWORDS=~amd64
 LICENSE=GPL-3+
 RDEPEND=crypt? ( dev-libs/nettle:= ) bmp? ( media-libs/libnsbmp:= ) jpeg2k? ( media-libs/openjpeg:2= ) png? ( media-libs/libpng:= ) tiff? ( media-libs/tiff:0= ) webp? ( media-libs/libwebp:= ) brotli? ( app-arch/brotli:= ) bzip2? ( app-arch/bzip2:= ) lzma? ( app-arch/xz-utils:= ) zlib? ( sys-libs/zlib:= ) zstd? ( app-arch/zstd:= ) !media-gfx/impack
-REQUIRED_USE=|| ( png tiff webp bmp )
+REQUIRED_USE=|| ( bmp jpeg2k png tiff webp )
 SLOT=0
 SRC_URI=https://github.com/Jannis234/ImPack2/archive/v0.2.tar.gz -> impack2-0.2.tar.gz
 _eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
-_md5_=04c84ff47230eccdca20afde7c72ad21
+_md5_=86533bee596387fb8e2a801f24747d7b
