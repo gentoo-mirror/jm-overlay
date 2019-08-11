@@ -2,6 +2,46 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-arch/zstd:tools - Build and install the command line compression tool
+app-crypt/checkmate:aot - Generate native code at build time, rather than runtime
+dev-db/rocksdb:gflags - Add support for dev-cpp/gflags
+dev-db/rocksdb:jemalloc - Use dev-libs/jemalloc for memory allocation
+dev-db/rocksdb:lz4 - Add support for lz4 compression
+dev-db/rocksdb:minimal - Build RocksDBLite, a small and minimal version of RocksDB instead of the regular library
+dev-db/rocksdb:numa - Build with support for NUMA nodes
+dev-db/rocksdb:rados - Enable support for librados from sys-cluster/ceph
+dev-db/rocksdb:snappy - Add support for snappy compression
+dev-db/rocksdb:tbb - Add support for dev-cpp/tbb
+dev-db/rocksdb:zstd - Add support for zstd compression
+dev-libs/pybind11:info - Build and install documentation as texinfo
+dev-libs/pybind11:man - Build and install documentation as manpages
+dev-nodejs/yargs:l10n_pirate - Joke "pirate" locale
+dev-python/python-zstd:legacy - Enable support for legacy zstd formats
+dev-python/python-zstd:legacy-api - Enable APIs for working with files created by older versions of python-zstd
+dev-python/python-zstd:legacy-formats - Enable support for legacy zstd formats
+dev-python/python-zstd:system-libzstd - Build against the system-wide libzstd, this removes any effect from the "legacy-formats" USE flag
+dev-util/movfuscator:libressl - Use dev-libs/libressl instead of dev-libs/openssl when building the examples
+dev-util/movfuscator:postproc - Install python-based assembly post-processors
+dev-util/movfuscator:softfloat - Build and install mov-only softfloat libraries
+games-arcade/olliolli:bundled-libs - Install bundled versions of media-libs/openal and dev-games/physfs
+games-arcade/stepmania:crash-handler - Enable the custom crash handler
+games-arcade/stepmania:default-songs - Install the songs that are distributed with the game by default
+games-arcade/stepmania:gles2 - Enable support for OpenGL ES 2
+games-arcade/stepmania:networking - Enable network-related functionality
+games-arcade/stepmania:parport - Enable support for lights connected to the parallel port
+games-arcade/stepmania:wav - Enable support for WAV audio files
+games-emulation/citra:clang - Use sys-devel/clang to compile citra
+games-emulation/citra:i18n - Enable UI translations (Qt5 interface only)
+games-emulation/citra:qt5 - Enable the Qt5 based interface
+games-emulation/citra:sdl2 - Enable the SDL2 based interface
+games-emulation/citra:system-boost - Use the system-wide version of dev-libs/boost
+games-emulation/citra:telemetry - Allow transmitting anonymous usage data to the citra developers
+games-emulation/rpcs3:evdev - Enable evdev for input
+games-emulation/rpcs3:gdb - Enable debugging with sys-devel/gdb
+games-emulation/rpcs3:llvm - Enable LLVM based recompilation (recommended)
+games-emulation/rpcs3:vulkan - Enable vulkan video output
+games-puzzle/HumanResourceMachine:bundled-libs - Use bundled versions of media-libs/openal and media-libs/libsdl2 instead of the system-wide ones
+games-strategy/democracy3:bundled-libs - Use the included versions of media-libs/openal and media-libs/libsdl2 instead of system-wide ones
 media-fonts/humble-indie-font-bundle:after-impact - Install the "After Impact" font
 media-fonts/humble-indie-font-bundle:bike-courier - Install the "Bike Courier" font
 media-fonts/humble-indie-font-bundle:cosmic-sans - Install the "Cosmic Sans" font
@@ -11,4 +51,26 @@ media-fonts/humble-indie-font-bundle:times-old-roman - Install the (non-free) "T
 media-fonts/humble-indie-font-bundle:unicharacter - Install the (non-free) "Unicharacter" font
 media-fonts/ultimate-oldschool-pc-font-pack:px437 - Install fonts with the original DOS charset
 media-fonts/ultimate-oldschool-pc-font-pack:pxplus - Install fonts with unicode enhancements
+media-gfx/impack:aot - Generate native code at build time, rather than runtime
+media-gfx/impack2:bmp - Add support for BMP images
+media-gfx/impack2:brotli - Enable brotli compression support
+media-gfx/impack2:flif - Enable support for FLIF image
+media-gfx/impack2:jxr - Enable support for JPEG XR images
+media-gfx/impack2:zstd - Enable zstd compression support
+net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
+net-libs/cpr:insecure - Do not verfiy SSL certificates
+net-libs/libpsl:builtin-psl - Enable builtin PSL data
+net-libs/libpsl:icu - Use dev-libs/icu for IDNA and/or data generation
+net-libs/libpsl:libidn - Use net-dns/libidn for IDNA and/or data generation
+net-libs/libpsl:libidn2 - Use net-dns/libidn2 for IDNA and/or data generation
+net-misc/acd_cli:info - Build and install GNU info documentation
+net-misc/acd_cli:man - Build and install manpages
+net-misc/webrecorder-player:flash - Enable support for Adobe Flash content
+sci-libs/comedilib:firmware - Install firmware files needed for some devices
+sci-libs/comedilib:pdf - Install documentation in PDF format
+sci-libs/comedilib:scxi - Build the SCXI convenience library
+sys-apps/zenstates:togglecode - Install the togglecode utility (needs dev-python/portio)
+sys-devel/osxcross:macports - Install the MacPorts packet manager
+sys-kernel/reiser4-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
 virtual/linux-sources:firmware - Install linux kernel firmware
+www-apps/CGP:json - Pull in the PHP JSON extension, allows finer representation of data in the graph
