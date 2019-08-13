@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup test unpack
+DEPEND=!build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 )
+DESCRIPTION=Full sources including the Gentoo and Reiser4 patchsets for the 4.14 kernel tree
+EAPI=6
+HOMEPAGE=https://dev.gentoo.org/~mpagano/genpatches https://sourceforge.net/projects/reiser4/
+IUSE=experimental symlink build
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf )
+RESTRICT=binchecks strip
+SLOT=4.14.132
+SRC_URI=mirror://kernel/linux/kernel/v4.x/linux-4.14.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.14-141.base.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.14-141.extras.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.14-141.experimental.tar.xz https://downloads.sourceforge.net/project/reiser4/reiser4-for-linux-4.x/reiser4-for-4.14.1.patch.gz
+_eclasses_=eapi7-ver	756b3f27d8e46131d5cf3c51bd876446	estack	43ddf5aaffa7a8d0482df54d25a66a1f	kernel-2	12a17088d0306f0e3d3c97d58534409e	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	b5f01473006ccc2cd78bc3dab20fced4	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
+_md5_=c8865e6ef156e1f56ac58af4dbc0e2c8
