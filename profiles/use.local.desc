@@ -4,6 +4,18 @@
 
 app-arch/zstd:tools - Build and install the command line compression tool
 app-crypt/checkmate:aot - Generate native code at build time, rather than runtime
+app-crypt/xsum:blake2 - Enable BLAKE2 hashes using app-crypt/libb2
+app-crypt/xsum:botan - Enable support for dev-libs/botan
+app-crypt/xsum:gcrypt - Enable support for dev-libs/libgcrypt
+app-crypt/xsum:lzma - Enable CRC32 and CRC64 using app-arch/xz-utils
+app-crypt/xsum:mbedtls - Enable support for net-libs/mbedtls
+app-crypt/xsum:nettle - Enable support for dev-libs/nettle
+app-crypt/xsum:nss - Enable support for dev-libs/nss
+app-crypt/xsum:openssl - Enable support for dev-libs/openssl
+app-crypt/xsum:rhash - Enable support for app-crypt/rhash
+app-crypt/xsum:sodium - Enable support for dev-libs/libsodium
+app-crypt/xsum:xxhash - Enable support for dev-libs/xxhash
+app-crypt/xsum:zlib - Enable Adler-32 and CRC32 using sys-libs/zlib
 dev-db/rocksdb:gflags - Add support for dev-cpp/gflags
 dev-db/rocksdb:jemalloc - Use dev-libs/jemalloc for memory allocation
 dev-db/rocksdb:lz4 - Add support for lz4 compression
