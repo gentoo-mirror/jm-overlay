@@ -1,0 +1,16 @@
+BDEPEND=sys-apps/help2man
+DEFINED_PHASES=compile install test
+DEPEND=botan? ( dev-libs/botan:2= ) cppcrypto? ( dev-libs/cppcrypto:= ) crypto++? ( dev-libs/crypto++:= ) glib? ( dev-libs/glib:2= ) gnutls? ( net-libs/gnutls:= ) mbedtls? ( net-libs/mbedtls:= ) mhash? ( app-crypt/mhash:= ) nettle? ( dev-libs/nettle:= ) nss? ( dev-libs/nss:= ) blake2? ( app-crypt/libb2:= ) gcrypt? ( >=dev-libs/libgcrypt-1.7.0:= ) lzma? ( app-arch/xz-utils:= ) sodium? ( dev-libs/libsodium:= ) openssl? ( dev-libs/openssl:= ) libressl? ( dev-libs/libressl:= ) rhash? ( app-crypt/rhash:= ) xxhash? ( dev-libs/xxhash:= ) zlib? ( sys-libs/zlib:= )
+DESCRIPTION=All-in-one utility to calculate and verify checksums
+EAPI=7
+HOMEPAGE=https://github.com/Jannis234/xsum
+IUSE=openmp botan cppcrypto crypto++ glib gnutls mbedtls mhash nettle nss blake2 gcrypt lzma sodium -openssl -libressl rhash xxhash zlib
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=botan? ( dev-libs/botan:2= ) cppcrypto? ( dev-libs/cppcrypto:= ) crypto++? ( dev-libs/crypto++:= ) glib? ( dev-libs/glib:2= ) gnutls? ( net-libs/gnutls:= ) mbedtls? ( net-libs/mbedtls:= ) mhash? ( app-crypt/mhash:= ) nettle? ( dev-libs/nettle:= ) nss? ( dev-libs/nss:= ) blake2? ( app-crypt/libb2:= ) gcrypt? ( >=dev-libs/libgcrypt-1.7.0:= ) lzma? ( app-arch/xz-utils:= ) sodium? ( dev-libs/libsodium:= ) openssl? ( dev-libs/openssl:= ) libressl? ( dev-libs/libressl:= ) rhash? ( app-crypt/rhash:= ) xxhash? ( dev-libs/xxhash:= ) zlib? ( sys-libs/zlib:= )
+REQUIRED_USE=?? ( openssl libressl )
+RESTRICT=openssl? ( bindist ) libressl? ( bindist )
+SLOT=0
+SRC_URI=https://github.com/Jannis234/xsum/archive/v1.1.tar.gz -> xsum-1.1.tar.gz
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
+_md5_=b21e44e86b5bef9a9a5b33a42d8da37e
