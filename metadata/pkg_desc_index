@@ -24,7 +24,7 @@ dev-libs/cppcrypto 0.17: C++ library providing some cryptographic primitives
 dev-libs/cpu_features 0.1.0 0.2.0: A cross platform C99 library to get cpu features at runtime
 dev-libs/libkeccak 1.1.4 1.2: Keccak-family hashing library
 dev-libs/linenoise-ng 1.0.1: Small, portable GNU readline replacement
-dev-libs/pybind11 1.1 1.2 1.3 1.4 1.5 1.7 1.8 1.8.1 2.0.0 2.0.1 2.1.0 2.1.1 2.2.0 2.2.1 2.2.2 2.2.3: Lightweight library that exposes C++ types in Python and vice versa
+dev-libs/pybind11 2.0.1 2.1.0 2.1.1 2.2.0 2.2.1 2.2.2 2.2.3: Lightweight library that exposes C++ types in Python and vice versa
 dev-libs/qtutilities 6.0.2: Common Qt related C++ classes and routines
 dev-libs/rapidjson 1.0.2 1.1.0: Fast JSON parser/generator for C++
 dev-nodejs/JSONStream 1.2.1: rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
@@ -442,7 +442,7 @@ dev-python/portio 0.5: Python low level port I/O for Linux x86
 dev-python/pydrive 1.3.1: Google Drive API made easy.
 dev-python/python-axolotl 0.1.7 0.1.35 0.1.39 9999-r1: Python port of libaxolotl
 dev-python/python-axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
-dev-python/python-zstd 0.7.5.1 1.0.0.99.1 1.1.2 1.1.3 1.2.0 1.3.0 1.3.1 1.3.4.4: Python bindings to Yann Collet ZSTD compression library
+dev-python/python-zstd 1.1.2 1.1.3 1.2.0 1.3.0 1.3.1 1.3.4.4: Python bindings to Yann Collet ZSTD compression library
 dev-python/pywb 2.0.3: Core Python Web Archiving Toolkit for replay and recording of web archives
 dev-python/requests-file 1.4.3: Transport adapter for fetching file:// URLs with the requests python library
 dev-python/sophy 0.1.6 0.2.0 0.3.0 0.3.1 0.6.0: Fast Python bindings for Sophia Database
