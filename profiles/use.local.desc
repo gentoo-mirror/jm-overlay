@@ -51,9 +51,12 @@ games-emulation/citra:qt5 - Enable the Qt5 based interface
 games-emulation/citra:sdl2 - Enable the SDL2 based interface
 games-emulation/citra:system-boost - Use the system-wide version of dev-libs/boost
 games-emulation/citra:telemetry - Allow transmitting anonymous usage data to the citra developers
+games-emulation/rpcs3:discord-rpc - Enable Discord integration
 games-emulation/rpcs3:evdev - Enable evdev for input
+games-emulation/rpcs3:faudio - Enable audio using app-emulation/faudio
 games-emulation/rpcs3:gdb - Enable debugging with sys-devel/gdb
 games-emulation/rpcs3:llvm - Enable LLVM based recompilation (recommended)
+games-emulation/rpcs3:system-llvm - Use the system-wide LLVM library instead of the bundled one (not recommended)
 games-emulation/rpcs3:vulkan - Enable vulkan video output
 games-puzzle/HumanResourceMachine:bundled-libs - Use bundled versions of media-libs/openal and media-libs/libsdl2 instead of the system-wide ones
 games-strategy/democracy3:bundled-libs - Use the included versions of media-libs/openal and media-libs/libsdl2 instead of system-wide ones
