@@ -19,17 +19,6 @@ app-crypt/xsum:rhash - Enable support for app-crypt/rhash
 app-crypt/xsum:sodium - Enable support for dev-libs/libsodium
 app-crypt/xsum:xxhash - Enable support for dev-libs/xxhash
 app-crypt/xsum:zlib - Enable gzip compression, Adler-32 and CRC32 using sys-libs/zlib
-dev-db/rocksdb:gflags - Add support for dev-cpp/gflags
-dev-db/rocksdb:jemalloc - Use dev-libs/jemalloc for memory allocation
-dev-db/rocksdb:lz4 - Add support for lz4 compression
-dev-db/rocksdb:minimal - Build RocksDBLite, a small and minimal version of RocksDB instead of the regular library
-dev-db/rocksdb:numa - Build with support for NUMA nodes
-dev-db/rocksdb:rados - Enable support for librados from sys-cluster/ceph
-dev-db/rocksdb:snappy - Add support for snappy compression
-dev-db/rocksdb:tbb - Add support for dev-cpp/tbb
-dev-db/rocksdb:zstd - Add support for zstd compression
-dev-libs/pybind11:info - Build and install documentation as texinfo
-dev-libs/pybind11:man - Build and install documentation as manpages
 dev-nodejs/yargs:l10n_pirate - Joke "pirate" locale
 dev-python/python-zstd:legacy - Enable support for legacy zstd formats
 dev-python/python-zstd:legacy-api - Enable APIs for working with files created by older versions of python-zstd
@@ -75,12 +64,6 @@ media-gfx/impack2:brotli - Enable brotli compression support
 media-gfx/impack2:flif - Enable support for FLIF image
 media-gfx/impack2:jxr - Enable support for JPEG XR images
 media-gfx/impack2:zstd - Enable zstd compression support
-net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
-net-libs/cpr:insecure - Do not verfiy SSL certificates
-net-libs/libpsl:builtin-psl - Enable builtin PSL data
-net-libs/libpsl:icu - Use dev-libs/icu for IDNA and/or data generation
-net-libs/libpsl:libidn - Use net-dns/libidn for IDNA and/or data generation
-net-libs/libpsl:libidn2 - Use net-dns/libidn2 for IDNA and/or data generation
 net-misc/acd_cli:info - Build and install GNU info documentation
 net-misc/acd_cli:man - Build and install manpages
 net-misc/webrecorder-player:flash - Enable support for Adobe Flash content
