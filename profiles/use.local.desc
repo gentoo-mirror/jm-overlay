@@ -19,11 +19,6 @@ app-crypt/xsum:rhash - Enable support for app-crypt/rhash
 app-crypt/xsum:sodium - Enable support for dev-libs/libsodium
 app-crypt/xsum:xxhash - Enable support for dev-libs/xxhash
 app-crypt/xsum:zlib - Enable gzip compression, Adler-32 and CRC32 using sys-libs/zlib
-dev-nodejs/yargs:l10n_pirate - Joke "pirate" locale
-dev-python/python-zstd:legacy - Enable support for legacy zstd formats
-dev-python/python-zstd:legacy-api - Enable APIs for working with files created by older versions of python-zstd
-dev-python/python-zstd:legacy-formats - Enable support for legacy zstd formats
-dev-python/python-zstd:system-libzstd - Build against the system-wide libzstd, this removes any effect from the "legacy-formats" USE flag
 dev-util/movfuscator:libressl - Use dev-libs/libressl instead of dev-libs/openssl when building the examples
 dev-util/movfuscator:postproc - Install python-based assembly post-processors
 dev-util/movfuscator:softfloat - Build and install mov-only softfloat libraries
@@ -66,7 +61,6 @@ media-gfx/impack2:jxr - Enable support for JPEG XR images
 media-gfx/impack2:zstd - Enable zstd compression support
 net-misc/acd_cli:info - Build and install GNU info documentation
 net-misc/acd_cli:man - Build and install manpages
-net-misc/webrecorder-player:flash - Enable support for Adobe Flash content
 sci-libs/comedilib:firmware - Install firmware files needed for some devices
 sci-libs/comedilib:pdf - Install documentation in PDF format
 sci-libs/comedilib:scxi - Build the SCXI convenience library

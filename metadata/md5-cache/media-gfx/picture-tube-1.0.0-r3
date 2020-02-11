@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Render 256 color images on the terminal
+EAPI=7
+HOMEPAGE=https://github.com/substack/picture-tube
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=net-libs/nodejs-0.6.0
+SLOT=0
+SRC_URI=http://registry.npmjs.org/picture-tube/-/picture-tube-1.0.0.tgz http://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz http://registry.npmjs.org/charm/-/charm-0.1.2.tgz http://registry.npmjs.org/event-stream/-/event-stream-0.9.8.tgz http://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz http://registry.npmjs.org/png-js/-/png-js-0.1.1.tgz http://registry.npmjs.org/request/-/request-2.9.203.tgz http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz http://registry.npmjs.org/x256/-/x256-0.0.2.tgz
+_eclasses_=node	b9c2289e57863b5c5d2cf7fcd3bc70b8
+_md5_=9dcb21bfba59bfca328bc1c278967baf
