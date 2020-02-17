@@ -9,5 +9,5 @@ LICENSE=all-rights-reserved
 RDEPEND=sys-libs/glibc amd64? ( sys-libs/glibc[multilib] )
 RESTRICT=bindist mirror
 SLOT=0
-SRC_URI=http://cisoplus.pspgen.com/Files/cisoplus_1_0_11.zip doc? ( http://cisoplus.pspgen.com/cisoplus3.pdf )
-_md5_=df949dc8993da14de97cc5e3fa2e0b00
+SRC_URI=https://web.archive.org/web/20160323075247/http://cisoplus.pspgen.com/Files/cisoplus_1_0_11.zip doc? ( https://web.archive.org/web/20160323075146/http://cisoplus.pspgen.com/cisoplus3.pdf )
+_md5_=3cbb8d18c84a4f4ebf3154f5d22bfeab
