@@ -19,6 +19,7 @@ app-crypt/xsum:rhash - Enable support for app-crypt/rhash
 app-crypt/xsum:sodium - Enable support for dev-libs/libsodium
 app-crypt/xsum:xxhash - Enable support for dev-libs/xxhash
 app-crypt/xsum:zlib - Enable gzip compression, Adler-32 and CRC32 using sys-libs/zlib
+app-misc/jdupes:low_memory - Build for low memory usage at the expense of speed and features
 dev-util/movfuscator:libressl - Use dev-libs/libressl instead of dev-libs/openssl when building the examples
 dev-util/movfuscator:postproc - Install python-based assembly post-processors
 dev-util/movfuscator:softfloat - Build and install mov-only softfloat libraries
