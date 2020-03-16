@@ -52,7 +52,7 @@ media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
 media-gfx/IOGraph 1.0.1: Application that turns mouse movements into modern art
 media-gfx/guetzli 0.2 1.0.1: JPEG encoder that aims for excellent compression density at high visual quality
 media-gfx/impack 1.0-r2 1.1-r2 1.2-r1 1.2.1-r1 1.3-r1 1.4 1.4.1 1.4.2 1.4.3: Store your data in images
-media-gfx/impack2 0.1 0.2 1.0 1.1 1.1.1 1.1.2 1.1.3: An application to convert arbitrary files into images and back
+media-gfx/impack2 0.1 0.2 1.0 1.1 1.1.1 1.1.2 1.1.3 1.1.4: An application to convert arbitrary files into images and back
 media-gfx/picture-tube 1.0.0-r3: Render 256 color images on the terminal
 media-gfx/scale2x 3.2 4.0: Real-time graphics effect able to increase the size of small bitmaps
 media-libs/flif 0.3: Free lossless image format library
