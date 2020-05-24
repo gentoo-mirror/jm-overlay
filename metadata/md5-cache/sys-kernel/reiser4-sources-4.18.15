@@ -10,5 +10,5 @@ RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-
 RESTRICT=binchecks strip
 SLOT=4.18.15
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.18.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.18-18.base.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.18-18.extras.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.18-18.experimental.tar.xz https://downloads.sourceforge.net/project/reiser4/reiser4-for-linux-4.x/reiser4-for-4.18.0.patch.gz
-_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	686eaab303305a908fd57b2fd7617800	kernel-2	51166f4011c40ba947ae50ae7184139f	multilib	797cda3549becfe50afdfa35192ca137	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	686eaab303305a908fd57b2fd7617800	kernel-2	51166f4011c40ba947ae50ae7184139f	multilib	ac7989ababbeabdef6fdc6e465b21644	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=c96a6216d34a2c08c8a7fb613e6e92a6
