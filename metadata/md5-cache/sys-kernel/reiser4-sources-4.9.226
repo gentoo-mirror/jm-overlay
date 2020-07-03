@@ -6,9 +6,9 @@ HOMEPAGE=https://dev.gentoo.org/~mpagano/genpatches https://sourceforge.net/proj
 IUSE=experimental symlink build
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2 linux-firmware
-RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf )
+RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
 RESTRICT=binchecks strip
 SLOT=4.9.226
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.9.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.9-230.base.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.9-230.extras.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.9-230.experimental.tar.xz https://downloads.sourceforge.net/project/reiser4/reiser4-for-linux-4.x/reiser4-for-4.9.3.patch.gz
-_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	686eaab303305a908fd57b2fd7617800	kernel-2	62ce5abb4a3cde62969c4314bbf96d6f	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	686eaab303305a908fd57b2fd7617800	kernel-2	b018f94025c867de0d2a56af55679a7a	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=5300d7740692c38f5d25da3fc7985ad6
