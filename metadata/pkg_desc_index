@@ -55,6 +55,7 @@ media-gfx/impack 1.0-r2 1.1-r2 1.2-r1 1.2.1-r1 1.3-r1 1.4 1.4.1 1.4.2 1.4.3: Sto
 media-gfx/impack2 0.1 0.2 1.0 1.1 1.1.1 1.1.2 1.1.3 1.1.4: An application to convert arbitrary files into images and back
 media-gfx/picture-tube 1.0.0-r3: Render 256 color images on the terminal
 media-gfx/scale2x 3.2 4.0: Real-time graphics effect able to increase the size of small bitmaps
+media-libs/charls 2.1.0: C++ implementation of the JPEG-LS standard
 media-libs/flif 0.3: Free lossless image format library
 media-libs/jxrlib 1.1-r1: Open source implementation of the jpegxr image format standard
 media-sound/fische 4.0.3: Stand alone sound visualization
