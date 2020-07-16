@@ -57,7 +57,8 @@ media-fonts/ultimate-oldschool-pc-font-pack:pxplus - Install fonts with unicode 
 media-gfx/impack:aot - Generate native code at build time, rather than runtime
 media-gfx/impack2:bmp - Add support for BMP images
 media-gfx/impack2:brotli - Enable brotli compression support
-media-gfx/impack2:flif - Enable support for FLIF image
+media-gfx/impack2:flif - Enable support for FLIF images
+media-gfx/impack2:jpegls - Enable support for JPEG-LS images
 media-gfx/impack2:jxr - Enable support for JPEG XR images
 media-gfx/impack2:zstd - Enable zstd compression support
 net-misc/acd_cli:info - Build and install GNU info documentation
