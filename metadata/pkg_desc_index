@@ -33,7 +33,7 @@ games-arcade/olliolli 1414459118: Side-scrolling skateboarding video game
 games-arcade/stepmania 5.0.12: Advanced rhythm game, designed for both home and arcade use
 games-arcade/systems_nominal 1.0-r2: Keyboard action game
 games-emulation/citra 9999: Nintendo 3DS Emulator
-games-emulation/rpcs3 0.0.4 0.0.5 0.0.8: Open source PlayStation 3 emulator
+games-emulation/rpcs3 0.0.4 0.0.5 0.0.8 0.0.11: Open source PlayStation 3 emulator
 games-misc/pony_island 1.20: Pony Island is a suspense puzzle game in disguise
 games-puzzle/BigPharma 1.07.12: Big Pharma is part business sim, part logistics puzzle
 games-puzzle/GirlsLikeRobots 20130314: Game about seating arrangements, wrapped around an epic tale of love and danger
