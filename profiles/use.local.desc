@@ -55,9 +55,11 @@ media-fonts/humble-indie-font-bundle:unicharacter - Install the (non-free) "Unic
 media-fonts/ultimate-oldschool-pc-font-pack:px437 - Install fonts with the original DOS charset
 media-fonts/ultimate-oldschool-pc-font-pack:pxplus - Install fonts with unicode enhancements
 media-gfx/impack:aot - Generate native code at build time, rather than runtime
+media-gfx/impack2:avif - Add support for AVIF images
 media-gfx/impack2:bmp - Add support for BMP images
 media-gfx/impack2:brotli - Enable brotli compression support
 media-gfx/impack2:flif - Enable support for FLIF images
+media-gfx/impack2:heif - Enable support for HEIF/HEIC images
 media-gfx/impack2:jpegls - Enable support for JPEG-LS images
 media-gfx/impack2:jxr - Enable support for JPEG XR images
 media-gfx/impack2:zstd - Enable zstd compression support
