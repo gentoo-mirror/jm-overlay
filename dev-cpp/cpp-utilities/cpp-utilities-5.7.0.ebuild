@@ -1,27 +1,25 @@
-# Copyright 2019 Gentoo Authors
+# Copyright 2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-inherit cmake-utils multibuild
+inherit cmake-multilib multibuild
 
-DESCRIPTION="Common Qt related C++ classes and routines"
-HOMEPAGE="https://github.com/Martchus/qtutilities"
-SRC_URI="https://github.com/Martchus/qtutilities/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="Common C++ classes and routines"
+HOMEPAGE="https://github.com/Martchus/cpp-utilities"
+SRC_URI="https://github.com/Martchus/cpp-utilities/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="static-libs doc"
+IUSE="static-libs test doc"
 
-RDEPEND="dev-qt/qtcore:5=
-	dev-qt/qtgui:5=
-	dev-qt/qtwidgets:5=
-	dev-cpp/cpp-utilities:="
-DEPEND="${RDEPEND}"
+RDEPEND=""
+DEPEND="${RDEPEND}
+	test? ( dev-util/cppunit[${MULTILIB_USEDEP}] )"
 BDEPEND="doc? ( app-doc/doxygen )"
 
-src_configure() {
+multilib_src_configure() {
 	myconfig() {
 		local mycmakeargs=(
 			-DAPPEND_GIT_REVISION=OFF
@@ -38,25 +36,34 @@ src_configure() {
 	multibuild_foreach_variant myconfig
 }
 
-src_compile() {
+multilib_src_compile() {
 	mycompile() {
 		cmake-utils_src_compile
 		if [[ ${MULTIBUILD_VARIANT} = shared ]]; then
-			use doc && cmake-utils_src_compile apidoc
+			use doc && multilib_is_native_abi && cmake-utils_src_compile apidoc
 		fi
 	}
 	MULTIBUILD_VARIANTS=($(usev static-libs) shared)
 	multibuild_foreach_variant mycompile
 }
 
-src_install() {
+multilib_src_install() {
 	myinstall() {
 		cmake-utils_src_install
 		if [[ ${MULTIBUILD_VARIANT} = shared ]]; then
-			use doc && dodoc -r "${BUILD_DIR}/api-doc/html"
+			use doc && multilib_is_native_abi && dodoc -r "${BUILD_DIR}/api-doc/html"
 		fi
 	}
 	MULTIBUILD_VARIANTS=($(usev static-libs) shared)
 	multibuild_foreach_variant myinstall
-	rm -rf "${ED}/usr/share/qtutilities/api-doc"
+}
+
+src_install() {
+	cmake-multilib_src_install
+	rm -rf "${ED}/usr/share/c++utilities/api-doc"
+}
+
+multilib_src_test() {
+	MULTIBUILD_VARIANTS=($(usev static-libs) shared)
+	multibuild_foreach_variant cmake-utils_src_compile check
 }

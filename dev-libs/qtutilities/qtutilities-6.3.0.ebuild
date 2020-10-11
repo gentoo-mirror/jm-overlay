@@ -1,4 +1,4 @@
-# Copyright 2019 Gentoo Authors
+# Copyright 2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -17,7 +17,7 @@ IUSE="static-libs doc"
 RDEPEND="dev-qt/qtcore:5=
 	dev-qt/qtgui:5=
 	dev-qt/qtwidgets:5=
-	dev-cpp/cpp-utilities:="
+	>=dev-cpp/cpp-utilities-5.5.0:="
 DEPEND="${RDEPEND}"
 BDEPEND="doc? ( app-doc/doxygen )"
 
