@@ -78,7 +78,6 @@ net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system
 net-misc/warcat 2.2.5: Tool and library for handling Web ARChive (WARC) files
 net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
 net-p2p/syncthingtray 0.10.4 1.0.0: Tray application and Dolphin/Plasma integration for Syncthing
-sci-libs/comedilib 0.10.2-r1: Linux control and measurement device interface (userspace libraries)
 sci-misc/comedi_calibrate 3-r1 3-r2: Linux control and measurement device interface (calibration tool)
 sys-apps/zenstates 9999: Dynamically edit AMD Ryzen processor P-States
 sys-devel/osxcross 0.14 0.15: OS X cross toolchain
