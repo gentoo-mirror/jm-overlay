@@ -46,6 +46,14 @@ games-puzzle/empty 20161228: Clear the room of all the objects by rotating it
 games-strategy/democracy3 1.20: Indepth political simulator
 games-util/cisoplus 1.0.11: A powerfull PSP ISO compressor
 games-util/editor-on-fire 1437-r4: Song editor for Frets On Fire, Phase Shift, Rock Band and Rocksmith
+media-fonts/digital_7 1.0: The Digital 7 font
+media-fonts/fff_tusj 1.0: Handwritten font based on Georgia Bold
+media-fonts/hanging_letters 1.0: The Hanging Letters font
+media-fonts/humble-indie-font-bundle 1: Font pack released by humble bundle as April Fools
+media-fonts/orange_juice 2.0: The Orange Juice font
+media-fonts/street_2_art 1.0-r1: The Street 2 Art font
+media-fonts/ultimate-oldschool-pc-font-pack 1.0: Classic fonts from DOS-era IBM PCs and compatibles
+media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
 media-gfx/IOGraph 1.0.1: Application that turns mouse movements into modern art
 media-gfx/guetzli 0.2 1.0.1: JPEG encoder that aims for excellent compression density at high visual quality
 media-gfx/impack 1.0-r2 1.1-r2 1.2-r1 1.2.1-r1 1.3-r1 1.4 1.4.1 1.4.2 1.4.3: Store your data in images
