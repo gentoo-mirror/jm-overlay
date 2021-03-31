@@ -2,6 +2,7 @@ DEFINED_PHASES=install nofetch pretend setup
 DESCRIPTION=Final, definitive revision of the former Evanessence soundfont
 EAPI=6
 HOMEPAGE=http://www.synthfont.com/punbb/viewtopic.php?id=167
+INHERIT=check-reqs
 IUSE=timidity
 KEYWORDS=~amd64 ~x86
 LICENSE=free-noncomm
@@ -9,5 +10,5 @@ RDEPEND=timidity? ( =app-eselect/eselect-timidity-20110513-r1 )
 RESTRICT=fetch binchecks
 SLOT=0
 SRC_URI=Musyng_Kite.sf2
-_eclasses_=check-reqs	7e3fd1855a5e1b50bb9e80827b3f672d
+_eclasses_=check-reqs	97b90bd8fb799993925e6b3a683184e5
 _md5_=816133854252294955caa8562c203896

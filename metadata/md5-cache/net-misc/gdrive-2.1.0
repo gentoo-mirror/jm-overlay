@@ -3,10 +3,11 @@ DEPEND=>=dev-lang/go-1.5 >=dev-lang/go-1.10
 DESCRIPTION=Command line utility for interacting with Google Drive
 EAPI=6
 HOMEPAGE=https://github.com/prasmussen/gdrive
+INHERIT=golang-build
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/prasmussen/gdrive/archive/2.1.0.tar.gz -> gdrive-2.1.0.tar.gz
-_eclasses_=golang-base	904cd4c642d6923795b9bd99b6fe0e74	golang-build	91472d4e18894e738c69b415e236a664
+_eclasses_=golang-base	b8fb27dacacea08140c53857f439fc7d	golang-build	91472d4e18894e738c69b415e236a664
 _md5_=a17e2bb7a3c8fa05f38a7b8511bfce23
