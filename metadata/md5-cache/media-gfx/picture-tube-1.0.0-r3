@@ -2,6 +2,7 @@ DEFINED_PHASES=install unpack
 DESCRIPTION=Render 256 color images on the terminal
 EAPI=7
 HOMEPAGE=https://github.com/substack/picture-tube
+INHERIT=node
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=net-libs/nodejs-0.6.0

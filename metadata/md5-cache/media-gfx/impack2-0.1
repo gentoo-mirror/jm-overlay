@@ -4,6 +4,7 @@ DEPEND=crypt? ( dev-libs/nettle:= ) png? ( media-libs/libpng:= ) webp? ( media-l
 DESCRIPTION=An application to convert arbitrary files into images and back
 EAPI=7
 HOMEPAGE=https://github.com/Jannis234/ImPack2
+INHERIT=toolchain-funcs
 IUSE=doc crypt +png webp tiff bmp zlib zstd lzma
 KEYWORDS=~amd64
 LICENSE=GPL-3+
@@ -11,5 +12,5 @@ RDEPEND=crypt? ( dev-libs/nettle:= ) png? ( media-libs/libpng:= ) webp? ( media-
 REQUIRED_USE=|| ( png tiff webp bmp )
 SLOT=0
 SRC_URI=https://github.com/Jannis234/ImPack2/archive/v0.1.tar.gz -> impack2-0.1.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
 _md5_=6179119a0f79976e3968e701f0bb587a
