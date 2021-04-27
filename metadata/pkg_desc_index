@@ -72,7 +72,6 @@ net-misc/acd_cli 0.3.2 9999: A command line interface and FUSE filesystem for Am
 net-misc/bash-onedrive-upload 9999: Upload files to onedrive via linux command line
 net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete files from Dropbox
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
-net-misc/megatools 1.9.98-r1: Command line tools and C library for accessing Mega cloud storage
 net-misc/pclcmd 0.2: Command line client for interacting with cloud storage pCloud
 net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system over IP networks
 net-misc/warcat 2.2.5: Tool and library for handling Web ARChive (WARC) files
