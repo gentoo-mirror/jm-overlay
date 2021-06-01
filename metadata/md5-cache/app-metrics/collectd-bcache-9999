@@ -4,10 +4,10 @@ DESCRIPTION=Collect bcache statistics using the Collectd Exec plugin
 EAPI=6
 HOMEPAGE=https://github.com/pommi/collectd-bcache
 INHERIT=git-r3 python-r1
-IUSE=python_targets_pypy3 python_targets_python3_7 python_targets_python3_8 python_targets_python3_9
+IUSE=python_targets_pypy3 python_targets_python3_8 python_targets_python3_9
 LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0= ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] app-metrics/collectd[collectd_plugins_exec]
+RDEPEND=python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0= ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_pypy3(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] app-metrics/collectd[collectd_plugins_exec]
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	d273d56dc725880edbeb1f6389faf5f1	python-r1	26e4ad0a4190b14f70973dc253e86535
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-r1	26e4ad0a4190b14f70973dc253e86535
 _md5_=cf3d0eb2e0729e79a0a5e370bd6c9f1f
