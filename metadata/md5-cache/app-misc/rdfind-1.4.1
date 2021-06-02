@@ -1,0 +1,16 @@
+BDEPEND=verify-sig? ( app-crypt/openpgp-keys-pauldreik ) verify-sig? ( app-crypt/gnupg >=app-portage/gemato-16 )
+DEFINED_PHASES=unpack
+DEPEND=dev-libs/nettle
+DESCRIPTION=Rdfind is a program that finds duplicate files
+EAPI=7
+HOMEPAGE=https://rdfind.pauldreik.se/
+INHERIT=verify-sig
+IUSE=verify-sig
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/nettle
+RESTRICT=test
+SLOT=0
+SRC_URI=https://rdfind.pauldreik.se/rdfind-1.4.1.tar.gz verify-sig? ( https://rdfind.pauldreik.se/rdfind-1.4.1.tar.gz.asc )
+_eclasses_=verify-sig	40b4f4f782cf67118f594ce604cc4c0a
+_md5_=c1a072a455e3a670bc92d5d41a961597
