@@ -1,5 +1,5 @@
 DEFINED_PHASES=install setup unpack
-DEPEND=togglecode? ( dev-python/portio[python_targets_pypy3(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_pypy3(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] ) >=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
+DEPEND=togglecode? ( dev-python/portio[python_targets_pypy3(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?] ) >=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
 DESCRIPTION=Dynamically edit AMD Ryzen processor P-States
 EAPI=6
 HOMEPAGE=https://github.com/r4m0n/ZenStates-Linux
@@ -7,7 +7,7 @@ INHERIT=git-r3 python-r1 linux-info systemd
 IUSE=togglecode python_targets_pypy3 python_targets_python3_8 python_targets_python3_9 kernel_linux
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=togglecode? ( dev-python/portio[python_targets_pypy3(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_pypy3(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] )
+RDEPEND=togglecode? ( dev-python/portio[python_targets_pypy3(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?] )
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-r1	26e4ad0a4190b14f70973dc253e86535	eapi7-ver	f9ec87e93172b25ce65a85303dc06964	linux-info	7e8ed4c6a1d136fb291c52386f996c2c	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	0cb5f4040aac0cd98d17cec3079de0a0	python-r1	e20b80360497e6215aed0dd4ca7d6bad	eapi7-ver	f9ec87e93172b25ce65a85303dc06964	linux-info	7e8ed4c6a1d136fb291c52386f996c2c	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
 _md5_=fd53f647fc371162e02929fac345cb12
