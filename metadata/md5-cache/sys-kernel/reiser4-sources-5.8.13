@@ -7,9 +7,9 @@ INHERIT=kernel-2
 IUSE=experimental symlink build
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
+RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
 RESTRICT=binchecks strip
 SLOT=5.8.13
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.8.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-5.8-16.base.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-5.8-16.extras.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-5.8-16.experimental.tar.xz https://downloads.sourceforge.net/project/reiser4/reiser4-for-linux-5.x/reiser4-for-5.8.10.patch.gz
-_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	kernel-2	404bf5d1d57941bc2f965382f4534645
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	kernel-2	c86a82cb0f0b0b280706f7fed7ef56f2
 _md5_=fd7f4350aee494846901a7980011b310
