@@ -11,5 +11,5 @@ RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-d
 RESTRICT=binchecks strip
 SLOT=4.9.108
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.9.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.9-111.base.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.9-111.extras.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-4.9-111.experimental.tar.xz https://downloads.sourceforge.net/project/reiser4/reiser4-for-linux-4.x/reiser4-for-4.9.3.patch.gz
-_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	kernel-2	2875c2e1273ea1f4fb8e873c10dab596
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	kernel-2	558643172ab02bb7cb88b95070b91f12
 _md5_=a079ee48867c471637b8107acec42c99
