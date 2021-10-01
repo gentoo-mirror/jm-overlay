@@ -52,8 +52,10 @@ media-fonts/humble-indie-font-bundle:halfvetica - Install the "Halfvetica" font
 media-fonts/humble-indie-font-bundle:sans-sans - Install the (non-free) "Sans Sans" font
 media-fonts/humble-indie-font-bundle:times-old-roman - Install the (non-free) "Times Old Roman" font
 media-fonts/humble-indie-font-bundle:unicharacter - Install the (non-free) "Unicharacter" font
-media-fonts/ultimate-oldschool-pc-font-pack:px437 - Install fonts with the original DOS charset
-media-fonts/ultimate-oldschool-pc-font-pack:pxplus - Install fonts with unicode enhancements
+media-fonts/ultimate-oldschool-pc-font-pack:otb-bm - Install bitmap only font variants (OpenType bitmap)
+media-fonts/ultimate-oldschool-pc-font-pack:ttf-ac - Install aspect-corrected font variants (TrueType)
+media-fonts/ultimate-oldschool-pc-font-pack:ttf-mx - Install "mixed" bitmap+outline font variants (TrueType)
+media-fonts/ultimate-oldschool-pc-font-pack:ttf-px - Install outlined font variants (TrueType)
 media-gfx/impack:aot - Generate native code at build time, rather than runtime
 media-gfx/impack2:avif - Add support for AVIF images
 media-gfx/impack2:bmp - Add support for BMP images
