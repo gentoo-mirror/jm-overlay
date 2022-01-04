@@ -2,7 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-arch/zstd:tools - Build and install the command line compression tool
 app-crypt/checkmate:aot - Generate native code at build time, rather than runtime
 app-crypt/xsum:blake2 - Enable BLAKE2 hashes using app-crypt/libb2
 app-crypt/xsum:botan - Enable support for dev-libs/botan
@@ -20,6 +19,7 @@ app-crypt/xsum:sodium - Enable support for dev-libs/libsodium
 app-crypt/xsum:xxhash - Enable support for dev-libs/xxhash
 app-crypt/xsum:zlib - Enable gzip compression, Adler-32 and CRC32 using sys-libs/zlib
 app-misc/jdupes:low_memory - Build for low memory usage at the expense of speed and features
+dev-libs/qtforkawesome:declarative - Enable features that use dev-qt/qtdeclarative
 dev-util/movfuscator:libressl - Use dev-libs/libressl instead of dev-libs/openssl when building the examples
 dev-util/movfuscator:postproc - Install python-based assembly post-processors
 dev-util/movfuscator:softfloat - Build and install mov-only softfloat libraries
@@ -65,8 +65,6 @@ media-gfx/impack2:heif - Enable support for HEIF/HEIC images
 media-gfx/impack2:jpegls - Enable support for JPEG-LS images
 media-gfx/impack2:jxr - Enable support for JPEG XR images
 media-gfx/impack2:zstd - Enable zstd compression support
-net-misc/acd_cli:info - Build and install GNU info documentation
-net-misc/acd_cli:man - Build and install manpages
 sci-libs/comedilib:firmware - Install firmware files needed for some devices
 sci-libs/comedilib:pdf - Install documentation in PDF format
 sci-libs/comedilib:scxi - Build the SCXI convenience library
