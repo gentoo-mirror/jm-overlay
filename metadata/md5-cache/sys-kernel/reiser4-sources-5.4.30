@@ -11,5 +11,5 @@ RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-d
 RESTRICT=binchecks strip
 SLOT=5.4.30
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-5.4-30.base.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-5.4-30.extras.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-5.4-30.experimental.tar.xz https://downloads.sourceforge.net/project/reiser4/reiser4-for-linux-5.x/reiser4-for-5.4.21.patch.gz
-_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	kernel-2	0504e914bab621103eb74f52fad0fc6d
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	kernel-2	7177fbdc34a8efdcb5b739d8a9673adb
 _md5_=391fbf288ddcae431897487c8396e63f
