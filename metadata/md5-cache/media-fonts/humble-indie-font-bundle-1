@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( after-impact bike-courier cosmic-sans halfvetica sans-sans tim
 RESTRICT=fetch sans-sans? ( bindist mirror ) times-old-roman? ( bindist mirror ) unicharacter? ( bindist mirror )
 SLOT=0
 SRC_URI=after-impact? ( afterimpact.zip ) bike-courier? ( bikecourier.zip ) cosmic-sans? ( cosmicsans.zip ) halfvetica? ( halfvetica.zip ) sans-sans? ( sanssans.zip ) times-old-roman? ( timesoldroman.zip ) unicharacter? ( unicharacter.zip )
-_eclasses_=font	0667878c2b594871023dd1833d05996f
+_eclasses_=font	b500e97c1ae30f830e84a95be6e9bd36
 _md5_=e69dbaff77bc3efde75a3e95426afa6a
