@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/openal:= dev-qt/qtcore:5= dev-qt/qtwidgets:5= dev-qt/qtgui:5= virtual/opengl
 SLOT=0
 SRC_URI=https://gitlab.com/CalcProgrammer1/KeyboardVisualizer/-/archive/release_4.00/KeyboardVisualizer-release_4.00.tar.bz2 https://gitlab.com/CalcProgrammer1/OpenRGB/-/archive/release_0.4/OpenRGB-release_0.4.tar.bz2
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1	desktop	c0d27bf73aa08ca05b663dbd31fbef28
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1	desktop	c0d27bf73aa08ca05b663dbd31fbef28
 _md5_=390a75ce853169b8f775223f415b2afb
