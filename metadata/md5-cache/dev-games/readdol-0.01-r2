@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=app-arch/unzip
+DESCRIPTION=Displays information about DOL files (Nintendo GameCube/Wii binaries)
+EAPI=8
+HOMEPAGE=http://wiibrew.org/wiki/Readdol
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://wiibrew.org/w/images/4/44/Readdol-0.01.zip
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_md5_=95338dd23695ab141ddf17cf7a4b43f2
