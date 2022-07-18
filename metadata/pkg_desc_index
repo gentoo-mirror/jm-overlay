@@ -10,7 +10,6 @@ app-misc/msi-rgb 9999: Utility for controlling RGB header on some MSI boards
 app-pda/sachesi 2.0.4: Firmware, extractor, searcher and installer for Blackberry 10
 dev-cpp/cpp-utilities 5.0.1 5.7.0 5.10.3 5.10.5 5.11.3 5.14.0: Common C++ classes and routines
 dev-cpp/gtest 1.8.0: Google C++ Testing Framework
-dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
 dev-lang/kotlin-bin 1.1.51 1.2.0 1.2.10 1.2.21 1.2.30 1.2.41 1.2.61 1.3.10 1.3.21 1.3.31 1.3.50 1.3.61 1.3.72 1.4.10 1.4.20 1.4.31 1.4.32: Statically typed programming language for modern multiplatform applications
 dev-lang/typescript 3.7.5 3.9.5 4.0.3 4.1.2 4.2.2 4.2.4 4.3.5 4.5.4: TypeScript is a language for application scale JavaScript development
 dev-libs/cppcrypto 0.17: C++ library providing some cryptographic primitives
@@ -79,5 +78,4 @@ sys-apps/zenstates 9999: Dynamically edit AMD Ryzen processor P-States
 sys-devel/osxcross 0.14 0.15: OS X cross toolchain
 sys-kernel/reiser4-sources 4.9.234 4.14.195 5.4.61 5.16.20: Full sources including the Gentoo and Reiser4 patchsets for the 5.16 kernel tree
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
-www-apps/CGP 0.4.1-r1 1: Graphical web-based front-end for visualizing RRD collected by collectd
 x11-drivers/wizardpen 0.8.1: A Linux/HAL/udev/X11 driver for most non-Wacom graphics pads
