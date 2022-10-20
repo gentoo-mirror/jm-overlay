@@ -10,5 +10,5 @@ RDEPEND=x11-libs/libX11 x11-libs/libXrender dev-libs/glib:2 x11-libs/libXtst x11
 RESTRICT=mirror bindist splitdebug
 SLOT=0
 SRC_URI=http://assets.nerdcubed.co.uk/systems_nominal_1.0_linux.7z http://www.nerdcubed.co.uk/favicon.ico -> systems_nominal.ico
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	desktop	22952d8f27cac191d75529d4c38e6bfa
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	desktop	7eb20ad915a0a318176d51bc2508ff5c
 _md5_=be1d95d73d2308aa075c24a6c8f61cfa
