@@ -10,5 +10,5 @@ LICENSE=AGPL-3+
 RDEPEND=dev-libs/libkeccak dev-libs/argparser
 SLOT=0
 SRC_URI=https://github.com/maandree/sha3sum/archive/1.0.tar.gz -> sha3sum-1.0.tar.gz
-_eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157
 _md5_=6a727512b3a0d22490bbdc7422cf757a
