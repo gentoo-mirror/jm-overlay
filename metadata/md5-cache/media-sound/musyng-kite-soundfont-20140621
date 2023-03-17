@@ -10,5 +10,5 @@ RDEPEND=timidity? ( =app-eselect/eselect-timidity-20110513-r1 )
 RESTRICT=fetch binchecks
 SLOT=0
 SRC_URI=Musyng_Kite.sf2
-_eclasses_=check-reqs	5e6dfbd7a8d3238a79f009fae7ac469c
+_eclasses_=check-reqs	a5f1e025c53d62f98bc24bd63d7d95e1
 _md5_=816133854252294955caa8562c203896
