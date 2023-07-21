@@ -10,5 +10,5 @@ RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-d
 RESTRICT=binchecks strip
 SLOT=5.16.20
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.16.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-5.16-22.base.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-5.16-22.extras.tar.xz https://dev.gentoo.org/~mpagano/genpatches/tarballs/genpatches-5.16-22.experimental.tar.xz https://downloads.sourceforge.net/project/reiser4/reiser4-for-linux-5.x/reiser4-for-5.16.patch.gz
-_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	kernel-2	f3fe06845554116f3a63786f864ff07f
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	67b3e3d8916d690003f645486ed86aac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	kernel-2	f3fe06845554116f3a63786f864ff07f
 _md5_=9f266d6232cc754c28b0b5ee705803c5
