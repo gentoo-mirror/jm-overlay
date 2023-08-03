@@ -74,6 +74,7 @@ sci-misc/comedi_calibrate 3-r2: Linux control and measurement device interface (
 sec-keys/openpgp-keys-pauldreik 20150904: OpenPGP keys used by Paul Dreik
 sys-apps/zenstates 9999: Dynamically edit AMD Ryzen processor P-States
 sys-devel/osxcross 0.14 0.15: OS X cross toolchain
+sys-kernel/nct6687d 9999: Linux kernel module for Nuvoton NCT6687-R
 sys-kernel/reiser4-sources 4.9.234 4.14.195 5.4.61 5.16.20: Full sources including the Gentoo and Reiser4 patchsets for the 5.16 kernel tree
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 www-plugins/onyx 0.9.2.1: Native component for OverbiteNX, a Gopher client add-on for Firefox
