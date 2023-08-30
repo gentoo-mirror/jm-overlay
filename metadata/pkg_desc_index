@@ -23,12 +23,15 @@ dev-python/expiringdict 1.2.1: Helper module to easily develop git-annex remotes
 dev-python/openrgb-python 0.2.3: A python client for the OpenRGB SDK
 dev-python/portio 0.5: Python low level port I/O for Linux x86
 dev-util/bindiff 4.2.0: Quickly find differences and similarities in disassembled code
-dev-util/cargo-c 0.6.13: Helper program to build and install c-like libraries
 dev-util/movfuscator 9999-r2: The single instruction C compiler
-dev-util/uglify-js 3.7.7: JavaScript parser, mangler/compressor and beautifier toolkit
+games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
+games-arcade/CookServeDelicious 261: The most intense cooking game ever made
+games-arcade/berlin82 1.1: Infinite police chase arcade game
+games-arcade/olliolli 1414459118: Side-scrolling skateboarding video game
 games-arcade/stepmania 5.0.12: Advanced rhythm game, designed for both home and arcade use
 games-misc/pony_island 1.20: Pony Island is a suspense puzzle game in disguise
 games-puzzle/BigPharma 1.07.12: Big Pharma is part business sim, part logistics puzzle
+games-puzzle/GirlsLikeRobots 20130314: Game about seating arrangements, wrapped around an epic tale of love and danger
 games-puzzle/HumanResourceMachine 20160323: Program little office workers to solve puzzles
 games-puzzle/empty 20161228: Clear the room of all the objects by rotating it
 games-strategy/democracy3 1.20: Indepth political simulator
@@ -54,13 +57,11 @@ media-sound/fische 4.0.3: Stand alone sound visualization
 media-sound/musyng-kite-soundfont 20140621: Final, definitive revision of the former Evanessence soundfont
 media-video/nordlicht 0.4.5-r1: library + tool that creates colorful video barcodes
 media-video/timelens 0.1.1: Timelens creates visual timelines from video files
-net-im/telegram-purple 9999-r1: Libpurple (Pidgin) plugin for using a Telegram account
 net-misc/bash-onedrive-upload 9999: Upload files to onedrive via linux command line
 net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete files from Dropbox
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
 net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system over IP networks
 net-misc/warcat 2.2.5: Tool and library for handling Web ARChive (WARC) files
-net-misc/wireshark-whatsapp 0.16: Whatsapp dissector plugin for wireshark
 net-p2p/syncthingtray 0.10.4 1.0.0 1.1.6 1.1.8 1.1.13-r1 1.1.17-r1 1.2.1-r1 1.2.3-r1 1.4.4 1.4.5: Tray application and Dolphin/Plasma integration for Syncthing
 sci-libs/comedilib 0.12.0: Linux control and measurement device interface (userspace libraries)
 sci-misc/comedi_calibrate 3-r2: Linux control and measurement device interface (calibration tool)
