@@ -2,7 +2,7 @@ app-accessibility/whisper-cpp 1.2.1: Port of OpenAI's Whisper model in C/C++
 app-accessibility/whisper-ggml-models 20230322: OpenAI's Whisper models converted to ggml format
 app-crypt/checkmate 1.0 1.0.1: Utility to generate and verify checksums/hashes
 app-crypt/sha3sum 1.0 1.1.2 1.1.4 1.1.5 1.2.1 1.2.2: SHA-3 and Keccak checksum utility
-app-crypt/xsum 1.0.1 1.1 1.1.1 1.2: All-in-one utility to calculate and verify checksums
+app-crypt/xsum 1.0.1 1.1 1.1.1 1.2 1.3: All-in-one utility to calculate and verify checksums
 app-eselect/eselect-timidity 20110513-r1: Manages configuration of TiMidity++ patchsets
 app-metrics/collectd-bcache 9999: Collect bcache statistics using the Collectd Exec plugin
 app-misc/KeyboardVisualizer 4.00 9999: Audio visualizer and effects engine using the OpenRGB SDK
@@ -14,7 +14,7 @@ dev-cpp/gtest 1.8.0: Google C++ Testing Framework
 dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
 dev-lang/kotlin-bin 1.1.51 1.2.0 1.2.10 1.2.21 1.2.30 1.2.41 1.2.61 1.3.10 1.3.21 1.3.31 1.3.50 1.3.61 1.3.72 1.4.10 1.4.20 1.4.31 1.4.32: Statically typed programming language for modern multiplatform applications
 dev-lang/typescript 3.7.5 3.9.5 4.0.3 4.1.2 4.2.2 4.2.4 4.3.5 4.5.4: TypeScript is a language for application scale JavaScript development
-dev-libs/cppcrypto 0.17: C++ library providing some cryptographic primitives
+dev-libs/cppcrypto 0.17 0.20: C++ library providing some cryptographic primitives
 dev-libs/libkeccak 1.1.4 1.2 1.3.1.2: Keccak-family hashing library
 dev-libs/qtforkawesome 0.0.2 0.0.3 0.0.4 0.1.0: Library that bundles ForkAwesome for use within Qt applications
 dev-libs/qtutilities 6.0.2 6.3.0 6.4.1 6.4.2 6.5.3 6.6.0 6.6.2 6.8.0 6.13.0: Common Qt related C++ classes and routines
