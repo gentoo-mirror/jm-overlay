@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=dev-qt/qtcore:5= dev-qt/qtnetwork:5= dev-qt/qtgui:5= dev-qt/qtwidgets:5= dev-libs/quazip sys-libs/zlib:= virtual/libudev:= dev-libs/lzo:2 virtual/libusb:1 dev-libs/openssl:0=
 SLOT=0
 SRC_URI=https://github.com/xsacha/Sachesi/archive/2.0.4.tar.gz -> sachesi-2.0.4.tar.gz
-_eclasses_=toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	desktop	021728fdc1b03b36357dbc89489e0f0d
+_eclasses_=toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	desktop	021728fdc1b03b36357dbc89489e0f0d
 _md5_=5eb5c3c0ed4fe0422d45d11fa8282c2d
