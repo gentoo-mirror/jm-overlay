@@ -2,19 +2,30 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-accessibility/whisper-cpp:blas - Enable support for sci-libs/openblas
+app-accessibility/whisper-cpp:hip - Enable HIP GPU computing support
 app-accessibility/whisper-cpp:models - Install models
 app-accessibility/whisper-cpp:sdl2 - Build and install example applications that use media-libs/libsdl2
 app-accessibility/whisper-ggml-models:whisper_models_base - Install the base model
 app-accessibility/whisper-ggml-models:whisper_models_base-en - Install an English-only variant of the base model
-app-accessibility/whisper-ggml-models:whisper_models_large - Install the large model
-app-accessibility/whisper-ggml-models:whisper_models_large-v1 - Install the original version of the large model
+app-accessibility/whisper-ggml-models:whisper_models_base-en-q5_1 - Install a quantized version of the English-only base model
+app-accessibility/whisper-ggml-models:whisper_models_base-q5_1 - Install a quantized version of the base model
+app-accessibility/whisper-ggml-models:whisper_models_large-v1 - Install version 1 of the large model
+app-accessibility/whisper-ggml-models:whisper_models_large-v2 - Install version 2 of the large model
+app-accessibility/whisper-ggml-models:whisper_models_large-v3 - Install version 3 of the large model
+app-accessibility/whisper-ggml-models:whisper_models_large-v3-q5_0 - Install a quantized version of the large-v3 model
 app-accessibility/whisper-ggml-models:whisper_models_medium - Install the medium model
 app-accessibility/whisper-ggml-models:whisper_models_medium-en - Install an English-only variant of the medium model
+app-accessibility/whisper-ggml-models:whisper_models_medium-en-q5_0 - Install a quantized version of the English-only medium model
+app-accessibility/whisper-ggml-models:whisper_models_medium-q5_0 - Install a quantized version of the medium model
 app-accessibility/whisper-ggml-models:whisper_models_small - Install the small model
 app-accessibility/whisper-ggml-models:whisper_models_small-en - Install an English-only variant of the small model
+app-accessibility/whisper-ggml-models:whisper_models_small-en-q5_1 - Install a quantized version of the English-only small model
+app-accessibility/whisper-ggml-models:whisper_models_small-en-tdrz - Install a version of the English-only small model finetuned for diarization
+app-accessibility/whisper-ggml-models:whisper_models_small-q5_1 - Install a quantized version of the small model
 app-accessibility/whisper-ggml-models:whisper_models_tiny - Install the tiny model
 app-accessibility/whisper-ggml-models:whisper_models_tiny-en - Install an English-only variant of the tiny model
+app-accessibility/whisper-ggml-models:whisper_models_tiny-en-q5_1 - Install a quantized version of the English-only tiny model
+app-accessibility/whisper-ggml-models:whisper_models_tiny-q5_1 - Install a quantized version of the tiny model
 app-crypt/checkmate:aot - Generate native code at build time, rather than runtime
 app-crypt/xsum:blake2 - Enable BLAKE2 hashes using app-crypt/libb2
 app-crypt/xsum:botan - Enable support for dev-libs/botan
