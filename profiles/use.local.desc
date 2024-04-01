@@ -68,6 +68,7 @@ media-fonts/ultimate-oldschool-pc-font-pack:ttf-ac - Install aspect-corrected fo
 media-fonts/ultimate-oldschool-pc-font-pack:ttf-mx - Install "mixed" bitmap+outline font variants (TrueType)
 media-fonts/ultimate-oldschool-pc-font-pack:ttf-px - Install outlined font variants (TrueType)
 media-gfx/impack:aot - Generate native code at build time, rather than runtime
+media-gfx/impack2:argon2 - Use app-crypt/argon2 for password hashing (requires USE=crypt)
 media-gfx/impack2:avif - Add support for AVIF images
 media-gfx/impack2:bmp - Add support for BMP images
 media-gfx/impack2:brotli - Enable brotli compression support

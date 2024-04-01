@@ -1,0 +1,16 @@
+BDEPEND=sys-apps/help2man
+DEFINED_PHASES=compile install test
+DEPEND=crypt? ( dev-libs/nettle:= ) argon2? ( app-crypt/argon2:= ) avif? ( media-libs/libavif:= ) bmp? ( media-libs/libnsbmp:= ) flif? ( media-libs/flif:= ) heif? ( media-libs/libheif:= ) jpeg2k? ( media-libs/openjpeg:2= ) jpegls? ( media-libs/charls:= ) jxl? ( media-libs/libjxl:= ) jxr? ( media-libs/jxrlib ) png? ( media-libs/libpng:= ) tiff? ( media-libs/tiff:0= ) webp? ( media-libs/libwebp:= ) brotli? ( app-arch/brotli:= ) bzip2? ( app-arch/bzip2:= ) lzma? ( app-arch/xz-utils:= ) zlib? ( sys-libs/zlib:= ) zstd? ( app-arch/zstd:= ) X? ( x11-libs/gtk+:3 )
+DESCRIPTION=An application to convert arbitrary files into images and back
+EAPI=7
+HOMEPAGE=https://github.com/Jannis234/ImPack2
+INHERIT=toolchain-funcs
+IUSE=X doc crypt argon2 avif bmp -flif heif jpeg2k jpegls jxl -jxr +png tiff webp brotli bzip2 lzma zlib zstd
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=crypt? ( dev-libs/nettle:= ) argon2? ( app-crypt/argon2:= ) avif? ( media-libs/libavif:= ) bmp? ( media-libs/libnsbmp:= ) flif? ( media-libs/flif:= ) heif? ( media-libs/libheif:= ) jpeg2k? ( media-libs/openjpeg:2= ) jpegls? ( media-libs/charls:= ) jxl? ( media-libs/libjxl:= ) jxr? ( media-libs/jxrlib ) png? ( media-libs/libpng:= ) tiff? ( media-libs/tiff:0= ) webp? ( media-libs/libwebp:= ) brotli? ( app-arch/brotli:= ) bzip2? ( app-arch/bzip2:= ) lzma? ( app-arch/xz-utils:= ) zlib? ( sys-libs/zlib:= ) zstd? ( app-arch/zstd:= ) X? ( x11-libs/gtk+:3 ) !media-gfx/impack
+REQUIRED_USE=|| ( avif bmp flif heif jpegls jpeg2k jxl jxr png tiff webp ) argon2? ( crypt )
+SLOT=0
+SRC_URI=https://github.com/Jannis234/ImPack2/archive/v1.5.tar.gz -> impack2-1.5.tar.gz
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=1d2be10c296923db19dd1a9f424057fd
