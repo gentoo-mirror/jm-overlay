@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=Quickly find differences and similarities in disassembled code
+EAPI=6
+HOMEPAGE=http://www.zynamics.com/bindiff.html
+INHERIT=unpacker desktop
+IUSE=doc examples
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=zynamics-bindiff-eula
+RDEPEND=virtual/jre
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=amd64? ( https://dl.google.com/dl/zynamics/bindiff420-debian8-amd64.deb ) x86? ( https://dl.google.com/dl/zynamics/bindiff420-debian8-i386.deb ) https://dl.google.com/dl/zynamics/bindiff-license-key.zip
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	unpacker	7b40f3faa3e2e12f5cf6d36d0fbfcd09	desktop	021728fdc1b03b36357dbc89489e0f0d
+_md5_=5513f631ff31fe9f91467d95fb3b4344

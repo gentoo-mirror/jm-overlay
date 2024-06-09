@@ -1,5 +1,6 @@
 app-accessibility/whisper-cpp 1.2.1-r1 1.5.4: Port of OpenAI's Whisper model in C/C++
 app-accessibility/whisper-ggml-models 20231210: OpenAI's Whisper models converted to ggml format
+app-crypt/checkmate 1.0 1.0.1: Utility to generate and verify checksums/hashes
 app-crypt/sha3sum 1.0 1.1.2 1.1.4 1.1.5 1.2.1 1.2.2: SHA-3 and Keccak checksum utility
 app-crypt/xsum 1.0.1 1.1 1.1.1 1.2 1.3: All-in-one utility to calculate and verify checksums
 app-eselect/eselect-timidity 20110513-r1: Manages configuration of TiMidity++ patchsets
@@ -11,7 +12,7 @@ app-pda/sachesi 2.0.4-r1: Firmware, extractor, searcher and installer for Blackb
 dev-cpp/cpp-utilities 5.0.1 5.7.0 5.10.3 5.10.5 5.11.3 5.14.0 5.17.0 5.19.0 5.24.0 5.24.6 5.24.7: Common C++ classes and routines
 dev-cpp/gtest 1.8.0: Google C++ Testing Framework
 dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
-dev-lang/kotlin-bin 1.1.51 1.2.0 1.2.10 1.2.21 1.2.30 1.2.41 1.2.61 1.3.10 1.3.21 1.3.31 1.3.50 1.3.61 1.3.72 1.4.10 1.4.20 1.4.31 1.4.32: Statically typed programming language for modern multiplatform applications
+dev-lang/kotlin-bin 1.3.10 1.3.21 1.3.31 1.3.50 1.3.61 1.3.72 1.4.10 1.4.20 1.4.31 1.4.32: Statically typed programming language for modern multiplatform applications
 dev-lang/typescript 3.7.5 3.9.5 4.0.3 4.1.2 4.2.2 4.2.4 4.3.5 4.5.4: TypeScript is a language for application scale JavaScript development
 dev-libs/cppcrypto 0.17 0.20: C++ library providing some cryptographic primitives
 dev-libs/libkeccak 1.1.4 1.2 1.3.1.2: Keccak-family hashing library
@@ -21,6 +22,7 @@ dev-python/crccheck 1.3.0: Classes to calculate CRCs and checksums from binary d
 dev-python/expiringdict 1.2.1: Helper module to easily develop git-annex remotes
 dev-python/openrgb-python 0.2.3: A python client for the OpenRGB SDK
 dev-python/portio 0.5: Python low level port I/O for Linux x86
+dev-util/bindiff 4.2.0: Quickly find differences and similarities in disassembled code
 dev-util/movfuscator 9999-r2: The single instruction C compiler
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
@@ -44,6 +46,7 @@ media-fonts/ultimate-oldschool-pc-font-pack 2.2: Classic fonts from DOS-era IBM 
 media-fonts/wrong_time_wrong_place 1.0: The Wrong Time, Wrong Place font
 media-gfx/IOGraph 1.0.3: Application that turns mouse movements into modern art
 media-gfx/guetzli 0.2 1.0.1: JPEG encoder that aims for excellent compression density at high visual quality
+media-gfx/impack 1.4.3: Store your data in images
 media-gfx/impack2 0.1 0.2 1.0 1.1 1.1.1 1.1.2 1.1.3 1.1.4 1.2 1.3 1.3.1 1.4 1.5: An application to convert arbitrary files into images and back
 media-gfx/picture-tube 1.0.0-r3: Render 256 color images on the terminal
 media-gfx/scale2x 3.2 4.0: Real-time graphics effect able to increase the size of small bitmaps
@@ -54,6 +57,7 @@ media-sound/fische 4.0.3: Stand alone sound visualization
 media-sound/musyng-kite-soundfont 20140621: Final, definitive revision of the former Evanessence soundfont
 media-video/nordlicht 0.4.5-r1: library + tool that creates colorful video barcodes
 media-video/timelens 0.1.1: Timelens creates visual timelines from video files
+net-misc/bash-onedrive-upload 9999: Upload files to onedrive via linux command line
 net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete files from Dropbox
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
 net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system over IP networks
