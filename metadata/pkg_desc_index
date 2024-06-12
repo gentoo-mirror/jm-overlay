@@ -7,7 +7,6 @@ app-eselect/eselect-timidity 20110513-r1: Manages configuration of TiMidity++ pa
 app-metrics/collectd-bcache 9999: Collect bcache statistics using the Collectd Exec plugin
 app-misc/KeyboardVisualizer 4.00 9999: Audio visualizer and effects engine using the OpenRGB SDK
 app-misc/jdupes 1.14.0 1.17.0 1.18.1 1.19.0 1.20.0: A powerful duplicate file finder and an enhanced fork of fdupes
-app-misc/msi-rgb 9999: Utility for controlling RGB header on some MSI boards
 app-pda/sachesi 2.0.4-r1: Firmware, extractor, searcher and installer for Blackberry 10
 dev-cpp/cpp-utilities 5.0.1 5.7.0 5.10.3 5.10.5 5.11.3 5.14.0 5.17.0 5.19.0 5.24.0 5.24.6 5.24.7: Common C++ classes and routines
 dev-cpp/gtest 1.8.0: Google C++ Testing Framework
@@ -56,7 +55,6 @@ media-libs/jxrlib 1.1-r1: Open source implementation of the jpegxr image format 
 media-sound/fische 4.0.3: Stand alone sound visualization
 media-sound/musyng-kite-soundfont 20140621: Final, definitive revision of the former Evanessence soundfont
 media-video/nordlicht 0.4.5-r1: library + tool that creates colorful video barcodes
-media-video/timelens 0.1.1: Timelens creates visual timelines from video files
 net-misc/bash-onedrive-upload 9999: Upload files to onedrive via linux command line
 net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete files from Dropbox
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
