@@ -9,7 +9,7 @@ app-misc/KeyboardVisualizer 4.00 9999: Audio visualizer and effects engine using
 app-misc/jdupes 1.14.0 1.17.0 1.18.1 1.19.0 1.20.0: A powerful duplicate file finder and an enhanced fork of fdupes
 app-misc/msi-rgb 9999: Utility for controlling RGB header on some MSI boards
 app-pda/sachesi 2.0.4-r1: Firmware, extractor, searcher and installer for Blackberry 10
-dev-cpp/cpp-utilities 5.0.1 5.7.0 5.10.3 5.10.5 5.11.3 5.14.0 5.17.0 5.19.0 5.24.0 5.24.6 5.24.7: Common C++ classes and routines
+dev-cpp/cpp-utilities 5.0.1 5.7.0 5.10.3 5.10.5 5.11.3 5.14.0 5.17.0 5.19.0 5.24.0 5.24.6 5.24.7 5.25.0: Common C++ classes and routines
 dev-cpp/gtest 1.8.0: Google C++ Testing Framework
 dev-games/readdol 0.01-r2: Displays information about DOL files (Nintendo GameCube/Wii binaries)
 dev-lang/kotlin-bin 1.3.10 1.3.21 1.3.31 1.3.50 1.3.61 1.3.72 1.4.10 1.4.20 1.4.31 1.4.32: Statically typed programming language for modern multiplatform applications
@@ -17,7 +17,7 @@ dev-lang/typescript 3.7.5 3.9.5 4.0.3 4.1.2 4.2.2 4.2.4 4.3.5 4.5.4: TypeScript 
 dev-libs/cppcrypto 0.17 0.20: C++ library providing some cryptographic primitives
 dev-libs/libkeccak 1.1.4 1.2 1.3.1.2: Keccak-family hashing library
 dev-libs/qtforkawesome 0.0.2 0.0.3 0.0.4 0.1.0 0.2.0: Library that bundles ForkAwesome for use within Qt applications
-dev-libs/qtutilities 6.0.2 6.3.0 6.4.1 6.4.2 6.5.3 6.6.0 6.6.2 6.8.0 6.13.0 6.13.4 6.14.0: Common Qt related C++ classes and routines
+dev-libs/qtutilities 6.0.2 6.3.0 6.4.1 6.4.2 6.5.3 6.6.0 6.6.2 6.8.0 6.13.0 6.13.4 6.14.0 6.14.1: Common Qt related C++ classes and routines
 dev-python/crccheck 1.3.0: Classes to calculate CRCs and checksums from binary data
 dev-python/expiringdict 1.2.1: Helper module to easily develop git-annex remotes
 dev-python/openrgb-python 0.2.3: A python client for the OpenRGB SDK
@@ -62,7 +62,7 @@ net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete f
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
 net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system over IP networks
 net-misc/warcat 2.2.5: Tool and library for handling Web ARChive (WARC) files
-net-p2p/syncthingtray 0.10.4 1.0.0 1.1.6 1.1.8 1.1.13-r1 1.1.17-r1 1.2.1-r1 1.2.3-r1 1.4.4 1.4.5 1.4.13 1.5.2: Tray application and Dolphin/Plasma integration for Syncthing
+net-p2p/syncthingtray 0.10.4 1.0.0 1.1.6 1.1.8 1.1.13-r1 1.1.17-r1 1.2.1-r1 1.2.3-r1 1.4.4 1.4.5 1.4.13 1.5.2 1.5.5: Tray application and Dolphin/Plasma integration for Syncthing
 sci-electronics/minipro 0.7: A free and open TL866XX programmer
 sci-libs/comedilib 0.12.0: Linux control and measurement device interface (userspace libraries)
 sci-misc/comedi_calibrate 3-r2: Linux control and measurement device interface (calibration tool)
