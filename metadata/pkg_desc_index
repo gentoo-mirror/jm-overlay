@@ -23,7 +23,6 @@ dev-python/expiringdict 1.2.1: Helper module to easily develop git-annex remotes
 dev-python/openrgb-python 0.2.3: A python client for the OpenRGB SDK
 dev-python/portio 0.5: Python low level port I/O for Linux x86
 dev-util/bindiff 4.2.0: Quickly find differences and similarities in disassembled code
-dev-util/movfuscator 9999-r2: The single instruction C compiler
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
 games-arcade/berlin82 1.1: Infinite police chase arcade game
@@ -57,7 +56,6 @@ media-sound/fische 4.0.3: Stand alone sound visualization
 media-sound/musyng-kite-soundfont 20140621: Final, definitive revision of the former Evanessence soundfont
 media-video/nordlicht 0.4.5-r1: library + tool that creates colorful video barcodes
 media-video/timelens 0.1.1: Timelens creates visual timelines from video files
-net-misc/bash-onedrive-upload 9999: Upload files to onedrive via linux command line
 net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete files from Dropbox
 net-misc/gdrive 2.1.0: Command line utility for interacting with Google Drive
 net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system over IP networks
@@ -68,7 +66,6 @@ sci-libs/comedilib 0.12.0: Linux control and measurement device interface (users
 sci-misc/comedi_calibrate 3-r2: Linux control and measurement device interface (calibration tool)
 sec-keys/openpgp-keys-pauldreik 20150904: OpenPGP keys used by Paul Dreik
 sys-apps/zenstates 9999: Dynamically edit AMD Ryzen processor P-States
-sys-devel/osxcross 0.14 0.15: OS X cross toolchain
 sys-kernel/cm-psu 9999: Linux hwmon driver for Cooler Master power supplies
 sys-kernel/nct6687d 9999: Linux kernel module for Nuvoton NCT6687-R
 sys-kernel/reiser4-sources 4.9.234 4.14.195 5.4.61 5.16.20: Full sources including the Gentoo and Reiser4 patchsets for the 5.16 kernel tree
