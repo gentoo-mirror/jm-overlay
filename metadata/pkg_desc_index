@@ -22,7 +22,6 @@ dev-python/crccheck 1.3.0: Classes to calculate CRCs and checksums from binary d
 dev-python/expiringdict 1.2.1: Helper module to easily develop git-annex remotes
 dev-python/openrgb-python 0.2.3: A python client for the OpenRGB SDK
 dev-python/portio 0.5: Python low level port I/O for Linux x86
-dev-util/bindiff 4.2.0: Quickly find differences and similarities in disassembled code
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
 games-arcade/berlin82 1.1: Infinite police chase arcade game
