@@ -80,6 +80,7 @@ media-gfx/impack2:heif - Enable support for HEIF/HEIC images
 media-gfx/impack2:jpegls - Enable support for JPEG-LS images
 media-gfx/impack2:jxr - Enable support for JPEG XR images
 media-gfx/impack2:zstd - Enable zstd compression support
+net-wireless/libacars:json - Enable support for JSON-encoded data using dev-libs/jansson
 net-wireless/satdump:gles - Use OpenGL ES for the GUI
 net-wireless/satdump:satdump_plugins_aim - Enable AIM support
 net-wireless/satdump:satdump_plugins_airspy_sdr - Enable Airspy SDR support
