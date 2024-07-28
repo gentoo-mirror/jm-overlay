@@ -80,6 +80,13 @@ media-gfx/impack2:heif - Enable support for HEIF/HEIC images
 media-gfx/impack2:jpegls - Enable support for JPEG-LS images
 media-gfx/impack2:jxr - Enable support for JPEG XR images
 media-gfx/impack2:zstd - Enable zstd compression support
+net-wireless/acarsdec:airspy - Enable Airspy SDR support
+net-wireless/acarsdec:libacars - Enable decoding of ARINC-622 ATS applications using net-wireless/libacars
+net-wireless/acarsdec:mqtt - Enable output over MQTT
+net-wireless/acarsdec:rtlsdr - Enable RTL-SDR SDR support
+net-wireless/dumphfdl:profiling - Enable profiling
+net-wireless/dumphfdl:sdr - Enable SDR input using net-wireless/soapysdr
+net-wireless/dumphfdl:zeromq - Enable ZeroMQ output
 net-wireless/libacars:json - Enable support for JSON-encoded data using dev-libs/jansson
 net-wireless/satdump:gles - Use OpenGL ES for the GUI
 net-wireless/satdump:satdump_plugins_aim - Enable AIM support
@@ -142,6 +149,9 @@ net-wireless/satdump:satdump_plugins_usrp_sdr - Enable USRP SDR support
 net-wireless/satdump:satdump_plugins_wsf - Enable WSF (WSF-M) support
 net-wireless/satdump:tools - Build and install additional tools
 net-wireless/satdump:ziq2 - Enable the experimental ZIQ2 file format
+net-wireless/vdlm2dec:airspy - Enable Airspy SDR support
+net-wireless/vdlm2dec:libacars - Enable decoding of ARINC-622 ATS applications using net-wireless/libacars
+net-wireless/vdlm2dec:rtlsdr - Enable RTL-SDR SDR support
 sci-libs/comedilib:firmware - Install firmware files needed for some devices
 sci-libs/comedilib:pdf - Install documentation in PDF format
 sci-libs/comedilib:scxi - Build the SCXI convenience library
