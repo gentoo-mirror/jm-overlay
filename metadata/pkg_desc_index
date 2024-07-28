@@ -16,6 +16,7 @@ dev-lang/kotlin-bin 1.3.10 1.3.21 1.3.31 1.3.50 1.3.61 1.3.72 1.4.10 1.4.20 1.4.
 dev-lang/typescript 3.7.5 3.9.5 4.0.3 4.1.2 4.2.2 4.2.4 4.3.5 4.5.4: TypeScript is a language for application scale JavaScript development
 dev-libs/cppcrypto 0.17 0.20: C++ library providing some cryptographic primitives
 dev-libs/libkeccak 1.1.4 1.2 1.3.1.2: Keccak-family hashing library
+dev-libs/nng 1.8.0: Light-weight brokerless messaging
 dev-libs/qtforkawesome 0.0.2 0.0.3 0.0.4 0.1.0 0.2.0: Library that bundles ForkAwesome for use within Qt applications
 dev-libs/qtutilities 6.0.2 6.3.0 6.4.1 6.4.2 6.5.3 6.6.0 6.6.2 6.8.0 6.13.0 6.13.4 6.14.0 6.14.1: Common Qt related C++ classes and routines
 dev-python/crccheck 1.3.0: Classes to calculate CRCs and checksums from binary data
@@ -59,6 +60,7 @@ net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete f
 net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system over IP networks
 net-misc/warcat 2.2.5: Tool and library for handling Web ARChive (WARC) files
 net-p2p/syncthingtray 0.10.4 1.0.0 1.1.6 1.1.8 1.1.13-r1 1.1.17-r1 1.2.1-r1 1.2.3-r1 1.4.4 1.4.5 1.4.13 1.5.2 1.5.5: Tray application and Dolphin/Plasma integration for Syncthing
+net-wireless/satdump 1.2.0: A generic satellite data processing software
 sci-electronics/minipro 0.7: A free and open TL866XX programmer
 sci-libs/comedilib 0.12.0: Linux control and measurement device interface (userspace libraries)
 sci-misc/comedi_calibrate 3-r2: Linux control and measurement device interface (calibration tool)

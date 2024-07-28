@@ -43,6 +43,9 @@ app-crypt/xsum:sodium - Enable support for dev-libs/libsodium
 app-crypt/xsum:xxhash - Enable support for dev-libs/xxhash
 app-crypt/xsum:zlib - Enable gzip compression, Adler-32 and CRC32 using sys-libs/zlib
 app-misc/jdupes:low_memory - Build for low memory usage at the expense of speed and features
+dev-libs/nng:compat - Enable compatibility with the legacy nanomsg API
+dev-libs/nng:deprecated - Build deprecated features
+dev-libs/nng:tools - Build and install command line tools
 dev-libs/qtforkawesome:declarative - Enable features that use dev-qt/qtdeclarative
 dev-util/movfuscator:libressl - Use dev-libs/libressl instead of dev-libs/openssl when building the examples
 dev-util/movfuscator:postproc - Install python-based assembly post-processors
@@ -77,6 +80,67 @@ media-gfx/impack2:heif - Enable support for HEIF/HEIC images
 media-gfx/impack2:jpegls - Enable support for JPEG-LS images
 media-gfx/impack2:jxr - Enable support for JPEG XR images
 media-gfx/impack2:zstd - Enable zstd compression support
+net-wireless/satdump:gles - Use OpenGL ES for the GUI
+net-wireless/satdump:satdump_plugins_aim - Enable AIM support
+net-wireless/satdump:satdump_plugins_airspy_sdr - Enable Airspy SDR support
+net-wireless/satdump:satdump_plugins_analog - Enable analog protocols
+net-wireless/satdump:satdump_plugins_bladerf_sdr - Enable BladeRF SDR support
+net-wireless/satdump:satdump_plugins_bluewalker3 - Enable BlueWalker-3 support
+net-wireless/satdump:satdump_plugins_bochum - Enable Bochum support
+net-wireless/satdump:satdump_plugins_cluster - Enable CLUSTER support
+net-wireless/satdump:satdump_plugins_cubesat - Enable support for SubeSats
+net-wireless/satdump:satdump_plugins_dmsp - Enable DMSP support
+net-wireless/satdump:satdump_plugins_dscovr - Enable DSCOVR support
+net-wireless/satdump:satdump_plugins_dvb - Enable DVB-S/DVB-S2 support
+net-wireless/satdump:satdump_plugins_elektro_arktika - Enable Elektro/Arktika (RDAS, xRIT, etc.) support
+net-wireless/satdump:satdump_plugins_eos - Enable EOS (Aqua, Terra, Aura) support
+net-wireless/satdump:satdump_plugins_fy2 - Enable FengYun-2 (S-VISSR, etc.) support
+net-wireless/satdump:satdump_plugins_fy3 - Enable FengYun-3 (AHRPT, MPT, DPT, etc.) support
+net-wireless/satdump:satdump_plugins_fy4 - Enable FengYun-4 (LRIT, HRIT) support
+net-wireless/satdump:satdump_plugins_gcom - Enable GCOM support
+net-wireless/satdump:satdump_plugins_geonetcast - Enable GeoNetCast support
+net-wireless/satdump:satdump_plugins_gk2a - Enable GK2A (xRIT, etc.) support
+net-wireless/satdump:satdump_plugins_goes - Enable GOES (GVAR, HRIT, GRB, etc.) support
+net-wireless/satdump:satdump_plugins_gvar_extended - Enable the GVAR extended plugin
+net-wireless/satdump:satdump_plugins_hackrf_sdr - Enable HackRF SDR support
+net-wireless/satdump:satdump_plugins_himawari - Enable Himawari support
+net-wireless/satdump:satdump_plugins_hinode - Enable Hinode support
+net-wireless/satdump:satdump_plugins_inmarsat - Enable Inmarsat support
+net-wireless/satdump:satdump_plugins_jason3 - Enable Jason-3 (S-Band dumps) support
+net-wireless/satdump:satdump_plugins_jpss - Enable JPSS (SNPP, JPSS-1, etc.) support
+net-wireless/satdump:satdump_plugins_landsat - Enable LandSat support
+net-wireless/satdump:satdump_plugins_limesdr_sdr - Enable LimeSDR support
+net-wireless/satdump:satdump_plugins_mats - Enable MATS support
+net-wireless/satdump:satdump_plugins_meteor - Enable Meteor (HRPT, LRPT, etc.) support
+net-wireless/satdump:satdump_plugins_mirisdr_sdr - Enable MiriSDR SDR support
+net-wireless/satdump:satdump_plugins_net_source_sdr - Enable network source SDR support
+net-wireless/satdump:satdump_plugins_noaa_metop - Enable NOAA/MetOp (AHRPT, HRPT, X-Band dumps, GAC, etc.) support
+net-wireless/satdump:satdump_plugins_oceansat - Enable Oceansat (X-Band, etc.) support
+net-wireless/satdump:satdump_plugins_orbcomm - Enable Orbcomm support
+net-wireless/satdump:satdump_plugins_others - Enable support for a few other constellations
+net-wireless/satdump:satdump_plugins_plutosdr_sdr - Enable PlutoSDR SDR support
+net-wireless/satdump:satdump_plugins_portaudio_sink - Enable audio output using media-libs/portaudio
+net-wireless/satdump:satdump_plugins_proba - Enable Proba (1, 2, V, etc.) support
+net-wireless/satdump:satdump_plugins_remote_sdr - Enable remote SDR support
+net-wireless/satdump:satdump_plugins_rtaudio_sdr - Enable input support using media-libs/rtaudio
+net-wireless/satdump:satdump_plugins_rtaudio_sink - Enable audio output using media-libs/rtaudio
+net-wireless/satdump:satdump_plugins_rtlsdr_sdr - Enable RTL-SDR SDR support
+net-wireless/satdump:satdump_plugins_rtltcp - Enable RTL-TCP support
+net-wireless/satdump:satdump_plugins_scripting - Enable experimental scripting support
+net-wireless/satdump:satdump_plugins_sddc_sdr - Enable SDDC SDDC (RX666, RX888, etc.) SDR support
+net-wireless/satdump:satdump_plugins_sdrplay_sdr - Enable SDRplay SDR support
+net-wireless/satdump:satdump_plugins_sdrpp_server - Enable SDR++ server support
+net-wireless/satdump:satdump_plugins_soapy_sdr - Enable SoapySDR support (not recommended)
+net-wireless/satdump:satdump_plugins_spacex - Enable SpaceX support
+net-wireless/satdump:satdump_plugins_spyserver - Enable SpyServer support
+net-wireless/satdump:satdump_plugins_standard_cpp_compos - Enable standard C++ composites
+net-wireless/satdump:satdump_plugins_stereo - Enable STEREO probes support
+net-wireless/satdump:satdump_plugins_tubsat - Enable TUBSAT (TUBIN, etc.) support
+net-wireless/satdump:satdump_plugins_umka - Enable UmKA support
+net-wireless/satdump:satdump_plugins_usrp_sdr - Enable USRP SDR support
+net-wireless/satdump:satdump_plugins_wsf - Enable WSF (WSF-M) support
+net-wireless/satdump:tools - Build and install additional tools
+net-wireless/satdump:ziq2 - Enable the experimental ZIQ2 file format
 sci-libs/comedilib:firmware - Install firmware files needed for some devices
 sci-libs/comedilib:pdf - Install documentation in PDF format
 sci-libs/comedilib:scxi - Build the SCXI convenience library
