@@ -47,9 +47,6 @@ dev-libs/nng:compat - Enable compatibility with the legacy nanomsg API
 dev-libs/nng:deprecated - Build deprecated features
 dev-libs/nng:tools - Build and install command line tools
 dev-libs/qtforkawesome:declarative - Enable features that use dev-qt/qtdeclarative
-dev-util/movfuscator:libressl - Use dev-libs/libressl instead of dev-libs/openssl when building the examples
-dev-util/movfuscator:postproc - Install python-based assembly post-processors
-dev-util/movfuscator:softfloat - Build and install mov-only softfloat libraries
 games-arcade/olliolli:bundled-libs - Install bundled versions of media-libs/openal and dev-games/physfs
 games-arcade/stepmania:crash-handler - Enable the custom crash handler
 games-arcade/stepmania:default-songs - Install the songs that are distributed with the game by default
@@ -156,6 +153,5 @@ sci-libs/comedilib:firmware - Install firmware files needed for some devices
 sci-libs/comedilib:pdf - Install documentation in PDF format
 sci-libs/comedilib:scxi - Build the SCXI convenience library
 sys-apps/zenstates:togglecode - Install the togglecode utility (needs dev-python/portio)
-sys-devel/osxcross:macports - Install the MacPorts packet manager
 sys-kernel/reiser4-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
 virtual/linux-sources:firmware - Install linux kernel firmware
