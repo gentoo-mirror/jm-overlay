@@ -84,6 +84,12 @@ net-wireless/acarsdec:rtlsdr - Enable RTL-SDR SDR support
 net-wireless/dumphfdl:profiling - Enable profiling
 net-wireless/dumphfdl:sdr - Enable SDR input using net-wireless/soapysdr
 net-wireless/dumphfdl:zeromq - Enable ZeroMQ output
+net-wireless/dumpvdl2:profiling - Enable profiling
+net-wireless/dumpvdl2:protobuf - Enable binary format support using dev-libs/protobuf-c
+net-wireless/dumpvdl2:rtlsdr - Enable RTL-SDR support
+net-wireless/dumpvdl2:sdrplay - Enable SDRplay support
+net-wireless/dumpvdl2:soapy - Enable generic SDR support using net-wireless/soapysdr
+net-wireless/dumpvdl2:zeromq - Enable ZeroMQ output
 net-wireless/libacars:json - Enable support for JSON-encoded data using dev-libs/jansson
 net-wireless/satdump:gles - Use OpenGL ES for the GUI
 net-wireless/satdump:satdump_plugins_aim - Enable AIM support

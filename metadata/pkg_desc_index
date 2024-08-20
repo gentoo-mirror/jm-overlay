@@ -63,6 +63,7 @@ net-misc/warcat 2.2.5: Tool and library for handling Web ARChive (WARC) files
 net-p2p/syncthingtray 0.10.4 1.0.0 1.1.6 1.1.8 1.1.13-r1 1.1.17-r1 1.2.1-r1 1.2.3-r1 1.4.4 1.4.5 1.4.13 1.5.2 1.5.5: Tray application and Dolphin/Plasma integration for Syncthing
 net-wireless/acarsdec 3.7: ACARS SDR decoder
 net-wireless/dumphfdl 1.6.1: Multichannel HFDL decoder
+net-wireless/dumpvdl2 2.3.0: VDL Mode 2 message decoder and protocol analyzer
 net-wireless/libacars 2.2.0: A library for decoding various ACARS message payloads
 net-wireless/satdump 1.2.0: A generic satellite data processing software
 net-wireless/vdlm2dec 2.3: VDL mode 2 SDR decoder
