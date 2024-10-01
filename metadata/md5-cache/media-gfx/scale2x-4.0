@@ -1,7 +1,7 @@
 DEFINED_PHASES=configure install
 DEPEND=media-libs/libpng:0
 DESCRIPTION=Real-time graphics effect able to increase the size of small bitmaps
-EAPI=6
+EAPI=8
 HOMEPAGE=http://www.scale2x.it/
 IUSE=examples
 KEYWORDS=~amd64 ~x86
@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=media-libs/libpng:0
 SLOT=0
 SRC_URI=https://github.com/amadvance/scale2x/releases/download/v4.0/scale2x-4.0.tar.gz
-_md5_=ed65740a9ad262600bcf0d05c7d61ce9
+_md5_=1376863f38cf49bcf8fa53b986057c2b

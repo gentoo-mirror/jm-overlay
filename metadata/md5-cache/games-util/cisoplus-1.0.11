@@ -1,7 +1,7 @@
 DEFINED_PHASES=install
 DEPEND=app-arch/unzip
 DESCRIPTION=A powerfull PSP ISO compressor
-EAPI=6
+EAPI=8
 HOMEPAGE=http://cisoplus.pspgen.com/
 IUSE=doc
 KEYWORDS=-* ~amd64 ~x86
@@ -10,4 +10,4 @@ RDEPEND=sys-libs/glibc amd64? ( sys-libs/glibc[multilib] )
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://web.archive.org/web/20160323075247/http://cisoplus.pspgen.com/Files/cisoplus_1_0_11.zip doc? ( https://web.archive.org/web/20160323075146/http://cisoplus.pspgen.com/cisoplus3.pdf )
-_md5_=3cbb8d18c84a4f4ebf3154f5d22bfeab
+_md5_=8eff468daf3a3e9e772d63f70d23d51e

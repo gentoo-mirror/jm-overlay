@@ -1,7 +1,7 @@
 DEFINED_PHASES=install nofetch
 DEPEND=app-arch/unzip
 DESCRIPTION=Clear the room of all the objects by rotating it
-EAPI=6
+EAPI=8
 HOMEPAGE=https://dustyroom.itch.io/empty
 INHERIT=desktop wrapper
 KEYWORDS=-* ~x86 ~amd64
@@ -11,4 +11,4 @@ RESTRICT=fetch strip mirror bindist splitdebug
 SLOT=0
 SRC_URI=empty-linux.zip
 _eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6	wrapper	8814ba474de61a773949805b4d85007d
-_md5_=16f158da805f2fe42a41b9b19d5be273
+_md5_=9c9568a9cb5d47725b7d64b6bf2a3313

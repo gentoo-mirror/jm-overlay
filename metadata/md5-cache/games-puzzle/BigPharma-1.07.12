@@ -1,6 +1,6 @@
 DEFINED_PHASES=install nofetch unpack
 DESCRIPTION=Big Pharma is part business sim, part logistics puzzle
-EAPI=6
+EAPI=8
 HOMEPAGE=http://bigpharmagame.com/
 INHERIT=desktop wrapper
 KEYWORDS=-* ~x86 ~amd64
@@ -10,4 +10,4 @@ RESTRICT=fetch strip mirror bindist splitdebug
 SLOT=0
 SRC_URI=big_pharma_linux_1.07.12.gz
 _eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6	wrapper	8814ba474de61a773949805b4d85007d
-_md5_=2b56dbdd6a7cbbed58b8ff999a2eded9
+_md5_=0d869b818065e00e918f22fe3c4d6b88

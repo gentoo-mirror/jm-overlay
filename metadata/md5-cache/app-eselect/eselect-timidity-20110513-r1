@@ -1,10 +1,10 @@
 DEFINED_PHASES=install prepare
 DESCRIPTION=Manages configuration of TiMidity++ patchsets
-EAPI=6
+EAPI=8
 HOMEPAGE=https://www.gentoo.org/
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=>=app-admin/eselect-1.2.3
 SLOT=0
 SRC_URI=mirror://gentoo/timidity.eselect-20110513.bz2
-_md5_=92f3211c40cf1e524b9cfd929f4e03fe
+_md5_=eb18b9ae8ea2a10b7cdaa73f527b7f0e
