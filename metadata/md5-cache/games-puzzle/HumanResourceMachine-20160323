@@ -10,5 +10,5 @@ LICENSE=all-rights-reserved
 RESTRICT=fetch mirror bindist bundled-libs? ( splitdebug )
 SLOT=0
 SRC_URI=HumanResourceMachine-Linux-2016-03-23.sh
-_eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6	wrapper	8814ba474de61a773949805b4d85007d
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	wrapper	11a2a3bd712784986679b60a0cab34a0
 _md5_=4e5e05c3a2d51a65aa94f091b2ebc7a2

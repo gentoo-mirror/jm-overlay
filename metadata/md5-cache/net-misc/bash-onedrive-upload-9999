@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=app-shells/bash net-misc/curl[ssl] sys-apps/grep
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	readme.gentoo-r1	32b48460d813533d85f082897cec1b80	wrapper	8814ba474de61a773949805b4d85007d
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	readme.gentoo-r1	b045f3acf546393ab6b3170781875358	wrapper	11a2a3bd712784986679b60a0cab34a0
 _md5_=ede55fd78b51f608dcd2953b2e436f39
