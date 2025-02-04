@@ -61,6 +61,7 @@ net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete f
 net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system over IP networks
 net-misc/warcat 2.2.5: Tool and library for handling Web ARChive (WARC) files
 net-p2p/syncthingtray 0.10.4 1.0.0 1.1.6 1.1.8 1.1.13-r1 1.1.17-r1 1.2.1-r1 1.2.3-r1 1.4.4 1.4.5 1.4.13 1.5.2 1.5.5 1.7.2: Tray application and Dolphin/Plasma integration for Syncthing
+net-vpn/wstunnel 10.1.8: Tunnel all your traffic over Websocket or HTTP2
 net-wireless/acarsdec 3.7: ACARS SDR decoder
 net-wireless/dumphfdl 1.6.1: Multichannel HFDL decoder
 net-wireless/dumpvdl2 2.3.0 2.4.0: VDL Mode 2 message decoder and protocol analyzer
