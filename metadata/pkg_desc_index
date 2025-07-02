@@ -21,6 +21,10 @@ dev-libs/libkeccak 1.2 1.3.1.2: Keccak-family hashing library
 dev-libs/nng 1.8.0: Light-weight brokerless messaging
 dev-libs/qtforkawesome 0.0.2 0.0.3 0.0.4 0.1.0 0.2.0 0.3.1: Library that bundles ForkAwesome for use within Qt applications
 dev-libs/qtutilities 6.0.2 6.3.0 6.4.1 6.4.2 6.5.3 6.6.0 6.6.2 6.8.0 6.13.0 6.13.4 6.14.0 6.14.1 6.14.6 6.15.0: Common Qt related C++ classes and routines
+dev-python/crccheck 1.3.0: Classes to calculate CRCs and checksums from binary data
+dev-python/expiringdict 1.2.1: Helper module to easily develop git-annex remotes
+dev-python/openrgb-python 0.2.3: A python client for the OpenRGB SDK
+dev-python/portio 0.5: Python low level port I/O for Linux x86
 games-action/aaaaa-for-the-awesome 20140114: A Reckless Disregard for Gravity
 games-arcade/CookServeDelicious 261: The most intense cooking game ever made
 games-arcade/berlin82 1.1: Infinite police chase arcade game
@@ -57,6 +61,7 @@ media-video/timelens 0.1.1: Timelens creates visual timelines from video files
 net-misc/bash-onedrive-upload 9999: Upload files to onedrive via linux command line
 net-misc/dropbox-uploader 1.0: BASH script to upload, download, list or delete files from Dropbox
 net-misc/usbip 4.13: Userspace utilities for a general USB device sharing system over IP networks
+net-misc/warcat 2.2.5: Tool and library for handling Web ARChive (WARC) files
 net-p2p/syncthingtray 0.10.4 1.0.0 1.1.6 1.1.8 1.1.13-r1 1.1.17-r1 1.2.1-r1 1.2.3-r1 1.4.4 1.4.5 1.4.13 1.5.2 1.5.5 1.7.2 1.7.4: Tray application and Dolphin/Plasma integration for Syncthing
 net-vpn/wstunnel 10.1.8: Tunnel all your traffic over Websocket or HTTP2
 net-wireless/acarsdec 3.7: ACARS SDR decoder
