@@ -43,6 +43,7 @@ app-crypt/xsum:sodium - Enable support for dev-libs/libsodium
 app-crypt/xsum:xxhash - Enable support for dev-libs/xxhash
 app-crypt/xsum:zlib - Enable gzip compression, Adler-32 and CRC32 using sys-libs/zlib
 app-misc/jdupes:low_memory - Build for low memory usage at the expense of speed and features
+dev-lang/deno:fish-completion - Enable fish completion support
 dev-libs/nng:compat - Enable compatibility with the legacy nanomsg API
 dev-libs/nng:deprecated - Build deprecated features
 dev-libs/nng:tools - Build and install command line tools
